@@ -3,9 +3,10 @@
 
 Not a general-purpose Markdown engine — it only supports the constructs the
 taiwan-stock-daily-report skill's own reports actually use: ATX headers,
-paragraphs, unordered lists, GFM pipe tables, bold/italic, inline code,
-links, and horizontal rules. Good enough to render this skill's reports
-without pulling in an external dependency inside a restricted sandbox.
+paragraphs, ordered/unordered lists, GFM pipe tables, bold/italic, inline
+code, links, and horizontal rules. Good enough to render this skill's
+reports without pulling in an external dependency inside a restricted
+sandbox.
 """
 
 from __future__ import annotations
@@ -87,6 +88,7 @@ def markdown_to_html(md_text: str) -> str:
     i = 0
     paragraph: list[str] = []
     list_items: list[str] = []
+    list_type = "ul"
 
     def flush_paragraph() -> None:
         if paragraph:
@@ -95,7 +97,8 @@ def markdown_to_html(md_text: str) -> str:
 
     def flush_list() -> None:
         if list_items:
-            out.append("<ul>" + "".join(f"<li>{_inline(t)}</li>" for t in list_items) + "</ul>")
+            tag = list_type
+            out.append(f"<{tag}>" + "".join(f"<li>{_inline(t)}</li>" for t in list_items) + f"</{tag}>")
             list_items.clear()
 
     while i < len(lines):
@@ -136,10 +139,23 @@ def markdown_to_html(md_text: str) -> str:
             i = j
             continue
 
-        list_match = re.match(r"^[-*]\s+(.*)$", stripped)
-        if list_match:
+        bullet_match = re.match(r"^[-*]\s+(.*)$", stripped)
+        if bullet_match:
             flush_paragraph()
-            list_items.append(list_match.group(1))
+            if list_items and list_type != "ul":
+                flush_list()
+            list_type = "ul"
+            list_items.append(bullet_match.group(1))
+            i += 1
+            continue
+
+        ordered_match = re.match(r"^\d+[.)]\s+(.*)$", stripped)
+        if ordered_match:
+            flush_paragraph()
+            if list_items and list_type != "ol":
+                flush_list()
+            list_type = "ol"
+            list_items.append(ordered_match.group(1))
             i += 1
             continue
 

@@ -2,48 +2,48 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
   :root {
-    --bg: #f2f5f3;
+    --bg: #eef1f6;
     --surface: #ffffff;
-    --surface-2: #e8ede9;
-    --text: #16211d;
-    --text-muted: #57655e;
-    --border: #d8dfda;
-    --accent: #0f6b5c;
-    --accent-soft: #dbe9e4;
+    --surface-2: #e3e8f1;
+    --text: #10131c;
+    --text-muted: #56607a;
+    --border: #d6dce8;
+    --accent: #1c4e9c;
+    --accent-soft: #dde6f6;
     --up: #c23b30;
     --down: #2f8f5b;
-    --flat: #8a938d;
-    --shadow: 0 1px 2px rgba(22, 33, 29, 0.06), 0 6px 20px rgba(22, 33, 29, 0.05);
+    --flat: #8891a6;
+    --shadow: 0 1px 2px rgba(16, 19, 28, 0.06), 0 6px 20px rgba(16, 19, 28, 0.05);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #0f1613;
-      --surface: #161e1a;
-      --surface-2: #1e2924;
-      --text: #e8ede9;
-      --text-muted: #9caa9f;
-      --border: #2a352f;
-      --accent: #4ad9b8;
-      --accent-soft: #1c342c;
+      --bg: #0a0d14;
+      --surface: #11151f;
+      --surface-2: #1a2030;
+      --text: #e7eaf2;
+      --text-muted: #98a2ba;
+      --border: #262c3e;
+      --accent: #6a9cf5;
+      --accent-soft: #182644;
       --up: #ff6f5a;
-      --down: #57cf8f;
-      --flat: #6d766f;
-      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+      --down: #52c98a;
+      --flat: #6b7690;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.4);
     }
   }
   :root[data-theme="dark"] {
-    --bg: #0f1613;
-    --surface: #161e1a;
-    --surface-2: #1e2924;
-    --text: #e8ede9;
-    --text-muted: #9caa9f;
-    --border: #2a352f;
-    --accent: #4ad9b8;
-    --accent-soft: #1c342c;
+    --bg: #0a0d14;
+    --surface: #11151f;
+    --surface-2: #1a2030;
+    --text: #e7eaf2;
+    --text-muted: #98a2ba;
+    --border: #262c3e;
+    --accent: #6a9cf5;
+    --accent-soft: #182644;
     --up: #ff6f5a;
-    --down: #57cf8f;
-    --flat: #6d766f;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    --down: #52c98a;
+    --flat: #6b7690;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.4);
   }
 
   * { box-sizing: border-box; }
@@ -55,7 +55,7 @@
     line-height: 1.6;
   }
   .wrap {
-    max-width: 980px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 2.25rem 1.25rem 4rem;
   }
@@ -84,24 +84,6 @@
     font-family: "IBM Plex Mono", monospace;
     color: var(--text-muted);
     font-size: 0.95rem;
-  }
-
-  .chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-  .chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.8rem;
-    padding: 0.3rem 0.65rem;
-    border-radius: 999px;
-    background: var(--surface-2);
-    color: var(--text-muted);
-    border: 1px solid var(--border);
-  }
-  .chip .dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--accent);
-    flex: none;
   }
 
   section { margin-bottom: 2.5rem; }
@@ -184,6 +166,7 @@
   .idx-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.3rem; }
   .idx-close { font-size: 1.6rem; font-weight: 600; }
   .idx-delta { font-size: 0.92rem; margin-top: 0.15rem; }
+  .idx-extra { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.2rem; }
   .up { color: var(--up); }
   .down { color: var(--down); }
   .flat { color: var(--flat); }
@@ -245,9 +228,8 @@
     font-size: 0.92rem;
     font-family: "Noto Serif TC", serif;
   }
-  .table-scroll { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
-  th, td { text-align: right; padding: 0.35rem 0.3rem; white-space: nowrap; }
+  th, td { text-align: right; padding: 0.35rem 0.3rem; }
   th:first-child, td:first-child { text-align: left; }
   th {
     font-weight: 500;
@@ -258,6 +240,26 @@
   tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
   td.name { color: var(--text-muted); font-size: 0.8rem; }
 
+  /* Holdings */
+  .holdings-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  .holdings-empty { color: var(--text-muted); font-style: italic; margin: 0; }
+  .holdings-summary {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .holdings-stat { font-size: 0.8rem; color: var(--text-muted); }
+  .holdings-stat b { display: block; font-size: 1.15rem; color: var(--text); margin-top: 0.15rem; }
+
   /* Deep research report (server-rendered from Markdown) */
   .report-content {
     background: var(--surface);
@@ -265,7 +267,7 @@
     border-radius: 10px;
     padding: 1.5rem 1.75rem;
     box-shadow: var(--shadow);
-    max-width: 72ch;
+    max-width: 100%;
   }
   .report-content h1 {
     font-family: "Noto Serif TC", serif;
@@ -284,9 +286,10 @@
   }
   .report-content h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
   .report-content h3 { font-size: 1rem; font-weight: 700; margin: 1.2rem 0 0.5rem; }
-  .report-content p { margin: 0 0 0.85rem; }
-  .report-content ul { margin: 0 0 0.85rem; padding-left: 1.3rem; }
-  .report-content li { margin-bottom: 0.35rem; }
+  .report-content p { margin: 0 0 0.9rem; max-width: 72ch; }
+  .report-content ul, .report-content ol { margin: 0 0 1rem; padding-left: 1.4rem; max-width: 72ch; }
+  .report-content li { margin-bottom: 0.65rem; }
+  .report-content li:last-child { margin-bottom: 0; }
   .report-content hr { display: none; }
   .report-content code {
     font-family: "IBM Plex Mono", ui-monospace, monospace;
@@ -296,28 +299,25 @@
     font-size: 0.9em;
   }
   .report-content a { color: var(--accent); }
-  .report-content .table-scroll,
-  .report-content table { max-width: 100%; }
   .report-content table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.82rem;
     margin: 0 0 1.1rem;
-    display: block;
-    overflow-x: auto;
   }
   .report-content th, .report-content td {
     text-align: left;
-    padding: 0.4rem 0.6rem;
+    padding: 0.45rem 0.7rem;
     border-bottom: 1px solid var(--border);
     vertical-align: top;
+    overflow-wrap: anywhere;
   }
   .report-content th {
     color: var(--text-muted);
     font-weight: 500;
     font-size: 0.75rem;
-    white-space: nowrap;
   }
+  .report-content tbody tr:nth-child(odd) { background: var(--surface-2); }
   .report-empty { color: var(--text-muted); font-style: italic; }
 
   footer {
@@ -329,8 +329,14 @@
   footer .disclaimer { margin-top: 0.5rem; }
   footer a { color: var(--accent); }
 
+  @media (max-width: 640px) {
+    .report-content { padding: 1.1rem 1rem; }
+    .report-content table { font-size: 0.76rem; }
+    .report-content th, .report-content td { padding: 0.35rem 0.45rem; }
+  }
+
   @media (prefers-reduced-motion: no-preference) {
-    .idx-card, .brief-item, .breadth-card, .table-card { transition: box-shadow 0.15s ease; }
+    .idx-card, .brief-item, .breadth-card, .table-card, .holdings-card { transition: box-shadow 0.15s ease; }
   }
 </style>
 
@@ -359,6 +365,14 @@
     <div class="table-grid" id="table-grid"></div>
   </section>
 
+  <section id="holdings-section">
+    <div class="section-head">
+      <h2><span class="eyebrow">我的持股</span>&nbsp;損益概況</h2>
+      <span class="updated" id="holdings-updated"></span>
+    </div>
+    <div class="holdings-card" id="holdings-card"></div>
+  </section>
+
   <section id="report-section">
     <div class="section-head">
       <h2><span class="eyebrow">深度研究</span>&nbsp;<span id="report-title">完整研究報告</span></h2>
@@ -368,7 +382,7 @@
   </section>
 
   <footer>
-    <div>資料來源：TWSE OpenAPI、TPEx OpenAPI、經濟部統計處、行政院、央行、金管會、Federal Reserve、Bloomberg、CNBC 等（各項目詳見盤前摘要之來源連結）。盤後市場數據透過 <code>scripts/fetch_market_snapshot.py</code> 正規化。</div>
+    <div>資料來源：TWSE OpenAPI／rwd、TPEx OpenAPI、TAIFEX、經濟部統計處、行政院、央行、金管會、Federal Reserve、Bloomberg、CNBC 等（各項目詳見盤前摘要之來源連結）。盤後市場數據透過 <code>scripts/fetch_market_snapshot.py</code> 正規化。</div>
     <div class="disclaimer">本頁僅供一般研究與資訊整理，不是個人化投資建議、招攬或保證。候選標的仍需依投資人目標、風險承受度、價格與最新資訊獨立評估。</div>
   </footer>
 </div>
@@ -376,10 +390,12 @@
 <script type="application/json" id="premarket-data">__PREMARKET_JSON__</script>
 <script type="application/json" id="postmarket-data">__POSTMARKET_JSON__</script>
 <script type="application/json" id="report-meta-data">__REPORT_META_JSON__</script>
+<script type="application/json" id="holdings-data">__HOLDINGS_JSON__</script>
 <script>
   const PREMARKET = JSON.parse(document.getElementById("premarket-data").textContent);
   const POSTMARKET = JSON.parse(document.getElementById("postmarket-data").textContent);
   const REPORT_META = JSON.parse(document.getElementById("report-meta-data").textContent);
+  const HOLDINGS = JSON.parse(document.getElementById("holdings-data").textContent);
 
   function fmtInt(n) {
     if (n === null || n === undefined) return "N/A";
@@ -426,11 +442,16 @@
     const cls = deltaClass(idx.change);
     const card = document.createElement("div");
     card.className = "idx-card";
+    let extra = "";
+    if (idx.volume !== undefined && idx.volume !== null) {
+      extra = '<div class="idx-extra num">成交量 ' + fmtInt(idx.volume) + ' 口</div>';
+    }
     card.innerHTML =
       '<div class="idx-name">' + idx.name + '</div>' +
       '<div class="idx-close num">' + fmtNum(idx.close, 2) + '</div>' +
       '<div class="idx-delta num ' + cls + '">' +
-      (idx.change > 0 ? "+" : "") + fmtNum(idx.change, 2) + '　' + fmtPct(idx.change_pct) + '</div>';
+      (idx.change > 0 ? "+" : "") + fmtNum(idx.change, 2) + '　' + fmtPct(idx.change_pct) + '</div>' +
+      extra;
     idxRow.appendChild(card);
   });
 
@@ -461,45 +482,100 @@
     breadthGrid.appendChild(card);
   });
 
-  // Post-market: leaderboards
+  // Post-market: leaderboards (foreign net buy/sell + turnover)
   const tableGrid = document.getElementById("table-grid");
-  const boards = [
-    { key: "top_gainers", title: "漲幅居前" },
-    { key: "top_decliners", title: "跌幅居前" },
-    { key: "top_turnover", title: "成交值居前" }
-  ];
-  const allRows = [];
-  Object.keys(POSTMARKET.markets || {}).forEach(function (marketName) {
-    (POSTMARKET.markets[marketName][boards[0].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_gainers" }, r)); });
-    (POSTMARKET.markets[marketName][boards[1].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_decliners" }, r)); });
-    (POSTMARKET.markets[marketName][boards[2].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_turnover" }, r)); });
-  });
+  const flows = POSTMARKET.foreign_flows || { top_buy: [], top_sell: [] };
 
-  boards.forEach(function (board) {
-    const rows = allRows.filter(function (r) { return r.board === board.key; })
-      .sort(function (a, b) {
-        if (board.key === "top_gainers") return (b.change_pct || -999) - (a.change_pct || -999);
-        if (board.key === "top_decliners") return (a.change_pct || 999) - (b.change_pct || 999);
-        return (b.value_twd || 0) - (a.value_twd || 0);
-      })
-      .slice(0, 8);
+  function renderFlowCard(title, rows) {
     const card = document.createElement("div");
     card.className = "table-card";
-    let rowsHtml = rows.map(function (r) {
-      const cls = deltaClass(r.change);
+    const rowsHtml = rows.map(function (r) {
+      const cls = deltaClass(r.foreign_net_shares);
       return '<tr>' +
         '<td>' + r.code + '<div class="name">' + r.name + '</div></td>' +
-        '<td class="num">' + fmtNum(r.close, 2) + '</td>' +
-        '<td class="num ' + cls + '">' + fmtPct(r.change_pct) + '</td>' +
-        '<td class="num">' + fmtInt((r.value_twd || 0) / 1e6) + '</td>' +
+        '<td class="num">' + r.market + '</td>' +
+        '<td class="num ' + cls + '">' + (r.foreign_net_lots > 0 ? "+" : "") + fmtNum(r.foreign_net_lots, 0) + '</td>' +
         '</tr>';
     }).join("");
     card.innerHTML =
-      '<h3>' + board.title + '</h3>' +
-      '<div class="table-scroll"><table><thead><tr><th>代號／名稱</th><th>收盤</th><th>漲跌幅</th><th>成交值(百萬)</th></tr></thead>' +
-      '<tbody>' + rowsHtml + '</tbody></table></div>';
-    tableGrid.appendChild(card);
+      '<h3>' + title + '</h3>' +
+      '<table><thead><tr><th>代號／名稱</th><th>市場</th><th>買賣超(張)</th></tr></thead>' +
+      '<tbody>' + rowsHtml + '</tbody></table>';
+    return card;
+  }
+
+  tableGrid.appendChild(renderFlowCard("外資買超前十", flows.top_buy || []));
+  tableGrid.appendChild(renderFlowCard("外資賣超前十", flows.top_sell || []));
+
+  const turnoverRows = [];
+  Object.keys(POSTMARKET.markets || {}).forEach(function (marketName) {
+    (POSTMARKET.markets[marketName].top_turnover || []).forEach(function (r) {
+      turnoverRows.push(Object.assign({ mkt: marketName }, r));
+    });
   });
+  turnoverRows.sort(function (a, b) { return (b.value_twd || 0) - (a.value_twd || 0); });
+  const turnoverCard = document.createElement("div");
+  turnoverCard.className = "table-card";
+  const turnoverHtml = turnoverRows.slice(0, 10).map(function (r) {
+    const cls = deltaClass(r.change);
+    return '<tr>' +
+      '<td>' + r.code + '<div class="name">' + r.name + '</div></td>' +
+      '<td class="num">' + fmtNum(r.close, 2) + '</td>' +
+      '<td class="num ' + cls + '">' + fmtPct(r.change_pct) + '</td>' +
+      '<td class="num">' + fmtInt((r.value_twd || 0) / 1e6) + '</td>' +
+      '</tr>';
+  }).join("");
+  turnoverCard.innerHTML =
+    '<h3>成交值居前</h3>' +
+    '<table><thead><tr><th>代號／名稱</th><th>收盤</th><th>漲跌幅</th><th>成交值(百萬)</th></tr></thead>' +
+    '<tbody>' + turnoverHtml + '</tbody></table>';
+  tableGrid.appendChild(turnoverCard);
+
+  // Holdings
+  const holdingsCard = document.getElementById("holdings-card");
+  const holdingsList = HOLDINGS.holdings || [];
+  document.getElementById("holdings-updated").textContent =
+    HOLDINGS.updated_at ? "更新於 " + HOLDINGS.updated_at : "";
+  if (!holdingsList.length) {
+    holdingsCard.innerHTML = '<p class="holdings-empty">尚未設定持股，告訴 Claude 你的持股代號、股數與均價即可加入。</p>';
+  } else {
+    const priceByCode = {};
+    (POSTMARKET.watchlist && POSTMARKET.watchlist.matches || []).forEach(function (r) {
+      priceByCode[r.code] = r;
+    });
+    let totalCost = 0, totalValue = 0;
+    const rowsHtml = holdingsList.map(function (h) {
+      const quote = priceByCode[h.code];
+      const price = quote ? quote.close : null;
+      const cost = h.shares * h.avg_cost;
+      const value = price !== null ? h.shares * price : null;
+      const pnl = value !== null ? value - cost : null;
+      const pnlPct = pnl !== null && cost > 0 ? (pnl / cost * 100) : null;
+      totalCost += cost;
+      if (value !== null) totalValue += value; else totalValue += cost;
+      const cls = deltaClass(pnl);
+      return '<tr>' +
+        '<td>' + h.code + (quote ? '<div class="name">' + quote.name + '</div>' : '') + '</td>' +
+        '<td class="num">' + fmtInt(h.shares) + '</td>' +
+        '<td class="num">' + fmtNum(h.avg_cost, 2) + '</td>' +
+        '<td class="num">' + (price !== null ? fmtNum(price, 2) : "N/A") + '</td>' +
+        '<td class="num ' + cls + '">' + (pnl !== null ? (pnl > 0 ? "+" : "") + fmtInt(pnl) : "N/A") + '</td>' +
+        '<td class="num ' + cls + '">' + (pnlPct !== null ? fmtPct(pnlPct) : "N/A") + '</td>' +
+        '</tr>';
+    }).join("");
+    const totalPnl = totalValue - totalCost;
+    const totalPnlPct = totalCost > 0 ? (totalPnl / totalCost * 100) : null;
+    const totalCls = deltaClass(totalPnl);
+    holdingsCard.innerHTML =
+      '<div class="holdings-summary">' +
+      '<div class="holdings-stat">總成本<b class="num">NT$' + fmtInt(totalCost) + '</b></div>' +
+      '<div class="holdings-stat">總市值<b class="num">NT$' + fmtInt(totalValue) + '</b></div>' +
+      '<div class="holdings-stat">未實現損益<b class="num ' + totalCls + '">' + (totalPnl > 0 ? "+" : "") + fmtInt(totalPnl) +
+      (totalPnlPct !== null ? '　(' + fmtPct(totalPnlPct) + ')' : '') + '</b></div>' +
+      '</div>' +
+      '<table><thead><tr><th>代號／名稱</th><th>股數</th><th>均價</th><th>現價</th><th>損益</th><th>損益%</th></tr></thead>' +
+      '<tbody>' + rowsHtml + '</tbody></table>';
+  }
 
   // Deep research report
   document.getElementById("report-title").textContent = REPORT_META.title || "完整研究報告";

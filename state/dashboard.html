@@ -2,48 +2,48 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
   :root {
-    --bg: #f2f5f3;
+    --bg: #eef1f6;
     --surface: #ffffff;
-    --surface-2: #e8ede9;
-    --text: #16211d;
-    --text-muted: #57655e;
-    --border: #d8dfda;
-    --accent: #0f6b5c;
-    --accent-soft: #dbe9e4;
+    --surface-2: #e3e8f1;
+    --text: #10131c;
+    --text-muted: #56607a;
+    --border: #d6dce8;
+    --accent: #1c4e9c;
+    --accent-soft: #dde6f6;
     --up: #c23b30;
     --down: #2f8f5b;
-    --flat: #8a938d;
-    --shadow: 0 1px 2px rgba(22, 33, 29, 0.06), 0 6px 20px rgba(22, 33, 29, 0.05);
+    --flat: #8891a6;
+    --shadow: 0 1px 2px rgba(16, 19, 28, 0.06), 0 6px 20px rgba(16, 19, 28, 0.05);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #0f1613;
-      --surface: #161e1a;
-      --surface-2: #1e2924;
-      --text: #e8ede9;
-      --text-muted: #9caa9f;
-      --border: #2a352f;
-      --accent: #4ad9b8;
-      --accent-soft: #1c342c;
+      --bg: #0a0d14;
+      --surface: #11151f;
+      --surface-2: #1a2030;
+      --text: #e7eaf2;
+      --text-muted: #98a2ba;
+      --border: #262c3e;
+      --accent: #6a9cf5;
+      --accent-soft: #182644;
       --up: #ff6f5a;
-      --down: #57cf8f;
-      --flat: #6d766f;
-      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+      --down: #52c98a;
+      --flat: #6b7690;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.4);
     }
   }
   :root[data-theme="dark"] {
-    --bg: #0f1613;
-    --surface: #161e1a;
-    --surface-2: #1e2924;
-    --text: #e8ede9;
-    --text-muted: #9caa9f;
-    --border: #2a352f;
-    --accent: #4ad9b8;
-    --accent-soft: #1c342c;
+    --bg: #0a0d14;
+    --surface: #11151f;
+    --surface-2: #1a2030;
+    --text: #e7eaf2;
+    --text-muted: #98a2ba;
+    --border: #262c3e;
+    --accent: #6a9cf5;
+    --accent-soft: #182644;
     --up: #ff6f5a;
-    --down: #57cf8f;
-    --flat: #6d766f;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    --down: #52c98a;
+    --flat: #6b7690;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.4);
   }
 
   * { box-sizing: border-box; }
@@ -55,7 +55,7 @@
     line-height: 1.6;
   }
   .wrap {
-    max-width: 980px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 2.25rem 1.25rem 4rem;
   }
@@ -84,24 +84,6 @@
     font-family: "IBM Plex Mono", monospace;
     color: var(--text-muted);
     font-size: 0.95rem;
-  }
-
-  .chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-  .chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.8rem;
-    padding: 0.3rem 0.65rem;
-    border-radius: 999px;
-    background: var(--surface-2);
-    color: var(--text-muted);
-    border: 1px solid var(--border);
-  }
-  .chip .dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--accent);
-    flex: none;
   }
 
   section { margin-bottom: 2.5rem; }
@@ -184,6 +166,7 @@
   .idx-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.3rem; }
   .idx-close { font-size: 1.6rem; font-weight: 600; }
   .idx-delta { font-size: 0.92rem; margin-top: 0.15rem; }
+  .idx-extra { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.2rem; }
   .up { color: var(--up); }
   .down { color: var(--down); }
   .flat { color: var(--flat); }
@@ -245,9 +228,8 @@
     font-size: 0.92rem;
     font-family: "Noto Serif TC", serif;
   }
-  .table-scroll { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
-  th, td { text-align: right; padding: 0.35rem 0.3rem; white-space: nowrap; }
+  th, td { text-align: right; padding: 0.35rem 0.3rem; }
   th:first-child, td:first-child { text-align: left; }
   th {
     font-weight: 500;
@@ -258,6 +240,26 @@
   tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
   td.name { color: var(--text-muted); font-size: 0.8rem; }
 
+  /* Holdings */
+  .holdings-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  .holdings-empty { color: var(--text-muted); font-style: italic; margin: 0; }
+  .holdings-summary {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .holdings-stat { font-size: 0.8rem; color: var(--text-muted); }
+  .holdings-stat b { display: block; font-size: 1.15rem; color: var(--text); margin-top: 0.15rem; }
+
   /* Deep research report (server-rendered from Markdown) */
   .report-content {
     background: var(--surface);
@@ -265,7 +267,7 @@
     border-radius: 10px;
     padding: 1.5rem 1.75rem;
     box-shadow: var(--shadow);
-    max-width: 72ch;
+    max-width: 100%;
   }
   .report-content h1 {
     font-family: "Noto Serif TC", serif;
@@ -284,9 +286,10 @@
   }
   .report-content h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
   .report-content h3 { font-size: 1rem; font-weight: 700; margin: 1.2rem 0 0.5rem; }
-  .report-content p { margin: 0 0 0.85rem; }
-  .report-content ul { margin: 0 0 0.85rem; padding-left: 1.3rem; }
-  .report-content li { margin-bottom: 0.35rem; }
+  .report-content p { margin: 0 0 0.9rem; max-width: 72ch; }
+  .report-content ul, .report-content ol { margin: 0 0 1rem; padding-left: 1.4rem; max-width: 72ch; }
+  .report-content li { margin-bottom: 0.65rem; }
+  .report-content li:last-child { margin-bottom: 0; }
   .report-content hr { display: none; }
   .report-content code {
     font-family: "IBM Plex Mono", ui-monospace, monospace;
@@ -296,28 +299,25 @@
     font-size: 0.9em;
   }
   .report-content a { color: var(--accent); }
-  .report-content .table-scroll,
-  .report-content table { max-width: 100%; }
   .report-content table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.82rem;
     margin: 0 0 1.1rem;
-    display: block;
-    overflow-x: auto;
   }
   .report-content th, .report-content td {
     text-align: left;
-    padding: 0.4rem 0.6rem;
+    padding: 0.45rem 0.7rem;
     border-bottom: 1px solid var(--border);
     vertical-align: top;
+    overflow-wrap: anywhere;
   }
   .report-content th {
     color: var(--text-muted);
     font-weight: 500;
     font-size: 0.75rem;
-    white-space: nowrap;
   }
+  .report-content tbody tr:nth-child(odd) { background: var(--surface-2); }
   .report-empty { color: var(--text-muted); font-style: italic; }
 
   footer {
@@ -329,8 +329,14 @@
   footer .disclaimer { margin-top: 0.5rem; }
   footer a { color: var(--accent); }
 
+  @media (max-width: 640px) {
+    .report-content { padding: 1.1rem 1rem; }
+    .report-content table { font-size: 0.76rem; }
+    .report-content th, .report-content td { padding: 0.35rem 0.45rem; }
+  }
+
   @media (prefers-reduced-motion: no-preference) {
-    .idx-card, .brief-item, .breadth-card, .table-card { transition: box-shadow 0.15s ease; }
+    .idx-card, .brief-item, .breadth-card, .table-card, .holdings-card { transition: box-shadow 0.15s ease; }
   }
 </style>
 
@@ -359,6 +365,14 @@
     <div class="table-grid" id="table-grid"></div>
   </section>
 
+  <section id="holdings-section">
+    <div class="section-head">
+      <h2><span class="eyebrow">我的持股</span>&nbsp;損益概況</h2>
+      <span class="updated" id="holdings-updated"></span>
+    </div>
+    <div class="holdings-card" id="holdings-card"></div>
+  </section>
+
   <section id="report-section">
     <div class="section-head">
       <h2><span class="eyebrow">深度研究</span>&nbsp;<span id="report-title">完整研究報告</span></h2>
@@ -369,7 +383,7 @@
 <ul><li><strong>analysis_as_of</strong>：2026-08-21 08:49（Asia/Taipei）</li><li><strong>研究期間</strong>：戰術期 2026-08-21 起 1–4 週；策略期 2026-08-21 起 3–12 個月</li><li><strong>資料最新期</strong>：台股盤後行情至 2026-08-20（收盤）；多數總經指標至 2026-06／2026-07；美國就業至 2026-07；中國 7 月數據至 2026-07；歐元區 HICP 終值至 2026-07；日本 GDP 初估至 2026 Q2</li><li><strong>擷取時間</strong>：2026-08-21 08:49–09:40（Asia/Taipei，多次工具擷取，均早於當日 TWSE／TPEx 開盤 09:00，僅台股快照使用 2026-08-20 已公開收盤資料）</li><li><strong>報告狀態</strong>：<strong>部分</strong>——多數官方數據可追溯至第一手或近第一手來源；少數項目（台灣 CPI／薪資、NDC 景氣燈號、日本 GDP 明細、中國 PPI 符號）僅由可信媒體轉述官方數字，未能直接開啟原始 PDF／JS 頁面確認，已於各節標註證據層級與注意事項。7 月台灣失業率／薪資、7 月工業生產、7 月景氣燈號因規定公布日（8/22、8/26、8/27）晚於截止線，本報告一律採用最近一次「已公開」的月份（6 月），並明確標示。</li><li><strong>投資期限</strong>：戰術期 <code>1–4 週</code>；策略期 <code>3–12 個月</code>（兩期催化劑與風險分開討論，不混用）</li></ul>
 <hr>
 <h2>2. 執行摘要</h2>
-<p>1. <strong>台灣景氣</strong>：2026 Q2 GDP 初步統計 YoY +12.93%（近 39 年最強），主因 AI／半導體出口超級循環；但景氣對策信號連續 7 個月亮紅燈（41 分），為 1984 年以來次長紅燈週期，顯示經濟已偏向過熱而非單純加速。 2. <strong>通膨與金融條件</strong>：CPI YoY +2.54%，核心 CPI +2.38%，PPI YoY 高達 +16.94%（近 4.5 年最大漲幅），進口／出口物價年增分別達 +28.19%／+31.56%（近 50 年高位）；央行連續第 9 次維持利率不變，但理事會內部已出現主張升息的少數意見。 3. <strong>全球主要方向</strong>：美國 Fed 續採按兵不動但票委出現 3 席主張升息的罕見分歧，7 月非農就業轉為 -2.3 萬且失業率回升至 4.1%，顯示勞動市場走弱；中國 GDP YoY 由 5.0% 降至 4.3%，房地產投資年減 19.2%，內需仍疲弱；歐元區在 6 月升息後轉為按兵不動，HICP 回升至 2.9%；日本央行維持利率不變但已有理事主張進一步升息，美日利差仍驅動日圓偏弱與聯合干預。 4. <strong>本期最重要政策／新聞變化</strong>：（a）美國對多晶矽課徵 232 條款關稅（生效 2026-12-04），台灣獲非疊加式 15% 優惠稅率；（b）三起金融併購案（台新／新光銀行、永豐金／京城銀行、玉山金／三商美邦人壽）均已獲金管會核准並訂出法定合併日；（c）行政院通過 116（2027）年度總預算，內含普發每人 1 萬元現金（尚待立法院審議）；（d）美國正審查中國業者透過「境外／租賃算力」規避輝達晶片出口管制的漏洞，是 AI 供應鏈的下行尾端風險。 5. <strong>基準情境與最大尾端風險</strong>：基準情境（機率 50%）為 AI 資本支出循環持續但成長率溫和降溫、央行按兵不動、台幣區間震盪；最大尾端風險為美國進一步收緊對中 AI 晶片出口管制，衝擊晶圓代工／封測／ASIC 供應鏈的能見度與評價。 6. <strong>優先研究、觀察與迴避題材</strong>：本期<strong>沒有題材獲得 <code>PRIORITY_RESEARCH</code></strong>——AI／半導體先進封裝供應鏈（淨分 68）與台灣金融併購整合波（淨分 69）均列為 <code>WATCH</code>；多晶矽／太陽能矽晶圓材料受惠美國 232 關稅豁免題材（淨分 45）列為 <code>ABSTAIN</code>，主因公司自身評論已表示「整體關稅影響非常有限」，傳導證據薄弱。 7. <strong>候選股僅標示研究狀態</strong>：本報告所有候選股僅為可追溯之研究觀察名單，不構成、也不應被解讀為買進建議或目標價。</p>
+<ol><li><strong>台灣景氣</strong>：2026 Q2 GDP 初步統計 YoY +12.93%（近 39 年最強），主因 AI／半導體出口超級循環；但景氣對策信號連續 7 個月亮紅燈（41 分），為 1984 年以來次長紅燈週期，顯示經濟已偏向過熱而非單純加速。</li><li><strong>通膨與金融條件</strong>：CPI YoY +2.54%，核心 CPI +2.38%，PPI YoY 高達 +16.94%（近 4.5 年最大漲幅），進口／出口物價年增分別達 +28.19%／+31.56%（近 50 年高位）；央行連續第 9 次維持利率不變，但理事會內部已出現主張升息的少數意見。</li><li><strong>全球主要方向</strong>：美國 Fed 續採按兵不動但票委出現 3 席主張升息的罕見分歧，7 月非農就業轉為 -2.3 萬且失業率回升至 4.1%，顯示勞動市場走弱；中國 GDP YoY 由 5.0% 降至 4.3%，房地產投資年減 19.2%，內需仍疲弱；歐元區在 6 月升息後轉為按兵不動，HICP 回升至 2.9%；日本央行維持利率不變但已有理事主張進一步升息，美日利差仍驅動日圓偏弱與聯合干預。</li><li><strong>本期最重要政策／新聞變化</strong>：（a）美國對多晶矽課徵 232 條款關稅（生效 2026-12-04），台灣獲非疊加式 15% 優惠稅率；（b）三起金融併購案（台新／新光銀行、永豐金／京城銀行、玉山金／三商美邦人壽）均已獲金管會核准並訂出法定合併日；（c）行政院通過 116（2027）年度總預算，內含普發每人 1 萬元現金（尚待立法院審議）；（d）美國正審查中國業者透過「境外／租賃算力」規避輝達晶片出口管制的漏洞，是 AI 供應鏈的下行尾端風險。</li><li><strong>基準情境與最大尾端風險</strong>：基準情境（機率 50%）為 AI 資本支出循環持續但成長率溫和降溫、央行按兵不動、台幣區間震盪；最大尾端風險為美國進一步收緊對中 AI 晶片出口管制，衝擊晶圓代工／封測／ASIC 供應鏈的能見度與評價。</li><li><strong>優先研究、觀察與迴避題材</strong>：本期<strong>沒有題材獲得 <code>PRIORITY_RESEARCH</code></strong>——AI／半導體先進封裝供應鏈（淨分 68）與台灣金融併購整合波（淨分 69）均列為 <code>WATCH</code>；多晶矽／太陽能矽晶圓材料受惠美國 232 關稅豁免題材（淨分 45）列為 <code>ABSTAIN</code>，主因公司自身評論已表示「整體關稅影響非常有限」，傳導證據薄弱。</li><li><strong>候選股僅標示研究狀態</strong>：本報告所有候選股僅為可追溯之研究觀察名單，不構成、也不應被解讀為買進建議或目標價。</li></ol>
 <hr>
 <h2>3. 證據帳本</h2>
 <table><thead><tr><th>區域</th><th>指標／事件</th><th>資料期</th><th>實際值</th><th>預期值</th><th>前值</th><th>修訂</th><th>歷史位置</th><th>發布時間</th><th>來源</th><th>判讀</th></tr></thead><tbody><tr><td>台灣</td><td>GDP YoY（初步統計）</td><td>2026 Q2</td><td>+12.93%</td><td>+10.83%（主計總處 5月預測）</td><td>+15.43%（2026 Q1，已修訂）</td><td>概估 +12.92%→初步 +12.93%</td><td>近 39 年最高單季 YoY</td><td>2026-08-14</td><td>dgbas.gov.tw（媒體轉述，見附註）</td><td>事實；驚喜方向為大幅優於預期，惟基期效應顯著</td></tr><tr><td>台灣</td><td>CPI YoY</td><td>2026-07</td><td>+2.54%</td><td>N/A</td><td>+2.59%（2026-06）</td><td>未提供</td><td>高於央行 2026 全年預測 1.91%</td><td>2026-08-06</td><td>主計總處（經 CNA 轉述）</td><td>事實；核心 CPI +2.38%</td></tr><tr><td>台灣</td><td>PPI YoY</td><td>2026-07</td><td>+16.94%</td><td>N/A</td><td>N/A</td><td>未提供</td><td>近 4.5 年最大漲幅</td><td>2026-08-06</td><td>主計總處（經 CNA 轉述）</td><td>事實；顯示上游輸入性通膨壓力</td></tr><tr><td>台灣</td><td>失業率（季調）</td><td>2026-06（7月數據 8/22 才公布，晚於截止線）</td><td>3.33%</td><td>N/A</td><td>3.27%（2026-05，近 26 年同月最低）</td><td>未提供</td><td>H1 平均 3.31%</td><td>2026-07-22</td><td>主計總處（經媒體轉述）</td><td>事實；勞動市場仍偏緊</td></tr><tr><td>台灣</td><td>出口訂單 YoY</td><td>2026-07</td><td>+61.9%（US$97.94bn，歷史新高，連 18 個月成長）</td><td>+57%（經濟部估 US$95.5–98.8bn）</td><td>+59.4%（2026-06）</td><td>未提供</td><td>歷史新高</td><td>2026-08-20 16:00</td><td>經濟部統計處（官方）</td><td>事實；AI／半導體需求為主要驅動</td></tr><tr><td>台灣</td><td>出口／進口 YoY</td><td>2026-07</td><td>出口 US$75.3bn（+32.9%）；進口 US$58.13bn（+37.4%）</td><td>N/A</td><td>見財政部月報</td><td>未提供</td><td>連續高成長</td><td>2026-08-07</td><td>財政部（官方直接擷取）</td><td>事實；貿易順差約 US$16.9bn（與 75.3–58.13 相減之 17.17bn 有約 0.3bn 差異，疑為統計口徑差異，未能於截止線前釐清）</td></tr><tr><td>台灣</td><td>景氣對策信號</td><td>2026-06（7月信號 8/27 才公布，晚於截止線）</td><td>41 分，紅燈</td><td>N/A</td><td>39 分，紅燈（2026-05）</td><td>未提供</td><td>連續 7 個月紅燈，1984 年以來次長</td><td>2026-07-27</td><td>國發會（NDC 頁面為 JS 動態頁，經兩獨立媒體轉述）</td><td>事實；經濟明顯偏熱</td></tr><tr><td>台灣</td><td>央行政策利率（重貼現率）</td><td>2026-06-18 理監事會</td><td>2.00%（不變，連 9 次持平）</td><td>持平</td><td>2.00%（2026-03 會議）</td><td>不適用</td><td>維持 2 年區間低點</td><td>2026-06-18</td><td>央行官網（直接擷取）</td><td>事實；理事會內部出現升息少數意見（媒體報導，未於官方新聞稿逐字確認）</td></tr><tr><td>台灣</td><td>M1B／M2 YoY</td><td>2026-06</td><td>M1B +9.40%；M2 +8.13%</td><td>N/A</td><td>M1B +9.56%（05月）</td><td>未提供</td><td>H1 平均 M1B +7.96%／M2 +6.46%</td><td>2026-07-23</td><td>央行（直接擷取）</td><td>事實；資金仍寬鬆但增速略降</td></tr><tr><td>台灣</td><td>美元兌新台幣即期匯率</td><td>2026-08-20 收盤</td><td>31.925</td><td>N/A</td><td>31.888（08-19）</td><td>不適用</td><td>近月區間震盪</td><td>2026-08-20</td><td>央行官網（直接擷取）</td><td>市場驗證，非因果證據</td></tr><tr><td>美國</td><td>FOMC 利率決策</td><td>2026-07-29 會議</td><td>維持 3.50–3.75%，票數 9–3（3 席主張升 25bp）</td><td>持平</td><td>持平（2026-06 會議）</td><td>不適用</td><td>罕見的鷹派不同意見</td><td>2026-07-29</td><td>federalreserve.gov（官方）</td><td>事實；顯示 Fed 內部對通膨仍有疑慮</td></tr><tr><td>美國</td><td>CPI／核心 CPI YoY</td><td>2026-07</td><td>3.4%／2.5%</td><td>3.4%（Dow Jones 調查）</td><td>3.5%／2.6%（2026-06）</td><td>未提供</td><td>略降溫</td><td>2026-08-12</td><td>bls.gov（官方，經媒體交叉確認）</td><td>事實；符合預期</td></tr><tr><td>美國</td><td>非農就業／失業率</td><td>2026-07</td><td>-23,000 人；4.1%</td><td>+80,000（預期）</td><td>+20,000（修訂）；4.2%</td><td>06月數字下修</td><td>明顯轉弱訊號</td><td>2026-08-07</td><td>bls.gov（官方，經媒體交叉確認）</td><td>事實；勞動市場走弱，與 Fed 內部分歧並存</td></tr><tr><td>美國</td><td>實質 GDP QoQ 年化</td><td>2026 Q2（初估）</td><td>+1.5%</td><td>+2.1%</td><td>+2.1%（2026 Q1）</td><td>未提供</td><td>低於預期</td><td>2026-07-30</td><td>bea.gov（官方）</td><td>事實；成長動能放緩</td></tr><tr><td>中國</td><td>GDP YoY</td><td>2026 Q2</td><td>+4.3%（QoQ +0.9%）</td><td>+4.5%（路透調查）</td><td>+5.0%（2026 Q1）</td><td>未提供</td><td>較 Q1 明顯放緩</td><td>2026-07-15/16</td><td>stats.gov.cn（官方）</td><td>事實；低於預期</td></tr><tr><td>中國</td><td>固定資產投資 YoY（累計）</td><td>2026 1–7月</td><td>-6.7%（房地產開發投資 -19.2%）</td><td>N/A</td><td>更負於 1–6月累計</td><td>未提供</td><td>房地產持續深度收縮</td><td>2026-08-17</td><td>stats.gov.cn（官方）</td><td>事實；內需與房市仍為主要拖累</td></tr><tr><td>中國</td><td>CPI／PPI YoY</td><td>2026-07</td><td>CPI +0.5%；PPI +3.5%</td><td>CPI +0.8%；PPI +3.8%</td><td>CPI 約+1.0%；PPI 上月降 0.6pp</td><td>未提供</td><td>PPI 數值與中國多年通縮趨勢不一致，未能以官方原始表格覆核</td><td>2026-08-09</td><td>stats.gov.cn（經媒體轉述，PPI 正負號待覆核）</td><td>事實但列為待驗證；PPI 符號與過去趨勢矛盾，需後續確認</td></tr><tr><td>歐元區</td><td>ECB 政策利率</td><td>2026-07-23 會議</td><td>維持存款利率 2.25%</td><td>持平</td><td>+25bp（2026-06-11 升息）</td><td>不適用</td><td>升息後暫停</td><td>2026-07-23</td><td>ecb.europa.eu（官方）</td><td>事實</td></tr><tr><td>歐元區</td><td>HICP YoY（終值）</td><td>2026-07</td><td>2.9%（EU 3.0%）</td><td>2.9%（與快報一致）</td><td>2.8%（06月）</td><td>快報→終值一致</td><td>略升</td><td>2026-08-19</td><td>eurostat（官方）</td><td>事實</td></tr><tr><td>日本</td><td>BOJ 政策利率</td><td>2026-07-31 會議</td><td>維持約 1.00%，票數 8–1（1 席主張升至 1.25%）</td><td>持平</td><td>06-16 升至 1.00%</td><td>不適用</td><td>內部已現升息聲音</td><td>2026-07-31</td><td>boj.or.jp（官方）</td><td>事實</td></tr><tr><td>日本</td><td>實質 GDP QoQ 年化（初估）</td><td>2026 Q2</td><td>+1.1% 年化（QoQ +0.3%）</td><td>+2.2%</td><td>+1.8% 年化（Q1 二次估）</td><td>未提供</td><td>明顯低於預期</td><td>2026-08-17</td><td>ESRI／內閣府（經日媒轉述，未直接擷取原頁）</td><td>事實；成長動能弱於預期</td></tr></tbody></table>
@@ -391,9 +405,12 @@
 <p><strong>注意</strong>：普發現金政策仍為「已通過行政院、尚待立法院」階段，<strong>不得</strong>視為已生效之財政支出；三起金融併購案已由主管機關核准並訂出明確生效日，屬於「已核准、待完成法定合併」層級，非純提案。</p>
 <hr>
 <h2>7. 新聞解讀</h2>
-<p><strong>(a) 美國審查中國業者透過境外／租賃算力規避輝達晶片出口管制</strong> 1. 事件：2026-08-07 Bloomberg 報導美國政府正審查中國 AI 業者如何透過境外／租賃算力取得輝達晶片存取權；2026-08-19 CNBC 進一步報導輝達 H200 晶片據報已核准／流向中國，字節跳動與騰訊各據稱取得約 1 萬顆 H200。 2. 第一手事實 vs 推論：政府「正在審查」為官方層級事實（經 Bloomberg 引述美方消息來源）；「H200 已核准流向中國」與具體數量則屬媒體轉述，未見美國商務部或輝達之官方確認文件，應視為未完全驗證。 3. 傳導機制：若審查導致收緊，將直接影響輝達對中國出貨能見度，進而影響台積電先進製程與 ASE／GUC 等封測、ASIC 供應鏈訂單能見度；若維持現狀或審查後未加嚴，則為題材的中性至偏多因子。 4. 市場已反映／未驗證：截至截止線，尚未見台股 AI 供應鏈股價對此有明確且可歸因之異常反應；此為未驗證項目。 5. 後續驗證事件：美國商務部或 BIS 是否正式發布新規或執法行動；GUC／ASE 等公司下一次法說會是否提及訂單能見度變化。</p>
-<p><strong>(b) 台積電 2026 年 7 月營收創高</strong> 1. 事件：台積電 2026-08-10 自結 7 月營收 NT$467.58bn（約 US$14.5bn），YoY +44.7%；董事長魏哲家表示 AI 需求「依然極為強勁」。 2. 第一手事實：公司自結數字與董座談話均為第一手揭露。 3. 傳導機制：直接反映於台灣出口訂單、GDP 與新台幣資金流向；為當期最重要的企業基本面確認證據之一。 4. 市場已反映：台股 AI 供應鏈整體評價已頗高（見題材與個股評分），此類利多對股價的邊際影響可能有限。 5. 後續驗證事件：台積電 Q3 2026 法說會（約 2026 年 10 月中）之全年財測與資本支出更新。</p>
-<p><strong>(c) 美日聯合干預匯市與日圓走勢</strong> 1. 事件：2026 年 7 月底美日當局聯合干預匯市以抑制日圓貶勢；至 8 月中 USD/JPY 已回升至約 159.5，回吐約半數干預漲幅；BOJ 總裁暗示若日圓持續走弱，9 月升息為選項之一。 2. 第一手 vs 推論：聯合干預為官方層級事實（多家財經媒體報導，未見央行聯合聲明原文）；「9 月升息」為官員談話與市場解讀，非既定政策。 3. 傳導機制：美日利差與日圓走勢是亞洲貨幣（含新台幣）共同的外部驅動因子之一；日圓大幅波動可能透過區域資金流動間接影響新台幣。 4. 後續驗證事件：2026-09-17/18 BOJ 會議決策（晚於本報告截止線，列入事件日曆）。</p>
+<p><strong>(a) 美國審查中國業者透過境外／租賃算力規避輝達晶片出口管制</strong></p>
+<ol><li>事件：2026-08-07 Bloomberg 報導美國政府正審查中國 AI 業者如何透過境外／租賃算力取得輝達晶片存取權；2026-08-19 CNBC 進一步報導輝達 H200 晶片據報已核准／流向中國，字節跳動與騰訊各據稱取得約 1 萬顆 H200。</li><li>第一手事實 vs 推論：政府「正在審查」為官方層級事實（經 Bloomberg 引述美方消息來源）；「H200 已核准流向中國」與具體數量則屬媒體轉述，未見美國商務部或輝達之官方確認文件，應視為未完全驗證。</li><li>傳導機制：若審查導致收緊，將直接影響輝達對中國出貨能見度，進而影響台積電先進製程與 ASE／GUC 等封測、ASIC 供應鏈訂單能見度；若維持現狀或審查後未加嚴，則為題材的中性至偏多因子。</li><li>市場已反映／未驗證：截至截止線，尚未見台股 AI 供應鏈股價對此有明確且可歸因之異常反應；此為未驗證項目。</li><li>後續驗證事件：美國商務部或 BIS 是否正式發布新規或執法行動；GUC／ASE 等公司下一次法說會是否提及訂單能見度變化。</li></ol>
+<p><strong>(b) 台積電 2026 年 7 月營收創高</strong></p>
+<ol><li>事件：台積電 2026-08-10 自結 7 月營收 NT$467.58bn（約 US$14.5bn），YoY +44.7%；董事長魏哲家表示 AI 需求「依然極為強勁」。</li><li>第一手事實：公司自結數字與董座談話均為第一手揭露。</li><li>傳導機制：直接反映於台灣出口訂單、GDP 與新台幣資金流向；為當期最重要的企業基本面確認證據之一。</li><li>市場已反映：台股 AI 供應鏈整體評價已頗高（見題材與個股評分），此類利多對股價的邊際影響可能有限。</li><li>後續驗證事件：台積電 Q3 2026 法說會（約 2026 年 10 月中）之全年財測與資本支出更新。</li></ol>
+<p><strong>(c) 美日聯合干預匯市與日圓走勢</strong></p>
+<ol><li>事件：2026 年 7 月底美日當局聯合干預匯市以抑制日圓貶勢；至 8 月中 USD/JPY 已回升至約 159.5，回吐約半數干預漲幅；BOJ 總裁暗示若日圓持續走弱，9 月升息為選項之一。</li><li>第一手 vs 推論：聯合干預為官方層級事實（多家財經媒體報導，未見央行聯合聲明原文）；「9 月升息」為官員談話與市場解讀，非既定政策。</li><li>傳導機制：美日利差與日圓走勢是亞洲貨幣（含新台幣）共同的外部驅動因子之一；日圓大幅波動可能透過區域資金流動間接影響新台幣。</li><li>後續驗證事件：2026-09-17/18 BOJ 會議決策（晚於本報告截止線，列入事件日曆）。</li></ol>
 <hr>
 <h2>8. 跨資產與台股市場驗證</h2>
 <ul><li><strong>美元兌新台幣</strong>：31.925（2026-08-20 收盤，較前一交易日 31.888 走貶）。</li><li><strong>美國公債殖利率、原油、黃金</strong>：本次研究未取得可追溯之官方或第一手數據，列 <strong>N/A</strong>，不予臆測。</li><li><strong>台股盤後快照（2026-08-20 收盤，資料來源：TWSE OpenAPI／TPEx OpenAPI，經 <code>scripts/fetch_market_snapshot.py</code> 正規化）</strong>：</li></ul>
@@ -428,7 +445,8 @@
 <table><thead><tr><th>日期</th><th>事件</th><th>來源</th><th>可能影響</th><th>需觀察欄位</th></tr></thead><tbody><tr><td>2026-08-22</td><td>台灣7月失業率／薪資統計公布</td><td>主計總處</td><td>驗證6月數據延續性</td><td>失業率、經常性薪資YoY</td></tr><tr><td>2026-08-26</td><td>台灣7月工業生產統計公布</td><td>經濟部統計處</td><td>驗證出口訂單強勁是否傳導至實際生產</td><td>工業生產YoY、製造業細項</td></tr><tr><td>2026-08-27</td><td>台灣7月景氣對策信號公布</td><td>國發會</td><td>驗證紅燈週期是否延續或降溫</td><td>燈號分數、九項構成指標</td></tr><tr><td>2026-09-01</td><td>玉山金控／三商美邦人壽換股基準日</td><td>玉山金控／金管會</td><td>併購題材關鍵時間點</td><td>換股後股本變化、市場反應</td></tr><tr><td>2026-09-10</td><td>ECB理事會</td><td>ecb.europa.eu</td><td>歐元區政策路徑</td><td>利率決策、聲明用詞</td></tr><tr><td>2026-09-15/16</td><td>FOMC會議（含利率點陣圖）</td><td>federalreserve.gov</td><td>全球風險偏好、美元走勢</td><td>利率決策、點陣圖、鮑爾記者會用詞</td></tr><tr><td>2026-09-17/18</td><td>BOJ會議</td><td>boj.or.jp</td><td>日圓走勢、亞洲貨幣連動</td><td>利率決策、是否升息</td></tr><tr><td>約2026年9月（日期未確定）</td><td>台灣央行第3季理監事會</td><td>央行</td><td>是否轉向鷹派</td><td>利率決策、理事會聲明</td></tr><tr><td>約2026年10月中下旬</td><td>台積電Q3法說會</td><td>台積電投資人關係</td><td>AI供應鏈全年財測與資本支出更新</td><td>財測、資本支出guidance、先進製程稼動率評論</td></tr><tr><td>待定（立法院會期內）</td><td>116年度總預算（含普發現金）立法院審議</td><td>立法院</td><td>消費題材時間表與規模</td><td>審議進度、是否遭刪減或延宕</td></tr><tr><td>2026-12-04</td><td>美國232條款多晶矽關稅生效</td><td>美國政府公告</td><td>多晶矽／太陽能矽晶圓材料題材關鍵驗證點</td><td>實際稅率執行、豁免配額機制細節</td></tr><tr><td>2027-01-01</td><td>台新／新光銀行、永豐金／京城銀行法定合併日</td><td>金管會</td><td>金融併購題材完成關鍵節點</td><td>合併後財報揭露、整合成本</td></tr></tbody></table>
 <hr>
 <h2>14. 反證、不確定性與資料缺口</h2>
-<p><strong>最可能推翻主結論的三項證據</strong>： 1. 若美國正式收緊對中國AI晶片出口管制（關閉境外算力漏洞），將直接推翻「AI供應鏈題材維持WATCH、基準情境50%」之判斷，應下修至更保守之情境權重。 2. 若台灣景氣對策信號在7/27公布後（晚於本報告截止線）由紅燈明顯轉弱，將修正「經濟過熱」之判讀，並可能影響央行利率路徑假設。 3. 若三商美邦人壽資本缺口實際彌補規模遠高於已知的逾NT$200億，將進一步印證玉山金控ABSTAIN判斷之正確性；反之若彌補方案順利且市場正面評價，則可能需重新評估其評分。</p>
+<p><strong>最可能推翻主結論的三項證據</strong>：</p>
+<ol><li>若美國正式收緊對中國AI晶片出口管制（關閉境外算力漏洞），將直接推翻「AI供應鏈題材維持WATCH、基準情境50%」之判斷，應下修至更保守之情境權重。</li><li>若台灣景氣對策信號在7/27公布後（晚於本報告截止線）由紅燈明顯轉弱，將修正「經濟過熱」之判讀，並可能影響央行利率路徑假設。</li><li>若三商美邦人壽資本缺口實際彌補規模遠高於已知的逾NT$200億，將進一步印證玉山金控ABSTAIN判斷之正確性；反之若彌補方案順利且市場正面評價，則可能需重新評估其評分。</li></ol>
 <p><strong>資料延遲、修訂與口徑差異</strong>：</p>
 <ul><li>台灣GDP存在概估→初步統計之修訂（+12.92%→+12.93%），後續仍可能再修訂。</li><li>貿易順差數字（出口減進口≈17.17bn vs 財政部所稱約16.9bn）存在約0.3bn差異，可能為統計口徑（通關基準vs國際收支基準）不同，未能於截止線前釐清。</li><li>中國PPI符號（+3.5%）與該國近年PPI通縮趨勢不一致，僅由媒體轉述官方數字，未能以官方原始表格覆核，需視為待驗證項目。</li></ul>
 <p><strong>公司層級曝險或估值資料不足之處</strong>：</p>
@@ -451,18 +469,20 @@
   </section>
 
   <footer>
-    <div>資料來源：TWSE OpenAPI、TPEx OpenAPI、經濟部統計處、行政院、央行、金管會、Federal Reserve、Bloomberg、CNBC 等（各項目詳見盤前摘要之來源連結）。盤後市場數據透過 <code>scripts/fetch_market_snapshot.py</code> 正規化。</div>
+    <div>資料來源：TWSE OpenAPI／rwd、TPEx OpenAPI、TAIFEX、經濟部統計處、行政院、央行、金管會、Federal Reserve、Bloomberg、CNBC 等（各項目詳見盤前摘要之來源連結）。盤後市場數據透過 <code>scripts/fetch_market_snapshot.py</code> 正規化。</div>
     <div class="disclaimer">本頁僅供一般研究與資訊整理，不是個人化投資建議、招攬或保證。候選標的仍需依投資人目標、風險承受度、價格與最新資訊獨立評估。</div>
   </footer>
 </div>
 
 <script type="application/json" id="premarket-data">{"schema_version": 1, "generated_at": "2026-08-21T14:37:00+08:00", "as_of": "2026-08-21 14:37", "headline": "Nvidia H200 晶片獲准出口中國、字節跳動與騰訊已進貨，AI 供應鏈解禁題材延燒；惟美股尾盤轉黑、日圓升息預期升溫，市場靜待 8/27–29 Jackson Hole 央行年會新任主席 Warsh 首場演說。", "items": [{"category": "政策", "text": "Nvidia H200 晶片獲准出口中國，字節跳動、騰訊等業者已各取得約 1 萬顆，惟美方仍要求晶片優先用於當地部署且訂有數量上限，為近期 AI 供應鏈管制鬆動最具體訊號。", "source_name": "CNBC (2026-08-19)", "source_url": "https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html", "date": "2026-08-19"}, {"category": "企業", "text": "Digitimes 報導，台積電今年迄今營收成長 37%，但在台灣半導體製造業營收中的市占降至 81.8%（減少 4 個百分點），因其餘 26 家台灣半導體廠（含記憶體廠）成長速度逾其兩倍。", "source_name": "Digitimes (2026-08-20)", "source_url": "https://www.digitimes.com/news/a20260820VL216/revenue-tsmc-taiwan-growth-demand.html", "date": "2026-08-20"}, {"category": "企業", "text": "Sony 半導體與台積電簽署具法律約束力協議，於日本熊本設立次世代影像感測器合資公司，Sony 為單一控股股東，預計 2029 年量產，象徵先進製程產能持續向日本擴張。", "source_name": "Sony Semiconductor Solutions 新聞稿 (2026-08-11)", "source_url": "https://www.sony-semicon.com/en/news/2026/2026081101.html", "date": "2026-08-11"}, {"category": "總經", "text": "美股週四（8/20）尾盤轉弱，公債殖利率因財政部先前干預效應消退而回升，加上川普揚言加大制裁伊朗、推升油價，那斯達克、標普 500 與道瓊同步收黑，科技股承壓，為台股開盤前主要外部風險情緒來源。", "source_name": "CNBC 美股盤後報導 (2026-08-20)", "source_url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html", "date": "2026-08-20"}, {"category": "政策", "text": "Fed 8 月無 FOMC 例會，下次利率決策延至 9/15–16；市場聚焦 8/27–29 日 Jackson Hole 全球央行年會，新任主席 Warsh 預計 8/28 發表就任後首場公開演說，為近期最重要貨幣政策風向球。", "source_name": "Regards of Wall Street／CNBC Fed 動態彙整", "source_url": "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech", "date": "2026-08-27"}, {"category": "政策", "text": "日本央行 7 月會議紀要顯示部分理事主張加快升息步調以因應通膨上行風險；高市政府傾向支持央行於 9 月或 10 月升息，日圓走向牽動台廠成本與外資資金流向。", "source_name": "Bloomberg (2026-08-10)", "source_url": "https://www.bloomberg.com/news/articles/2026-08-10/boj-summary-flags-upside-price-risks-possible-faster-hike-pace", "date": "2026-08-10"}, {"category": "總經", "text": "中國 7 月工業生產、零售銷售雙雙不如預期，1–7 月工業增加值年增 5.3%，官方數據顯示中國經濟成長動能持續放緩，為台廠中國曝險部位的潛在壓力來源。", "source_name": "中國政府網／國家統計局 (2026-08-17)", "source_url": "https://english.www.gov.cn/archive/statistics/202608/17/content_WS6a82b926c6d00ca5f9a0ca35.html", "date": "2026-08-17"}]}</script>
-<script type="application/json" id="postmarket-data">{"schema_version": 1, "generated_at": "2026-08-21T14:44:06+08:00", "input_mode": "official_latest", "as_of_date": "2026-08-20", "sources": [{"name": "TWSE daily trading data", "location": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"}, {"name": "TWSE daily indices", "location": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX"}, {"name": "TPEx closing quotes", "location": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"}], "quality": {"date_consistent": true, "market_dates": ["2026-08-20"], "warnings": []}, "errors": [], "indices": [{"date": "2026-08-20", "name": "寶島股價指數", "close": 49837.29, "change": 266.57, "change_pct": 0.54}, {"date": "2026-08-20", "name": "發行量加權股價指數", "close": 44933.74, "change": 214.39, "change_pct": 0.48}, {"date": "2026-08-20", "name": "臺灣50指數", "close": 41539.16, "change": 153.05, "change_pct": 0.37}], "markets": {"TPEX": {"data_date": "2026-08-20", "all_instruments": 1011, "common_stocks": 887, "advancers": 483, "decliners": 291, "unchanged": 89, "missing_change": 24, "total_volume_shares": 848980000, "total_value_twd": 177689060190, "top_gainers": [{"market": "TPEX", "date": "2026-08-20", "code": "5314", "name": "世紀*", "open": 23.65, "high": 23.65, "low": 23.65, "close": 23.65, "change": 2.15, "change_pct": 10.0, "volume_shares": 4007000, "value_twd": 94765550, "transactions": 1314}, {"market": "TPEX", "date": "2026-08-20", "code": "3441", "name": "聯一光", "open": 93.3, "high": 97.3, "low": 91.7, "close": 97.3, "change": 8.8, "change_pct": 9.9435, "volume_shares": 17226000, "value_twd": 1652659300, "transactions": 9598}, {"market": "TPEX", "date": "2026-08-20", "code": "3485", "name": "敘豐", "open": 218.0, "high": 222.0, "low": 218.0, "close": 222.0, "change": 20.0, "change_pct": 9.901, "volume_shares": 167000, "value_twd": 36956000, "transactions": 120}, {"market": "TPEX", "date": "2026-08-20", "code": "3508", "name": "位速", "open": 24.75, "high": 25.0, "low": 23.6, "close": 25.0, "change": 2.25, "change_pct": 9.8901, "volume_shares": 1880000, "value_twd": 46373400, "transactions": 939}, {"market": "TPEX", "date": "2026-08-20", "code": "4304", "name": "勝昱", "open": 23.4, "high": 23.4, "low": 23.4, "close": 23.4, "change": 2.1, "change_pct": 9.8592, "volume_shares": 80000, "value_twd": 1872000, "transactions": 42}, {"market": "TPEX", "date": "2026-08-20", "code": "4971", "name": "IET-KY", "open": 529.0, "high": 580.0, "low": 505.0, "close": 580.0, "change": 52.0, "change_pct": 9.8485, "volume_shares": 4969000, "value_twd": 2750292000, "transactions": 4103}, {"market": "TPEX", "date": "2026-08-20", "code": "6617", "name": "共信-KY", "open": 104.5, "high": 104.5, "low": 104.5, "close": 104.5, "change": 9.3, "change_pct": 9.7689, "volume_shares": 292000, "value_twd": 30514000, "transactions": 176}, {"market": "TPEX", "date": "2026-08-20", "code": "7751", "name": "竑騰", "open": 1465.0, "high": 1575.0, "low": 1415.0, "close": 1575.0, "change": 140.0, "change_pct": 9.7561, "volume_shares": 654000, "value_twd": 1003855000, "transactions": 500}, {"market": "TPEX", "date": "2026-08-20", "code": "7714", "name": "創泓科技", "open": 167.0, "high": 180.5, "low": 165.5, "close": 180.5, "change": 16.0, "change_pct": 9.7264, "volume_shares": 751000, "value_twd": 133156000, "transactions": 603}, {"market": "TPEX", "date": "2026-08-20", "code": "6160", "name": "欣技", "open": 15.25, "high": 15.3, "low": 14.5, "close": 15.3, "change": 1.35, "change_pct": 9.6774, "volume_shares": 360000, "value_twd": 5439500, "transactions": 179}], "top_decliners": [{"market": "TPEX", "date": "2026-08-20", "code": "8042", "name": "金山電", "open": 110.5, "high": 111.0, "low": 100.5, "close": 101.0, "change": -10.5, "change_pct": -9.417, "volume_shares": 8503000, "value_twd": 879262000, "transactions": 5703}, {"market": "TPEX", "date": "2026-08-20", "code": "3489", "name": "森寶", "open": 22.3, "high": 23.0, "low": 21.45, "close": 21.7, "change": -2.1, "change_pct": -8.8235, "volume_shares": 1016000, "value_twd": 22560050, "transactions": 454}, {"market": "TPEX", "date": "2026-08-20", "code": "3664", "name": "安瑞-KY", "open": 5.55, "high": 5.66, "low": 5.55, "close": 5.56, "change": -0.44, "change_pct": -7.3333, "volume_shares": 14000, "value_twd": 78500, "transactions": 13}, {"market": "TPEX", "date": "2026-08-20", "code": "3625", "name": "西勝", "open": 11.35, "high": 12.6, "low": 11.35, "close": 11.75, "change": -0.85, "change_pct": -6.746, "volume_shares": 3473000, "value_twd": 40016950, "transactions": 940}, {"market": "TPEX", "date": "2026-08-20", "code": "5351", "name": "鈺創", "open": 127.0, "high": 127.5, "low": 116.5, "close": 118.0, "change": -8.5, "change_pct": -6.7194, "volume_shares": 29029000, "value_twd": 3502329000, "transactions": 17521}, {"market": "TPEX", "date": "2026-08-20", "code": "2073", "name": "雄順", "open": 24.9, "high": 24.9, "low": 24.9, "close": 24.9, "change": -1.6, "change_pct": -6.0377, "volume_shares": 2000, "value_twd": 49800, "transactions": 2}, {"market": "TPEX", "date": "2026-08-20", "code": "4402", "name": "郡都開發", "open": 15.25, "high": 15.25, "low": 14.8, "close": 14.8, "change": -0.95, "change_pct": -6.0317, "volume_shares": 27000, "value_twd": 404250, "transactions": 26}, {"market": "TPEX", "date": "2026-08-20", "code": "8234", "name": "新漢", "open": 71.3, "high": 71.3, "low": 66.3, "close": 66.5, "change": -4.1, "change_pct": -5.8074, "volume_shares": 2072000, "value_twd": 141240100, "transactions": 1500}, {"market": "TPEX", "date": "2026-08-20", "code": "6103", "name": "合邦", "open": 25.65, "high": 28.2, "low": 25.65, "close": 26.65, "change": -1.55, "change_pct": -5.4965, "volume_shares": 9000, "value_twd": 241150, "transactions": 9}, {"market": "TPEX", "date": "2026-08-20", "code": "6856", "name": "鑫傳", "open": 42.7, "high": 42.7, "low": 42.0, "close": 42.0, "change": -2.2, "change_pct": -4.9774, "volume_shares": 27000, "value_twd": 1138050, "transactions": 12}], "top_turnover": [{"market": "TPEX", "date": "2026-08-20", "code": "1815", "name": "富喬", "open": 102.0, "high": 107.5, "low": 101.5, "close": 107.0, "change": 9.0, "change_pct": 9.1837, "volume_shares": 132860000, "value_twd": 14101718000, "transactions": 47563}, {"market": "TPEX", "date": "2026-08-20", "code": "3081", "name": "聯亞", "open": 2765.0, "high": 2830.0, "low": 2635.0, "close": 2780.0, "change": 100.0, "change_pct": 3.7313, "volume_shares": 4519000, "value_twd": 12401725000, "transactions": 4113}, {"market": "TPEX", "date": "2026-08-20", "code": "6488", "name": "環球晶", "open": 1005.0, "high": 1015.0, "low": 954.0, "close": 993.0, "change": 10.0, "change_pct": 1.0173, "volume_shares": 8902000, "value_twd": 8750294000, "transactions": 7372}, {"market": "TPEX", "date": "2026-08-20", "code": "3374", "name": "精材", "open": 321.0, "high": 328.5, "low": 294.5, "close": 303.5, "change": 4.5, "change_pct": 1.505, "volume_shares": 27857000, "value_twd": 8715450000, "transactions": 16912}, {"market": "TPEX", "date": "2026-08-20", "code": "6173", "name": "信昌電", "open": 219.0, "high": 228.0, "low": 211.0, "close": 221.0, "change": 7.5, "change_pct": 3.5129, "volume_shares": 39655000, "value_twd": 8643368500, "transactions": 26759}, {"market": "TPEX", "date": "2026-08-20", "code": "8358", "name": "金居", "open": 420.0, "high": 428.5, "low": 406.0, "close": 413.5, "change": 3.0, "change_pct": 0.7308, "volume_shares": 18281000, "value_twd": 7604360000, "transactions": 14414}, {"market": "TPEX", "date": "2026-08-20", "code": "8299", "name": "群聯", "open": 2010.0, "high": 2080.0, "low": 1965.0, "close": 1995.0, "change": 30.0, "change_pct": 1.5267, "volume_shares": 3715000, "value_twd": 7481685000, "transactions": 3252}, {"market": "TPEX", "date": "2026-08-20", "code": "6274", "name": "台燿", "open": 1555.0, "high": 1580.0, "low": 1510.0, "close": 1575.0, "change": 75.0, "change_pct": 5.0, "volume_shares": 4500000, "value_twd": 6965830000, "transactions": 3578}, {"market": "TPEX", "date": "2026-08-20", "code": "6182", "name": "合晶", "open": 113.0, "high": 114.5, "low": 107.0, "close": 109.5, "change": -0.5, "change_pct": -0.4545, "volume_shares": 56477000, "value_twd": 6218085500, "transactions": 32068}, {"market": "TPEX", "date": "2026-08-20", "code": "3105", "name": "穩懋", "open": 370.0, "high": 379.0, "low": 359.5, "close": 379.0, "change": 15.5, "change_pct": 4.2641, "volume_shares": 15615000, "value_twd": 5746698000, "transactions": 11841}]}, "TWSE": {"data_date": "2026-08-20", "all_instruments": 1376, "common_stocks": 1085, "advancers": 780, "decliners": 230, "unchanged": 75, "missing_change": 0, "total_volume_shares": 4271828017, "total_value_twd": 786240990035, "top_gainers": [{"market": "TWSE", "date": "2026-08-20", "code": "2426", "name": "鼎元", "open": 74.8, "high": 74.8, "low": 73.5, "close": 74.8, "change": 6.8, "change_pct": 10.0, "volume_shares": 29241700, "value_twd": 2185955652, "transactions": 11390}, {"market": "TWSE", "date": "2026-08-20", "code": "6472", "name": "保瑞", "open": 420.0, "high": 445.5, "low": 419.0, "close": 445.5, "change": 40.5, "change_pct": 10.0, "volume_shares": 3090380, "value_twd": 1353894191, "transactions": 7895}, {"market": "TWSE", "date": "2026-08-20", "code": "7799", "name": "禾榮科", "open": 348.5, "high": 379.5, "low": 348.0, "close": 379.5, "change": 34.5, "change_pct": 10.0, "volume_shares": 737333, "value_twd": 271553481, "transactions": 1085}, {"market": "TWSE", "date": "2026-08-20", "code": "8101", "name": "華冠", "open": 11.9, "high": 12.1, "low": 11.7, "close": 12.1, "change": 1.1, "change_pct": 10.0, "volume_shares": 60113, "value_twd": 722471, "transactions": 75}, {"market": "TWSE", "date": "2026-08-20", "code": "3167", "name": "大量", "open": 696.0, "high": 762.0, "low": 655.0, "close": 762.0, "change": 69.0, "change_pct": 9.9567, "volume_shares": 9929286, "value_twd": 7234036941, "transactions": 15783}, {"market": "TWSE", "date": "2026-08-20", "code": "2851", "name": "中再保", "open": 44.2, "high": 44.2, "low": 44.2, "close": 44.2, "change": 4.0, "change_pct": 9.9502, "volume_shares": 4827910, "value_twd": 213393535, "transactions": 1723}, {"market": "TWSE", "date": "2026-08-20", "code": "1583", "name": "程泰", "open": 49.7, "high": 53.6, "low": 49.7, "close": 53.6, "change": 4.85, "change_pct": 9.9487, "volume_shares": 206019, "value_twd": 10961196, "transactions": 257}, {"market": "TWSE", "date": "2026-08-20", "code": "6715", "name": "嘉基", "open": 472.0, "high": 492.0, "low": 452.5, "close": 492.0, "change": 44.5, "change_pct": 9.9441, "volume_shares": 3323695, "value_twd": 1584758377, "transactions": 4827}, {"market": "TWSE", "date": "2026-08-20", "code": "8103", "name": "瀚荃", "open": 83.8, "high": 91.9, "low": 83.8, "close": 91.9, "change": 8.3, "change_pct": 9.9282, "volume_shares": 4045360, "value_twd": 365040525, "transactions": 3637}, {"market": "TWSE", "date": "2026-08-20", "code": "6224", "name": "聚鼎", "open": 66.4, "high": 72.1, "low": 66.4, "close": 72.1, "change": 6.5, "change_pct": 9.9085, "volume_shares": 1539463, "value_twd": 109293527, "transactions": 1870}], "top_decliners": [{"market": "TWSE", "date": "2026-08-20", "code": "4439", "name": "冠星-KY", "open": 103.5, "high": 103.5, "low": 98.3, "close": 99.2, "change": -9.3, "change_pct": -8.5714, "volume_shares": 432961, "value_twd": 43285261, "transactions": 404}, {"market": "TWSE", "date": "2026-08-20", "code": "2492", "name": "華新科", "open": 300.0, "high": 301.0, "low": 271.0, "close": 272.5, "change": -25.5, "change_pct": -8.557, "volume_shares": 45606482, "value_twd": 12826919540, "transactions": 58710}, {"market": "TWSE", "date": "2026-08-20", "code": "3605", "name": "宏致", "open": 119.5, "high": 119.5, "low": 107.5, "close": 110.0, "change": -9.0, "change_pct": -7.563, "volume_shares": 9699155, "value_twd": 1075171509, "transactions": 7770}, {"market": "TWSE", "date": "2026-08-20", "code": "7711", "name": "永擎", "open": 490.0, "high": 492.0, "low": 447.0, "close": 454.0, "change": -36.0, "change_pct": -7.3469, "volume_shares": 1880171, "value_twd": 870782072, "transactions": 9175}, {"market": "TWSE", "date": "2026-08-20", "code": "9136", "name": "巨騰-DR", "open": 11.75, "high": 12.0, "low": 10.8, "close": 11.15, "change": -0.85, "change_pct": -7.0833, "volume_shares": 1394415, "value_twd": 15319446, "transactions": 376}, {"market": "TWSE", "date": "2026-08-20", "code": "1709", "name": "和益", "open": 32.55, "high": 32.6, "low": 30.1, "close": 30.3, "change": -2.25, "change_pct": -6.9124, "volume_shares": 8530475, "value_twd": 264911974, "transactions": 6977}, {"market": "TWSE", "date": "2026-08-20", "code": "7788", "name": "松川精密", "open": 277.5, "high": 279.0, "low": 250.0, "close": 256.0, "change": -18.0, "change_pct": -6.5693, "volume_shares": 2362932, "value_twd": 616016160, "transactions": 4438}, {"market": "TWSE", "date": "2026-08-20", "code": "3055", "name": "蔚華科", "open": 116.0, "high": 118.0, "low": 108.0, "close": 108.5, "change": -6.5, "change_pct": -5.6522, "volume_shares": 2125530, "value_twd": 235947010, "transactions": 2032}, {"market": "TWSE", "date": "2026-08-20", "code": "2379", "name": "瑞昱", "open": 742.0, "high": 745.0, "low": 696.0, "close": 703.0, "change": -35.0, "change_pct": -4.7425, "volume_shares": 5015291, "value_twd": 3541983596, "transactions": 9316}, {"market": "TWSE", "date": "2026-08-20", "code": "3532", "name": "台勝科", "open": 365.0, "high": 368.0, "low": 331.5, "close": 340.0, "change": -16.5, "change_pct": -4.6283, "volume_shares": 19359214, "value_twd": 6436755925, "transactions": 9876}], "top_turnover": [{"market": "TWSE", "date": "2026-08-20", "code": "2454", "name": "聯發科", "open": 3820.0, "high": 3870.0, "low": 3675.0, "close": 3700.0, "change": -145.0, "change_pct": -3.7711, "volume_shares": 13213952, "value_twd": 49435673925, "transactions": 139117}, {"market": "TWSE", "date": "2026-08-20", "code": "2408", "name": "南亞科", "open": 498.0, "high": 523.0, "low": 498.0, "close": 517.0, "change": 36.0, "change_pct": 7.4844, "volume_shares": 88103385, "value_twd": 45328103174, "transactions": 85647}, {"market": "TWSE", "date": "2026-08-20", "code": "2330", "name": "台積電", "open": 2365.0, "high": 2375.0, "low": 2350.0, "close": 2375.0, "change": 25.0, "change_pct": 1.0638, "volume_shares": 16967737, "value_twd": 40117420293, "transactions": 46361}, {"market": "TWSE", "date": "2026-08-20", "code": "2344", "name": "華邦電", "open": 174.0, "high": 180.5, "low": 172.0, "close": 176.5, "change": 8.5, "change_pct": 5.0595, "volume_shares": 149809828, "value_twd": 26426141370, "transactions": 89634}, {"market": "TWSE", "date": "2026-08-20", "code": "2327", "name": "國巨*", "open": 583.0, "high": 583.0, "low": 550.0, "close": 562.0, "change": -14.0, "change_pct": -2.4306, "volume_shares": 43070768, "value_twd": 24263601423, "transactions": 84683}, {"market": "TWSE", "date": "2026-08-20", "code": "2308", "name": "台達電", "open": 1770.0, "high": 1785.0, "low": 1705.0, "close": 1745.0, "change": -20.0, "change_pct": -1.1331, "volume_shares": 11014621, "value_twd": 19110970635, "transactions": 51812}, {"market": "TWSE", "date": "2026-08-20", "code": "3037", "name": "欣興", "open": 1165.0, "high": 1165.0, "low": 1085.0, "close": 1140.0, "change": 10.0, "change_pct": 0.885, "volume_shares": 16346229, "value_twd": 18455423085, "transactions": 26559}, {"market": "TWSE", "date": "2026-08-20", "code": "3008", "name": "大立光", "open": 5570.0, "high": 5680.0, "low": 5405.0, "close": 5515.0, "change": -35.0, "change_pct": -0.6306, "volume_shares": 2952357, "value_twd": 16352819265, "transactions": 16835}, {"market": "TWSE", "date": "2026-08-20", "code": "2383", "name": "台光電", "open": 6100.0, "high": 6200.0, "low": 5780.0, "close": 5985.0, "change": 105.0, "change_pct": 1.7857, "volume_shares": 2514908, "value_twd": 14899646520, "transactions": 9047}, {"market": "TWSE", "date": "2026-08-20", "code": "3443", "name": "創意", "open": 5345.0, "high": 5660.0, "low": 5300.0, "close": 5630.0, "change": 335.0, "change_pct": 6.3267, "volume_shares": 2626990, "value_twd": 14379203410, "transactions": 9621}]}}, "watchlist": {"requested": [], "matches": [], "unmatched": []}}</script>
+<script type="application/json" id="postmarket-data">{"schema_version": 2, "generated_at": "2026-08-21T15:59:26+08:00", "input_mode": "official_latest", "as_of_date": "2026-08-20", "sources": [{"name": "TWSE daily trading data", "location": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"}, {"name": "TWSE daily indices", "location": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX"}, {"name": "TPEx closing quotes", "location": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"}, {"name": "TWSE 三大法人買賣超 (T86)", "location": "https://www.twse.com.tw/rwd/zh/fund/T86"}, {"name": "TPEx 三大法人買賣超", "location": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_qfii_trading"}, {"name": "TPEx 櫃買指數", "location": "https://www.tpex.org.tw/openapi/v1/tpex_index"}, {"name": "TAIFEX 臺股期貨每日行情", "location": "https://www.taifex.com.tw/cht/3/futDataDown"}], "quality": {"date_consistent": true, "market_dates": ["2026-08-20"], "warnings": []}, "errors": [], "indices": [{"date": "2026-08-20", "name": "發行量加權股價指數", "close": 44933.74, "change": 214.39, "change_pct": 0.48}, {"date": "2026-08-20", "name": "櫃買指數", "close": 389.96, "change": 5.17, "change_pct": 1.3436}, {"date": "2026-08-20", "name": "臺股期貨（大台指期，近月）", "close": 44868.0, "change": 368.0, "change_pct": 0.83, "volume": 53693}], "markets": {"TPEX": {"data_date": "2026-08-20", "all_instruments": 1011, "common_stocks": 887, "advancers": 483, "decliners": 291, "unchanged": 89, "missing_change": 24, "total_volume_shares": 848980000, "total_value_twd": 177689060190, "top_turnover": [{"market": "TPEX", "date": "2026-08-20", "code": "1815", "name": "富喬", "open": 102.0, "high": 107.5, "low": 101.5, "close": 107.0, "change": 9.0, "change_pct": 9.1837, "volume_shares": 132860000, "value_twd": 14101718000, "transactions": 47563}, {"market": "TPEX", "date": "2026-08-20", "code": "3081", "name": "聯亞", "open": 2765.0, "high": 2830.0, "low": 2635.0, "close": 2780.0, "change": 100.0, "change_pct": 3.7313, "volume_shares": 4519000, "value_twd": 12401725000, "transactions": 4113}, {"market": "TPEX", "date": "2026-08-20", "code": "6488", "name": "環球晶", "open": 1005.0, "high": 1015.0, "low": 954.0, "close": 993.0, "change": 10.0, "change_pct": 1.0173, "volume_shares": 8902000, "value_twd": 8750294000, "transactions": 7372}, {"market": "TPEX", "date": "2026-08-20", "code": "3374", "name": "精材", "open": 321.0, "high": 328.5, "low": 294.5, "close": 303.5, "change": 4.5, "change_pct": 1.505, "volume_shares": 27857000, "value_twd": 8715450000, "transactions": 16912}, {"market": "TPEX", "date": "2026-08-20", "code": "6173", "name": "信昌電", "open": 219.0, "high": 228.0, "low": 211.0, "close": 221.0, "change": 7.5, "change_pct": 3.5129, "volume_shares": 39655000, "value_twd": 8643368500, "transactions": 26759}, {"market": "TPEX", "date": "2026-08-20", "code": "8358", "name": "金居", "open": 420.0, "high": 428.5, "low": 406.0, "close": 413.5, "change": 3.0, "change_pct": 0.7308, "volume_shares": 18281000, "value_twd": 7604360000, "transactions": 14414}, {"market": "TPEX", "date": "2026-08-20", "code": "8299", "name": "群聯", "open": 2010.0, "high": 2080.0, "low": 1965.0, "close": 1995.0, "change": 30.0, "change_pct": 1.5267, "volume_shares": 3715000, "value_twd": 7481685000, "transactions": 3252}, {"market": "TPEX", "date": "2026-08-20", "code": "6274", "name": "台燿", "open": 1555.0, "high": 1580.0, "low": 1510.0, "close": 1575.0, "change": 75.0, "change_pct": 5.0, "volume_shares": 4500000, "value_twd": 6965830000, "transactions": 3578}, {"market": "TPEX", "date": "2026-08-20", "code": "6182", "name": "合晶", "open": 113.0, "high": 114.5, "low": 107.0, "close": 109.5, "change": -0.5, "change_pct": -0.4545, "volume_shares": 56477000, "value_twd": 6218085500, "transactions": 32068}, {"market": "TPEX", "date": "2026-08-20", "code": "3105", "name": "穩懋", "open": 370.0, "high": 379.0, "low": 359.5, "close": 379.0, "change": 15.5, "change_pct": 4.2641, "volume_shares": 15615000, "value_twd": 5746698000, "transactions": 11841}]}, "TWSE": {"data_date": "2026-08-20", "all_instruments": 1376, "common_stocks": 1085, "advancers": 780, "decliners": 230, "unchanged": 75, "missing_change": 0, "total_volume_shares": 4271828017, "total_value_twd": 786240990035, "top_turnover": [{"market": "TWSE", "date": "2026-08-20", "code": "2454", "name": "聯發科", "open": 3820.0, "high": 3870.0, "low": 3675.0, "close": 3700.0, "change": -145.0, "change_pct": -3.7711, "volume_shares": 13213952, "value_twd": 49435673925, "transactions": 139117}, {"market": "TWSE", "date": "2026-08-20", "code": "2408", "name": "南亞科", "open": 498.0, "high": 523.0, "low": 498.0, "close": 517.0, "change": 36.0, "change_pct": 7.4844, "volume_shares": 88103385, "value_twd": 45328103174, "transactions": 85647}, {"market": "TWSE", "date": "2026-08-20", "code": "2330", "name": "台積電", "open": 2365.0, "high": 2375.0, "low": 2350.0, "close": 2375.0, "change": 25.0, "change_pct": 1.0638, "volume_shares": 16967737, "value_twd": 40117420293, "transactions": 46361}, {"market": "TWSE", "date": "2026-08-20", "code": "2344", "name": "華邦電", "open": 174.0, "high": 180.5, "low": 172.0, "close": 176.5, "change": 8.5, "change_pct": 5.0595, "volume_shares": 149809828, "value_twd": 26426141370, "transactions": 89634}, {"market": "TWSE", "date": "2026-08-20", "code": "2327", "name": "國巨*", "open": 583.0, "high": 583.0, "low": 550.0, "close": 562.0, "change": -14.0, "change_pct": -2.4306, "volume_shares": 43070768, "value_twd": 24263601423, "transactions": 84683}, {"market": "TWSE", "date": "2026-08-20", "code": "2308", "name": "台達電", "open": 1770.0, "high": 1785.0, "low": 1705.0, "close": 1745.0, "change": -20.0, "change_pct": -1.1331, "volume_shares": 11014621, "value_twd": 19110970635, "transactions": 51812}, {"market": "TWSE", "date": "2026-08-20", "code": "3037", "name": "欣興", "open": 1165.0, "high": 1165.0, "low": 1085.0, "close": 1140.0, "change": 10.0, "change_pct": 0.885, "volume_shares": 16346229, "value_twd": 18455423085, "transactions": 26559}, {"market": "TWSE", "date": "2026-08-20", "code": "3008", "name": "大立光", "open": 5570.0, "high": 5680.0, "low": 5405.0, "close": 5515.0, "change": -35.0, "change_pct": -0.6306, "volume_shares": 2952357, "value_twd": 16352819265, "transactions": 16835}, {"market": "TWSE", "date": "2026-08-20", "code": "2383", "name": "台光電", "open": 6100.0, "high": 6200.0, "low": 5780.0, "close": 5985.0, "change": 105.0, "change_pct": 1.7857, "volume_shares": 2514908, "value_twd": 14899646520, "transactions": 9047}, {"market": "TWSE", "date": "2026-08-20", "code": "3443", "name": "創意", "open": 5345.0, "high": 5660.0, "low": 5300.0, "close": 5630.0, "change": 335.0, "change_pct": 6.3267, "volume_shares": 2626990, "value_twd": 14379203410, "transactions": 9621}]}}, "foreign_flows": {"top_buy": [{"market": "TWSE", "code": "2609", "name": "陽明", "foreign_net_shares": 54758664, "foreign_net_lots": 54758.7}, {"market": "TWSE", "code": "2002", "name": "中鋼", "foreign_net_shares": 36279787, "foreign_net_lots": 36279.8}, {"market": "TWSE", "code": "2303", "name": "聯電", "foreign_net_shares": 26734247, "foreign_net_lots": 26734.2}, {"market": "TWSE", "code": "2408", "name": "南亞科", "foreign_net_shares": 26277613, "foreign_net_lots": 26277.6}, {"market": "TWSE", "code": "2344", "name": "華邦電", "foreign_net_shares": 23136416, "foreign_net_lots": 23136.4}, {"market": "TWSE", "code": "1101", "name": "台泥", "foreign_net_shares": 21766556, "foreign_net_lots": 21766.6}, {"market": "TWSE", "code": "2634", "name": "漢翔", "foreign_net_shares": 21029655, "foreign_net_lots": 21029.7}, {"market": "TWSE", "code": "2886", "name": "兆豐金", "foreign_net_shares": 18678105, "foreign_net_lots": 18678.1}, {"market": "TWSE", "code": "2615", "name": "萬海", "foreign_net_shares": 17722690, "foreign_net_lots": 17722.7}, {"market": "TWSE", "code": "1402", "name": "遠東新", "foreign_net_shares": 17384707, "foreign_net_lots": 17384.7}], "top_sell": [{"market": "TWSE", "code": "6770", "name": "力積電", "foreign_net_shares": -35015871, "foreign_net_lots": -35015.9}, {"market": "TWSE", "code": "2887", "name": "台新新光金", "foreign_net_shares": -19448816, "foreign_net_lots": -19448.8}, {"market": "TWSE", "code": "2492", "name": "華新科", "foreign_net_shares": -18542533, "foreign_net_lots": -18542.5}, {"market": "TWSE", "code": "2891", "name": "中信金", "foreign_net_shares": -14856713, "foreign_net_lots": -14856.7}, {"market": "TWSE", "code": "2409", "name": "友達", "foreign_net_shares": -13403186, "foreign_net_lots": -13403.2}, {"market": "TWSE", "code": "2324", "name": "仁寶", "foreign_net_shares": -11641679, "foreign_net_lots": -11641.7}, {"market": "TWSE", "code": "2884", "name": "玉山金", "foreign_net_shares": -10516258, "foreign_net_lots": -10516.3}, {"market": "TWSE", "code": "6116", "name": "彩晶", "foreign_net_shares": -8564534, "foreign_net_lots": -8564.5}, {"market": "TWSE", "code": "1303", "name": "南亞", "foreign_net_shares": -8559385, "foreign_net_lots": -8559.4}, {"market": "TWSE", "code": "2301", "name": "光寶科", "foreign_net_shares": -7749600, "foreign_net_lots": -7749.6}]}, "watchlist": {"requested": [], "matches": [], "unmatched": []}}</script>
 <script type="application/json" id="report-meta-data">{"generated_at": "2026-08-21T09:40:00+08:00", "as_of": "2026-08-21 08:49", "title": "台灣與全球總經投資研究｜2026-08-21"}</script>
+<script type="application/json" id="holdings-data">{"updated_at": null, "holdings": []}</script>
 <script>
   const PREMARKET = JSON.parse(document.getElementById("premarket-data").textContent);
   const POSTMARKET = JSON.parse(document.getElementById("postmarket-data").textContent);
   const REPORT_META = JSON.parse(document.getElementById("report-meta-data").textContent);
+  const HOLDINGS = JSON.parse(document.getElementById("holdings-data").textContent);
 
   function fmtInt(n) {
     if (n === null || n === undefined) return "N/A";
@@ -509,11 +529,16 @@
     const cls = deltaClass(idx.change);
     const card = document.createElement("div");
     card.className = "idx-card";
+    let extra = "";
+    if (idx.volume !== undefined && idx.volume !== null) {
+      extra = '<div class="idx-extra num">成交量 ' + fmtInt(idx.volume) + ' 口</div>';
+    }
     card.innerHTML =
       '<div class="idx-name">' + idx.name + '</div>' +
       '<div class="idx-close num">' + fmtNum(idx.close, 2) + '</div>' +
       '<div class="idx-delta num ' + cls + '">' +
-      (idx.change > 0 ? "+" : "") + fmtNum(idx.change, 2) + '　' + fmtPct(idx.change_pct) + '</div>';
+      (idx.change > 0 ? "+" : "") + fmtNum(idx.change, 2) + '　' + fmtPct(idx.change_pct) + '</div>' +
+      extra;
     idxRow.appendChild(card);
   });
 
@@ -544,45 +569,100 @@
     breadthGrid.appendChild(card);
   });
 
-  // Post-market: leaderboards
+  // Post-market: leaderboards (foreign net buy/sell + turnover)
   const tableGrid = document.getElementById("table-grid");
-  const boards = [
-    { key: "top_gainers", title: "漲幅居前" },
-    { key: "top_decliners", title: "跌幅居前" },
-    { key: "top_turnover", title: "成交值居前" }
-  ];
-  const allRows = [];
-  Object.keys(POSTMARKET.markets || {}).forEach(function (marketName) {
-    (POSTMARKET.markets[marketName][boards[0].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_gainers" }, r)); });
-    (POSTMARKET.markets[marketName][boards[1].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_decliners" }, r)); });
-    (POSTMARKET.markets[marketName][boards[2].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_turnover" }, r)); });
-  });
+  const flows = POSTMARKET.foreign_flows || { top_buy: [], top_sell: [] };
 
-  boards.forEach(function (board) {
-    const rows = allRows.filter(function (r) { return r.board === board.key; })
-      .sort(function (a, b) {
-        if (board.key === "top_gainers") return (b.change_pct || -999) - (a.change_pct || -999);
-        if (board.key === "top_decliners") return (a.change_pct || 999) - (b.change_pct || 999);
-        return (b.value_twd || 0) - (a.value_twd || 0);
-      })
-      .slice(0, 8);
+  function renderFlowCard(title, rows) {
     const card = document.createElement("div");
     card.className = "table-card";
-    let rowsHtml = rows.map(function (r) {
-      const cls = deltaClass(r.change);
+    const rowsHtml = rows.map(function (r) {
+      const cls = deltaClass(r.foreign_net_shares);
       return '<tr>' +
         '<td>' + r.code + '<div class="name">' + r.name + '</div></td>' +
-        '<td class="num">' + fmtNum(r.close, 2) + '</td>' +
-        '<td class="num ' + cls + '">' + fmtPct(r.change_pct) + '</td>' +
-        '<td class="num">' + fmtInt((r.value_twd || 0) / 1e6) + '</td>' +
+        '<td class="num">' + r.market + '</td>' +
+        '<td class="num ' + cls + '">' + (r.foreign_net_lots > 0 ? "+" : "") + fmtNum(r.foreign_net_lots, 0) + '</td>' +
         '</tr>';
     }).join("");
     card.innerHTML =
-      '<h3>' + board.title + '</h3>' +
-      '<div class="table-scroll"><table><thead><tr><th>代號／名稱</th><th>收盤</th><th>漲跌幅</th><th>成交值(百萬)</th></tr></thead>' +
-      '<tbody>' + rowsHtml + '</tbody></table></div>';
-    tableGrid.appendChild(card);
+      '<h3>' + title + '</h3>' +
+      '<table><thead><tr><th>代號／名稱</th><th>市場</th><th>買賣超(張)</th></tr></thead>' +
+      '<tbody>' + rowsHtml + '</tbody></table>';
+    return card;
+  }
+
+  tableGrid.appendChild(renderFlowCard("外資買超前十", flows.top_buy || []));
+  tableGrid.appendChild(renderFlowCard("外資賣超前十", flows.top_sell || []));
+
+  const turnoverRows = [];
+  Object.keys(POSTMARKET.markets || {}).forEach(function (marketName) {
+    (POSTMARKET.markets[marketName].top_turnover || []).forEach(function (r) {
+      turnoverRows.push(Object.assign({ mkt: marketName }, r));
+    });
   });
+  turnoverRows.sort(function (a, b) { return (b.value_twd || 0) - (a.value_twd || 0); });
+  const turnoverCard = document.createElement("div");
+  turnoverCard.className = "table-card";
+  const turnoverHtml = turnoverRows.slice(0, 10).map(function (r) {
+    const cls = deltaClass(r.change);
+    return '<tr>' +
+      '<td>' + r.code + '<div class="name">' + r.name + '</div></td>' +
+      '<td class="num">' + fmtNum(r.close, 2) + '</td>' +
+      '<td class="num ' + cls + '">' + fmtPct(r.change_pct) + '</td>' +
+      '<td class="num">' + fmtInt((r.value_twd || 0) / 1e6) + '</td>' +
+      '</tr>';
+  }).join("");
+  turnoverCard.innerHTML =
+    '<h3>成交值居前</h3>' +
+    '<table><thead><tr><th>代號／名稱</th><th>收盤</th><th>漲跌幅</th><th>成交值(百萬)</th></tr></thead>' +
+    '<tbody>' + turnoverHtml + '</tbody></table>';
+  tableGrid.appendChild(turnoverCard);
+
+  // Holdings
+  const holdingsCard = document.getElementById("holdings-card");
+  const holdingsList = HOLDINGS.holdings || [];
+  document.getElementById("holdings-updated").textContent =
+    HOLDINGS.updated_at ? "更新於 " + HOLDINGS.updated_at : "";
+  if (!holdingsList.length) {
+    holdingsCard.innerHTML = '<p class="holdings-empty">尚未設定持股，告訴 Claude 你的持股代號、股數與均價即可加入。</p>';
+  } else {
+    const priceByCode = {};
+    (POSTMARKET.watchlist && POSTMARKET.watchlist.matches || []).forEach(function (r) {
+      priceByCode[r.code] = r;
+    });
+    let totalCost = 0, totalValue = 0;
+    const rowsHtml = holdingsList.map(function (h) {
+      const quote = priceByCode[h.code];
+      const price = quote ? quote.close : null;
+      const cost = h.shares * h.avg_cost;
+      const value = price !== null ? h.shares * price : null;
+      const pnl = value !== null ? value - cost : null;
+      const pnlPct = pnl !== null && cost > 0 ? (pnl / cost * 100) : null;
+      totalCost += cost;
+      if (value !== null) totalValue += value; else totalValue += cost;
+      const cls = deltaClass(pnl);
+      return '<tr>' +
+        '<td>' + h.code + (quote ? '<div class="name">' + quote.name + '</div>' : '') + '</td>' +
+        '<td class="num">' + fmtInt(h.shares) + '</td>' +
+        '<td class="num">' + fmtNum(h.avg_cost, 2) + '</td>' +
+        '<td class="num">' + (price !== null ? fmtNum(price, 2) : "N/A") + '</td>' +
+        '<td class="num ' + cls + '">' + (pnl !== null ? (pnl > 0 ? "+" : "") + fmtInt(pnl) : "N/A") + '</td>' +
+        '<td class="num ' + cls + '">' + (pnlPct !== null ? fmtPct(pnlPct) : "N/A") + '</td>' +
+        '</tr>';
+    }).join("");
+    const totalPnl = totalValue - totalCost;
+    const totalPnlPct = totalCost > 0 ? (totalPnl / totalCost * 100) : null;
+    const totalCls = deltaClass(totalPnl);
+    holdingsCard.innerHTML =
+      '<div class="holdings-summary">' +
+      '<div class="holdings-stat">總成本<b class="num">NT$' + fmtInt(totalCost) + '</b></div>' +
+      '<div class="holdings-stat">總市值<b class="num">NT$' + fmtInt(totalValue) + '</b></div>' +
+      '<div class="holdings-stat">未實現損益<b class="num ' + totalCls + '">' + (totalPnl > 0 ? "+" : "") + fmtInt(totalPnl) +
+      (totalPnlPct !== null ? '　(' + fmtPct(totalPnlPct) + ')' : '') + '</b></div>' +
+      '</div>' +
+      '<table><thead><tr><th>代號／名稱</th><th>股數</th><th>均價</th><th>現價</th><th>損益</th><th>損益%</th></tr></thead>' +
+      '<tbody>' + rowsHtml + '</tbody></table>';
+  }
 
   // Deep research report
   document.getElementById("report-title").textContent = REPORT_META.title || "完整研究報告";

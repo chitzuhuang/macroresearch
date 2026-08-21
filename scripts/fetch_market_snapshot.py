@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import json
 import re
 import ssl
@@ -13,6 +14,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 try:
@@ -23,7 +25,11 @@ except ImportError:  # Python 3.8 fallback
 
 TWSE_QUOTES_URL = "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
 TWSE_INDEX_URL = "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX"
+TWSE_T86_URL = "https://www.twse.com.tw/rwd/zh/fund/T86"
 TPEX_QUOTES_URL = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+TPEX_INDEX_URL = "https://www.tpex.org.tw/openapi/v1/tpex_index"
+TPEX_QFII_URL = "https://www.tpex.org.tw/openapi/v1/tpex_3insti_qfii_trading"
+TAIFEX_CSV_URL = "https://www.taifex.com.tw/cht/3/futDataDown"
 # Exchange-listed ETFs and similar products commonly use codes beginning with 0.
 # A four-digit code beginning with 1-9 is a conservative common-stock proxy.
 COMMON_STOCK_RE = re.compile(r"^[1-9]\d{3}$")
@@ -258,15 +264,6 @@ def _summarize_market(rows: list[dict[str, Any]]) -> dict[str, Any]:
     def public_row(row: dict[str, Any]) -> dict[str, Any]:
         return dict(row)
 
-    gainers = sorted(
-        (row for row in common if row["change_pct"] is not None),
-        key=lambda row: (row["change_pct"], row["value_twd"] or 0),
-        reverse=True,
-    )[:10]
-    losers = sorted(
-        (row for row in common if row["change_pct"] is not None),
-        key=lambda row: (row["change_pct"], -(row["value_twd"] or 0)),
-    )[:10]
     turnover = sorted(common, key=lambda row: row["value_twd"] or -1, reverse=True)[:10]
     return {
         "data_date": dates[-1] if dates else None,
@@ -278,18 +275,12 @@ def _summarize_market(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "missing_change": len(common) - len(valid_changes),
         "total_volume_shares": sum(row["volume_shares"] or 0 for row in common),
         "total_value_twd": sum(row["value_twd"] or 0 for row in common),
-        "top_gainers": [public_row(row) for row in gainers],
-        "top_decliners": [public_row(row) for row in losers],
         "top_turnover": [public_row(row) for row in turnover],
     }
 
 
 def _normalize_indices(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
-    wanted = {
-        "發行量加權股價指數",
-        "臺灣50指數",
-        "寶島股價指數",
-    }
+    wanted = {"發行量加權股價指數"}
     normalized = []
     for row in rows:
         name = str(row.get("指數", "")).strip()
@@ -309,6 +300,196 @@ def _normalize_indices(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
             }
         )
     return normalized
+
+
+def _fetch_tpex_composite_index(as_of_date: str | None) -> dict[str, Any] | None:
+    try:
+        rows = _fetch_json(TPEX_INDEX_URL)
+    except Exception:
+        return None
+    if not isinstance(rows, list) or not rows:
+        return None
+    target = (as_of_date or "").replace("-", "")
+    chosen = None
+    for row in rows:
+        if str(row.get("Date", "")).strip() == target:
+            chosen = row
+            break
+    if chosen is None:
+        chosen = rows[-1]
+    close = _number(chosen.get("Close"))
+    change = _number(chosen.get("Change"))
+    return {
+        "date": _iso_date(chosen.get("Date")),
+        "name": "櫃買指數",
+        "close": close,
+        "change": change,
+        "change_pct": _change_pct(close, change),
+    }
+
+
+def _fetch_taifex_tx(as_of_date: str | None) -> dict[str, Any] | None:
+    if not as_of_date:
+        return None
+    try:
+        year, month, day = as_of_date.split("-")
+    except ValueError:
+        return None
+    form_date = f"{year}/{month}/{day}"
+    payload = urlencode(
+        {
+            "queryStartDate": form_date,
+            "queryEndDate": form_date,
+            "commodity_id": "TX",
+            "down_type": "1",
+        }
+    ).encode("utf-8")
+    request = Request(
+        TAIFEX_CSV_URL,
+        data=payload,
+        headers={
+            "User-Agent": "taiwan-stock-daily-report/1.0",
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+    )
+    context = ssl.create_default_context()
+    try:
+        with urlopen(request, timeout=30, context=context) as response:
+            raw = response.read()
+    except Exception:
+        return None
+    try:
+        text = raw.decode("big5", errors="replace")
+    except Exception:
+        return None
+    rows = list(csv.reader(io.StringIO(text)))
+    if len(rows) < 2:
+        return None
+    header = [h.strip() for h in rows[0]]
+
+    def col(name: str) -> int | None:
+        try:
+            return header.index(name)
+        except ValueError:
+            return None
+
+    idx_contract = col("契約")
+    idx_month = col("到期月份(週別)")
+    idx_close = col("收盤價")
+    idx_change = col("漲跌價")
+    idx_change_pct = col("漲跌%")
+    idx_volume = col("成交量")
+    idx_session = col("交易時段")
+    if None in (idx_contract, idx_month, idx_close, idx_session):
+        return None
+    candidates = []
+    for row in rows[1:]:
+        if len(row) <= max(idx_contract, idx_month, idx_close, idx_session):
+            continue
+        contract = row[idx_contract].strip()
+        session = row[idx_session].strip()
+        month = row[idx_month].strip()
+        if contract != "TX" or session != "一般":
+            continue
+        if not re.fullmatch(r"\d{6}", month):
+            continue
+        candidates.append((month, row))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: item[0])
+    _, row = candidates[0]
+    close = _number(row[idx_close]) if idx_close is not None else None
+    change = _number(row[idx_change]) if idx_change is not None else None
+    change_pct = (
+        _number(row[idx_change_pct]) if idx_change_pct is not None else _change_pct(close, change)
+    )
+    volume = _integer(row[idx_volume]) if idx_volume is not None else None
+    return {
+        "date": as_of_date,
+        "name": "臺股期貨（大台指期，近月）",
+        "close": close,
+        "change": change,
+        "change_pct": change_pct,
+        "volume": volume,
+    }
+
+
+def _fetch_twse_foreign_flows(as_of_date: str | None) -> list[dict[str, Any]]:
+    if not as_of_date:
+        return []
+    date_str = as_of_date.replace("-", "")
+    url = f"{TWSE_T86_URL}?date={date_str}&selectType=ALL&response=json"
+    try:
+        payload = _fetch_json(url)
+    except Exception:
+        return []
+    if not isinstance(payload, dict):
+        return []
+    fields = payload.get("fields") or []
+    rows = payload.get("data") or []
+    try:
+        code_idx = fields.index("證券代號")
+        name_idx = fields.index("證券名稱")
+        net_idx = fields.index("外陸資買賣超股數(不含外資自營商)")
+    except ValueError:
+        return []
+    out: list[dict[str, Any]] = []
+    for row in rows:
+        if len(row) <= max(code_idx, name_idx, net_idx):
+            continue
+        code = str(row[code_idx]).strip()
+        if not COMMON_STOCK_RE.fullmatch(code):
+            continue
+        net = _integer(row[net_idx])
+        if net is None:
+            continue
+        out.append(
+            {
+                "market": "TWSE",
+                "code": code,
+                "name": str(row[name_idx]).strip(),
+                "foreign_net_shares": net,
+            }
+        )
+    return out
+
+
+def _fetch_tpex_foreign_flows() -> list[dict[str, Any]]:
+    try:
+        rows = _fetch_json(TPEX_QFII_URL)
+    except Exception:
+        return []
+    if not isinstance(rows, list):
+        return []
+    out: list[dict[str, Any]] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        norm = {re.sub(r"\s+", "", str(k)): v for k, v in row.items()}
+        code = str(norm.get("SecuritiesCompanyCode", "")).strip()
+        if not COMMON_STOCK_RE.fullmatch(code):
+            continue
+        net = _integer(norm.get("ForeignInvestorsIncludeMainlandAreaInvestors-Difference"))
+        if net is None:
+            continue
+        out.append(
+            {
+                "market": "TPEX",
+                "code": code,
+                "name": str(norm.get("CompanyName", "")).strip(),
+                "foreign_net_shares": net,
+            }
+        )
+    return out
+
+
+def _build_foreign_flows(as_of_date: str | None) -> dict[str, Any]:
+    rows = _fetch_twse_foreign_flows(as_of_date) + _fetch_tpex_foreign_flows()
+    for row in rows:
+        row["foreign_net_lots"] = round(row["foreign_net_shares"] / 1000.0, 1)
+    top_buy = sorted(rows, key=lambda r: r["foreign_net_shares"], reverse=True)[:10]
+    top_sell = sorted(rows, key=lambda r: r["foreign_net_shares"])[:10]
+    return {"top_buy": top_buy, "top_sell": top_sell}
 
 
 def _official_snapshot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, str]]]:
@@ -342,6 +523,7 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
     errors: list[dict[str, str]] = []
     indices: list[dict[str, Any]] = []
     sources: list[dict[str, str]] = []
+    foreign_flows: dict[str, Any] = {"top_buy": [], "top_sell": []}
 
     if input_path is not None:
         raw_rows = _load_uploaded(input_path)
@@ -355,6 +537,10 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
                 {"name": "TWSE daily trading data", "location": TWSE_QUOTES_URL},
                 {"name": "TWSE daily indices", "location": TWSE_INDEX_URL},
                 {"name": "TPEx closing quotes", "location": TPEX_QUOTES_URL},
+                {"name": "TWSE 三大法人買賣超 (T86)", "location": TWSE_T86_URL},
+                {"name": "TPEx 三大法人買賣超", "location": TPEX_QFII_URL},
+                {"name": "TPEx 櫃買指數", "location": TPEX_INDEX_URL},
+                {"name": "TAIFEX 臺股期貨每日行情", "location": TAIFEX_CSV_URL},
             ]
         )
 
@@ -363,6 +549,17 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
         grouped.setdefault(row["market"], []).append(row)
     markets = {market: _summarize_market(market_rows) for market, market_rows in sorted(grouped.items())}
     market_dates = sorted({summary["data_date"] for summary in markets.values() if summary["data_date"]})
+    as_of_date = market_dates[-1] if market_dates else None
+
+    if input_path is None:
+        tpex_index = _fetch_tpex_composite_index(as_of_date)
+        if tpex_index:
+            indices.append(tpex_index)
+        tx_futures = _fetch_taifex_tx(as_of_date)
+        if tx_futures:
+            indices.append(tx_futures)
+        foreign_flows = _build_foreign_flows(as_of_date)
+
     matches = [row for row in rows if row["code"] in watchlist]
     unmatched = sorted(set(watchlist) - {row["code"] for row in matches})
     warnings = []
@@ -373,12 +570,14 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
         warnings.append("Market source dates differ; do not aggregate cross-market statistics.")
     if not rows:
         warnings.append("No market rows were available from the selected sources.")
+    if input_path is None and not foreign_flows["top_buy"] and not foreign_flows["top_sell"]:
+        warnings.append("Foreign-investor net buy/sell data was unavailable for this date.")
 
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": _now_taipei().isoformat(timespec="seconds"),
         "input_mode": "uploaded_file" if input_path else "official_latest",
-        "as_of_date": market_dates[-1] if market_dates else None,
+        "as_of_date": as_of_date,
         "sources": sources,
         "quality": {
             "date_consistent": len(market_dates) <= 1,
@@ -388,6 +587,7 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
         "errors": errors,
         "indices": indices,
         "markets": markets,
+        "foreign_flows": foreign_flows,
         "watchlist": {
             "requested": watchlist,
             "matches": matches,
