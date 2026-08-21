@@ -30,6 +30,10 @@ TPEX_QUOTES_URL = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
 TPEX_INDEX_URL = "https://www.tpex.org.tw/openapi/v1/tpex_index"
 TPEX_QFII_URL = "https://www.tpex.org.tw/openapi/v1/tpex_3insti_qfii_trading"
 TAIFEX_CSV_URL = "https://www.taifex.com.tw/cht/3/futDataDown"
+# TWSE's daily STOCK_DAY_ALL file can lag a session behind TPEx's OpenAPI (it
+# is only finalized well after the close). For watchlist/holdings quotes we
+# want same-day prices, so fall back to TWSE's real-time quote endpoint.
+MIS_QUOTE_URL = "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
 # Exchange-listed ETFs and similar products commonly use codes beginning with 0.
 # A four-digit code beginning with 1-9 is a conservative common-stock proxy.
 COMMON_STOCK_RE = re.compile(r"^[1-9]\d{3}$")
@@ -73,6 +77,51 @@ def _fetch_json(url: str) -> Any:
         context.verify_flags &= ~strict_flag
     with urlopen(request, timeout=30, context=context) as response:
         return json.loads(response.read().decode("utf-8-sig"))
+
+
+def _fetch_mis_quotes(codes: list[str]) -> dict[str, dict[str, Any]]:
+    """Fetch same-day real-time/closing quotes for specific codes from TWSE's
+    MIS endpoint, trying both the TWSE (tse_) and TPEx (otc_) listings since
+    the market isn't known ahead of time. Used to refresh watchlist prices
+    when the daily OpenAPI files haven't caught up to the current session."""
+    if not codes:
+        return {}
+    channels = []
+    for code in codes:
+        channels.append(f"tse_{code}.tw")
+        channels.append(f"otc_{code}.tw")
+    query = urlencode({"ex_ch": "|".join(channels), "json": "1", "delay": "0"})
+    url = f"{MIS_QUOTE_URL}?{query}"
+    request = Request(url, headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"})
+    context = ssl.create_default_context()
+    strict_flag = getattr(ssl, "VERIFY_X509_STRICT", 0)
+    if strict_flag:
+        context.verify_flags &= ~strict_flag
+    with urlopen(request, timeout=30, context=context) as response:
+        payload = json.loads(response.read().decode("utf-8-sig"))
+
+    quotes: dict[str, dict[str, Any]] = {}
+    for item in payload.get("msgArray", []):
+        code = item.get("c")
+        if not code:
+            continue
+        close = _number(item.get("z"))
+        prev_close = _number(item.get("y"))
+        if close is None:
+            close = prev_close
+        if close is None:
+            continue
+        change = round(close - prev_close, 4) if prev_close is not None else None
+        quotes[code] = {
+            "market": "TWSE" if item.get("ex") == "tse" else "TPEX",
+            "code": code,
+            "name": item.get("n") or "",
+            "date": _iso_date(item.get("d")),
+            "close": close,
+            "change": change,
+            "change_pct": _change_pct(close, change),
+        }
+    return quotes
 
 
 def _number(value: Any) -> float | None:
@@ -562,6 +611,22 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
 
     matches = [row for row in rows if row["code"] in watchlist]
     unmatched = sorted(set(watchlist) - {row["code"] for row in matches})
+
+    if input_path is None and watchlist:
+        try:
+            mis_quotes = _fetch_mis_quotes(watchlist)
+        except Exception:
+            mis_quotes = {}
+        for match in matches:
+            quote = mis_quotes.get(match["code"])
+            if quote and quote["date"] and (not match.get("date") or quote["date"] > match["date"]):
+                match["date"] = quote["date"]
+                match["close"] = quote["close"]
+                match["change"] = quote["change"]
+                match["change_pct"] = quote["change_pct"]
+        if mis_quotes:
+            sources.append({"name": "TWSE MIS real-time quotes (watchlist refresh)", "location": MIS_QUOTE_URL})
+
     warnings = []
     for market, summary in markets.items():
         if market in {"TWSE", "TPEX"} and summary["common_stocks"] < 200:

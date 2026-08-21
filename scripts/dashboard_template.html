@@ -249,6 +249,7 @@
     box-shadow: var(--shadow);
   }
   .holdings-empty { color: var(--text-muted); font-style: italic; margin: 0; }
+  .holdings-note { color: var(--text-muted); font-size: 0.75rem; margin: 0 0 0.6rem; }
   .holdings-summary {
     display: flex;
     gap: 1.5rem;
@@ -531,7 +532,16 @@
     '<tbody>' + turnoverHtml + '</tbody></table>';
   tableGrid.appendChild(turnoverCard);
 
-  // Holdings
+  // Holdings — P&L calibrated against the user's actual 庫存 statement:
+  // cost is the raw shares×avg_cost (no buy-side fee), market value shown
+  // is the raw shares×price, and only the P&L nets out the sell-side
+  // brokerage commission (full rate, no discount) and transaction tax.
+  const COMMISSION_RATE = 0.001425; // 手續費 1.425‰（未打折）
+  const ETF_TAX_RATE = 0.001;   // 證券交易税：ETF 0.1%
+  const STOCK_TAX_RATE = 0.003; // 證券交易税：一般股票 0.3%
+  function isEtfCode(code) { return /^00/.test(code); }
+  function floorFee(amount) { return Math.floor(amount * COMMISSION_RATE); }
+
   const holdingsCard = document.getElementById("holdings-card");
   const holdingsList = HOLDINGS.holdings || [];
   document.getElementById("holdings-updated").textContent =
@@ -543,16 +553,22 @@
     (POSTMARKET.watchlist && POSTMARKET.watchlist.matches || []).forEach(function (r) {
       priceByCode[r.code] = r;
     });
-    let totalCost = 0, totalValue = 0;
+    let totalCost = 0, totalValue = 0, totalPnl = 0;
     const rowsHtml = holdingsList.map(function (h) {
       const quote = priceByCode[h.code];
       const price = quote ? quote.close : null;
       const cost = h.shares * h.avg_cost;
-      const value = price !== null ? h.shares * price : null;
-      const pnl = value !== null ? value - cost : null;
-      const pnlPct = pnl !== null && cost > 0 ? (pnl / cost * 100) : null;
+      let value = null, pnl = null, pnlPct = null;
+      if (price !== null) {
+        value = h.shares * price;
+        const taxRate = isEtfCode(h.code) ? ETF_TAX_RATE : STOCK_TAX_RATE;
+        const netValue = value - floorFee(value) - Math.floor(value * taxRate);
+        pnl = netValue - cost;
+        pnlPct = cost > 0 ? (pnl / cost * 100) : null;
+      }
       totalCost += cost;
-      if (value !== null) totalValue += value; else totalValue += cost;
+      totalValue += value !== null ? value : cost;
+      totalPnl += pnl !== null ? pnl : 0;
       const cls = deltaClass(pnl);
       return '<tr>' +
         '<td>' + h.code + (quote ? '<div class="name">' + quote.name + '</div>' : '') + '</td>' +
@@ -563,7 +579,6 @@
         '<td class="num ' + cls + '">' + (pnlPct !== null ? fmtPct(pnlPct) : "N/A") + '</td>' +
         '</tr>';
     }).join("");
-    const totalPnl = totalValue - totalCost;
     const totalPnlPct = totalCost > 0 ? (totalPnl / totalCost * 100) : null;
     const totalCls = deltaClass(totalPnl);
     holdingsCard.innerHTML =
@@ -573,6 +588,7 @@
       '<div class="holdings-stat">未實現損益<b class="num ' + totalCls + '">' + (totalPnl > 0 ? "+" : "") + fmtInt(totalPnl) +
       (totalPnlPct !== null ? '　(' + fmtPct(totalPnlPct) + ')' : '') + '</b></div>' +
       '</div>' +
+      '<p class="holdings-note">損益已扣除賣出手續費（1.425‰）與證交税（ETF 0.1%／個股 0.3%）；市值為現價×股數原始金額，未扣費用</p>' +
       '<table><thead><tr><th>代號／名稱</th><th>股數</th><th>均價</th><th>現價</th><th>損益</th><th>損益%</th></tr></thead>' +
       '<tbody>' + rowsHtml + '</tbody></table>';
   }
