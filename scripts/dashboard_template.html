@@ -1,0 +1,429 @@
+<title>台股觀測站</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #f2f5f3;
+    --surface: #ffffff;
+    --surface-2: #e8ede9;
+    --text: #16211d;
+    --text-muted: #57655e;
+    --border: #d8dfda;
+    --accent: #0f6b5c;
+    --accent-soft: #dbe9e4;
+    --up: #c23b30;
+    --down: #2f8f5b;
+    --flat: #8a938d;
+    --shadow: 0 1px 2px rgba(22, 33, 29, 0.06), 0 6px 20px rgba(22, 33, 29, 0.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1613;
+      --surface: #161e1a;
+      --surface-2: #1e2924;
+      --text: #e8ede9;
+      --text-muted: #9caa9f;
+      --border: #2a352f;
+      --accent: #4ad9b8;
+      --accent-soft: #1c342c;
+      --up: #ff6f5a;
+      --down: #57cf8f;
+      --flat: #6d766f;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1613;
+    --surface: #161e1a;
+    --surface-2: #1e2924;
+    --text: #e8ede9;
+    --text-muted: #9caa9f;
+    --border: #2a352f;
+    --accent: #4ad9b8;
+    --accent-soft: #1c342c;
+    --up: #ff6f5a;
+    --down: #57cf8f;
+    --flat: #6d766f;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans TC", "Heiti TC", "PingFang TC", sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 2.25rem 1.25rem 4rem;
+  }
+  .num { font-family: "IBM Plex Mono", ui-monospace, "SF Mono", monospace; font-variant-numeric: tabular-nums; }
+
+  /* Masthead */
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+  .masthead h1 {
+    font-family: "Noto Serif TC", "Songti TC", serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin: 0;
+    text-wrap: balance;
+    letter-spacing: 0.01em;
+  }
+  .masthead .date {
+    font-family: "IBM Plex Mono", monospace;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.65rem;
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+  .chip .dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+    flex: none;
+  }
+
+  section { margin-bottom: 2.5rem; }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+    flex-wrap: wrap;
+  }
+  .section-head h2 {
+    font-family: "Noto Serif TC", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .section-head .updated {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-family: "IBM Plex Mono", monospace;
+  }
+  .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  /* Pre-market */
+  .headline {
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.15rem;
+    font-size: 1.02rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-wrap: balance;
+  }
+  .brief-list { display: flex; flex-direction: column; gap: 0.6rem; }
+  .brief-item {
+    display: grid;
+    grid-template-columns: 4.2rem 1fr;
+    gap: 0.75rem;
+    padding: 0.7rem 0.9rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+  .brief-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--accent);
+    align-self: start;
+  }
+  .brief-body p { margin: 0 0 0.3rem; }
+  .brief-src { font-size: 0.76rem; color: var(--text-muted); }
+  .brief-src a { color: inherit; }
+
+  /* Index cards */
+  .idx-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .idx-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.95rem 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  .idx-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.3rem; }
+  .idx-close { font-size: 1.6rem; font-weight: 600; }
+  .idx-delta { font-size: 0.92rem; margin-top: 0.15rem; }
+  .up { color: var(--up); }
+  .down { color: var(--down); }
+  .flat { color: var(--flat); }
+
+  /* Breadth */
+  .breadth-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 1.25rem;
+  }
+  .breadth-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  .breadth-card h3 { margin: 0 0 0.6rem; font-size: 0.95rem; font-family: "Noto Serif TC", serif; }
+  .breadth-bar {
+    display: flex;
+    height: 10px;
+    border-radius: 999px;
+    overflow: hidden;
+    background: var(--surface-2);
+    margin-bottom: 0.55rem;
+  }
+  .breadth-bar span { height: 100%; }
+  .breadth-legend {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  .breadth-legend b.num { font-weight: 600; }
+  .breadth-turnover {
+    margin-top: 0.6rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Tables */
+  .table-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .table-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1rem 0.5rem;
+    box-shadow: var(--shadow);
+  }
+  .table-card h3 {
+    margin: 0 0 0.6rem;
+    font-size: 0.92rem;
+    font-family: "Noto Serif TC", serif;
+  }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th, td { text-align: right; padding: 0.35rem 0.3rem; white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th {
+    font-weight: 500;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.75rem;
+  }
+  tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
+  td.name { color: var(--text-muted); font-size: 0.8rem; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding-top: 1.1rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  footer .disclaimer { margin-top: 0.5rem; }
+  footer a { color: var(--accent); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .idx-card, .brief-item, .breadth-card, .table-card { transition: box-shadow 0.15s ease; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="masthead">
+    <h1>台股觀測站</h1>
+    <div class="date" id="masthead-date"></div>
+  </div>
+
+  <section id="premarket-section">
+    <div class="section-head">
+      <h2><span class="eyebrow">盤前</span>&nbsp;總經與新聞摘要</h2>
+      <span class="updated" id="premarket-updated"></span>
+    </div>
+    <div class="headline" id="premarket-headline"></div>
+    <div class="brief-list" id="premarket-list"></div>
+  </section>
+
+  <section id="postmarket-section">
+    <div class="section-head">
+      <h2><span class="eyebrow">盤後</span>&nbsp;市場快照</h2>
+      <span class="updated" id="postmarket-updated"></span>
+    </div>
+    <div class="idx-row" id="idx-row"></div>
+    <div class="breadth-grid" id="breadth-grid"></div>
+    <div class="table-grid" id="table-grid"></div>
+  </section>
+
+  <footer>
+    <div>資料來源：TWSE OpenAPI、TPEx OpenAPI、經濟部統計處、行政院、央行、金管會、Federal Reserve、Bloomberg、CNBC 等（各項目詳見盤前摘要之來源連結）。盤後市場數據透過 <code>scripts/fetch_market_snapshot.py</code> 正規化。</div>
+    <div class="disclaimer">本頁僅供一般研究與資訊整理，不是個人化投資建議、招攬或保證。候選標的仍需依投資人目標、風險承受度、價格與最新資訊獨立評估。</div>
+  </footer>
+</div>
+
+<script>
+  const PREMARKET = __PREMARKET_JSON__;
+  const POSTMARKET = __POSTMARKET_JSON__;
+
+  function fmtInt(n) {
+    if (n === null || n === undefined) return "N/A";
+    return Math.round(n).toLocaleString("en-US");
+  }
+  function fmtPct(n) {
+    if (n === null || n === undefined) return "N/A";
+    const s = n > 0 ? "+" : "";
+    return s + n.toFixed(2) + "%";
+  }
+  function fmtNum(n, d) {
+    if (n === null || n === undefined) return "N/A";
+    return n.toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+  }
+  function deltaClass(n) {
+    if (n === null || n === undefined || n === 0) return "flat";
+    return n > 0 ? "up" : "down";
+  }
+
+  // Masthead date
+  document.getElementById("masthead-date").textContent =
+    (POSTMARKET.as_of_date || "—") + " 台股資料日 · 產生於 " + (PREMARKET.as_of || "");
+
+  // Pre-market section
+  document.getElementById("premarket-updated").textContent = "更新於 " + (PREMARKET.as_of || "—");
+  document.getElementById("premarket-headline").textContent = PREMARKET.headline || "";
+  const list = document.getElementById("premarket-list");
+  (PREMARKET.items || []).forEach(function (item) {
+    const row = document.createElement("div");
+    row.className = "brief-item";
+    row.innerHTML =
+      '<div class="brief-tag">' + item.category + '</div>' +
+      '<div class="brief-body"><p>' + item.text + '</p>' +
+      '<div class="brief-src"><a href="' + item.source_url + '" target="_blank" rel="noopener">' +
+      item.source_name + '</a> · ' + item.date + '</div></div>';
+    list.appendChild(row);
+  });
+
+  // Post-market: indices
+  document.getElementById("postmarket-updated").textContent =
+    "更新於 " + (POSTMARKET.generated_at ? POSTMARKET.generated_at.replace("T", " ").slice(0, 16) : "—");
+  const idxRow = document.getElementById("idx-row");
+  (POSTMARKET.indices || []).forEach(function (idx) {
+    const cls = deltaClass(idx.change);
+    const card = document.createElement("div");
+    card.className = "idx-card";
+    card.innerHTML =
+      '<div class="idx-name">' + idx.name + '</div>' +
+      '<div class="idx-close num">' + fmtNum(idx.close, 2) + '</div>' +
+      '<div class="idx-delta num ' + cls + '">' +
+      (idx.change > 0 ? "+" : "") + fmtNum(idx.change, 2) + '　' + fmtPct(idx.change_pct) + '</div>';
+    idxRow.appendChild(card);
+  });
+
+  // Post-market: breadth
+  const breadthGrid = document.getElementById("breadth-grid");
+  Object.keys(POSTMARKET.markets || {}).forEach(function (marketName) {
+    const m = POSTMARKET.markets[marketName];
+    const total = (m.advancers || 0) + (m.decliners || 0) + (m.unchanged || 0) + (m.missing_change || 0);
+    const pct = function (n) { return total > 0 ? (n / total * 100) : 0; };
+    const card = document.createElement("div");
+    card.className = "breadth-card";
+    card.innerHTML =
+      '<h3>' + marketName + '　' + '<span class="num" style="font-size:0.8rem;color:var(--text-muted)">' + (m.data_date || "") + '</span></h3>' +
+      '<div class="breadth-bar">' +
+      '<span style="width:' + pct(m.advancers) + '%;background:var(--up)"></span>' +
+      '<span style="width:' + pct(m.decliners) + '%;background:var(--down)"></span>' +
+      '<span style="width:' + pct(m.unchanged) + '%;background:var(--flat)"></span>' +
+      '</div>' +
+      '<div class="breadth-legend">' +
+      '<span class="up">▲ <b class="num">' + fmtInt(m.advancers) + '</b></span>' +
+      '<span class="down">▼ <b class="num">' + fmtInt(m.decliners) + '</b></span>' +
+      '<span class="flat">— <b class="num">' + fmtInt(m.unchanged) + '</b></span>' +
+      '</div>' +
+      '<div class="breadth-turnover">' +
+      '<span>普通股 <b class="num">' + fmtInt(m.common_stocks) + '</b> 檔</span>' +
+      '<span>成交值 <b class="num">NT$' + fmtInt((m.total_value_twd || 0) / 1e8) + '</b> 億</span>' +
+      '</div>';
+    breadthGrid.appendChild(card);
+  });
+
+  // Post-market: leaderboards
+  const tableGrid = document.getElementById("table-grid");
+  const boards = [
+    { key: "top_gainers", title: "漲幅居前" },
+    { key: "top_decliners", title: "跌幅居前" },
+    { key: "top_turnover", title: "成交值居前" }
+  ];
+  const allRows = [];
+  Object.keys(POSTMARKET.markets || {}).forEach(function (marketName) {
+    (POSTMARKET.markets[marketName][boards[0].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_gainers" }, r)); });
+    (POSTMARKET.markets[marketName][boards[1].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_decliners" }, r)); });
+    (POSTMARKET.markets[marketName][boards[2].key] || []).forEach(function (r) { allRows.push(Object.assign({ mkt: marketName, board: "top_turnover" }, r)); });
+  });
+
+  boards.forEach(function (board) {
+    const rows = allRows.filter(function (r) { return r.board === board.key; })
+      .sort(function (a, b) {
+        if (board.key === "top_gainers") return (b.change_pct || -999) - (a.change_pct || -999);
+        if (board.key === "top_decliners") return (a.change_pct || 999) - (b.change_pct || 999);
+        return (b.value_twd || 0) - (a.value_twd || 0);
+      })
+      .slice(0, 8);
+    const card = document.createElement("div");
+    card.className = "table-card";
+    let rowsHtml = rows.map(function (r) {
+      const cls = deltaClass(r.change);
+      return '<tr>' +
+        '<td>' + r.code + '<div class="name">' + r.name + '</div></td>' +
+        '<td class="num">' + fmtNum(r.close, 2) + '</td>' +
+        '<td class="num ' + cls + '">' + fmtPct(r.change_pct) + '</td>' +
+        '<td class="num">' + fmtInt((r.value_twd || 0) / 1e6) + '</td>' +
+        '</tr>';
+    }).join("");
+    card.innerHTML =
+      '<h3>' + board.title + '</h3>' +
+      '<div class="table-scroll"><table><thead><tr><th>代號／名稱</th><th>收盤</th><th>漲跌幅</th><th>成交值(百萬)</th></tr></thead>' +
+      '<tbody>' + rowsHtml + '</tbody></table></div>';
+    tableGrid.appendChild(card);
+  });
+</script>

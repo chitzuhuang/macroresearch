@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-21T08:30:00+08:00",
+  "as_of": "2026-08-21 08:30",
+  "headline": "台積電 7 月營收創高、出口訂單創歷史新高，紅燈景氣延續；美方 Nvidia 對中晶片管制審查與 Fed 內部分歧為主要尾端風險。",
+  "items": [
+    {
+      "category": "企業",
+      "text": "台積電 7 月自結營收 NT$467.58bn（+44.7% YoY），董座重申 AI 需求「依然極為強勁」。",
+      "source_name": "台積電自結營收 (2026-08-10)",
+      "source_url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+      "date": "2026-08-10"
+    },
+    {
+      "category": "總經",
+      "text": "7 月出口訂單 US$97.94bn（+61.9% YoY）創歷史新高，連續 18 個月成長，AI／伺服器需求為主要驅動。",
+      "source_name": "經濟部統計處 (2026-08-20)",
+      "source_url": "https://www.moea.gov.tw/Mns/dos/bulletin/Bulletin.aspx?kind=5&html=1&menu_id=6724",
+      "date": "2026-08-20"
+    },
+    {
+      "category": "政策",
+      "text": "美方對中國業者透過境外／租賃算力取得 Nvidia 晶片存取權展開審查，若收緊將影響 AI 供應鏈訂單能見度，屬近期最大尾端風險。",
+      "source_name": "Bloomberg (2026-08-07)／CNBC (2026-08-19)",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs",
+      "date": "2026-08-19"
+    },
+    {
+      "category": "總經",
+      "text": "美國 7 月非農就業 -23,000 人，失業率升至 4.1%，但 FOMC 7/29 票數 9–3（3 席主張升息）顯示內部對通膨仍有疑慮。",
+      "source_name": "BLS／Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "date": "2026-08-07"
+    },
+    {
+      "category": "政策",
+      "text": "美國 232 條款多晶矽關稅已簽署，2026-12-04 生效，台灣獲非疊加式 15% 優惠稅率；惟多家台灣太陽能廠商公開表示影響有限。",
+      "source_name": "行政院官網 (2026-08-06)",
+      "source_url": "https://www.ey.gov.tw/otn/F0CF7FEE514388C5/b0784222-5926-4e94-b422-3cf346ccb829",
+      "date": "2026-08-06"
+    },
+    {
+      "category": "企業",
+      "text": "台新／新光銀行、永豐金／京城銀行兩起合併案均已獲金管會核准，法定合併日訂為 2027-01-01。",
+      "source_name": "金管會／行政院",
+      "source_url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/f2b7d6b1-3b3c-4b99-81fb-573ec6528670",
+      "date": "2026-08-04"
+    },
+    {
+      "category": "總經",
+      "text": "央行連續第 9 次維持利率不變（重貼現率 2.00%），理事會內部已出現主張升息之少數意見。",
+      "source_name": "中央銀行 (2026-06-18)",
+      "source_url": "https://www.cbc.gov.tw/tw/cp-971-192417-50f40-1.html",
+      "date": "2026-06-18"
+    }
+  ]
+}
