@@ -258,6 +258,68 @@
   tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
   td.name { color: var(--text-muted); font-size: 0.8rem; }
 
+  /* Deep research report (server-rendered from Markdown) */
+  .report-content {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+    box-shadow: var(--shadow);
+    max-width: 72ch;
+  }
+  .report-content h1 {
+    font-family: "Noto Serif TC", serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    text-wrap: balance;
+  }
+  .report-content h2 {
+    font-family: "Noto Serif TC", serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 1.8rem 0 0.7rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--border);
+  }
+  .report-content h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .report-content h3 { font-size: 1rem; font-weight: 700; margin: 1.2rem 0 0.5rem; }
+  .report-content p { margin: 0 0 0.85rem; }
+  .report-content ul { margin: 0 0 0.85rem; padding-left: 1.3rem; }
+  .report-content li { margin-bottom: 0.35rem; }
+  .report-content hr { display: none; }
+  .report-content code {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    background: var(--surface-2);
+    border-radius: 4px;
+    padding: 0.1em 0.35em;
+    font-size: 0.9em;
+  }
+  .report-content a { color: var(--accent); }
+  .report-content .table-scroll,
+  .report-content table { max-width: 100%; }
+  .report-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin: 0 0 1.1rem;
+    display: block;
+    overflow-x: auto;
+  }
+  .report-content th, .report-content td {
+    text-align: left;
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .report-content th {
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  .report-empty { color: var(--text-muted); font-style: italic; }
+
   footer {
     border-top: 1px solid var(--border);
     padding-top: 1.1rem;
@@ -297,6 +359,14 @@
     <div class="table-grid" id="table-grid"></div>
   </section>
 
+  <section id="report-section">
+    <div class="section-head">
+      <h2><span class="eyebrow">深度研究</span>&nbsp;<span id="report-title">完整研究報告</span></h2>
+      <span class="updated" id="report-updated"></span>
+    </div>
+    <div class="report-content" id="report-content">__REPORT_HTML__</div>
+  </section>
+
   <footer>
     <div>資料來源：TWSE OpenAPI、TPEx OpenAPI、經濟部統計處、行政院、央行、金管會、Federal Reserve、Bloomberg、CNBC 等（各項目詳見盤前摘要之來源連結）。盤後市場數據透過 <code>scripts/fetch_market_snapshot.py</code> 正規化。</div>
     <div class="disclaimer">本頁僅供一般研究與資訊整理，不是個人化投資建議、招攬或保證。候選標的仍需依投資人目標、風險承受度、價格與最新資訊獨立評估。</div>
@@ -305,9 +375,11 @@
 
 <script type="application/json" id="premarket-data">__PREMARKET_JSON__</script>
 <script type="application/json" id="postmarket-data">__POSTMARKET_JSON__</script>
+<script type="application/json" id="report-meta-data">__REPORT_META_JSON__</script>
 <script>
   const PREMARKET = JSON.parse(document.getElementById("premarket-data").textContent);
   const POSTMARKET = JSON.parse(document.getElementById("postmarket-data").textContent);
+  const REPORT_META = JSON.parse(document.getElementById("report-meta-data").textContent);
 
   function fmtInt(n) {
     if (n === null || n === undefined) return "N/A";
@@ -428,4 +500,13 @@
       '<tbody>' + rowsHtml + '</tbody></table></div>';
     tableGrid.appendChild(card);
   });
+
+  // Deep research report
+  document.getElementById("report-title").textContent = REPORT_META.title || "完整研究報告";
+  document.getElementById("report-updated").textContent =
+    REPORT_META.as_of ? "更新於 " + REPORT_META.as_of : "尚未產生";
+  if (!REPORT_META.as_of) {
+    document.getElementById("report-content").innerHTML =
+      '<p class="report-empty">深度研究報告尚未產生，將於下次排程執行後顯示。</p>';
+  }
 </script>
