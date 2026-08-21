@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-21T16:30:28+08:00",
+  "generated_at": "2026-08-21T22:01:58+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-08-21",
   "sources": [
@@ -33,6 +33,10 @@
       "location": "https://www.taifex.com.tw/cht/3/futDataDown"
     },
     {
+      "name": "TWSE 大盤成交資訊（即時，非 openapi 鏡像）",
+      "location": "https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK"
+    },
+    {
       "name": "TWSE MIS real-time quotes (watchlist refresh)",
       "location": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
     }
@@ -50,11 +54,13 @@
   "errors": [],
   "indices": [
     {
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "name": "發行量加權股價指數",
-      "close": 44933.74,
-      "change": 214.39,
-      "change_pct": 0.48
+      "close": 45224.29,
+      "change": 290.55,
+      "change_pct": 0.6466,
+      "volume_shares": 8208832354,
+      "value_twd": 754905335886
     },
     {
       "date": "2026-08-21",

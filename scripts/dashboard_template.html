@@ -446,6 +446,10 @@
     let extra = "";
     if (idx.volume !== undefined && idx.volume !== null) {
       extra = '<div class="idx-extra num">成交量 ' + fmtInt(idx.volume) + ' 口</div>';
+    } else if (idx.volume_shares !== undefined && idx.volume_shares !== null) {
+      extra = '<div class="idx-extra num">成交量 ' + fmtNum(idx.volume_shares / 1e8, 1) + ' 億股' +
+        (idx.value_twd !== undefined && idx.value_twd !== null ? '　成交值 NT$' + fmtInt(idx.value_twd / 1e8) + ' 億' : '') +
+        '</div>';
     }
     card.innerHTML =
       '<div class="idx-name">' + idx.name + '</div>' +
@@ -537,8 +541,8 @@
   // is the raw shares×price, and only the P&L nets out the sell-side
   // brokerage commission (full rate, no discount) and transaction tax.
   const COMMISSION_RATE = 0.001425; // 手續費 1.425‰（未打折）
-  const ETF_TAX_RATE = 0.001;   // 證券交易税：ETF 0.1%
-  const STOCK_TAX_RATE = 0.003; // 證券交易税：一般股票 0.3%
+  const ETF_TAX_RATE = 0.001;   // 證券交易稅：ETF 0.1%
+  const STOCK_TAX_RATE = 0.003; // 證券交易稅：一般股票 0.3%
   function isEtfCode(code) { return /^00/.test(code); }
   function floorFee(amount) { return Math.floor(amount * COMMISSION_RATE); }
 
@@ -588,7 +592,7 @@
       '<div class="holdings-stat">未實現損益<b class="num ' + totalCls + '">' + (totalPnl > 0 ? "+" : "") + fmtInt(totalPnl) +
       (totalPnlPct !== null ? '　(' + fmtPct(totalPnlPct) + ')' : '') + '</b></div>' +
       '</div>' +
-      '<p class="holdings-note">損益已扣除賣出手續費（1.425‰）與證交税（ETF 0.1%／個股 0.3%）；市值為現價×股數原始金額，未扣費用</p>' +
+      '<p class="holdings-note">損益已扣除賣出手續費（1.425‰）與證交稅（ETF 0.1%／個股 0.3%）；市值為現價×股數原始金額，未扣費用</p>' +
       '<table><thead><tr><th>代號／名稱</th><th>股數</th><th>均價</th><th>現價</th><th>損益</th><th>損益%</th></tr></thead>' +
       '<tbody>' + rowsHtml + '</tbody></table>';
   }

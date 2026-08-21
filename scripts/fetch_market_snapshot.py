@@ -34,6 +34,10 @@ TAIFEX_CSV_URL = "https://www.taifex.com.tw/cht/3/futDataDown"
 # is only finalized well after the close). For watchlist/holdings quotes we
 # want same-day prices, so fall back to TWSE's real-time quote endpoint.
 MIS_QUOTE_URL = "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
+# TWSE's openapi.twse.com.tw mirrors (STOCK_DAY_ALL, MI_INDEX, FMTQIK) can lag
+# a full session behind. The same data is available same-day on TWSE's own
+# website (non-mirrored "rwd" endpoints), so use that for the TAIEX headline.
+TWSE_RWD_FMTQIK_URL = "https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK"
 # Exchange-listed ETFs and similar products commonly use codes beginning with 0.
 # A four-digit code beginning with 1-9 is a conservative common-stock proxy.
 COMMON_STOCK_RE = re.compile(r"^[1-9]\d{3}$")
@@ -351,6 +355,35 @@ def _normalize_indices(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
     return normalized
 
 
+def _fetch_twse_taiex_realtime(as_of_date: str | None) -> dict[str, Any] | None:
+    """Fetch today's TAIEX close/change plus total market volume and value
+    from TWSE's own (non-mirrored) site, which updates same-day even when
+    the openapi.twse.com.tw mirrors are still a session behind."""
+    query_date = (as_of_date or _now_taipei().strftime("%Y-%m-%d")).replace("-", "")
+    url = f"{TWSE_RWD_FMTQIK_URL}?response=json&date={query_date}"
+    try:
+        payload = _fetch_json(url)
+    except Exception:
+        return None
+    rows = payload.get("data") if isinstance(payload, dict) else None
+    if not rows:
+        return None
+    last = rows[-1]
+    if len(last) < 5:
+        return None
+    close = _number(last[4])
+    change = _number(last[5]) if len(last) > 5 else None
+    return {
+        "date": _iso_date(last[0]),
+        "name": "發行量加權股價指數",
+        "close": close,
+        "change": change,
+        "change_pct": _change_pct(close, change),
+        "volume_shares": _integer(last[1]),
+        "value_twd": _integer(last[2]),
+    }
+
+
 def _fetch_tpex_composite_index(as_of_date: str | None) -> dict[str, Any] | None:
     try:
         rows = _fetch_json(TPEX_INDEX_URL)
@@ -601,6 +634,13 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
     as_of_date = market_dates[-1] if market_dates else None
 
     if input_path is None:
+        taiex_realtime = _fetch_twse_taiex_realtime(as_of_date)
+        if taiex_realtime and taiex_realtime["date"]:
+            stale = next((idx for idx in indices if idx["name"] == "發行量加權股價指數"), None)
+            if stale is None or not stale.get("date") or taiex_realtime["date"] > stale["date"]:
+                indices = [idx for idx in indices if idx["name"] != "發行量加權股價指數"]
+                indices.insert(0, taiex_realtime)
+                sources.append({"name": "TWSE 大盤成交資訊（即時，非 openapi 鏡像）", "location": TWSE_RWD_FMTQIK_URL})
         tpex_index = _fetch_tpex_composite_index(as_of_date)
         if tpex_index:
             indices.append(tpex_index)
