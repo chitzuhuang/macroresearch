@@ -22,10 +22,14 @@ def main() -> int:
     premarket = json.loads(args.premarket.read_text(encoding="utf-8"))
     postmarket = json.loads(args.postmarket.read_text(encoding="utf-8"))
 
+    def dumps_for_script(data: dict) -> str:
+        # Escape "</" so embedded text can never prematurely close the <script> tag.
+        return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
     html = template.replace(
-        "__PREMARKET_JSON__", json.dumps(premarket, ensure_ascii=False)
+        "__PREMARKET_JSON__", dumps_for_script(premarket)
     ).replace(
-        "__POSTMARKET_JSON__", json.dumps(postmarket, ensure_ascii=False)
+        "__POSTMARKET_JSON__", dumps_for_script(postmarket)
     )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)

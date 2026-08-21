@@ -303,9 +303,11 @@
   </footer>
 </div>
 
+<script type="application/json" id="premarket-data">__PREMARKET_JSON__</script>
+<script type="application/json" id="postmarket-data">__POSTMARKET_JSON__</script>
 <script>
-  const PREMARKET = __PREMARKET_JSON__;
-  const POSTMARKET = __POSTMARKET_JSON__;
+  const PREMARKET = JSON.parse(document.getElementById("premarket-data").textContent);
+  const POSTMARKET = JSON.parse(document.getElementById("postmarket-data").textContent);
 
   function fmtInt(n) {
     if (n === null || n === undefined) return "N/A";
