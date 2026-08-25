@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-24T16:09:57+08:00",
+  "generated_at": "2026-08-25T15:50:03+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-08-24",
   "sources": [
@@ -38,25 +38,33 @@
     }
   ],
   "quality": {
-    "date_consistent": false,
+    "date_consistent": true,
     "market_dates": [
-      "2026-08-21",
       "2026-08-24"
     ],
-    "warnings": [
-      "Market source dates differ; do not aggregate cross-market statistics."
-    ]
+    "warnings": []
   },
-  "errors": [],
+  "errors": [
+    {
+      "source": "twse_indices",
+      "url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "source": "twse_quotes",
+      "url": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
   "indices": [
     {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "name": "發行量加權股價指數",
-      "close": 44762.32,
-      "change": -461.97,
-      "change_pct": -1.0215,
-      "volume_shares": 8077193397,
-      "value_twd": 651904457621
+      "close": 45169.46,
+      "change": 407.14,
+      "change_pct": 0.9096,
+      "volume_shares": 8813086840,
+      "value_twd": 718570256167
     },
     {
       "date": "2026-08-24",
@@ -235,169 +243,6 @@
           "volume_shares": 3557000,
           "value_twd": 5297860000,
           "transactions": 2848
-        }
-      ]
-    },
-    "TWSE": {
-      "data_date": "2026-08-21",
-      "all_instruments": 1377,
-      "common_stocks": 1085,
-      "advancers": 592,
-      "decliners": 381,
-      "unchanged": 112,
-      "missing_change": 0,
-      "total_volume_shares": 3855473563,
-      "total_value_twd": 711209663609,
-      "top_turnover": [
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "2330",
-          "name": "台積電",
-          "open": 2375.0,
-          "high": 2410.0,
-          "low": 2365.0,
-          "close": 2410.0,
-          "change": 35.0,
-          "change_pct": 1.4737,
-          "volume_shares": 18922480,
-          "value_twd": 45275662448,
-          "transactions": 59539
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "2408",
-          "name": "南亞科",
-          "open": 519.0,
-          "high": 534.0,
-          "low": 512.0,
-          "close": 528.0,
-          "change": 11.0,
-          "change_pct": 2.1277,
-          "volume_shares": 65354270,
-          "value_twd": 34136334434,
-          "transactions": 64753
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "2454",
-          "name": "聯發科",
-          "open": 3725.0,
-          "high": 3810.0,
-          "low": 3695.0,
-          "close": 3790.0,
-          "change": 90.0,
-          "change_pct": 2.4324,
-          "volume_shares": 6657464,
-          "value_twd": 25017079835,
-          "transactions": 29869
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "3037",
-          "name": "欣興",
-          "open": 1120.0,
-          "high": 1120.0,
-          "low": 1030.0,
-          "close": 1085.0,
-          "change": -55.0,
-          "change_pct": -4.8246,
-          "volume_shares": 23202820,
-          "value_twd": 24741294490,
-          "transactions": 42124
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "6213",
-          "name": "聯茂",
-          "open": 534.0,
-          "high": 555.0,
-          "low": 498.5,
-          "close": 513.0,
-          "change": 3.0,
-          "change_pct": 0.5882,
-          "volume_shares": 38855929,
-          "value_twd": 20468707957,
-          "transactions": 54561
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "2344",
-          "name": "華邦電",
-          "open": 176.0,
-          "high": 182.0,
-          "low": 174.5,
-          "close": 181.0,
-          "change": 4.5,
-          "change_pct": 2.5496,
-          "volume_shares": 114128808,
-          "value_twd": 20381252475,
-          "transactions": 83497
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "8039",
-          "name": "台虹",
-          "open": 274.0,
-          "high": 306.0,
-          "low": 261.0,
-          "close": 282.0,
-          "change": -1.0,
-          "change_pct": -0.3534,
-          "volume_shares": 68745448,
-          "value_twd": 19525144545,
-          "transactions": 53630
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "3008",
-          "name": "大立光",
-          "open": 5520.0,
-          "high": 5750.0,
-          "low": 5260.0,
-          "close": 5610.0,
-          "change": 95.0,
-          "change_pct": 1.7226,
-          "volume_shares": 3439678,
-          "value_twd": 19106693965,
-          "transactions": 18550
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "3443",
-          "name": "創意",
-          "open": 5620.0,
-          "high": 5830.0,
-          "low": 5425.0,
-          "close": 5600.0,
-          "change": -30.0,
-          "change_pct": -0.5329,
-          "volume_shares": 3184974,
-          "value_twd": 17998366205,
-          "transactions": 10644
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-08-21",
-          "code": "2383",
-          "name": "台光電",
-          "open": 6005.0,
-          "high": 6015.0,
-          "low": 5650.0,
-          "close": 5680.0,
-          "change": -305.0,
-          "change_pct": -5.0961,
-          "volume_shares": 2568603,
-          "value_twd": 14922544777,
-          "transactions": 20745
         }
       ]
     }
