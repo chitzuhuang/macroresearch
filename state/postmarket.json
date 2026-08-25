@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-25T16:55:47+08:00",
+  "generated_at": "2026-08-25T17:01:13+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-08-25",
   "sources": [
@@ -61,13 +61,6 @@
       "change_pct": 0.9096,
       "volume_shares": 8813086840,
       "value_twd": 718570256167
-    },
-    {
-      "date": "2026-08-25",
-      "name": "櫃買指數",
-      "close": 389.41,
-      "change": 3.31,
-      "change_pct": 0.8573
     },
     {
       "date": "2026-08-25",
@@ -560,7 +553,8 @@
       "6770",
       "4979",
       "6488",
-      "8299"
+      "8299",
+      "3234"
     ],
     "matches": [
       {
@@ -622,6 +616,21 @@
         "volume_shares": 162099266,
         "value_twd": 11549894838,
         "transactions": 84759
+      },
+      {
+        "market": "TPEX",
+        "date": "2026-08-25",
+        "code": "3234",
+        "name": "光環",
+        "open": 162.0,
+        "high": 182.5,
+        "low": 158.0,
+        "close": 182.5,
+        "change": 16.5,
+        "change_pct": 9.9398,
+        "volume_shares": 8851000,
+        "value_twd": 1505523000,
+        "transactions": 4848
       },
       {
         "market": "TPEX",
