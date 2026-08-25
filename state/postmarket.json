@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-25T16:47:59+08:00",
+  "generated_at": "2026-08-25T16:55:47+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-08-25",
   "sources": [
@@ -35,6 +35,10 @@
     {
       "name": "TWSE 大盤成交資訊（即時，非 openapi 鏡像）",
       "location": "https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK"
+    },
+    {
+      "name": "TWSE MIS real-time quotes (watchlist refresh)",
+      "location": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
     }
   ],
   "quality": {
@@ -549,8 +553,122 @@
     ]
   },
   "watchlist": {
-    "requested": [],
-    "matches": [],
+    "requested": [
+      "0050",
+      "2408",
+      "3481",
+      "6770",
+      "4979",
+      "6488",
+      "8299"
+    ],
+    "matches": [
+      {
+        "market": "TWSE",
+        "date": "2026-08-25",
+        "code": "0050",
+        "name": "元大台灣50",
+        "open": 104.65,
+        "high": 104.8,
+        "low": 103.8,
+        "close": 104.4,
+        "change": 0.6,
+        "change_pct": 0.578,
+        "volume_shares": 44713618,
+        "value_twd": 4660940086,
+        "transactions": 83826
+      },
+      {
+        "market": "TWSE",
+        "date": "2026-08-25",
+        "code": "2408",
+        "name": "南亞科",
+        "open": 521.0,
+        "high": 538.0,
+        "low": 500.0,
+        "close": 510.0,
+        "change": 9.0,
+        "change_pct": 1.7964,
+        "volume_shares": 71724193,
+        "value_twd": 37219436518,
+        "transactions": 87679
+      },
+      {
+        "market": "TWSE",
+        "date": "2026-08-25",
+        "code": "3481",
+        "name": "群創",
+        "open": 46.05,
+        "high": 46.95,
+        "low": 45.45,
+        "close": 46.8,
+        "change": 1.35,
+        "change_pct": 2.9703,
+        "volume_shares": 122839516,
+        "value_twd": 5671833816,
+        "transactions": 56161
+      },
+      {
+        "market": "TWSE",
+        "date": "2026-08-25",
+        "code": "6770",
+        "name": "力積電",
+        "open": 68.4,
+        "high": 72.9,
+        "low": 67.6,
+        "close": 69.0,
+        "change": -1.8,
+        "change_pct": -2.5424,
+        "volume_shares": 162099266,
+        "value_twd": 11549894838,
+        "transactions": 84759
+      },
+      {
+        "market": "TPEX",
+        "date": "2026-08-25",
+        "code": "4979",
+        "name": "華星光",
+        "open": 536.0,
+        "high": 601.0,
+        "low": 520.0,
+        "close": 601.0,
+        "change": 54.0,
+        "change_pct": 9.872,
+        "volume_shares": 15635000,
+        "value_twd": 8816647000,
+        "transactions": 12248
+      },
+      {
+        "market": "TPEX",
+        "date": "2026-08-25",
+        "code": "6488",
+        "name": "環球晶",
+        "open": 989.0,
+        "high": 998.0,
+        "low": 940.0,
+        "close": 980.0,
+        "change": -30.0,
+        "change_pct": -2.9703,
+        "volume_shares": 9190000,
+        "value_twd": 8922755000,
+        "transactions": 7743
+      },
+      {
+        "market": "TPEX",
+        "date": "2026-08-25",
+        "code": "8299",
+        "name": "群聯",
+        "open": 2110.0,
+        "high": 2120.0,
+        "low": 2000.0,
+        "close": 2085.0,
+        "change": -50.0,
+        "change_pct": -2.3419,
+        "volume_shares": 4056000,
+        "value_twd": 8339465000,
+        "transactions": 3531
+      }
+    ],
     "unmatched": []
   }
 }
