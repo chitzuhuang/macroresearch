@@ -1,57 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T14:37:00+08:00",
-  "as_of": "2026-08-21 14:37",
-  "headline": "Nvidia H200 晶片獲准出口中國、字節跳動與騰訊已進貨，AI 供應鏈解禁題材延燒；惟美股尾盤轉黑、日圓升息預期升溫，市場靜待 8/27–29 Jackson Hole 央行年會新任主席 Warsh 首場演說。",
+  "generated_at": "2026-08-25T08:40:00+08:00",
+  "as_of": "2026-08-25 08:40",
+  "headline": "美股週一費半類股領跌（美光重挫5.8%）、台積電ADR同步下滑逾3%，加上美對伊朗祭出「史上最嚴厲」制裁、美加關稅戰持續升溫，市場轉趨謹慎迎接8/26輝達財報與8/27-29 Jackson Hole央行年會兩大變數，台股開盤氣氛偏向觀望。",
   "items": [
     {
-      "category": "政策",
-      "text": "Nvidia H200 晶片獲准出口中國，字節跳動、騰訊等業者已各取得約 1 萬顆，惟美方仍要求晶片優先用於當地部署且訂有數量上限，為近期 AI 供應鏈管制鬆動最具體訊號。",
-      "source_name": "CNBC (2026-08-19)",
-      "source_url": "https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html",
-      "date": "2026-08-19"
-    },
-    {
       "category": "企業",
-      "text": "Digitimes 報導，台積電今年迄今營收成長 37%，但在台灣半導體製造業營收中的市占降至 81.8%（減少 4 個百分點），因其餘 26 家台灣半導體廠（含記憶體廠）成長速度逾其兩倍。",
-      "source_name": "Digitimes (2026-08-20)",
-      "source_url": "https://www.digitimes.com/news/a20260820VL216/revenue-tsmc-taiwan-growth-demand.html",
-      "date": "2026-08-20"
-    },
-    {
-      "category": "企業",
-      "text": "Sony 半導體與台積電簽署具法律約束力協議，於日本熊本設立次世代影像感測器合資公司，Sony 為單一控股股東，預計 2029 年量產，象徵先進製程產能持續向日本擴張。",
-      "source_name": "Sony Semiconductor Solutions 新聞稿 (2026-08-11)",
-      "source_url": "https://www.sony-semicon.com/en/news/2026/2026081101.html",
-      "date": "2026-08-11"
+      "text": "台積電ADR週一（8/24）下跌3.11%，台灣掛牌股同步走弱，市場判斷主因為半導體類股全面性獲利了結，而非個股利空，反映7月底以來急漲後的短線降溫。",
+      "source_name": "TradingKey",
+      "source_url": "https://www.tradingkey.com/news/market-movers/262127968-market-movers-tsm-20260824",
+      "date": "2026-08-24"
     },
     {
       "category": "總經",
-      "text": "美股週四（8/20）尾盤轉弱，公債殖利率因財政部先前干預效應消退而回升，加上川普揚言加大制裁伊朗、推升油價，那斯達克、標普 500 與道瓊同步收黑，科技股承壓，為台股開盤前主要外部風險情緒來源。",
-      "source_name": "CNBC 美股盤後報導 (2026-08-20)",
-      "source_url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
-      "date": "2026-08-20"
+      "text": "美股週一收盤漲跌互現，那斯達克指數跌0.76%收25980.19點、標普500跌0.28%收7652.86點，道瓊逆勢漲0.26%收53417.16點；費城半導體類股領跌，美光重挫5.8%、超微跌逾3%、博通跌逾2%。",
+      "source_name": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
+      "date": "2026-08-24"
+    },
+    {
+      "category": "企業",
+      "text": "外電報導輝達已通知客戶，明年初起出貨的AI伺服器（含Vera Rubin、Grace Blackwell系列）售價將調漲逾15%，主因記憶體成本大幅飆升，AI硬體成本壓力持續向下游傳導。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-08-24/nvidia-notifies-customers-about-ai-related-price-hikes-video",
+      "date": "2026-08-24"
     },
     {
       "category": "政策",
-      "text": "Fed 8 月無 FOMC 例會，下次利率決策延至 9/15–16；市場聚焦 8/27–29 日 Jackson Hole 全球央行年會，新任主席 Warsh 預計 8/28 發表就任後首場公開演說，為近期最重要貨幣政策風向球。",
-      "source_name": "Regards of Wall Street／CNBC Fed 動態彙整",
-      "source_url": "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech",
-      "date": "2026-08-27"
+      "text": "美國財政部週一祭出「史上最嚴厲」對伊朗制裁方案，財長貝森特稱之為「經濟版D-Day」；儘管制裁生效，國際油價當日仍下跌逾2.5%（WTI跌至84.89美元、布蘭特跌至92.06美元），顯示市場先前已提前反映利多並獲利了結。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
+      "date": "2026-08-24"
     },
     {
       "category": "政策",
-      "text": "日本央行 7 月會議紀要顯示部分理事主張加快升息步調以因應通膨上行風險；高市政府傾向支持央行於 9 月或 10 月升息，日圓走向牽動台廠成本與外資資金流向。",
-      "source_name": "Bloomberg (2026-08-10)",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-10/boj-summary-flags-upside-price-risks-possible-faster-hike-pace",
-      "date": "2026-08-10"
+      "text": "美加貿易戰持續升溫，美國自8/19起對總值200億美元加拿大商品加徵50%關稅，加拿大總理卡尼宣布將自9/8起採取等額報復關稅，雙方談判已破裂，全球貿易緊張情勢恐牽動風險性資產情緒。",
+      "source_name": "NBC News",
+      "source_url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
+      "date": "2026-08-22"
     },
     {
-      "category": "總經",
-      "text": "中國 7 月工業生產、零售銷售雙雙不如預期，1–7 月工業增加值年增 5.3%，官方數據顯示中國經濟成長動能持續放緩，為台廠中國曝險部位的潛在壓力來源。",
-      "source_name": "中國政府網／國家統計局 (2026-08-17)",
-      "source_url": "https://english.www.gov.cn/archive/statistics/202608/17/content_WS6a82b926c6d00ca5f9a0ca35.html",
-      "date": "2026-08-17"
+      "category": "企業",
+      "text": "輝達預計於美東時間8/26盤後（台北時間8/27）公布最新季報，市場共識預期單季營收上看920億美元、年增97%，為本週牽動全球AI供應鏈與台股電子權值股走勢的最重要事件。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-24-213541834.html",
+      "date": "2026-08-24"
+    },
+    {
+      "category": "政策",
+      "text": "全球央行年會Jackson Hole將於8/27-29登場，新任Fed主席Warsh確定於美東時間8/28上午10時發表就任後首場公開演說，為市場評估後續降息路徑的關鍵指標，預期波動將延續至本週稍晚。",
+      "source_name": "Investing Live",
+      "source_url": "https://investinglive.com/central-banks/jackson-hole-hype-outruns-warsh-playbook-of-saying-as-little-as-possible/",
+      "date": "2026-08-24"
     }
   ]
 }
