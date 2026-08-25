@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-25T16:02:39+08:00",
+  "generated_at": "2026-08-25T16:41:42+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-08-25",
   "sources": [
@@ -405,146 +405,146 @@
   "foreign_flows": {
     "top_buy": [
       {
-        "market": "TPEX",
-        "code": "4939",
-        "name": "亞電",
-        "foreign_net_shares": 4408,
-        "foreign_net_lots": 4.4
+        "market": "TWSE",
+        "code": "2883",
+        "name": "凱基金",
+        "foreign_net_shares": 24668133,
+        "foreign_net_lots": 24668.1
       },
       {
-        "market": "TPEX",
-        "code": "6147",
-        "name": "頎邦",
-        "foreign_net_shares": 4070,
-        "foreign_net_lots": 4.1
+        "market": "TWSE",
+        "code": "2881",
+        "name": "富邦金",
+        "foreign_net_shares": 18667606,
+        "foreign_net_lots": 18667.6
       },
       {
-        "market": "TPEX",
-        "code": "3105",
-        "name": "穩懋",
-        "foreign_net_shares": 4067,
-        "foreign_net_lots": 4.1
+        "market": "TWSE",
+        "code": "2409",
+        "name": "友達",
+        "foreign_net_shares": 16759294,
+        "foreign_net_lots": 16759.3
       },
       {
-        "market": "TPEX",
-        "code": "8932",
-        "name": "智通*",
-        "foreign_net_shares": 2002,
-        "foreign_net_lots": 2.0
+        "market": "TWSE",
+        "code": "2892",
+        "name": "第一金",
+        "foreign_net_shares": 14366895,
+        "foreign_net_lots": 14366.9
       },
       {
-        "market": "TPEX",
-        "code": "6547",
-        "name": "高端疫苗",
-        "foreign_net_shares": 1153,
-        "foreign_net_lots": 1.2
+        "market": "TWSE",
+        "code": "2886",
+        "name": "兆豐金",
+        "foreign_net_shares": 13560292,
+        "foreign_net_lots": 13560.3
       },
       {
-        "market": "TPEX",
-        "code": "3264",
-        "name": "欣銓",
-        "foreign_net_shares": 1005,
-        "foreign_net_lots": 1.0
+        "market": "TWSE",
+        "code": "2882",
+        "name": "國泰金",
+        "foreign_net_shares": 13018233,
+        "foreign_net_lots": 13018.2
       },
       {
-        "market": "TPEX",
-        "code": "5425",
-        "name": "台半",
-        "foreign_net_shares": 968,
-        "foreign_net_lots": 1.0
+        "market": "TWSE",
+        "code": "2606",
+        "name": "裕民",
+        "foreign_net_shares": 12871757,
+        "foreign_net_lots": 12871.8
       },
       {
-        "market": "TPEX",
-        "code": "4979",
-        "name": "華星光",
-        "foreign_net_shares": 916,
-        "foreign_net_lots": 0.9
+        "market": "TWSE",
+        "code": "2884",
+        "name": "玉山金",
+        "foreign_net_shares": 12135931,
+        "foreign_net_lots": 12135.9
       },
       {
-        "market": "TPEX",
-        "code": "3324",
-        "name": "雙鴻",
-        "foreign_net_shares": 823,
-        "foreign_net_lots": 0.8
+        "market": "TWSE",
+        "code": "1216",
+        "name": "統一",
+        "foreign_net_shares": 9982188,
+        "foreign_net_lots": 9982.2
       },
       {
-        "market": "TPEX",
-        "code": "3363",
-        "name": "上詮",
-        "foreign_net_shares": 729,
-        "foreign_net_lots": 0.7
+        "market": "TWSE",
+        "code": "3481",
+        "name": "群創",
+        "foreign_net_shares": 9717844,
+        "foreign_net_lots": 9717.8
       }
     ],
     "top_sell": [
       {
-        "market": "TPEX",
-        "code": "3675",
-        "name": "德微",
-        "foreign_net_shares": 0,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "6770",
+        "name": "力積電",
+        "foreign_net_shares": -53685227,
+        "foreign_net_lots": -53685.2
       },
       {
-        "market": "TPEX",
-        "code": "1813",
-        "name": "寶利徠",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2317",
+        "name": "鴻海",
+        "foreign_net_shares": -15521575,
+        "foreign_net_lots": -15521.6
       },
       {
-        "market": "TPEX",
-        "code": "2719",
-        "name": "燦星旅",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2303",
+        "name": "聯電",
+        "foreign_net_shares": -11797235,
+        "foreign_net_lots": -11797.2
       },
       {
-        "market": "TPEX",
-        "code": "3272",
-        "name": "東碩",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2324",
+        "name": "仁寶",
+        "foreign_net_shares": -11552506,
+        "foreign_net_lots": -11552.5
       },
       {
-        "market": "TPEX",
-        "code": "3288",
-        "name": "點晶",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "3231",
+        "name": "緯創",
+        "foreign_net_shares": -9585546,
+        "foreign_net_lots": -9585.5
       },
       {
-        "market": "TPEX",
-        "code": "3465",
-        "name": "進泰電子",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2834",
+        "name": "臺企銀",
+        "foreign_net_shares": -8543488,
+        "foreign_net_lots": -8543.5
       },
       {
-        "market": "TPEX",
-        "code": "3512",
-        "name": "皇龍",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2002",
+        "name": "中鋼",
+        "foreign_net_shares": -7754839,
+        "foreign_net_lots": -7754.8
       },
       {
-        "market": "TPEX",
-        "code": "3541",
-        "name": "西柏",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2605",
+        "name": "新興",
+        "foreign_net_shares": -6120075,
+        "foreign_net_lots": -6120.1
       },
       {
-        "market": "TPEX",
-        "code": "3713",
-        "name": "新晶投控",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2337",
+        "name": "旺宏",
+        "foreign_net_shares": -4924391,
+        "foreign_net_lots": -4924.4
       },
       {
-        "market": "TPEX",
-        "code": "4139",
-        "name": "馬光-KY",
-        "foreign_net_shares": 1,
-        "foreign_net_lots": 0.0
+        "market": "TWSE",
+        "code": "2352",
+        "name": "佳世達",
+        "foreign_net_shares": -4162000,
+        "foreign_net_lots": -4162.0
       }
     ]
   },
