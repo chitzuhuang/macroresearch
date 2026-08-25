@@ -41,8 +41,15 @@ def main() -> int:
         # Escape "</" so embedded text can never prematurely close the <script> tag.
         return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
-    report_html = markdown_to_html(report.get("markdown") or "")
-    report_meta = {k: v for k, v in report.items() if k != "markdown"}
+    # If the report already carries pre-rendered HTML (e.g. extracted verbatim
+    # from the live published page by a routine that doesn't own this week's
+    # report), use it as-is instead of re-converting markdown.
+    if report.get("html"):
+        report_html = report["html"]
+        report_meta = {k: v for k, v in report.items() if k not in ("markdown", "html")}
+    else:
+        report_html = markdown_to_html(report.get("markdown") or "")
+        report_meta = {k: v for k, v in report.items() if k != "markdown"}
 
     html = template.replace(
         "__PREMARKET_JSON__", dumps_for_script(premarket)
