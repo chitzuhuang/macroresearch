@@ -19,7 +19,9 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch official-latest market snapshot
-        run: python3 scripts/fetch_market_snapshot.py --output state/postmarket.json
+        run: |
+          WATCHLIST=$(python3 -c "import json; print(','.join(h['code'] for h in json.load(open('state/holdings.json'))['holdings']))")
+          python3 scripts/fetch_market_snapshot.py --output state/postmarket.json --watchlist "$WATCHLIST"
 
       - name: Commit and push if changed
         run: |
