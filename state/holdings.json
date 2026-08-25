@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T16:23:28+08:00",
+  "updated_at": "2026-08-24T16:00:00+08:00",
   "holdings": [
     { "code": "0050", "shares": 1000, "avg_cost": 104.817 },
-    { "code": "2408", "shares": 50, "avg_cost": 405.84 },
+    { "code": "2408", "shares": 100, "avg_cost": 454.63 },
     { "code": "3481", "shares": 1000, "avg_cost": 66.056 },
     { "code": "6770", "shares": 800, "avg_cost": 73.11125 },
     { "code": "4979", "shares": 100, "avg_cost": 478.90 },
