@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-25T17:01:13+08:00",
+  "generated_at": "2026-08-25T17:05:55+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-08-25",
   "sources": [
@@ -61,6 +61,13 @@
       "change_pct": 0.9096,
       "volume_shares": 8813086840,
       "value_twd": 718570256167
+    },
+    {
+      "date": "2026-08-25",
+      "name": "櫃買指數",
+      "close": 389.41,
+      "change": 3.31,
+      "change_pct": 0.8573
     },
     {
       "date": "2026-08-25",
