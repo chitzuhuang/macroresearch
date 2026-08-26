@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T14:37:00+08:00",
-  "as_of": "2026-08-21 14:37",
-  "headline": "Nvidia H200 晶片獲准出口中國、字節跳動與騰訊已進貨，AI 供應鏈解禁題材延燒；惟美股尾盤轉黑、日圓升息預期升溫，市場靜待 8/27–29 Jackson Hole 央行年會新任主席 Warsh 首場演說。",
+  "generated_at": "2026-08-26T08:42:00+08:00",
+  "as_of": "2026-08-26 08:42",
+  "headline": "美股費半股領漲、那斯達克連三紅，殖利率回落，市場靜待輝達今晚（台北時間週四凌晨）公布財報，台積電可望同步受惠；台股週二強彈407點收45169點，另傑克森霍爾央行年會週五登場、新任主席Warsh首場演說與日銀9月升息機率升至近8成，同為近期關鍵變數。",
   "items": [
     {
-      "category": "政策",
-      "text": "Nvidia H200 晶片獲准出口中國，字節跳動、騰訊等業者已各取得約 1 萬顆，惟美方仍要求晶片優先用於當地部署且訂有數量上限，為近期 AI 供應鏈管制鬆動最具體訊號。",
-      "source_name": "CNBC (2026-08-19)",
-      "source_url": "https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html",
-      "date": "2026-08-19"
+      "category": "總經",
+      "text": "美股週二收盤連三紅，標普500上漲0.32%收7677.28點、那斯達克上漲0.66%收26151.30點、道瓊上漲0.3%收53577.40點，晶片股在輝達財報公布前領漲，公債殖利率同步走低。",
+      "source_name": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026",
+      "date": "2026-08-25"
     },
     {
       "category": "企業",
-      "text": "Digitimes 報導，台積電今年迄今營收成長 37%，但在台灣半導體製造業營收中的市占降至 81.8%（減少 4 個百分點），因其餘 26 家台灣半導體廠（含記憶體廠）成長速度逾其兩倍。",
-      "source_name": "Digitimes (2026-08-20)",
-      "source_url": "https://www.digitimes.com/news/a20260820VL216/revenue-tsmc-taiwan-growth-demand.html",
-      "date": "2026-08-20"
+      "text": "輝達（Nvidia）將於美股週三（台北時間週四凌晨）盤後公布2027財年第2季財報，市場共識營收約920億美元、每股盈餘2.09美元；股價先前連跌7個交易日（為2022年以來最長連跌）後已止穩。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/newsletters/2026-08-25/nvidia-stock-bulls-get-punished-in-the-run-up-to-earnings",
+      "date": "2026-08-25"
     },
     {
       "category": "企業",
-      "text": "Sony 半導體與台積電簽署具法律約束力協議，於日本熊本設立次世代影像感測器合資公司，Sony 為單一控股股東，預計 2029 年量產，象徵先進製程產能持續向日本擴張。",
-      "source_name": "Sony Semiconductor Solutions 新聞稿 (2026-08-11)",
-      "source_url": "https://www.sony-semicon.com/en/news/2026/2026081101.html",
-      "date": "2026-08-11"
+      "text": "分析師指出若輝達財報優於預期，台積電可望為主要受惠者：台積電2026年迄今股價漲35%（同期費半指數漲61%），輝達約占台積電營收逾2成，2奈米製程約占營收3%。",
+      "source_name": "Motley Fool",
+      "source_url": "https://www.fool.com/investing/2026/08/25/prediction-tsmc-stock-will-soar-after-aug-26-thanks-to-nvidia-s-historic-quarter/",
+      "date": "2026-08-25"
     },
     {
       "category": "總經",
-      "text": "美股週四（8/20）尾盤轉弱，公債殖利率因財政部先前干預效應消退而回升，加上川普揚言加大制裁伊朗、推升油價，那斯達克、標普 500 與道瓊同步收黑，科技股承壓，為台股開盤前主要外部風險情緒來源。",
-      "source_name": "CNBC 美股盤後報導 (2026-08-20)",
-      "source_url": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
-      "date": "2026-08-20"
-    },
-    {
-      "category": "政策",
-      "text": "Fed 8 月無 FOMC 例會，下次利率決策延至 9/15–16；市場聚焦 8/27–29 日 Jackson Hole 全球央行年會，新任主席 Warsh 預計 8/28 發表就任後首場公開演說，為近期最重要貨幣政策風向球。",
-      "source_name": "Regards of Wall Street／CNBC Fed 動態彙整",
-      "source_url": "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech",
-      "date": "2026-08-27"
-    },
-    {
-      "category": "政策",
-      "text": "日本央行 7 月會議紀要顯示部分理事主張加快升息步調以因應通膨上行風險；高市政府傾向支持央行於 9 月或 10 月升息，日圓走向牽動台廠成本與外資資金流向。",
-      "source_name": "Bloomberg (2026-08-10)",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-10/boj-summary-flags-upside-price-risks-possible-faster-hike-pace",
-      "date": "2026-08-10"
+      "text": "台股週二（8/25）尾盤急拉，加權指數上漲407.14點（+0.91%）收45169.46點，收復前一交易日重挫462點的失土，台積電上漲25元（+1.05%）收2400元。",
+      "source_name": "ETtoday",
+      "source_url": "https://finance.ettoday.net/news/3220585",
+      "date": "2026-08-25"
     },
     {
       "category": "總經",
-      "text": "中國 7 月工業生產、零售銷售雙雙不如預期，1–7 月工業增加值年增 5.3%，官方數據顯示中國經濟成長動能持續放緩，為台廠中國曝險部位的潛在壓力來源。",
-      "source_name": "中國政府網／國家統計局 (2026-08-17)",
-      "source_url": "https://english.www.gov.cn/archive/statistics/202608/17/content_WS6a82b926c6d00ca5f9a0ca35.html",
-      "date": "2026-08-17"
+      "text": "美國諮商會（Conference Board）消費者信心指數8月降至89.4，創7個月新低（前值90.2），其中預期分項指數自74.0大幅降至68.2，反映民眾對就業與商業前景轉趨悲觀。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-25/us-consumer-confidence-falls-on-outlook-for-business-and-jobs",
+      "date": "2026-08-25"
+    },
+    {
+      "category": "政策",
+      "text": "傑克森霍爾全球央行年會將於8/27至8/29舉行，新任Fed主席Warsh預計週五（8/28）發表就任後首場公開演說，市場關注其貨幣政策立場，此前7月FOMC會議已出現3票鷹派異議。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-25/jackson-hole-offers-warsh-high-profile-slot-to-rebut-his-critics",
+      "date": "2026-08-25"
+    },
+    {
+      "category": "政策",
+      "text": "前日本央行官員表示，日銀最快下月（9/18決策會議）即可能升息，且不排除最快明年1月再度升息；期貨市場目前對9月升息的機率定價已升至約8成。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-24/groundwork-is-set-for-boj-rate-hike-next-month-ex-official-says",
+      "date": "2026-08-24"
+    },
+    {
+      "category": "總經",
+      "text": "高盛估計中國第3季GDP成長率約4%，低於官方全年4.5%至5%目標區間、亦低於上季4.3%，成長動能放緩使市場升高對人行加碼寬鬆的預期，北京官方則強調經濟具韌性、轉型見效。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-23/goldman-says-chinese-easing-hopes-revive-with-economy-growing-4",
+      "date": "2026-08-23"
     }
   ]
 }
