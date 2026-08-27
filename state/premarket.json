@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T08:42:00+08:00",
-  "as_of": "2026-08-26 08:42",
-  "headline": "美股費半股領漲、那斯達克連三紅，殖利率回落，市場靜待輝達今晚（台北時間週四凌晨）公布財報，台積電可望同步受惠；台股週二強彈407點收45169點，另傑克森霍爾央行年會週五登場、新任主席Warsh首場演說與日銀9月升息機率升至近8成，同為近期關鍵變數。",
+  "generated_at": "2026-08-27T08:40:00+08:00",
+  "as_of": "2026-08-27 08:40",
+  "headline": "輝達Q2財報營收962億美元大幅超預期（季增18%、年增106%），Q3展望上看1080億美元、並喊出FY28營收估再成長逾7成，加上AWS加碼採購200萬顆GPU並導入Vera CPU，激勵美股期貨齊揚、台指期夜盤同步翻紅，市場聚焦台積電、日月光、緯穎等AI供應鏈今開盤反應；傑克森霍爾央行年會週五登場、新任Fed主席Warsh首場演說為次要觀察重點。",
   "items": [
     {
+      "category": "企業",
+      "text": "輝達公布2027財年第2季財報：營收962.2億美元（季增18%、年增106%），優於市場預估的921.6億美元；調整後每股盈餘2.22美元、優於預估的2.09～2.10美元，毛利率75%，股價在法說會後轉漲、盤後一度上漲逾4%至218美元附近。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html",
+      "date": "2026-08-26"
+    },
+    {
+      "category": "企業",
+      "text": "輝達財測釋出強烈訊號：財務長Kress表示對2028財年營收成長動能有信心（市場解讀約看增7成），並預告第3季營收看向1080億美元，優於市場預期，緩解投資人對AI資本支出降溫的疑慮。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
+      "date": "2026-08-26"
+    },
+    {
+      "category": "企業",
+      "text": "亞馬遜AWS與輝達宣布擴大合作，AWS將採購200萬顆輝達GPU並導入輝達新款Vera CPU，用於強化代理式（Agentic）與實體AI基礎建設，為輝達財報之外的另一利多。",
+      "source_name": "NVIDIA Newsroom",
+      "source_url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+      "date": "2026-08-26"
+    },
+    {
       "category": "總經",
-      "text": "美股週二收盤連三紅，標普500上漲0.32%收7677.28點、那斯達克上漲0.66%收26151.30點、道瓊上漲0.3%收53577.40點，晶片股在輝達財報公布前領漲，公債殖利率同步走低。",
+      "text": "受輝達財報與財測激勵，美股期貨27日早盤走揚，那斯達克100期貨顯著上漲，市場解讀AI投資熱潮動能未見降溫，但同業Salesforce因財測保守股價重挫近5%，軟體股表現分歧。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "總經",
+      "text": "美股週三（8/26）收盤漲跌互見、變動有限：標普500收7675.70點，那斯達克小跌0.08%收26130.20點，道瓊跌0.21%（113點）收53463.88點，市場等待稍晚輝達財報與PCE數據方向。",
       "source_name": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026",
-      "date": "2026-08-25"
-    },
-    {
-      "category": "企業",
-      "text": "輝達（Nvidia）將於美股週三（台北時間週四凌晨）盤後公布2027財年第2季財報，市場共識營收約920億美元、每股盈餘2.09美元；股價先前連跌7個交易日（為2022年以來最長連跌）後已止穩。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/newsletters/2026-08-25/nvidia-stock-bulls-get-punished-in-the-run-up-to-earnings",
-      "date": "2026-08-25"
-    },
-    {
-      "category": "企業",
-      "text": "分析師指出若輝達財報優於預期，台積電可望為主要受惠者：台積電2026年迄今股價漲35%（同期費半指數漲61%），輝達約占台積電營收逾2成，2奈米製程約占營收3%。",
-      "source_name": "Motley Fool",
-      "source_url": "https://www.fool.com/investing/2026/08/25/prediction-tsmc-stock-will-soar-after-aug-26-thanks-to-nvidia-s-historic-quarter/",
-      "date": "2026-08-25"
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-26-2026",
+      "date": "2026-08-26"
     },
     {
       "category": "總經",
-      "text": "台股週二（8/25）尾盤急拉，加權指數上漲407.14點（+0.91%）收45169.46點，收復前一交易日重挫462點的失土，台積電上漲25元（+1.05%）收2400元。",
-      "source_name": "ETtoday",
-      "source_url": "https://finance.ettoday.net/news/3220585",
-      "date": "2026-08-25"
+      "text": "美國7月核心PCE物價指數年增3.3%、符合市場預期，整體PCE年增3.7%；個人所得成長加快，但扣除物價後的實質消費支出陷入停滯，顯示消費動能轉弱、通膨仍具黏性。",
+      "source_name": "BEA／動區動趨",
+      "source_url": "https://www.blocktempo.com/us-july-2026-pce-inflation-data-release/",
+      "date": "2026-08-26"
     },
     {
       "category": "總經",
-      "text": "美國諮商會（Conference Board）消費者信心指數8月降至89.4，創7個月新低（前值90.2），其中預期分項指數自74.0大幅降至68.2，反映民眾對就業與商業前景轉趨悲觀。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-25/us-consumer-confidence-falls-on-outlook-for-business-and-jobs",
-      "date": "2026-08-25"
+      "text": "台股週三（8/26）開低走高，終場大漲663點收45832點，站上所有均線、單日成交量回升至8042億元，但台積電成交量創逾2年最低，反映市場觀望輝達財報態度濃厚；台指期夜盤一度上漲139點，PCE數據公布後急殺翻黑，收在輝達財報公布前的45903點附近。",
+      "source_name": "Yahoo奇摩股市／經濟日報",
+      "source_url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%96%AE%E6%97%A5%E6%88%90%E4%BA%A4%E9%87%8F%E5%89%B52%E5%B9%B4%E5%A4%9A%E4%BE%86%E6%9C%80%E4%BD%8E%E7%B4%80%E9%8C%84-%E5%8F%B0%E8%82%A1%E8%B7%8C461%E9%BB%9E%E6%94%B6%E5%9C%A844762%E9%BB%9E-074020498.html",
+      "date": "2026-08-26"
     },
     {
       "category": "政策",
-      "text": "傑克森霍爾全球央行年會將於8/27至8/29舉行，新任Fed主席Warsh預計週五（8/28）發表就任後首場公開演說，市場關注其貨幣政策立場，此前7月FOMC會議已出現3票鷹派異議。",
+      "text": "傑克森霍爾全球央行年會8/27至8/29登場，新任Fed主席Warsh將於週五（8/28，美東上午約10時，約台北時間週六凌晨）發表就任後首場公開演說，本人表示將聚焦長期結構性議題、不提供近期政策指引，市場關注其鷹鴿立場是否鬆動。",
       "source_name": "Bloomberg",
       "source_url": "https://www.bloomberg.com/news/articles/2026-08-25/jackson-hole-offers-warsh-high-profile-slot-to-rebut-his-critics",
       "date": "2026-08-25"
-    },
-    {
-      "category": "政策",
-      "text": "前日本央行官員表示，日銀最快下月（9/18決策會議）即可能升息，且不排除最快明年1月再度升息；期貨市場目前對9月升息的機率定價已升至約8成。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-24/groundwork-is-set-for-boj-rate-hike-next-month-ex-official-says",
-      "date": "2026-08-24"
-    },
-    {
-      "category": "總經",
-      "text": "高盛估計中國第3季GDP成長率約4%，低於官方全年4.5%至5%目標區間、亦低於上季4.3%，成長動能放緩使市場升高對人行加碼寬鬆的預期，北京官方則強調經濟具韌性、轉型見效。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-23/goldman-says-chinese-easing-hopes-revive-with-economy-growing-4",
-      "date": "2026-08-23"
     }
   ]
 }
