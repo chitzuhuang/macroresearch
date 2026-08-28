@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T08:40:00+08:00",
-  "as_of": "2026-08-27 08:40",
-  "headline": "輝達Q2財報營收962億美元大幅超預期（季增18%、年增106%），Q3展望上看1080億美元、並喊出FY28營收估再成長逾7成，加上AWS加碼採購200萬顆GPU並導入Vera CPU，激勵美股期貨齊揚、台指期夜盤同步翻紅，市場聚焦台積電、日月光、緯穎等AI供應鏈今開盤反應；傑克森霍爾央行年會週五登場、新任Fed主席Warsh首場演說為次要觀察重點。",
+  "generated_at": "2026-08-28T08:35:00+08:00",
+  "as_of": "2026-08-28 08:35",
+  "headline": "輝達財報激勵效應延燒：美股週四（8/27）四大指數與費半同步收紅，輝達股價狂飆8.7%收227.98美元，台積電ADR、美光、邁威爾等晶片股全面走揚；台股當天開高收斂僅小漲142點收45975點，但夜盤在美股激勵下大漲324點收46388點，加上台灣7月工業生產指數創歷史新高，為今日開盤注入動能。市場仍聚焦傑克森霍爾央行年會，新任Fed主席Warsh首場演說將於台北時間今晚登場，為近期最大政策變數。",
   "items": [
     {
       "category": "企業",
-      "text": "輝達公布2027財年第2季財報：營收962.2億美元（季增18%、年增106%），優於市場預估的921.6億美元；調整後每股盈餘2.22美元、優於預估的2.09～2.10美元，毛利率75%，股價在法說會後轉漲、盤後一度上漲逾4%至218美元附近。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html",
-      "date": "2026-08-26"
-    },
-    {
-      "category": "企業",
-      "text": "輝達財測釋出強烈訊號：財務長Kress表示對2028財年營收成長動能有信心（市場解讀約看增7成），並預告第3季營收看向1080億美元，優於市場預期，緩解投資人對AI資本支出降溫的疑慮。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
-      "date": "2026-08-26"
-    },
-    {
-      "category": "企業",
-      "text": "亞馬遜AWS與輝達宣布擴大合作，AWS將採購200萬顆輝達GPU並導入輝達新款Vera CPU，用於強化代理式（Agentic）與實體AI基礎建設，為輝達財報之外的另一利多。",
-      "source_name": "NVIDIA Newsroom",
-      "source_url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
-      "date": "2026-08-26"
-    },
-    {
-      "category": "總經",
-      "text": "受輝達財報與財測激勵，美股期貨27日早盤走揚，那斯達克100期貨顯著上漲，市場解讀AI投資熱潮動能未見降溫，但同業Salesforce因財測保守股價重挫近5%，軟體股表現分歧。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
+      "text": "輝達股價週四（8/27）暴衝8.7%收227.98美元（前收209.66美元），延續財報後漲勢，市場解讀強勁Q3展望與FY28成長訊號緩解AI資本支出降溫疑慮，帶動費城半導體指數大漲1.62%收11799.80點。",
+      "source_name": "CNBC／vittarthi",
+      "source_url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
       "date": "2026-08-27"
     },
     {
       "category": "總經",
-      "text": "美股週三（8/26）收盤漲跌互見、變動有限：標普500收7675.70點，那斯達克小跌0.08%收26130.20點，道瓊跌0.21%（113點）收53463.88點，市場等待稍晚輝達財報與PCE數據方向。",
-      "source_name": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-26-2026",
-      "date": "2026-08-26"
+      "text": "美股週四（8/27）四大指數同步收紅：標普500上漲0.42%收7673.04點、道瓊上漲0.83%收53195.36點、那斯達克上漲0.39%收26168.46點，輝達財報帶動的晶片股買氣為主要支撐，儘管10年期公債殖利率升至4.66%。",
+      "source_name": "Bloomberg／vittarthi",
+      "source_url": "https://vittarthi.com/markets/us",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "企業",
+      "text": "輝達財報效應擴散至供應鏈：台積電ADR勁揚逾2%，邁威爾（Marvell）上漲5.8%、美光上漲4.5%、博通上漲4.5%、SK海力士與英特爾分別上漲2%與4%，AMD盤前也上漲約1.8%，半導體ETF同步走高。",
+      "source_name": "ETtoday／Yahoo奇摩股市",
+      "source_url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC-%E8%82%A1%E5%83%B9%E6%9A%B4%E8%A1%9D%E8%BF%919-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A2-3-231500358.html",
+      "date": "2026-08-27"
     },
     {
       "category": "總經",
-      "text": "美國7月核心PCE物價指數年增3.3%、符合市場預期，整體PCE年增3.7%；個人所得成長加快，但扣除物價後的實質消費支出陷入停滯，顯示消費動能轉弱、通膨仍具黏性。",
-      "source_name": "BEA／動區動趨",
-      "source_url": "https://www.blocktempo.com/us-july-2026-pce-inflation-data-release/",
-      "date": "2026-08-26"
+      "text": "台股週四（8/27）開高走高一度衝上46401.78點（漲逾569點），但尾盤漲勢收斂，終場僅上漲142.6點（+0.31%）收45975.22點，成交值放大至NT$9246.83億，反映輝達財報利多已部分提前反映。",
+      "source_name": "Newtalk新聞／壹蘋新聞網",
+      "source_url": "https://news.nextapple.com/finance/20260827/4B3E1A840648CAAEC5335A878706D99B",
+      "date": "2026-08-27"
     },
     {
       "category": "總經",
-      "text": "台股週三（8/26）開低走高，終場大漲663點收45832點，站上所有均線、單日成交量回升至8042億元，但台積電成交量創逾2年最低，反映市場觀望輝達財報態度濃厚；台指期夜盤一度上漲139點，PCE數據公布後急殺翻黑，收在輝達財報公布前的45903點附近。",
-      "source_name": "Yahoo奇摩股市／經濟日報",
-      "source_url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%96%AE%E6%97%A5%E6%88%90%E4%BA%A4%E9%87%8F%E5%89%B52%E5%B9%B4%E5%A4%9A%E4%BE%86%E6%9C%80%E4%BD%8E%E7%B4%80%E9%8C%84-%E5%8F%B0%E8%82%A1%E8%B7%8C461%E9%BB%9E%E6%94%B6%E5%9C%A844762%E9%BB%9E-074020498.html",
-      "date": "2026-08-26"
+      "text": "受美股四大指數收紅與輝達財報激勵，台指期夜盤（8/27晚間）大漲324點（+0.70%）收46388點，為今日台股開盤提供正向動能。",
+      "source_name": "Yahoo奇摩股市",
+      "source_url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC-%E8%82%A1%E5%83%B9%E6%9A%B4%E8%A1%9D%E8%BF%919-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A2-3-231500358.html",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "總經",
+      "text": "經濟部統計處公布7月工業生產指數145.24、年增25.61%，製造業生產指數147.65、年增26.89%，雙創歷年單月新高；其中電腦、電子產品及光學製品業年增高達95.62%，主因AI伺服器與交換器需求延續強勁，1至7月工業生產累計年增20.64%。",
+      "source_name": "自由財經／鉅亨網",
+      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5552034",
+      "date": "2026-08-27"
     },
     {
       "category": "政策",
-      "text": "傑克森霍爾全球央行年會8/27至8/29登場，新任Fed主席Warsh將於週五（8/28，美東上午約10時，約台北時間週六凌晨）發表就任後首場公開演說，本人表示將聚焦長期結構性議題、不提供近期政策指引，市場關注其鷹鴿立場是否鬆動。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-25/jackson-hole-offers-warsh-high-profile-slot-to-rebut-his-critics",
-      "date": "2026-08-25"
+      "text": "傑克森霍爾全球央行年會8/27至8/29登場，新任Fed主席Warsh將於台北時間今（8/28）晚間約10時發表就任後首場公開演說，市場目前僅定價約三分之一機率9月升息，其談話內容為近期利率路徑最關鍵觀察指標。",
+      "source_name": "intellectia.ai",
+      "source_url": "https://intellectia.ai/blog/jackson-hole-2026-fed-speech",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "總經",
+      "text": "美元兌新台幣週四（8/27）收31.708元，較前一交易日下跌0.11元（-0.35%），新台幣走強，反映外資資金動向與台股風險偏好回升。",
+      "source_name": "鉅亨網",
+      "source_url": "https://invest.cnyes.com/forex/detail/USDTWD/overview",
+      "date": "2026-08-27"
     }
   ]
 }
