@@ -1,12 +1,13 @@
 {
-  "updated_at": "2026-08-24T16:00:00+08:00",
+  "updated_at": "2026-08-25T17:00:00+08:00",
   "holdings": [
     { "code": "0050", "shares": 1000, "avg_cost": 104.817 },
     { "code": "2408", "shares": 100, "avg_cost": 454.63 },
     { "code": "3481", "shares": 1000, "avg_cost": 66.056 },
     { "code": "6770", "shares": 800, "avg_cost": 73.11125 },
     { "code": "4979", "shares": 100, "avg_cost": 478.90 },
-    { "code": "6488", "shares": 30, "avg_cost": 978.83 },
-    { "code": "8299", "shares": 10, "avg_cost": 2016.7 }
+    { "code": "6488", "shares": 50, "avg_cost": 970.818 },
+    { "code": "8299", "shares": 10, "avg_cost": 2016.7 },
+    { "code": "3234", "shares": 200, "avg_cost": 177.15 }
   ]
 }

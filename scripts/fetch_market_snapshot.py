@@ -38,6 +38,11 @@ MIS_QUOTE_URL = "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
 # a full session behind. The same data is available same-day on TWSE's own
 # website (non-mirrored "rwd" endpoints), so use that for the TAIEX headline.
 TWSE_RWD_FMTQIK_URL = "https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK"
+# Same reasoning as FMTQIK above, but for the full per-stock closing table
+# and the TAIEX price index: openapi.twse.com.tw's STOCK_DAY_ALL/MI_INDEX
+# mirror doesn't finalize a session's data until the small hours of the
+# following day, whereas this non-mirrored endpoint carries it same-day.
+TWSE_RWD_MI_INDEX_URL = "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX"
 # Exchange-listed ETFs and similar products commonly use codes beginning with 0.
 # A four-digit code beginning with 1-9 is a conservative common-stock proxy.
 COMMON_STOCK_RE = re.compile(r"^[1-9]\d{3}$")
@@ -384,6 +389,72 @@ def _fetch_twse_taiex_realtime(as_of_date: str | None) -> dict[str, Any] | None:
     }
 
 
+def _fetch_twse_rwd_daily(as_of_date: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Fetch the full per-stock closing table and the TAIEX price index for
+    `as_of_date` from TWSE's own site. Returns ([], []) if that date's data
+    isn't published there yet (e.g. queried before same-day processing is
+    done, or a non-trading day), so callers can fall back to the openapi
+    mirror."""
+    date_str = as_of_date.replace("-", "")
+    url = f"{TWSE_RWD_MI_INDEX_URL}?date={date_str}&type=ALLBUT0999&response=json"
+    try:
+        payload = _fetch_json(url)
+    except Exception:
+        return [], []
+    if not isinstance(payload, dict) or payload.get("stat") != "OK":
+        return [], []
+    tables = payload.get("tables")
+    if not isinstance(tables, list):
+        return [], []
+
+    def signed(record: dict[str, Any], magnitude_key: str) -> float | None:
+        magnitude = _number(record.get(magnitude_key))
+        if magnitude is None:
+            return None
+        return -abs(magnitude) if "green" in str(record.get("漲跌(+/-)", "")) else magnitude
+
+    quotes: list[dict[str, Any]] = []
+    indices: list[dict[str, Any]] = []
+    for table in tables:
+        title = str(table.get("title") or "")
+        fields = table.get("fields") or []
+        rows = table.get("data") or []
+        if "每日收盤行情" in title:
+            for row in rows:
+                record = dict(zip(fields, row))
+                quotes.append(
+                    _normalized_row(
+                        market="TWSE",
+                        date=as_of_date,
+                        code=record.get("證券代號"),
+                        name=record.get("證券名稱"),
+                        open_=record.get("開盤價"),
+                        high=record.get("最高價"),
+                        low=record.get("最低價"),
+                        close=record.get("收盤價"),
+                        change=signed(record, "漲跌價差"),
+                        volume=record.get("成交股數"),
+                        value=record.get("成交金額"),
+                        transactions=record.get("成交筆數"),
+                    )
+                )
+        elif "價格指數(臺灣證券交易所)" in title:
+            for row in rows:
+                record = dict(zip(fields, row))
+                if str(record.get("指數", "")).strip() != "發行量加權股價指數":
+                    continue
+                indices.append(
+                    {
+                        "date": as_of_date,
+                        "name": "發行量加權股價指數",
+                        "close": _number(record.get("收盤指數")),
+                        "change": signed(record, "漲跌點數"),
+                        "change_pct": _number(record.get("漲跌百分比(%)")),
+                    }
+                )
+    return quotes, indices
+
+
 def _fetch_tpex_composite_index(as_of_date: str | None) -> dict[str, Any] | None:
     try:
         rows = _fetch_json(TPEX_INDEX_URL)
@@ -574,15 +645,24 @@ def _build_foreign_flows(as_of_date: str | None) -> dict[str, Any]:
     return {"top_buy": top_buy, "top_sell": top_sell}
 
 
-def _official_snapshot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, str]]]:
-    jobs = {
-        "twse_quotes": TWSE_QUOTES_URL,
-        "twse_indices": TWSE_INDEX_URL,
-        "tpex_quotes": TPEX_QUOTES_URL,
-    }
+def _official_snapshot() -> tuple[
+    list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, str]], list[dict[str, str]]
+]:
+    rwd_quotes, rwd_indices = _fetch_twse_rwd_daily(_now_taipei().strftime("%Y-%m-%d"))
+    twse_sources: list[dict[str, str]] = []
+
+    jobs = {"tpex_quotes": TPEX_QUOTES_URL}
+    if not rwd_quotes:
+        # Same-day data isn't published on TWSE's own site yet (e.g. run too
+        # soon after close, or a non-trading day) — fall back to the openapi
+        # mirror, which may lag a full session behind.
+        jobs["twse_quotes"] = TWSE_QUOTES_URL
+    if not rwd_indices:
+        jobs["twse_indices"] = TWSE_INDEX_URL
+
     results: dict[str, Any] = {}
     errors: list[dict[str, str]] = []
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=len(jobs)) as executor:
         futures = {executor.submit(_fetch_json, url): (name, url) for name, url in jobs.items()}
         for future in as_completed(futures):
             name, url = futures[future]
@@ -593,11 +673,28 @@ def _official_snapshot() -> tuple[list[dict[str, Any]], list[dict[str, Any]], li
                 results[name] = data
             except Exception as exc:  # retain partial-market results
                 errors.append({"source": name, "url": url, "error": str(exc)})
+
+    if rwd_quotes:
+        twse_quotes = rwd_quotes
+        twse_sources.append({"name": "TWSE 每日收盤行情（非鏡像，當日即時）", "location": TWSE_RWD_MI_INDEX_URL})
+    else:
+        twse_quotes = _normalize_twse(results.get("twse_quotes", []))
+        twse_sources.append({"name": "TWSE daily trading data (openapi mirror)", "location": TWSE_QUOTES_URL})
+
+    if rwd_indices:
+        indices = rwd_indices
+        if not rwd_quotes:
+            twse_sources.append({"name": "TWSE 大盤指數（非鏡像，當日即時）", "location": TWSE_RWD_MI_INDEX_URL})
+    else:
+        indices = _normalize_indices(results.get("twse_indices", []))
+        twse_sources.append({"name": "TWSE daily indices (openapi mirror)", "location": TWSE_INDEX_URL})
+
     return (
-        _normalize_twse(results.get("twse_quotes", [])),
+        twse_quotes,
         _normalize_tpex(results.get("tpex_quotes", [])),
-        _normalize_indices(results.get("twse_indices", [])),
+        indices,
         errors,
+        twse_sources,
     )
 
 
@@ -606,18 +703,19 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
     indices: list[dict[str, Any]] = []
     sources: list[dict[str, str]] = []
     foreign_flows: dict[str, Any] = {"top_buy": [], "top_sell": []}
+    used_openapi_mirror = False
 
     if input_path is not None:
         raw_rows = _load_uploaded(input_path)
         rows = _normalize_uploaded(raw_rows)
         sources.append({"name": "uploaded_file", "location": str(input_path.resolve())})
     else:
-        twse, tpex, indices, errors = _official_snapshot()
+        twse, tpex, indices, errors, twse_sources = _official_snapshot()
         rows = twse + tpex
+        sources.extend(twse_sources)
+        used_openapi_mirror = any("openapi.twse.com.tw" in source["location"] for source in twse_sources)
         sources.extend(
             [
-                {"name": "TWSE daily trading data", "location": TWSE_QUOTES_URL},
-                {"name": "TWSE daily indices", "location": TWSE_INDEX_URL},
                 {"name": "TPEx closing quotes", "location": TPEX_QUOTES_URL},
                 {"name": "TWSE 三大法人買賣超 (T86)", "location": TWSE_T86_URL},
                 {"name": "TPEx 三大法人買賣超", "location": TPEX_QFII_URL},
@@ -637,7 +735,7 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
         taiex_realtime = _fetch_twse_taiex_realtime(as_of_date)
         if taiex_realtime and taiex_realtime["date"]:
             stale = next((idx for idx in indices if idx["name"] == "發行量加權股價指數"), None)
-            if stale is None or not stale.get("date") or taiex_realtime["date"] > stale["date"]:
+            if stale is None or not stale.get("date") or taiex_realtime["date"] >= stale["date"]:
                 indices = [idx for idx in indices if idx["name"] != "發行量加權股價指數"]
                 indices.insert(0, taiex_realtime)
                 sources.append({"name": "TWSE 大盤成交資訊（即時，非 openapi 鏡像）", "location": TWSE_RWD_FMTQIK_URL})
@@ -677,6 +775,11 @@ def build_snapshot(input_path: Path | None, watchlist: list[str]) -> dict[str, A
         warnings.append("No market rows were available from the selected sources.")
     if input_path is None and not foreign_flows["top_buy"] and not foreign_flows["top_sell"]:
         warnings.append("Foreign-investor net buy/sell data was unavailable for this date.")
+    if used_openapi_mirror:
+        warnings.append(
+            "TWSE's same-day site had no data yet for this run, so the openapi mirror was used for "
+            "breadth/turnover instead; it can lag a full session behind."
+        )
 
     return {
         "schema_version": 2,

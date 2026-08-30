@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T08:40:00+08:00",
-  "as_of": "2026-08-25 08:40",
-  "headline": "美股週一費半類股領跌（美光重挫5.8%）、台積電ADR同步下滑逾3%，加上美對伊朗祭出「史上最嚴厲」制裁、美加關稅戰持續升溫，市場轉趨謹慎迎接8/26輝達財報與8/27-29 Jackson Hole央行年會兩大變數，台股開盤氣氛偏向觀望。",
+  "generated_at": "2026-08-28T08:35:00+08:00",
+  "as_of": "2026-08-28 08:35",
+  "headline": "輝達財報激勵效應延燒：美股週四（8/27）四大指數與費半同步收紅，輝達股價狂飆8.7%收227.98美元，台積電ADR、美光、邁威爾等晶片股全面走揚；台股當天開高收斂僅小漲142點收45975點，但夜盤在美股激勵下大漲324點收46388點，加上台灣7月工業生產指數創歷史新高，為今日開盤注入動能。市場仍聚焦傑克森霍爾央行年會，新任Fed主席Warsh首場演說將於台北時間今晚登場，為近期最大政策變數。",
   "items": [
     {
       "category": "企業",
-      "text": "台積電ADR週一（8/24）下跌3.11%，台灣掛牌股同步走弱，市場判斷主因為半導體類股全面性獲利了結，而非個股利空，反映7月底以來急漲後的短線降溫。",
-      "source_name": "TradingKey",
-      "source_url": "https://www.tradingkey.com/news/market-movers/262127968-market-movers-tsm-20260824",
-      "date": "2026-08-24"
+      "text": "輝達股價週四（8/27）暴衝8.7%收227.98美元（前收209.66美元），延續財報後漲勢，市場解讀強勁Q3展望與FY28成長訊號緩解AI資本支出降溫疑慮，帶動費城半導體指數大漲1.62%收11799.80點。",
+      "source_name": "CNBC／vittarthi",
+      "source_url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
+      "date": "2026-08-27"
     },
     {
       "category": "總經",
-      "text": "美股週一收盤漲跌互現，那斯達克指數跌0.76%收25980.19點、標普500跌0.28%收7652.86點，道瓊逆勢漲0.26%收53417.16點；費城半導體類股領跌，美光重挫5.8%、超微跌逾3%、博通跌逾2%。",
-      "source_name": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
-      "date": "2026-08-24"
+      "text": "美股週四（8/27）四大指數同步收紅：標普500上漲0.42%收7673.04點、道瓊上漲0.83%收53195.36點、那斯達克上漲0.39%收26168.46點，輝達財報帶動的晶片股買氣為主要支撐，儘管10年期公債殖利率升至4.66%。",
+      "source_name": "Bloomberg／vittarthi",
+      "source_url": "https://vittarthi.com/markets/us",
+      "date": "2026-08-27"
     },
     {
       "category": "企業",
-      "text": "外電報導輝達已通知客戶，明年初起出貨的AI伺服器（含Vera Rubin、Grace Blackwell系列）售價將調漲逾15%，主因記憶體成本大幅飆升，AI硬體成本壓力持續向下游傳導。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/videos/2026-08-24/nvidia-notifies-customers-about-ai-related-price-hikes-video",
-      "date": "2026-08-24"
+      "text": "輝達財報效應擴散至供應鏈：台積電ADR勁揚逾2%，邁威爾（Marvell）上漲5.8%、美光上漲4.5%、博通上漲4.5%、SK海力士與英特爾分別上漲2%與4%，AMD盤前也上漲約1.8%，半導體ETF同步走高。",
+      "source_name": "ETtoday／Yahoo奇摩股市",
+      "source_url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC-%E8%82%A1%E5%83%B9%E6%9A%B4%E8%A1%9D%E8%BF%919-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A2-3-231500358.html",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "總經",
+      "text": "台股週四（8/27）開高走高一度衝上46401.78點（漲逾569點），但尾盤漲勢收斂，終場僅上漲142.6點（+0.31%）收45975.22點，成交值放大至NT$9246.83億，反映輝達財報利多已部分提前反映。",
+      "source_name": "Newtalk新聞／壹蘋新聞網",
+      "source_url": "https://news.nextapple.com/finance/20260827/4B3E1A840648CAAEC5335A878706D99B",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "總經",
+      "text": "受美股四大指數收紅與輝達財報激勵，台指期夜盤（8/27晚間）大漲324點（+0.70%）收46388點，為今日台股開盤提供正向動能。",
+      "source_name": "Yahoo奇摩股市",
+      "source_url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC-%E8%82%A1%E5%83%B9%E6%9A%B4%E8%A1%9D%E8%BF%919-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A2-3-231500358.html",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "總經",
+      "text": "經濟部統計處公布7月工業生產指數145.24、年增25.61%，製造業生產指數147.65、年增26.89%，雙創歷年單月新高；其中電腦、電子產品及光學製品業年增高達95.62%，主因AI伺服器與交換器需求延續強勁，1至7月工業生產累計年增20.64%。",
+      "source_name": "自由財經／鉅亨網",
+      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5552034",
+      "date": "2026-08-27"
     },
     {
       "category": "政策",
-      "text": "美國財政部週一祭出「史上最嚴厲」對伊朗制裁方案，財長貝森特稱之為「經濟版D-Day」；儘管制裁生效，國際油價當日仍下跌逾2.5%（WTI跌至84.89美元、布蘭特跌至92.06美元），顯示市場先前已提前反映利多並獲利了結。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
-      "date": "2026-08-24"
+      "text": "傑克森霍爾全球央行年會8/27至8/29登場，新任Fed主席Warsh將於台北時間今（8/28）晚間約10時發表就任後首場公開演說，市場目前僅定價約三分之一機率9月升息，其談話內容為近期利率路徑最關鍵觀察指標。",
+      "source_name": "intellectia.ai",
+      "source_url": "https://intellectia.ai/blog/jackson-hole-2026-fed-speech",
+      "date": "2026-08-27"
     },
     {
-      "category": "政策",
-      "text": "美加貿易戰持續升溫，美國自8/19起對總值200億美元加拿大商品加徵50%關稅，加拿大總理卡尼宣布將自9/8起採取等額報復關稅，雙方談判已破裂，全球貿易緊張情勢恐牽動風險性資產情緒。",
-      "source_name": "NBC News",
-      "source_url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
-      "date": "2026-08-22"
-    },
-    {
-      "category": "企業",
-      "text": "輝達預計於美東時間8/26盤後（台北時間8/27）公布最新季報，市場共識預期單季營收上看920億美元、年增97%，為本週牽動全球AI供應鏈與台股電子權值股走勢的最重要事件。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-24-213541834.html",
-      "date": "2026-08-24"
-    },
-    {
-      "category": "政策",
-      "text": "全球央行年會Jackson Hole將於8/27-29登場，新任Fed主席Warsh確定於美東時間8/28上午10時發表就任後首場公開演說，為市場評估後續降息路徑的關鍵指標，預期波動將延續至本週稍晚。",
-      "source_name": "Investing Live",
-      "source_url": "https://investinglive.com/central-banks/jackson-hole-hype-outruns-warsh-playbook-of-saying-as-little-as-possible/",
-      "date": "2026-08-24"
+      "category": "總經",
+      "text": "美元兌新台幣週四（8/27）收31.708元，較前一交易日下跌0.11元（-0.35%），新台幣走強，反映外資資金動向與台股風險偏好回升。",
+      "source_name": "鉅亨網",
+      "source_url": "https://invest.cnyes.com/forex/detail/USDTWD/overview",
+      "date": "2026-08-27"
     }
   ]
 }
