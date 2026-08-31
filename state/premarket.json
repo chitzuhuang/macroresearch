@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T08:35:00+08:00",
-  "as_of": "2026-08-28 08:35",
-  "headline": "輝達財報激勵效應延燒：美股週四（8/27）四大指數與費半同步收紅，輝達股價狂飆8.7%收227.98美元，台積電ADR、美光、邁威爾等晶片股全面走揚；台股當天開高收斂僅小漲142點收45975點，但夜盤在美股激勵下大漲324點收46388點，加上台灣7月工業生產指數創歷史新高，為今日開盤注入動能。市場仍聚焦傑克森霍爾央行年會，新任Fed主席Warsh首場演說將於台北時間今晚登場，為近期最大政策變數。",
+  "generated_at": "2026-08-31T08:45:00+08:00",
+  "as_of": "2026-08-31 08:45",
+  "headline": "Fed主席Warsh週五（8/28）在傑克森霍爾發表就任後首場公開演說，語氣偏鷹，直言通膨仍過高、聯準會「可能還有工作要做」，暗示9月不排除升息；市場對9月升息機率的定價由演說前約35%急升至56%~57%。美股當天四大指數同步收黑，費城半導體指數重挫3.47%，台積電ADR跌2.29%，台指期夜盤（8/28晚）挫457點，為今日台股開盤帶來偏空氣氛，AI供應鏈權值股短線恐承壓；另中國8月官方製造業PMI將於今日09:30公布，與台股開盤幾乎同步，為盤中另一觀察變數。",
   "items": [
     {
+      "category": "政策",
+      "text": "Fed主席Warsh在傑克森霍爾年會發表就任後首場演說，表示對經濟韌性印象深刻，但通膨「潛在趨勢」未見改善，暗示未來數月可能需要升息，並持續拒絕提供明確前瞻指引。",
+      "source_name": "Federal Reserve Board（聯準會官方講稿）",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+      "date": "2026-08-28"
+    },
+    {
+      "category": "總經",
+      "text": "受Warsh鷹派談話影響，芝商所（CME）FedWatch顯示9月升息一碼的機率由演說前約35%急升至55.7%~57%，為近期利率路徑最大轉折，通膨與就業數據將更受市場重視。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
+      "date": "2026-08-28"
+    },
+    {
+      "category": "總經",
+      "text": "美股週五（8/28）四大指數同步收黑：標普500下跌0.25%收7711.76點、那斯達克下跌0.52%收26402.42點、道瓊小跌0.02%收53559.99點，費城半導體指數重挫3.47%收11469.66點，晶片股領跌。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
+      "date": "2026-08-28"
+    },
+    {
       "category": "企業",
-      "text": "輝達股價週四（8/27）暴衝8.7%收227.98美元（前收209.66美元），延續財報後漲勢，市場解讀強勁Q3展望與FY28成長訊號緩解AI資本支出降溫疑慮，帶動費城半導體指數大漲1.62%收11799.80點。",
-      "source_name": "CNBC／vittarthi",
-      "source_url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
-      "date": "2026-08-27"
-    },
-    {
-      "category": "總經",
-      "text": "美股週四（8/27）四大指數同步收紅：標普500上漲0.42%收7673.04點、道瓊上漲0.83%收53195.36點、那斯達克上漲0.39%收26168.46點，輝達財報帶動的晶片股買氣為主要支撐，儘管10年期公債殖利率升至4.66%。",
-      "source_name": "Bloomberg／vittarthi",
-      "source_url": "https://vittarthi.com/markets/us",
-      "date": "2026-08-27"
-    },
-    {
-      "category": "企業",
-      "text": "輝達財報效應擴散至供應鏈：台積電ADR勁揚逾2%，邁威爾（Marvell）上漲5.8%、美光上漲4.5%、博通上漲4.5%、SK海力士與英特爾分別上漲2%與4%，AMD盤前也上漲約1.8%，半導體ETF同步走高。",
-      "source_name": "ETtoday／Yahoo奇摩股市",
-      "source_url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC-%E8%82%A1%E5%83%B9%E6%9A%B4%E8%A1%9D%E8%BF%919-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A2-3-231500358.html",
-      "date": "2026-08-27"
-    },
-    {
-      "category": "總經",
-      "text": "台股週四（8/27）開高走高一度衝上46401.78點（漲逾569點），但尾盤漲勢收斂，終場僅上漲142.6點（+0.31%）收45975.22點，成交值放大至NT$9246.83億，反映輝達財報利多已部分提前反映。",
-      "source_name": "Newtalk新聞／壹蘋新聞網",
-      "source_url": "https://news.nextapple.com/finance/20260827/4B3E1A840648CAAEC5335A878706D99B",
-      "date": "2026-08-27"
-    },
-    {
-      "category": "總經",
-      "text": "受美股四大指數收紅與輝達財報激勵，台指期夜盤（8/27晚間）大漲324點（+0.70%）收46388點，為今日台股開盤提供正向動能。",
+      "text": "受Fed鷹派談話與美股晶片股走弱影響，台積電ADR週五重挫2.29%，台指期夜盤（8/28晚間）大跌457點，扭轉前一交易日夜盤大漲的動能，為今日台股開盤留下缺口壓力。",
       "source_name": "Yahoo奇摩股市",
-      "source_url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC-%E8%82%A1%E5%83%B9%E6%9A%B4%E8%A1%9D%E8%BF%919-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A2-3-231500358.html",
-      "date": "2026-08-27"
+      "source_url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E8%A8%B1%E6%94%BE%E9%B7%B9-%E7%BE%8E%E8%82%A1%E6%94%B6%E9%BB%91-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%91%942-29-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C457%E9%BB%9E-233000967.html",
+      "date": "2026-08-28"
     },
     {
       "category": "總經",
-      "text": "經濟部統計處公布7月工業生產指數145.24、年增25.61%，製造業生產指數147.65、年增26.89%，雙創歷年單月新高；其中電腦、電子產品及光學製品業年增高達95.62%，主因AI伺服器與交換器需求延續強勁，1至7月工業生產累計年增20.64%。",
-      "source_name": "自由財經／鉅亨網",
-      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5552034",
-      "date": "2026-08-27"
+      "text": "日本經產省今（8/31）公布7月礦工業生產指數（季調，2020年=100）較上月上升0.1%至104.7，連續第4個月正成長，15個行業中10個上升，機械與有機無機化學品製造業為主要貢獻。",
+      "source_name": "経済産業省（日本經產省）",
+      "source_url": "https://www.meti.go.jp/statistics/tyo/iip/result-1.html",
+      "date": "2026-08-31"
+    },
+    {
+      "category": "總經",
+      "text": "日本總務省8/28公布7月完全失業率降至2.4%，較前月下降0.1個百分點，勞動市場續呈緊俏，與台灣、美股AI供應鏈需求形成區域經濟互為呼應的觀察指標。",
+      "source_name": "日本經濟新聞（日經）",
+      "source_url": "https://www.nikkei.com/article/DGXZQOUA273SK0X20C26A8000000/",
+      "date": "2026-08-28"
     },
     {
       "category": "政策",
-      "text": "傑克森霍爾全球央行年會8/27至8/29登場，新任Fed主席Warsh將於台北時間今（8/28）晚間約10時發表就任後首場公開演說，市場目前僅定價約三分之一機率9月升息，其談話內容為近期利率路徑最關鍵觀察指標。",
-      "source_name": "intellectia.ai",
-      "source_url": "https://intellectia.ai/blog/jackson-hole-2026-fed-speech",
-      "date": "2026-08-27"
+      "text": "中國國家統計局將於今（8/31）上午09:30公布8月官方製造業與非製造業採購經理人指數，時點與台股開盤幾近同步；市場關注製造業PMI能否止穩，若續處收縮區間恐牽動陸股與台股中概股情緒。",
+      "source_name": "投資日曆彙整（investinglive）",
+      "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-31-august-2026-china-official-pmis/",
+      "date": "2026-08-31"
     },
     {
-      "category": "總經",
-      "text": "美元兌新台幣週四（8/27）收31.708元，較前一交易日下跌0.11元（-0.35%），新台幣走強，反映外資資金動向與台股風險偏好回升。",
-      "source_name": "鉅亨網",
-      "source_url": "https://invest.cnyes.com/forex/detail/USDTWD/overview",
-      "date": "2026-08-27"
+      "category": "政策",
+      "text": "美國政府研議在川習會前對中國加徵約7.5%「產能過剩」關稅，若成行將使川普政府任內對中關稅稅率回升至約20%，中美貿易緊張情勢是近期未解的政策變數之一。",
+      "source_name": "Washington Post（引述美聯社消息來源）",
+      "source_url": "https://www.washingtonpost.com/business/2026/08/24/trump-china-xi-tariffs-manufacturing/3c265932-a006-11f1-8606-1d40ad00172e_story.html",
+      "date": "2026-08-24"
     }
   ]
 }
