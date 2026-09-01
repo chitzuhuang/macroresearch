@@ -1,64 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T08:45:00+08:00",
-  "as_of": "2026-08-31 08:45",
-  "headline": "Fed主席Warsh週五（8/28）在傑克森霍爾發表就任後首場公開演說，語氣偏鷹，直言通膨仍過高、聯準會「可能還有工作要做」，暗示9月不排除升息；市場對9月升息機率的定價由演說前約35%急升至56%~57%。美股當天四大指數同步收黑，費城半導體指數重挫3.47%，台積電ADR跌2.29%，台指期夜盤（8/28晚）挫457點，為今日台股開盤帶來偏空氣氛，AI供應鏈權值股短線恐承壓；另中國8月官方製造業PMI將於今日09:30公布，與台股開盤幾乎同步，為盤中另一觀察變數。",
+  "generated_at": "2026-09-01T08:42:00+08:00",
+  "as_of": "2026-09-01 08:42",
+  "headline": "聯發科結盟輝達成今日盤前最大變數：黃仁勳砸35億美元認購聯發科39億美元海外可轉債，聯手切入AI基礎建設、邊緣運算與車用，激勵晶片供應鏈氣勢；但美股週一（8/31）在Fed主席Warsh鷹派發言後、9月升息機率一度攀升至66%的疑慮下收黑，10年期美債殖利率創近20個月新高，加上台股昨日在MSCI季調生效與台積電權重調降下重挫逾880點、終場收跌202點失守46200點，今日台股需在企業結盟利多與升息疑慮之間拉鋸，能否守住46000點成為觀察焦點。",
   "items": [
     {
+      "category": "企業",
+      "text": "聯發科完成海外無擔保可轉債(ECB)訂價，總額39億美元創台灣資本市場紀錄，其中輝達認購35億美元（約新台幣千億元），雙方將在AI基礎建設、邊緣AI運算與車用三大領域深度合作，聯發科並將導入NVIDIA NVLink Fusion生態系開發客製化AI基礎建設。",
+      "source_name": "鉅亨網",
+      "source_url": "https://news.cnyes.com/news/id/6593121",
+      "date": "2026-08-31"
+    },
+    {
       "category": "政策",
-      "text": "Fed主席Warsh在傑克森霍爾年會發表就任後首場演說，表示對經濟韌性印象深刻，但通膨「潛在趨勢」未見改善，暗示未來數月可能需要升息，並持續拒絕提供明確前瞻指引。",
-      "source_name": "Federal Reserve Board（聯準會官方講稿）",
-      "source_url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
-      "date": "2026-08-28"
+      "text": "芝商所FedWatch顯示，受Fed主席Warsh在傑克森霍爾年會強調通膨「未見改善」的鷹派發言影響，市場對9月FOMC升息一碼的機率由會前不到4成一路攀升至8/31的66%，降息預期幾乎消失，10年期美債殖利率同步升抵近20個月新高。",
+      "source_name": "Forbes",
+      "source_url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
+      "date": "2026-08-31"
     },
     {
       "category": "總經",
-      "text": "受Warsh鷹派談話影響，芝商所（CME）FedWatch顯示9月升息一碼的機率由演說前約35%急升至55.7%~57%，為近期利率路徑最大轉折，通膨與就業數據將更受市場重視。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
-      "date": "2026-08-28"
+      "text": "美股週一（8/31）三大指數同步收黑：道瓊下跌0.70%收53185.90點、標普500下跌0.33%收7686.14點、那斯達克下跌0.12%收26370.89點，儘管如此8月全月仍收漲，道瓊、那指、標普分別累計上漲1.34%、3.93%、2.62%。",
+      "source_name": "新浪財經",
+      "source_url": "https://finance.sina.com.cn/stock/t/2026-08-31/doc-iniqfuyq1663826.shtml",
+      "date": "2026-08-31"
     },
     {
       "category": "總經",
-      "text": "美股週五（8/28）四大指數同步收黑：標普500下跌0.25%收7711.76點、那斯達克下跌0.52%收26402.42點、道瓊小跌0.02%收53559.99點，費城半導體指數重挫3.47%收11469.66點，晶片股領跌。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
-      "date": "2026-08-28"
+      "text": "台股週一（8/31）在MSCI季度調整生效日尾盤爆量下，終場下跌202.98點（-0.44%）收46128.47點，MSCI台灣指數成分股「6進6出」並調升台積電以外成分股權重，台積電權重調降0.79%至56.61%，早盤一度重挫逾880點，金融、塑化與光學股尾盤撐盤收斂跌幅。",
+      "source_name": "經濟日報",
+      "source_url": "https://money.udn.com/money/story/5607/9688383",
+      "date": "2026-08-31"
     },
     {
       "category": "企業",
-      "text": "受Fed鷹派談話與美股晶片股走弱影響，台積電ADR週五重挫2.29%，台指期夜盤（8/28晚間）大跌457點，扭轉前一交易日夜盤大漲的動能，為今日台股開盤留下缺口壓力。",
-      "source_name": "Yahoo奇摩股市",
-      "source_url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E8%A8%B1%E6%94%BE%E9%B7%B9-%E7%BE%8E%E8%82%A1%E6%94%B6%E9%BB%91-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%91%942-29-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C457%E9%BB%9E-233000967.html",
-      "date": "2026-08-28"
-    },
-    {
-      "category": "總經",
-      "text": "日本經產省今（8/31）公布7月礦工業生產指數（季調，2020年=100）較上月上升0.1%至104.7，連續第4個月正成長，15個行業中10個上升，機械與有機無機化學品製造業為主要貢獻。",
-      "source_name": "経済産業省（日本經產省）",
-      "source_url": "https://www.meti.go.jp/statistics/tyo/iip/result-1.html",
+      "text": "台積電受MSCI調整資金移動影響，週一（8/31）股價下跌15元收2405元，尾盤爆出逾1.4萬張大量，反映指數型基金換股賣壓集中在收盤前湧現。",
+      "source_name": "中時新聞網",
+      "source_url": "https://www.chinatimes.com/realtimenews/20260831002683-260410",
       "date": "2026-08-31"
     },
     {
       "category": "總經",
-      "text": "日本總務省8/28公布7月完全失業率降至2.4%，較前月下降0.1個百分點，勞動市場續呈緊俏，與台灣、美股AI供應鏈需求形成區域經濟互為呼應的觀察指標。",
-      "source_name": "日本經濟新聞（日經）",
-      "source_url": "https://www.nikkei.com/article/DGXZQOUA273SK0X20C26A8000000/",
-      "date": "2026-08-28"
-    },
-    {
-      "category": "政策",
-      "text": "中國國家統計局將於今（8/31）上午09:30公布8月官方製造業與非製造業採購經理人指數，時點與台股開盤幾近同步；市場關注製造業PMI能否止穩，若續處收縮區間恐牽動陸股與台股中概股情緒。",
-      "source_name": "投資日曆彙整（investinglive）",
-      "source_url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-31-august-2026-china-official-pmis/",
+      "text": "中國國家統計局公布8月官方製造業採購經理人指數（PMI）升至49.8，較7月回升0.6個百分點且優於市場預期的49.7，惟仍位於50榮枯線下方之收縮區間，生產與新訂單指數同步重返擴張。",
+      "source_name": "中新網",
+      "source_url": "https://www.chinanews.com.cn/cj/2026/08-31/10687023.shtml",
       "date": "2026-08-31"
     },
     {
-      "category": "政策",
-      "text": "美國政府研議在川習會前對中國加徵約7.5%「產能過剩」關稅，若成行將使川普政府任內對中關稅稅率回升至約20%，中美貿易緊張情勢是近期未解的政策變數之一。",
-      "source_name": "Washington Post（引述美聯社消息來源）",
-      "source_url": "https://www.washingtonpost.com/business/2026/08/24/trump-china-xi-tariffs-manufacturing/3c265932-a006-11f1-8606-1d40ad00172e_story.html",
-      "date": "2026-08-24"
+      "category": "總經",
+      "text": "新台幣兌美元週一（8/31）終場收31.666元、貶值3.8分，盤中一度貶破31.7元關卡，所幸月底出口商拋匯與央行調節收斂貶勢；8月全月新台幣仍強升6.26角（+1.94%），月線由黑翻紅。",
+      "source_name": "鉅亨網",
+      "source_url": "https://news.cnyes.com/news/id/6592903",
+      "date": "2026-08-31"
     }
   ]
 }
