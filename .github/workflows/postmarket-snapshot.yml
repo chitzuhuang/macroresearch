@@ -2,8 +2,15 @@ name: Post-market snapshot
 
 on:
   schedule:
-    # 05:35 UTC = 13:35 Asia/Taipei, weekdays — shortly after TWSE/TPEx close (13:30)
-    - cron: "35 5 * * 1-5"
+    # 08:00 UTC = 16:00 Asia/Taipei, weekdays — about 2.5h after the 13:30
+    # close. fetch_market_snapshot.py now reads TWSE's own same-day site
+    # (rwd/MI_INDEX) for the full market table and TAIEX instead of the
+    # openapi.twse.com.tw mirror, which doesn't finalize a session until the
+    # small hours of the next day. By 16:00, that same-day source plus T86
+    # (三大法人), TAIFEX futures, and TPEx's quotes/index/flows are all
+    # normally published, so one run picks up every source at its same-day
+    # version without waiting until the next morning.
+    - cron: "0 8 * * 1-5"
   workflow_dispatch: {}
 
 jobs:
@@ -20,8 +27,7 @@ jobs:
 
       - name: Fetch official-latest market snapshot
         run: |
-          WATCHLIST=$(python3 -c "import json; print(','.join(h['code'] for h in json.load(open('state/holdings.json'))['holdings']))")
-          python3 scripts/fetch_market_snapshot.py --output state/postmarket.json --watchlist "$WATCHLIST"
+          python3 scripts/fetch_market_snapshot.py --output state/postmarket.json
 
       - name: Commit and push if changed
         run: |
