@@ -240,27 +240,6 @@
   tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
   td.name { color: var(--text-muted); font-size: 0.8rem; }
 
-  /* Holdings */
-  .holdings-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 1rem 1.1rem;
-    box-shadow: var(--shadow);
-  }
-  .holdings-empty { color: var(--text-muted); font-style: italic; margin: 0; }
-  .holdings-note { color: var(--text-muted); font-size: 0.75rem; margin: 0 0 0.6rem; }
-  .holdings-summary {
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-    margin-bottom: 0.9rem;
-    padding-bottom: 0.9rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .holdings-stat { font-size: 0.8rem; color: var(--text-muted); }
-  .holdings-stat b { display: block; font-size: 1.15rem; color: var(--text); margin-top: 0.15rem; }
-
   /* Deep research report (server-rendered from Markdown) */
   .report-content {
     background: var(--surface);
@@ -337,7 +316,7 @@
   }
 
   @media (prefers-reduced-motion: no-preference) {
-    .idx-card, .brief-item, .breadth-card, .table-card, .holdings-card { transition: box-shadow 0.15s ease; }
+    .idx-card, .brief-item, .breadth-card, .table-card { transition: box-shadow 0.15s ease; }
   }
 </style>
 
@@ -366,14 +345,6 @@
     <div class="table-grid" id="table-grid"></div>
   </section>
 
-  <section id="holdings-section">
-    <div class="section-head">
-      <h2><span class="eyebrow">我的持股</span>&nbsp;損益概況</h2>
-      <span class="updated" id="holdings-updated"></span>
-    </div>
-    <div class="holdings-card" id="holdings-card"></div>
-  </section>
-
   <section id="report-section">
     <div class="section-head">
       <h2><span class="eyebrow">深度研究</span>&nbsp;<span id="report-title">完整研究報告</span></h2>
@@ -391,12 +362,10 @@
 <script type="application/json" id="premarket-data">__PREMARKET_JSON__</script>
 <script type="application/json" id="postmarket-data">__POSTMARKET_JSON__</script>
 <script type="application/json" id="report-meta-data">__REPORT_META_JSON__</script>
-<script type="application/json" id="holdings-data">__HOLDINGS_JSON__</script>
 <script>
   const PREMARKET = JSON.parse(document.getElementById("premarket-data").textContent);
   const POSTMARKET = JSON.parse(document.getElementById("postmarket-data").textContent);
   const REPORT_META = JSON.parse(document.getElementById("report-meta-data").textContent);
-  const HOLDINGS = JSON.parse(document.getElementById("holdings-data").textContent);
 
   function fmtInt(n) {
     if (n === null || n === undefined) return "N/A";
@@ -535,67 +504,6 @@
     '<table><thead><tr><th>代號／名稱</th><th>收盤</th><th>漲跌幅</th><th>成交值(百萬)</th></tr></thead>' +
     '<tbody>' + turnoverHtml + '</tbody></table>';
   tableGrid.appendChild(turnoverCard);
-
-  // Holdings — P&L calibrated against the user's actual 庫存 statement:
-  // cost is the raw shares×avg_cost (no buy-side fee), market value shown
-  // is the raw shares×price, and only the P&L nets out the sell-side
-  // brokerage commission (full rate, no discount) and transaction tax.
-  const COMMISSION_RATE = 0.001425; // 手續費 1.425‰（未打折）
-  const ETF_TAX_RATE = 0.001;   // 證券交易稅：ETF 0.1%
-  const STOCK_TAX_RATE = 0.003; // 證券交易稅：一般股票 0.3%
-  function isEtfCode(code) { return /^00/.test(code); }
-  function floorFee(amount) { return Math.floor(amount * COMMISSION_RATE); }
-
-  const holdingsCard = document.getElementById("holdings-card");
-  const holdingsList = HOLDINGS.holdings || [];
-  document.getElementById("holdings-updated").textContent =
-    HOLDINGS.updated_at ? "更新於 " + HOLDINGS.updated_at : "";
-  if (!holdingsList.length) {
-    holdingsCard.innerHTML = '<p class="holdings-empty">尚未設定持股，告訴 Claude 你的持股代號、股數與均價即可加入。</p>';
-  } else {
-    const priceByCode = {};
-    (POSTMARKET.watchlist && POSTMARKET.watchlist.matches || []).forEach(function (r) {
-      priceByCode[r.code] = r;
-    });
-    let totalCost = 0, totalValue = 0, totalPnl = 0;
-    const rowsHtml = holdingsList.map(function (h) {
-      const quote = priceByCode[h.code];
-      const price = quote ? quote.close : null;
-      const cost = h.shares * h.avg_cost;
-      let value = null, pnl = null, pnlPct = null;
-      if (price !== null) {
-        value = h.shares * price;
-        const taxRate = isEtfCode(h.code) ? ETF_TAX_RATE : STOCK_TAX_RATE;
-        const netValue = value - floorFee(value) - Math.floor(value * taxRate);
-        pnl = netValue - cost;
-        pnlPct = cost > 0 ? (pnl / cost * 100) : null;
-      }
-      totalCost += cost;
-      totalValue += value !== null ? value : cost;
-      totalPnl += pnl !== null ? pnl : 0;
-      const cls = deltaClass(pnl);
-      return '<tr>' +
-        '<td>' + h.code + (quote ? '<div class="name">' + quote.name + '</div>' : '') + '</td>' +
-        '<td class="num">' + fmtInt(h.shares) + '</td>' +
-        '<td class="num">' + fmtNum(h.avg_cost, 2) + '</td>' +
-        '<td class="num">' + (price !== null ? fmtNum(price, 2) : "N/A") + '</td>' +
-        '<td class="num ' + cls + '">' + (pnl !== null ? (pnl > 0 ? "+" : "") + fmtInt(pnl) : "N/A") + '</td>' +
-        '<td class="num ' + cls + '">' + (pnlPct !== null ? fmtPct(pnlPct) : "N/A") + '</td>' +
-        '</tr>';
-    }).join("");
-    const totalPnlPct = totalCost > 0 ? (totalPnl / totalCost * 100) : null;
-    const totalCls = deltaClass(totalPnl);
-    holdingsCard.innerHTML =
-      '<div class="holdings-summary">' +
-      '<div class="holdings-stat">總成本<b class="num">NT$' + fmtInt(totalCost) + '</b></div>' +
-      '<div class="holdings-stat">總市值<b class="num">NT$' + fmtInt(totalValue) + '</b></div>' +
-      '<div class="holdings-stat">未實現損益<b class="num ' + totalCls + '">' + (totalPnl > 0 ? "+" : "") + fmtInt(totalPnl) +
-      (totalPnlPct !== null ? '　(' + fmtPct(totalPnlPct) + ')' : '') + '</b></div>' +
-      '</div>' +
-      '<p class="holdings-note">損益已扣除賣出手續費（1.425‰）與證交稅（ETF 0.1%／個股 0.3%）；市值為現價×股數原始金額，未扣費用</p>' +
-      '<table><thead><tr><th>代號／名稱</th><th>股數</th><th>均價</th><th>現價</th><th>損益</th><th>損益%</th></tr></thead>' +
-      '<tbody>' + rowsHtml + '</tbody></table>';
-  }
 
   // Deep research report
   document.getElementById("report-title").textContent = REPORT_META.title || "完整研究報告";

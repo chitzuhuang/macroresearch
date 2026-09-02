@@ -19,7 +19,6 @@ def main() -> int:
     parser.add_argument("--premarket", type=Path, default=BUNDLE_DIR / "state" / "premarket.json")
     parser.add_argument("--postmarket", type=Path, default=BUNDLE_DIR / "state" / "postmarket.json")
     parser.add_argument("--report", type=Path, default=BUNDLE_DIR / "state" / "full_report.json")
-    parser.add_argument("--holdings", type=Path, default=BUNDLE_DIR / "state" / "holdings.json")
     parser.add_argument("--output", type=Path, default=BUNDLE_DIR / "state" / "dashboard.html")
     args = parser.parse_args()
 
@@ -32,11 +31,6 @@ def main() -> int:
         "title": "深度研究報告",
         "markdown": "",
     }
-    holdings = json.loads(args.holdings.read_text(encoding="utf-8")) if args.holdings.exists() else {
-        "updated_at": None,
-        "holdings": [],
-    }
-
     def dumps_for_script(data: dict) -> str:
         # Escape "</" so embedded text can never prematurely close the <script> tag.
         return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
@@ -59,8 +53,6 @@ def main() -> int:
         "__REPORT_META_JSON__", dumps_for_script(report_meta)
     ).replace(
         "__REPORT_HTML__", report_html
-    ).replace(
-        "__HOLDINGS_JSON__", dumps_for_script(holdings)
     )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
