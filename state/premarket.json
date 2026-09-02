@@ -1,57 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T08:42:00+08:00",
-  "as_of": "2026-09-01 08:42",
-  "headline": "聯發科結盟輝達成今日盤前最大變數：黃仁勳砸35億美元認購聯發科39億美元海外可轉債，聯手切入AI基礎建設、邊緣運算與車用，激勵晶片供應鏈氣勢；但美股週一（8/31）在Fed主席Warsh鷹派發言後、9月升息機率一度攀升至66%的疑慮下收黑，10年期美債殖利率創近20個月新高，加上台股昨日在MSCI季調生效與台積電權重調降下重挫逾880點、終場收跌202點失守46200點，今日台股需在企業結盟利多與升息疑慮之間拉鋸，能否守住46000點成為觀察焦點。",
+  "generated_at": "2026-09-02T08:40:47+08:00",
+  "as_of": "2026-09-02 08:40",
+  "headline": "美國對伊朗目標發動新一輪空襲、原油單日飆漲逾4%引爆通膨疑慮，加上聯準會新主席沃許維持鷹派立場使9月升息機率攀升至約6成，美股週二（9/1）那斯達克重挫逾1%領跌三大指數，地緣政治風險與升息陰霾雙重夾擊，台股今日在MSCI效應後能否守住46000點面臨更大考驗。",
   "items": [
     {
-      "category": "企業",
-      "text": "聯發科完成海外無擔保可轉債(ECB)訂價，總額39億美元創台灣資本市場紀錄，其中輝達認購35億美元（約新台幣千億元），雙方將在AI基礎建設、邊緣AI運算與車用三大領域深度合作，聯發科並將導入NVIDIA NVLink Fusion生態系開發客製化AI基礎建設。",
-      "source_name": "鉅亨網",
-      "source_url": "https://news.cnyes.com/news/id/6593121",
-      "date": "2026-08-31"
+      "category": "總經",
+      "text": "美股週二（9/1）三大指數同步收黑：道瓊下跌418.31點（-0.79%）收52,767點、標普500下跌54.56點（-0.71%）收7,631點、那斯達克下跌271.12點（-1.03%）收26,099點，市場對中東情勢升溫與通膨壓力升溫轉趨保守。",
+      "source_name": "WTOP News（AP）",
+      "source_url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-tuesday-9-1-2026",
+      "date": "2026-09-01"
     },
     {
       "category": "政策",
-      "text": "芝商所FedWatch顯示，受Fed主席Warsh在傑克森霍爾年會強調通膨「未見改善」的鷹派發言影響，市場對9月FOMC升息一碼的機率由會前不到4成一路攀升至8/31的66%，降息預期幾乎消失，10年期美債殖利率同步升抵近20個月新高。",
-      "source_name": "Forbes",
-      "source_url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
-      "date": "2026-08-31"
+      "text": "美軍週二（9/1）對伊朗位於拉拉克島的火箭發射器等目標發動新一輪空襲，加上荷姆茲海峽附近傳出油輪觸雷起火事件，市場重燃供應中斷疑慮，布蘭特原油大漲4.6%收94.65美元、WTI大漲5.2%收90.22美元，雙雙創逾一週新高。",
+      "source_name": "CNBC / GV Wire",
+      "source_url": "https://gvwire.com/2026/09/01/oil-prices-jump-4-as-fresh-us-iran-fighting-stokes-supply-fears/",
+      "date": "2026-09-01"
     },
     {
-      "category": "總經",
-      "text": "美股週一（8/31）三大指數同步收黑：道瓊下跌0.70%收53185.90點、標普500下跌0.33%收7686.14點、那斯達克下跌0.12%收26370.89點，儘管如此8月全月仍收漲，道瓊、那指、標普分別累計上漲1.34%、3.93%、2.62%。",
-      "source_name": "新浪財經",
-      "source_url": "https://finance.sina.com.cn/stock/t/2026-08-31/doc-iniqfuyq1663826.shtml",
-      "date": "2026-08-31"
-    },
-    {
-      "category": "總經",
-      "text": "台股週一（8/31）在MSCI季度調整生效日尾盤爆量下，終場下跌202.98點（-0.44%）收46128.47點，MSCI台灣指數成分股「6進6出」並調升台積電以外成分股權重，台積電權重調降0.79%至56.61%，早盤一度重挫逾880點，金融、塑化與光學股尾盤撐盤收斂跌幅。",
-      "source_name": "經濟日報",
-      "source_url": "https://money.udn.com/money/story/5607/9688383",
-      "date": "2026-08-31"
+      "category": "政策",
+      "text": "在新任Fed主席沃許（Kevin Warsh）延續傑克森霍爾年會的鷹派基調、強調不急於降息的態度下，利率期貨市場對9月15-16日FOMC會議升息一碼的隱含機率已攀升至約6成，2026全年降息機率則降至個位數，市場對「不降反升」的疑慮持續發酵。",
+      "source_name": "Morningstar / Kalshi",
+      "source_url": "https://www.morningstar.com/economy/powell-closes-out-term-fed-chair-odds-rate-cut-2026-vanish",
+      "date": "2026-09-01"
     },
     {
       "category": "企業",
-      "text": "台積電受MSCI調整資金移動影響，週一（8/31）股價下跌15元收2405元，尾盤爆出逾1.4萬張大量，反映指數型基金換股賣壓集中在收盤前湧現。",
-      "source_name": "中時新聞網",
-      "source_url": "https://www.chinatimes.com/realtimenews/20260831002683-260410",
-      "date": "2026-08-31"
+      "text": "輝達股價週二盤前一度下跌逾1%，市場評估其加碼布局客製化AI晶片（NVHBM）策略對博通（Broadcom）構成的競爭壓力，同時反映投資人對大型科技股評價偏高的疑慮，牽動台灣AI供應鏈今日盤前情緒。",
+      "source_name": "Benzinga",
+      "source_url": "https://www.benzinga.com/markets/tech/26/09/61540989/nvidia-moves-deeper-into-broadcom-territory-without-building-the-chip",
+      "date": "2026-09-01"
     },
     {
-      "category": "總經",
-      "text": "中國國家統計局公布8月官方製造業採購經理人指數（PMI）升至49.8，較7月回升0.6個百分點且優於市場預期的49.7，惟仍位於50榮枯線下方之收縮區間，生產與新訂單指數同步重返擴張。",
-      "source_name": "中新網",
-      "source_url": "https://www.chinanews.com.cn/cj/2026/08-31/10687023.shtml",
-      "date": "2026-08-31"
+      "category": "政策",
+      "text": "總統賴清德9/1出席「歐盟投資論壇」，呼籲歐洲國家與台灣簽署投資保障與租稅協定，指出台灣對歐盟投資十年來成長650%、雙邊貿易額近750億美元，並樂見電電公會宣布在波蘭設立科技園區，深化雙方半導體供應鏈合作。",
+      "source_name": "Taipei Times",
+      "source_url": "https://www.taipeitimes.com/News/biz/archives/2026/09/02/2003863519",
+      "date": "2026-09-01"
     },
     {
-      "category": "總經",
-      "text": "新台幣兌美元週一（8/31）終場收31.666元、貶值3.8分，盤中一度貶破31.7元關卡，所幸月底出口商拋匯與央行調節收斂貶勢；8月全月新台幣仍強升6.26角（+1.94%），月線由黑翻紅。",
-      "source_name": "鉅亨網",
-      "source_url": "https://news.cnyes.com/news/id/6592903",
-      "date": "2026-08-31"
+      "category": "新聞",
+      "text": "總統賴清德在SEMICON Taiwan「國際半導體展」產業高峰會致詞，強調台灣半導體產業數十年來建立的全球分工網絡強化了供應鏈韌性，並提及台積電美國亞利桑那州追加投資1000億美元、德國德勒斯登廠將於明年底前投產等進度。",
+      "source_name": "Taipei Times",
+      "source_url": "https://www.taipeitimes.com/News/front/archives/2026/09/02/2003863534",
+      "date": "2026-09-02"
     }
   ]
 }
