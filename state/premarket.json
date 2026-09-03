@@ -1,50 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T08:40:47+08:00",
-  "as_of": "2026-09-02 08:40",
-  "headline": "美國對伊朗目標發動新一輪空襲、原油單日飆漲逾4%引爆通膨疑慮，加上聯準會新主席沃許維持鷹派立場使9月升息機率攀升至約6成，美股週二（9/1）那斯達克重挫逾1%領跌三大指數，地緣政治風險與升息陰霾雙重夾擊，台股今日在MSCI效應後能否守住46000點面臨更大考驗。",
+  "generated_at": "2026-09-03T08:41:24+08:00",
+  "as_of": "2026-09-03 08:41",
+  "headline": "美股週三（9/2）道瓊、標普、那斯達克同步收漲逾0.5%，科技股領漲加上原油走勢趨穩，市場情緒回溫；美國8月ADP民間就業僅增3.8萬人、遠低於預期並創今年1月以來最小增幅，使9月升息機率由前一交易日約68%降溫至60~64%，但仍處偏高水位，加上中東荷姆茲海峽情勢持續未解，台股在週二重挫784點、失守46000點後，今日能否站穩仍待觀察。",
   "items": [
     {
       "category": "總經",
-      "text": "美股週二（9/1）三大指數同步收黑：道瓊下跌418.31點（-0.79%）收52,767點、標普500下跌54.56點（-0.71%）收7,631點、那斯達克下跌271.12點（-1.03%）收26,099點，市場對中東情勢升溫與通膨壓力升溫轉趨保守。",
-      "source_name": "WTOP News（AP）",
-      "source_url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-tuesday-9-1-2026",
-      "date": "2026-09-01"
+      "text": "美股週三（9/2）三大指數同步收漲：道瓊上漲295.07點（+0.6%）收53,061.95點、標普500上漲35.13點（+0.5%）收7,666.60點、那斯達克上漲118.05點（+0.5%）收26,217.83點，科技股走強加上油價走勢趨穩，帶動市場從週二的重挫中反彈。",
+      "source_name": "ABC News（AP）",
+      "source_url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-922026-136155616",
+      "date": "2026-09-02"
+    },
+    {
+      "category": "總經",
+      "text": "美國8月ADP民間就業報告僅增3.8萬人，遠低於市場預期的約4.7~4.8萬人、也低於7月上修後的4.6萬人，為今年1月以來最小增幅；受此影響，CME FedWatch統計的9月升息機率由前一交易日約68.2%降至60.2~64.2%，10年期公債殖利率也由盤中高點4.818%回落收在4.780%。",
+      "source_name": "ADP Research / COINOTAG",
+      "source_url": "https://en.coinotag.com/adp-38000-jobs-cools-fed-hike-odds-bitcoin",
+      "date": "2026-09-02"
+    },
+    {
+      "category": "新聞",
+      "text": "國際油價週三未再延續週二的急漲走勢，布蘭特原油收在每桶94.86美元（+0.23%），僅小幅上揚；市場評估在荷姆茲海峽情勢未進一步惡化下，供應中斷疑慮暫時降溫，是美股得以反彈的重要因素之一。",
+      "source_name": "Forbes Advisor / Trading Economics",
+      "source_url": "https://www.forbes.com/advisor/investing/oil-prices-today/",
+      "date": "2026-09-02"
     },
     {
       "category": "政策",
-      "text": "美軍週二（9/1）對伊朗位於拉拉克島的火箭發射器等目標發動新一輪空襲，加上荷姆茲海峽附近傳出油輪觸雷起火事件，市場重燃供應中斷疑慮，布蘭特原油大漲4.6%收94.65美元、WTI大漲5.2%收90.22美元，雙雙創逾一週新高。",
-      "source_name": "CNBC / GV Wire",
-      "source_url": "https://gvwire.com/2026/09/01/oil-prices-jump-4-as-fresh-us-iran-fighting-stokes-supply-fears/",
-      "date": "2026-09-01"
-    },
-    {
-      "category": "政策",
-      "text": "在新任Fed主席沃許（Kevin Warsh）延續傑克森霍爾年會的鷹派基調、強調不急於降息的態度下，利率期貨市場對9月15-16日FOMC會議升息一碼的隱含機率已攀升至約6成，2026全年降息機率則降至個位數，市場對「不降反升」的疑慮持續發酵。",
-      "source_name": "Morningstar / Kalshi",
-      "source_url": "https://www.morningstar.com/economy/powell-closes-out-term-fed-chair-odds-rate-cut-2026-vanish",
+      "text": "美伊圍繞荷姆茲海峽的軍事對峙持續，美軍週二協助逾1500萬桶原油及成品油自海峽附近運出，儘管伊朗仍宣稱已「封鎖」海峽；同時伊朗里亞爾兌美元貶至每美元逾220萬里亞爾的歷史新低，反映區域緊張情勢對能源與金融市場的壓力尚未緩解。",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/08/23/iran-war-outlook-2027-strait-of-hormuz-oil-exports-blockade-oman-corridor-escalation/",
       "date": "2026-09-01"
     },
     {
       "category": "企業",
-      "text": "輝達股價週二盤前一度下跌逾1%，市場評估其加碼布局客製化AI晶片（NVHBM）策略對博通（Broadcom）構成的競爭壓力，同時反映投資人對大型科技股評價偏高的疑慮，牽動台灣AI供應鏈今日盤前情緒。",
-      "source_name": "Benzinga",
-      "source_url": "https://www.benzinga.com/markets/tech/26/09/61540989/nvidia-moves-deeper-into-broadcom-territory-without-building-the-chip",
-      "date": "2026-09-01"
-    },
-    {
-      "category": "政策",
-      "text": "總統賴清德9/1出席「歐盟投資論壇」，呼籲歐洲國家與台灣簽署投資保障與租稅協定，指出台灣對歐盟投資十年來成長650%、雙邊貿易額近750億美元，並樂見電電公會宣布在波蘭設立科技園區，深化雙方半導體供應鏈合作。",
-      "source_name": "Taipei Times",
-      "source_url": "https://www.taipeitimes.com/News/biz/archives/2026/09/02/2003863519",
+      "text": "輝達宣布透過可轉換公司債對聯發科挹注35億美元投資，為輝達在美國以外最大規模的直接投資；聯發科將採用輝達NVLink Fusion技術布局客製化AI晶片、資料中心與車用平台，消息帶動聯發科股價當日一度大漲一成，也深化台灣在全球AI客製化晶片供應鏈的角色。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/01/nvidia-deal-mediatek-shares.html",
       "date": "2026-09-01"
     },
     {
       "category": "新聞",
-      "text": "總統賴清德在SEMICON Taiwan「國際半導體展」產業高峰會致詞，強調台灣半導體產業數十年來建立的全球分工網絡強化了供應鏈韌性，並提及台積電美國亞利桑那州追加投資1000億美元、德國德勒斯登廠將於明年底前投產等進度。",
-      "source_name": "Taipei Times",
-      "source_url": "https://www.taipeitimes.com/News/front/archives/2026/09/02/2003863534",
+      "text": "「SEMICON Taiwan 2026國際半導體展」9/2於台北盛大開幕、規模創歷屆新高，SEMI全球總裁預估半導體產業規模至2030年將逼近2兆美元；台積電德國德勒斯登廠在客戶合計逾100億歐元加碼投資下持續推進，目標2027年正式投產，聯發科、鴻海、欣興電子等供應鏈龍頭同台分享產業展望。",
+      "source_name": "Newtalk新聞 / 非凡新聞",
+      "source_url": "https://newtalk.tw/news/view/2026-09-02/1057435",
       "date": "2026-09-02"
+    },
+    {
+      "category": "總經",
+      "text": "中國8月官方製造業PMI為49.8，較7月的49.2回升但連續數月處於50榮枯線下方，新出口訂單同步轉為擴張，惟就業分項仍疲弱；非製造業PMI則持平於49.0，為2022年12月以來最弱讀數；財新／RatingDog服務業PMI預定9/3公布，將是觀察中國內需動能、進而牽動台灣出口鏈的下一項指標。",
+      "source_name": "Vantage Markets",
+      "source_url": "https://www.vantagemarkets.com/market-news/china-official-manufacturing-pmi-august-2026-september-1-2026/",
+      "date": "2026-09-01"
     }
   ]
 }
