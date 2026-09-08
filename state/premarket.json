@@ -1,64 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T08:41:20+08:00",
-  "as_of": "2026-09-07 08:41",
-  "headline": "美國8月非農就業意外強勁（新增16.2萬人遠超5.3萬預期），推升9月15-16日FOMC升息機率升至58.6%，美股道瓊、標普、那斯達克週五（9/4）同步收黑，但費城半導體指數逆勢大漲逾3%、台積電ADR上漲2.85%至428.91美元；週末荷姆茲海峽情勢再度升溫（船運量降至5月以來新低、川普宣稱伊朗石油出口瀕臨歸零），油價與地緘風險成為今日台股開盤在半導體供應鏈之外的最大變數。",
+  "generated_at": "2026-09-08T08:44:18+08:00",
+  "as_of": "2026-09-08 08:44",
+  "headline": "美伊荷姆茲海峽衝突全面重燃：伊朗宣布將劃設新「禁區」限制油輪通行，布蘭特原油週一（9/7）飆至97.9美元、創近七週新高，地緣風險與油價成為今日台股開盤最大變數；但AI記憶體超級循環同步發威，南韓三星、SK海力士週一分別大漲5.7%與8.3%，推升韓股KOSPI暴漲4.61%站上6,995點，加上台指期夜盤僅小幅拉回至47,280點附近，顯示半導體／記憶體供應鏈題材仍具撐盤動能；美股因勞動節休市一天、今起恢復交易，中國海關總署預計今日公布8月貿易數據，市場關注出口動能能否延續。",
   "items": [
     {
-      "category": "總經",
-      "text": "美國8月非農就業報告週五（9/4）公布新增16.2萬人，遠超市場預期的5.3萬人，失業率持平於4.1%，7月數據並上修，使芝商所FedWatch顯示的9月15-16日FOMC升息機率由前一日約50%躍升至58.6%。",
-      "source_name": "鉅亨網",
-      "source_url": "https://news.cnyes.com/news/id/6598266",
-      "date": "2026-09-04"
-    },
-    {
-      "category": "總經",
-      "text": "美股週五（9/4）四大指數表現分歧：道瓊下跌271.86點（-0.51%）收53,414.25點、標普500下跌0.38%收7,718.60點、那斯達克下跌0.29%收26,506.99點，因強勁非農數據強化升息疑慮；但費城半導體指數逆勢大漲逾3%，記憶體與AI概念股領漲，成為當日唯一亮點。",
-      "source_name": "CNBC / Yahoo Finance",
-      "source_url": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html",
-      "date": "2026-09-04"
-    },
-    {
-      "category": "企業",
-      "text": "台積電ADR週五（9/4）逆勢強彈2.85%，收在428.91美元，帶動台股期貨夜盤走揚，與費城半導體指數同步走強，顯示市場資金在總經利空環境下仍偏好半導體與AI供應鏈族群。",
-      "source_name": "ETtoday財經雲",
-      "source_url": "https://finance.ettoday.net/news/3213427",
-      "date": "2026-09-04"
-    },
-    {
       "category": "新聞",
-      "text": "美伊圍繞荷姆茲海峽的衝突週末持續升溫：美軍9/4再打擊3艘伊朗油輪，據Kpler船運數據，過去10日海峽平均每日僅約10艘商船通過，為5月以來最低，且自9/2起無超大型油輪（VLCC）駛出海峽；川普週日（9/6）在Truth Social發文宣稱伊朗石油出口「正在崩潰」並趨近歸零。",
-      "source_name": "Newsmax",
-      "source_url": "https://www.newsmax.com/world/globaltalk/hormuz-traffic-low/2026/09/06/id/1268551/",
-      "date": "2026-09-06"
-    },
-    {
-      "category": "台股",
-      "text": "台股加權指數週五（9/4）大漲693.47點（+1.51%）收46,551.13點，重返5日線之上，三大法人買超新台幣62.9億元、終結連兩日賣超，被動元件與散熱族群多檔漲停，動能主要來自週四（9/3）Fed理事沃勒偏鴿發言帶動的電子權值反彈。",
-      "source_name": "新光證券",
-      "source_url": "https://www.skis.com.tw/Report/market/TSM20260904_after.html",
-      "date": "2026-09-04"
-    },
-    {
-      "category": "政策",
-      "text": "美國商務部長盧特尼克規劃中的半導體232條款關稅方案原則為「赴美設廠即可豁免關稅、未設廠則須課稅」，台灣已與美方簽署投資備忘錄並爭取比照最惠待遇；盧特尼克稍早聲稱台灣將於「下週」再加碼300億美元對美投資一事，我方已澄清為口誤，實際加碼規模與時程尚待雙方進一步確認。",
-      "source_name": "Newtalk新聞",
-      "source_url": "https://newtalk.tw/news/view/2026-09-03/1057490",
-      "date": "2026-09-03"
+      "text": "伊朗最高國家安全委員會秘書長週一（9/7）宣布，將於未來數日至數週內在荷姆茲海峽外劃設新的船運「禁區」，限制未經伊朗許可船隻通行，此舉發生在美軍週末擊沉、癱瘓三艘伊朗油輪，以及伊朗革命衛隊向美軍航母與驅逐艦發射彈道飛彈之後，衝突有進一步升溫風險。",
+      "source_name": "American Press (AP)",
+      "source_url": "https://americanpress.com/2026/09/07/iran-says-it-plans-to-announce-a-new-exclusion-zone-near-the-strait-of-hormuz/",
+      "date": "2026-09-07"
     },
     {
       "category": "總經",
-      "text": "中國國家統計局公布8月官方製造業PMI為49.8，較7月回升但連續數月位於50榮枯線下方，生產、新訂單與新出口訂單指數同步轉為擴張，惟就業指數仍疲弱；市場關注9月中上旬將公布的8月貿易數據能否確認出口訂單回溫的訊號。",
-      "source_name": "中國國家統計局",
-      "source_url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260901_1965170.html",
-      "date": "2026-09-01"
+      "text": "受美伊荷姆茲海峽船運衝突再起影響，布蘭特原油週一（9/7）盤中最高觸及97.9美元、西德州原油站上92美元，雙雙創下近七週新高，市場擔憂原油供應中斷風險升高，能源通膨疑慮再度浮現。",
+      "source_name": "Vantage Markets",
+      "source_url": "https://www.vantagemarkets.com/market-analysis/brent-wti-crude-oil-price-today-hormuz-tanker-strikes-september-7-2026/",
+      "date": "2026-09-07"
     },
     {
       "category": "企業",
-      "text": "彭博報導指出，三星電子與SK海力士正加速擴充記憶體產能以滿足AI伺服器需求，三星計畫2026年產能擴增約50%、SK海力士基礎建設投資規模上修至先前計畫的4倍以上，同時DRAM、NAND合約價持續大幅調漲，反映AI驅動的記憶體缺貨行情持續，對台灣記憶體模組與封測供應鏈為正面訊號。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-04/korea-s-memory-chip-lead-over-china-set-to-grow-report-says",
-      "date": "2026-09-04"
+      "text": "南韓三星電子與SK海力士週一（9/7）股價分別大漲5.7%與8.3%，帶動韓股KOSPI單日暴漲4.61%收6,995.39點，主因法人示警兩大廠記憶體庫存已跌破10天安全水位，AI伺服器拉貨帶動的記憶體缺貨行情持續發酵，對台灣記憶體、封測供應鏈為正面訊號。",
+      "source_name": "Archynewsy",
+      "source_url": "https://www.archynewsy.com/kospi-surges-4-61-nearing-7000-on-strong-semiconductor-rally/",
+      "date": "2026-09-07"
+    },
+    {
+      "category": "總經",
+      "text": "台指期夜盤週一（9/7）以47,513點開高，隨後由紅翻黑，一度回落至47,280點附近（較開盤下跌約183點、跌幅0.3%），顯示在美伊衝突升溫與美股休市、缺乏方向指引下，今日台股開盤動能可能略為保守。",
+      "source_name": "經濟日報",
+      "source_url": "https://udn.com/news/story/7255/9740078",
+      "date": "2026-09-07"
+    },
+    {
+      "category": "總經",
+      "text": "美股因勞動節週一（9/7）全天休市，今日起恢復正常交易，市場聚焦本週稍後將公布的美國8月生產者物價指數（PPI，9/10）與消費者物價指數（CPI，9/11），在通膨仍具黏性、Fed 9月利率決策前景偏鷹之下，這兩項數據將是影響全球股市走向的關鍵變數。",
+      "source_name": "TradingKey",
+      "source_url": "https://www.tradingkey.com/zh-hant/analysis/stocks/us-stock/262154010-",
+      "date": "2026-09-07"
+    },
+    {
+      "category": "總經",
+      "text": "中國海關總署預計於今日（9/8）公布8月份進出口貿易數據，今年前7個月中國貨物貿易進出口總值已年增17.3%，市場關注出口動能在AI伺服器與電子零組件拉貨帶動下能否延續強勁增長趨勢。",
+      "source_name": "中國海關總署",
+      "source_url": "http://www.customs.gov.cn/customs/2026-08/07/article_2026080708410655081.html",
+      "date": "2026-09-08"
     }
   ]
 }
