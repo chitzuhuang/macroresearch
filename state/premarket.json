@@ -1,49 +1,63 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T08:44:18+08:00",
-  "as_of": "2026-09-08 08:44",
-  "headline": "美伊荷姆茲海峽衝突全面重燃：伊朗宣布將劃設新「禁區」限制油輪通行，布蘭特原油週一（9/7）飆至97.9美元、創近七週新高，地緣風險與油價成為今日台股開盤最大變數；但AI記憶體超級循環同步發威，南韓三星、SK海力士週一分別大漲5.7%與8.3%，推升韓股KOSPI暴漲4.61%站上6,995點，加上台指期夜盤僅小幅拉回至47,280點附近，顯示半導體／記憶體供應鏈題材仍具撐盤動能；美股因勞動節休市一天、今起恢復交易，中國海關總署預計今日公布8月貿易數據，市場關注出口動能能否延續。",
+  "generated_at": "2026-09-09T08:41:23+08:00",
+  "as_of": "2026-09-09 08:41",
+  "headline": "美股8日在Fed 9月15-16日FOMC升息機率升至約6成、美加關稅戰全面開打（加拿大對200億美元美國商品課徵報復性關稅）與中東原油站上97美元附近三重壓力下，道瓊重挫628點收黑，但費城半導體指數逆勢收漲1.3%、台積電ADR大漲2.35%至439美元，顯示AI晶片供應鏈買盤仍具韌性；中國8月出口優於預期年增25%為台廠出口動能添柴火，惟台指期夜盤在47,000點關卡下方寬幅震盪（46,561～46,981點），加上本週稍後將公布的美國PPI（9/10）、CPI（9/11）牽動Fed決策，今日台股開盤恐呈現「半導體撐盤、大盤觀望」格局。",
   "items": [
     {
+      "category": "總經",
+      "text": "美股9月8日勞動節休市後恢復交易，道瓊、S&P 500、那斯達克三大指數同步收黑（道瓊重挫逾628點），但費城半導體指數逆勢收漲1.3%、台積電ADR大漲2.35%收439美元，顯示資金仍鎖定AI晶片供應鏈，呈現與大盤脫鉤的抗跌格局。",
+      "source_name": "自由財經",
+      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5567618",
+      "date": "2026-09-08"
+    },
+    {
+      "category": "政策",
+      "text": "聯準會9月15-16日FOMC會議前，市場已將本週稍後公布的8月PPI（9/10）與CPI（9/11）視為關鍵指標，交易員目前預估本次會議升息機率約6成，若通膨數據持續偏熱恐升高鷹派升息疑慮，牽動全球股市風險偏好。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html",
+      "date": "2026-09-08"
+    },
+    {
+      "category": "政策",
+      "text": "加拿大9月8日正式對價值約200億美元的美國商品開徵15%至50%不等的報復性關稅（鋼鋁關稅倍增至50%），美加關稅戰全面升級，經濟學家警告若比照現行稅率恐使加拿大GDP減損約2%並陷入衰退風險，全球貿易緊張情勢再添變數。",
+      "source_name": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/9/8/canadas-retaliatory-tariffs-on-20bn-of-us-goods-take-effect",
+      "date": "2026-09-08"
+    },
+    {
+      "category": "總經",
+      "text": "中國海關總署公布，中國8月貨物貿易進出口總值年增19.8%，其中出口以美元計年增達25%，貿易順差擴大至1,191億美元，顯示在AI伺服器與高科技產品拉貨帶動下中國出口動能仍強勁，對台灣電子代工與零組件供應鏈為正面訊號。",
+      "source_name": "中國網（引中國海關總署數據）",
+      "source_url": "http://news.china.com.cn/2026-09/08/content_118685719.shtml",
+      "date": "2026-09-08"
+    },
+    {
       "category": "新聞",
-      "text": "伊朗最高國家安全委員會秘書長週一（9/7）宣布，將於未來數日至數週內在荷姆茲海峽外劃設新的船運「禁區」，限制未經伊朗許可船隻通行，此舉發生在美軍週末擊沉、癱瘓三艘伊朗油輪，以及伊朗革命衛隊向美軍航母與驅逐艦發射彈道飛彈之後，衝突有進一步升溫風險。",
-      "source_name": "American Press (AP)",
-      "source_url": "https://americanpress.com/2026/09/07/iran-says-it-plans-to-announce-a-new-exclusion-zone-near-the-strait-of-hormuz/",
+      "text": "伊朗外交部發言人表示，伊朗與阿曼就荷姆茲海峽臨時安全航道的協議已進入最後階段、預計數日內拍板並提交國際海事組織（IMO）備案，市場解讀為地緣緊張情勢降溫訊號，惟布蘭特原油仍在97美元附近高檔盤旋，能源通膨風險尚未完全解除。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-07/iran-says-strait-of-hormuz-deal-with-oman-just-days-away",
       "date": "2026-09-07"
     },
     {
       "category": "總經",
-      "text": "受美伊荷姆茲海峽船運衝突再起影響，布蘭特原油週一（9/7）盤中最高觸及97.9美元、西德州原油站上92美元，雙雙創下近七週新高，市場擔憂原油供應中斷風險升高，能源通膨疑慮再度浮現。",
-      "source_name": "Vantage Markets",
-      "source_url": "https://www.vantagemarkets.com/market-analysis/brent-wti-crude-oil-price-today-hormuz-tanker-strikes-september-7-2026/",
-      "date": "2026-09-07"
+      "text": "台指期夜盤（9/8晚間至9/9清晨）在47,000點關卡下方呈現逾400點寬幅震盪，一度下探46,561點、最高上衝46,981點，法人指出外資近期現貨轉為買超、期貨空單同步收斂，現貨與期貨操作趨於一致，短線對台股高檔震盪盤仍具一定支撐。",
+      "source_name": "經濟日報",
+      "source_url": "https://udn.com/news/story/7255/9742393",
+      "date": "2026-09-08"
     },
     {
       "category": "企業",
-      "text": "南韓三星電子與SK海力士週一（9/7）股價分別大漲5.7%與8.3%，帶動韓股KOSPI單日暴漲4.61%收6,995.39點，主因法人示警兩大廠記憶體庫存已跌破10天安全水位，AI伺服器拉貨帶動的記憶體缺貨行情持續發酵，對台灣記憶體、封測供應鏈為正面訊號。",
-      "source_name": "Archynewsy",
-      "source_url": "https://www.archynewsy.com/kospi-surges-4-61-nearing-7000-on-strong-semiconductor-rally/",
-      "date": "2026-09-07"
+      "text": "台積電、三星、英特爾與艾司摩爾（ASML）確認將支持採用新一代12吋光罩（12-inch mask）技術以因應AI晶片需求；同時台積電將2026年資本支出上修至600億至640億美元，反映NVIDIA等大客戶AI晶片需求持續超出供應鏈原先規劃。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-08/asml-tsmc-samsung-intel-back-12-inch-masks-for-ai-chips",
+      "date": "2026-09-08"
     },
     {
       "category": "總經",
-      "text": "台指期夜盤週一（9/7）以47,513點開高，隨後由紅翻黑，一度回落至47,280點附近（較開盤下跌約183點、跌幅0.3%），顯示在美伊衝突升溫與美股休市、缺乏方向指引下，今日台股開盤動能可能略為保守。",
-      "source_name": "經濟日報",
-      "source_url": "https://udn.com/news/story/7255/9740078",
-      "date": "2026-09-07"
-    },
-    {
-      "category": "總經",
-      "text": "美股因勞動節週一（9/7）全天休市，今日起恢復正常交易，市場聚焦本週稍後將公布的美國8月生產者物價指數（PPI，9/10）與消費者物價指數（CPI，9/11），在通膨仍具黏性、Fed 9月利率決策前景偏鷹之下，這兩項數據將是影響全球股市走向的關鍵變數。",
-      "source_name": "TradingKey",
-      "source_url": "https://www.tradingkey.com/zh-hant/analysis/stocks/us-stock/262154010-",
-      "date": "2026-09-07"
-    },
-    {
-      "category": "總經",
-      "text": "中國海關總署預計於今日（9/8）公布8月份進出口貿易數據，今年前7個月中國貨物貿易進出口總值已年增17.3%，市場關注出口動能在AI伺服器與電子零組件拉貨帶動下能否延續強勁增長趨勢。",
-      "source_name": "中國海關總署",
-      "source_url": "http://www.customs.gov.cn/customs/2026-08/07/article_2026080708410655081.html",
+      "text": "日本內閣府公布，第2季（4-6月）GDP終值上修至季增0.4%（年化1.4%），優於初值的季增0.3%（年化1.1%），主要受惠設備投資降幅收斂，此結果被視為支持日銀持續升息路徑的正面訊號，日圓走勢與外資資金動向值得留意。",
+      "source_name": "日本経済新聞",
+      "source_url": "https://www.nikkei.com/article/DGXZQOUA078S10X00C26A9000000/",
       "date": "2026-09-08"
     }
   ]
