@@ -1,56 +1,63 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T08:40:15+08:00",
-  "as_of": "2026-09-10 08:40",
-  "headline": "美伊衝突再度升級：美軍週二（9/8）在伊朗哈爾克島附近攻擊多艘油輪，布蘭特原油週三（9/9）收在101.21美元、創5月以來新高，通膨升溫疑慮拖累美股三大指數同步收黑（道瓊跌1.18%、標普跌0.58%、那斯達克跌0.32%），台指期夜盤與台積電ADR僅小幅走弱、電子期跌0.6%但半導體期逆勢漲0.44%，顯示台股開盤壓力有限；今日盤面關注台積電8月營收（市場預期改寫單月新高、上看4,800億元以上）、蘋果9/9發表首款摺疊iPhone的供應鏈效應，以及晚間美國8月PPI公布是否強化Fed 9月降息預期。",
+  "generated_at": "2026-09-11T08:44:00+08:00",
+  "as_of": "2026-09-11 08:44",
+  "headline": "台積電8月營收暴衝至5,148億元、月增10.1%創歷史新高（年增53.3%，AI需求持續供不應求），為台股注入強心針，但美股在油價衝破100美元、8月PPI年增率5.4%優於預期強化Fed升息辯論下連四黑（道瓊跌0.77%、標普跌0.45%、那斯達克跌0.64%），加上美伊軍事衝突持續升溫、歐洲央行意外升息，以及台灣央行9/17理監事會升息機率同步升溫，AI晶片基本面強勁與全球通膨、升息風險的拉鋸將是今日盤面觀察重點。",
   "items": [
     {
-      "category": "新聞",
-      "text": "美軍週二（9/8）在伊朗哈爾克島附近攻擊多艘伊朗油輪，為報復伊朗革命衛隊先前以飛彈瞄準美國軍艦，美伊軍事對峙持續升溫，伊朗並揚言將打擊巴林、科威特港口周邊油輪，波灣情勢緊張加劇。",
-      "source_name": "中新社",
-      "source_url": "https://www.chinanews.com.cn/gj/2026/09-09/10692971.shtml",
-      "date": "2026-09-09"
-    },
-    {
-      "category": "總經",
-      "text": "受美伊軍事衝突升級推升供應中斷疑慮影響，布蘭特原油期貨週三（9/9）大漲逾3%、收在101.21美元，創5月22日以來收盤新高，西德州原油同步漲逾3%站上95美元，能源通膨疑慮再度成為市場焦點。",
-      "source_name": "鉅亨網",
-      "source_url": "https://news.cnyes.com/news/id/6602475",
-      "date": "2026-09-09"
-    },
-    {
-      "category": "總經",
-      "text": "美股週三（9/9）在油價飆破百美元、通膨疑慮升溫下三大指數同步收黑，道瓊跌1.18%、標普500跌0.58%、那斯達克跌0.32%，市場密切關注美伊衝突與美國8月通膨數據對Fed 9月利率決策的影響。",
-      "source_name": "聯合新聞網",
-      "source_url": "https://udn.com/news/story/6811/9744910",
-      "date": "2026-09-09"
-    },
-    {
-      "category": "總經",
-      "text": "台股週三（9/9）終場小漲77.58點（+0.16%）收47,183.36點，成交量縮至7,735億元，三大法人合計買超220.8億元、外資買超209.24億元寫連四買，台積電收跌5元至2,465元，日月光投控、廣達、大立光、聯電走強撐盤；夜盤台積電ADR約在2,382元附近小跌，電子期貨跌0.6%、但半導體期貨逆勢漲0.44%，顯示晶片股相對抗跌。",
-      "source_name": "聯合新聞網",
-      "source_url": "https://udn.com/news/story/7251/9744100",
-      "date": "2026-09-09"
-    },
-    {
       "category": "企業",
-      "text": "台積電預定今日（9/10）公布8月合併營收，法人預估在AI伺服器拉貨帶動下有機會衝上4,800億元以上、改寫單月歷史新高，年增率上看45%，將是觀察AI半導體供應鏈是否延續強勁動能的重要指標。",
-      "source_name": "Yahoo奇摩股市",
-      "source_url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB8%E6%9C%88%E7%87%9F%E6%94%B6%E4%B8%8B%E5%91%A8%E9%96%8B%E7%8D%8E%EF%BC%812%E5%A4%A7%E6%8A%95%E9%A1%A7%E8%91%A3%E5%BA%A7%E7%9C%8B%E5%A5%BD%E7%A0%B44800%E5%84%84%E5%85%83-%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%AB%98-075450254.html",
+      "text": "台積電公布8月合併營收達5,148.05億元，月增10.1%、年增53.3%，寫下單月歷史新高並創連續第4個月改寫紀錄，AI伺服器與先進製程需求持續供不應求。",
+      "source_name": "台積電（公司月營收公告）",
+      "source_url": "https://pr.tsmc.com/english/news/3340",
       "date": "2026-09-10"
     },
     {
-      "category": "企業",
-      "text": "蘋果週三（9/9）於Apple Park舉行「Surprise and Shine」秋季發表會，推出首款摺疊iPhone「iPhone Duo」及iPhone 18 Pro／Pro Max系列，摺疊機採內螢幕下隱藏式鏡頭設計，市場預期將帶動台灣鉸鏈、面板與機殼供應鏈新一波拉貨動能。",
-      "source_name": "MacRumors",
-      "source_url": "https://www.techradar.com/news/live/apple-event-september-2026-live-blog",
-      "date": "2026-09-09"
+      "category": "總經",
+      "text": "美股週四（9/10）在油價衝破100美元、公債殖利率走升下連四黑，道瓊跌0.77%收52,381.08點、標普500跌0.45%收7,638.95點、那斯達克跌0.64%收26,253.34點。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-oil-gains-100-083717303.html",
+      "date": "2026-09-10"
+    },
+    {
+      "category": "總經",
+      "text": "美國8月PPI年增率達5.4%，較預期與前月（4.8%）均走高，其中柴油價格因美伊衝突推升大漲24.1%，核心PPI月增0.2%則低於預期，通膨數據強化Fed 9月升息辯論。",
+      "source_name": "美國勞工統計局（BLS）",
+      "source_url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "date": "2026-09-10"
     },
     {
       "category": "政策",
-      "text": "美國8月生產者物價指數（PPI）將於今晚台北時間20:30公布，市場預估月增0.4%、主因能源價格反彈與部分服務成本回升；目前CME FedWatch顯示9月FOMC降息一碼機率約85%，但若通膨數據意外強勁，可能削弱降息押注，為近期全球股市關鍵變數。",
-      "source_name": "TradingKey",
-      "source_url": "https://www.tradingkey.com/analysis/economic/indicators/262157794-us-august-ppi-outlook-production-side-inflation-may-accelerate-us-stocks-dollar-gold-reaction-tradingkey",
+      "text": "Fed主席沃許（Kevin Warsh）於Jackson Hole會議發表鷹派談話，強調核心通膨改善速度不足仍「有工作要做」，帶動9月FOMC（9/15-16）升息機率一度升至6成以上，與偏鴿的理事沃勒（Waller）看法分歧。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
+      "date": "2026-08-28"
+    },
+    {
+      "category": "新聞",
+      "text": "美伊軍事對峙持續升溫，美軍近日擊毀多艘伊朗油輪，伊朗則以彈道飛彈瞄準美國軍艦反擊並揚言準備迎接「更激烈衝突」，布蘭特原油續留101美元上方、創5月以來高檔。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+      "date": "2026-09-09"
+    },
+    {
+      "category": "企業",
+      "text": "蘋果新款摺疊iPhone「iPhone Duo」預定10/16開放預購、10/23出貨，台灣為首波供貨地區，研調機構TrendForce預估2026年出貨上看500萬支、市占24.8%居摺疊機市場第二，台積電為其A20處理器（2奈米）獨家供應商。",
+      "source_name": "TrendForce（PR Newswire轉載）",
+      "source_url": "https://www.manilatimes.net/2026/09/10/tmt-newswire/pr-newswire/iphone-duo-expected-to-capture-nearly-25-of-foldable-smartphone-market-in-2026-as-apples-first-foldable-drives-supply-chain-upgrades-says-trendforce/2422813",
+      "date": "2026-09-10"
+    },
+    {
+      "category": "政策",
+      "text": "台灣央行9月17日理監事會前市場升息預期升溫，因國內CPI已連續4個月站上2%通膨警戒線，法人不排除央行升息半碼因應，9/10營建類股已因升息疑慮走弱。",
+      "source_name": "聯合新聞網",
+      "source_url": "https://udn.com/news/story/7251/9745995",
+      "date": "2026-09-10"
+    },
+    {
+      "category": "政策",
+      "text": "歐洲央行9/10宣布調升三大利率各1碼，存款機制利率上調至2.50%、主要再融資利率至2.65%，自9/16生效，反映能源價格走高帶來的通膨風險。",
+      "source_name": "歐洲央行（ECB）",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
       "date": "2026-09-10"
     }
   ]
