@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T08:44:00+08:00",
-  "as_of": "2026-09-11 08:44",
-  "headline": "台積電8月營收暴衝至5,148億元、月增10.1%創歷史新高（年增53.3%，AI需求持續供不應求），為台股注入強心針，但美股在油價衝破100美元、8月PPI年增率5.4%優於預期強化Fed升息辯論下連四黑（道瓊跌0.77%、標普跌0.45%、那斯達克跌0.64%），加上美伊軍事衝突持續升溫、歐洲央行意外升息，以及台灣央行9/17理監事會升息機率同步升溫，AI晶片基本面強勁與全球通膨、升息風險的拉鋸將是今日盤面觀察重點。",
+  "generated_at": "2026-09-14T08:41:00+08:00",
+  "as_of": "2026-09-14 08:41",
+  "headline": "Anthropic執行長阿莫迪、OpenAI執行長奧特曼與馬斯克週末罕見齊聲示警需放慢AI發展步伐，引爆全球科技股獲利了結賣壓（日經下跌1.93%、韓股下跌1.76%、那斯達克100期貨重挫逾1%），加上美國8月核心CPI月增0.3%高於預期，強化Fed本週三（9/16）升息押注升溫至7成以上，布蘭特原油續留104美元上方，台灣央行9/17理監事會升息與否同步成焦點，AI基本面（台積電CoWoS封裝產能估2028年前翻倍）與資金面risk-off情緒的拉鋸，將是今日台股電子權值股表現的觀察重點。",
   "items": [
     {
+      "category": "新聞",
+      "text": "Anthropic執行長阿莫迪週六發表長文呼籲業界放慢最先進AI模型開發並加強第三方安全評估，OpenAI執行長奧特曼隨即附和並宣布今年不會IPO，馬斯克也在X表態支持，三大AI巨頭罕見齊聲示警科技股風險。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
+      "date": "2026-09-12"
+    },
+    {
+      "category": "總經",
+      "text": "AI示警消息衝擊週一亞股與美股期貨，日經225下跌1.93%收64,011點、韓股KOSPI下跌1.76%收6,909點，那斯達克100期貨挫逾1%、標普500期貨跌0.5%、道瓊期貨跌0.3%，市場同時消化偏高的美國通膨數據與Fed升息押注升溫。",
+      "source_name": "聯合新聞網",
+      "source_url": "https://udn.com/news/story/6811/9752599",
+      "date": "2026-09-14"
+    },
+    {
       "category": "企業",
-      "text": "台積電公布8月合併營收達5,148.05億元，月增10.1%、年增53.3%，寫下單月歷史新高並創連續第4個月改寫紀錄，AI伺服器與先進製程需求持續供不應求。",
-      "source_name": "台積電（公司月營收公告）",
-      "source_url": "https://pr.tsmc.com/english/news/3340",
-      "date": "2026-09-10"
+      "text": "彭博分析指出，Anthropic的AI示警短線恐壓抑晶片與供應鏈類股表現，那斯達克100指數已較6月高點回落逾4%、費半類股指數重挫約14%，但在AI運算需求持續供不應求下，市場人士認為長線AI投資循環未受根本動搖。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chip-stocks-but-trade-seen-intact",
+      "date": "2026-09-13"
     },
     {
       "category": "總經",
-      "text": "美股週四（9/10）在油價衝破100美元、公債殖利率走升下連四黑，道瓊跌0.77%收52,381.08點、標普500跌0.45%收7,638.95點、那斯達克跌0.64%收26,253.34點。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-oil-gains-100-083717303.html",
-      "date": "2026-09-10"
-    },
-    {
-      "category": "總經",
-      "text": "美國8月PPI年增率達5.4%，較預期與前月（4.8%）均走高，其中柴油價格因美伊衝突推升大漲24.1%，核心PPI月增0.2%則低於預期，通膨數據強化Fed 9月升息辯論。",
-      "source_name": "美國勞工統計局（BLS）",
-      "source_url": "https://www.bls.gov/news.release/ppi.nr0.htm",
-      "date": "2026-09-10"
+      "text": "美國8月CPI年增3.4%符合預期，但核心CPI月增0.3%高於市場預估的0.2%，服務業通膨韌性仍強，交易員將Fed於9/16升息一碼的機率押注推升至近7成。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "date": "2026-09-11"
     },
     {
       "category": "政策",
-      "text": "Fed主席沃許（Kevin Warsh）於Jackson Hole會議發表鷹派談話，強調核心通膨改善速度不足仍「有工作要做」，帶動9月FOMC（9/15-16）升息機率一度升至6成以上，與偏鴿的理事沃勒（Waller）看法分歧。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
-      "date": "2026-08-28"
+      "text": "台灣央行將於9月17日召開第3季理監事會，8月CPI年增2.04%已連續4個月站上2%警戒線、PPI與進口物價更分別飆升16.75%與20.45%，升息壓力升溫，但非AI產業與房市偏弱，多數金融機構仍預期央行將維持利率不變、寫下「連十凍」。",
+      "source_name": "Newtalk新聞",
+      "source_url": "https://newtalk.tw/news/view/2026-09-12/1059312",
+      "date": "2026-09-12"
     },
     {
       "category": "新聞",
-      "text": "美伊軍事對峙持續升溫，美軍近日擊毀多艘伊朗油輪，伊朗則以彈道飛彈瞄準美國軍艦反擊並揚言準備迎接「更激烈衝突」，布蘭特原油續留101美元上方、創5月以來高檔。",
+      "text": "川普9/12表示預期伊朗戰爭將於11月期中選舉後結束，屆時油價將大幅回落；布蘭特原油週五雖回檔但仍創新高週漲幅、收在104美元上方，WTI站穩100美元之上，波灣供應風險仍為市場關注焦點。",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
-      "date": "2026-09-09"
+      "source_url": "https://www.cnbc.com/2026/09/12/trump-sees-iran-war-ending-very-soon-oil-prices-then-falling.html",
+      "date": "2026-09-12"
     },
     {
       "category": "企業",
-      "text": "蘋果新款摺疊iPhone「iPhone Duo」預定10/16開放預購、10/23出貨，台灣為首波供貨地區，研調機構TrendForce預估2026年出貨上看500萬支、市占24.8%居摺疊機市場第二，台積電為其A20處理器（2奈米）獨家供應商。",
-      "source_name": "TrendForce（PR Newswire轉載）",
-      "source_url": "https://www.manilatimes.net/2026/09/10/tmt-newswire/pr-newswire/iphone-duo-expected-to-capture-nearly-25-of-foldable-smartphone-market-in-2026-as-apples-first-foldable-drives-supply-chain-upgrades-says-trendforce/2422813",
-      "date": "2026-09-10"
+      "text": "市場報導指出，台積電CoWoS先進封裝產能estimated將由2026年底約13萬片（12吋約當）倍增至2028年底約26萬片，以因應AI晶片持續供不應求，擴產聚焦台灣AP7廠區與美國亞利桑那州基地；惟此預估來自法人與媒體推估，非台積電官方正式指引。",
+      "source_name": "Wccftech（引述經濟日報）",
+      "source_url": "https://wccftech.com/report-tsmc-to-double-cowos-capacity-by-2028-as-ai-chip-shortage-spills-over-to-rivals/",
+      "date": "2026-09-12"
     },
     {
-      "category": "政策",
-      "text": "台灣央行9月17日理監事會前市場升息預期升溫，因國內CPI已連續4個月站上2%通膨警戒線，法人不排除央行升息半碼因應，9/10營建類股已因升息疑慮走弱。",
+      "category": "企業",
+      "text": "台積電將於9月16日除息，本次配發2026年第1季每股7元現金股利，為公司首次以7元配息水準除息，12月起外資股東並可選擇以美元領取股息，除息息將牽動台股權值股表現。",
       "source_name": "聯合新聞網",
-      "source_url": "https://udn.com/news/story/7251/9745995",
-      "date": "2026-09-10"
-    },
-    {
-      "category": "政策",
-      "text": "歐洲央行9/10宣布調升三大利率各1碼，存款機制利率上調至2.50%、主要再融資利率至2.65%，自9/16生效，反映能源價格走高帶來的通膨風險。",
-      "source_name": "歐洲央行（ECB）",
-      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-      "date": "2026-09-10"
+      "source_url": "https://udn.com/news/story/7252/9750869",
+      "date": "2026-09-13"
     }
   ]
 }
