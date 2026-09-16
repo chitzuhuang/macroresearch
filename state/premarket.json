@@ -1,50 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T08:43:00+08:00",
-  "as_of": "2026-09-15 08:43",
-  "headline": "Fed週三（9/16）利率決策前夕市場敘事丕變——CME FedWatch顯示升息機率一度衝上6至9成、顛覆先前的降息預期，疊加沙烏地東西輸油管遭攻擊關閉、荷莫茲海峽傳油輪疑遭水雷攻擊，布蘭特原油飆升至108美元上方，美股週一應聲收黑（那斯達克跌0.56%、費半重挫近6%、10年期公債殖利率一度衝上4.95%創2023年來新高），台股同步收黑0.70%收45,862點，Fed決策、原油地緣風險與AI基本面雜音三重夾擊，將是今日台股電子權值股表現的最大變數。",
+  "generated_at": "2026-09-16T08:41:00+08:00",
+  "as_of": "2026-09-16 08:41",
+  "headline": "美國10年期公債殖利率週二盤中飆破5%、創2007年以來新高，美股連兩日收黑；台灣時間週四凌晨才會揭曉的Fed利率決策升息機率約五成、與不升息勢均力敵，加上原油維持四個月高檔、沙國輸油管未修復的地緣風險未解，惟半導體類股較週一明顯止穩、聯發科同日發表首款採台積電2奈米製程的旗艦晶片天璣9600 Pro，正負因子交織下台股今日恐延續區間震盪整理。",
   "items": [
     {
       "category": "總經",
-      "text": "距Fed週三（9/16）利率決策僅剩一天，市場押注急遽轉向升息：CME FedWatch與多家外媒報導顯示升息機率一度衝上6至9成，一改先前市場預期降息的走向，主因Fed主席Warsh鷹派立場與居高不下的通膨數據，J.P. Morgan預期升息、高盛則認為機率極低，多空分歧劇烈。",
-      "source_name": "CNBC／Forbes",
-      "source_url": "https://www.cnbc.com/2026/09/14/fed-rate-decision-coin-flip-warsh.html",
-      "date": "2026-09-14"
+      "text": "美國10年期公債殖利率週二（9/15）盤中一度衝上5.04%，為2007年以來首度站上5%關卡，反映原油帶動的通膨疑慮與市場對Fed升息機率的重新定價。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html",
+      "date": "2026-09-15"
     },
     {
       "category": "總經",
-      "text": "美股週一（9/14）收黑，道瓊下跌0.29%、標普500下跌0.48%、那斯達克下跌0.56%；10年期公債殖利率盤中一度衝上4.954%、創2023年10月以來新高，後收斂至約4.91%，反映市場對Fed升息風險的重新定價。",
-      "source_name": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026",
-      "date": "2026-09-14"
+      "text": "美股週二（9/15）連兩日收黑，道瓊下跌0.63%（328.09點）收52,093.11點、標普500下跌0.45%收7,585.73點、那斯達克下跌0.78%收25,981.57點，市場屏息等待台灣時間週四凌晨揭曉的Fed利率決策。",
+      "source_name": "Yahoo Finance／TheStreet",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html",
+      "date": "2026-09-15"
+    },
+    {
+      "category": "政策",
+      "text": "距Fed利率決策僅剩數小時，CME FedWatch顯示升息25基點機率約56%、Kalshi與Polymarket兩家預測市場則約48至49%，升息與不升息押注呈現五五波的高度不確定局面。",
+      "source_name": "Yahoo Finance／The Motley Fool",
+      "source_url": "https://www.fool.com/investing/2026/09/10/the-odds-of-a-rate-hike-are-soaring-ahead-of-the-sept-16-fomc-meeting/",
+      "date": "2026-09-10"
     },
     {
       "category": "新聞",
-      "text": "沙烏地阿拉伯東西輸油管（產能約700萬桶/日）因遭攻擊而關閉，伊朗並宣稱有油輪在荷莫茲海峽疑遭水雷攻擊（美方對此存疑），地緣供應風險急升，帶動布蘭特原油飆升至108美元上方、單日漲幅逾3.5%，WTI同步站穩102美元關卡。",
+      "text": "布蘭特原油週二來到約每桶107.5美元、四個月高點，沙烏地阿拉伯東西輸油管仍未修復（估需數週）、荷莫茲海峽油輪攻擊事件持續傳出，OPEC產油國被迫減產至1990年以來新低，能源供給風險未見緩解。",
       "source_name": "Bloomberg／CNBC",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-14/saudi-oil-pipeline-that-bypasses-hormuz-shut-after-attacks",
-      "date": "2026-09-14"
+      "source_url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
+      "date": "2026-09-15"
     },
     {
       "category": "企業",
-      "text": "AI放緩疑慮延燒疊加升息與油價雙重利空，費城半導體指數（SOX）週一盤中重挫近6%、輝達收跌3.36%至210.96美元，台積電ADR盤中一度下跌逾2%；亞股同步受創，日本軟銀重挫逾13%、鎧俠（Kioxia）跌近10%、東京威力科創跌3.7%，OpenAI並宣布IPO計畫延後至2027年。",
-      "source_name": "Yahoo Finance／Bloomberg",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html",
-      "date": "2026-09-14"
+      "text": "半導體類股較週一明顯止穩，費半概念股中超微（AMD）、高通週二逆勢收紅逾2%；同日聯發科發表首款採台積電2奈米製程的旗艦SoC天璣9600 Pro，宣稱電晶體數逾330億、多核心功耗降61%，為台積電先進製程訂單添一注目焦點。",
+      "source_name": "PR Newswire／TheStreet",
+      "source_url": "https://www.prnewswire.com/news-releases/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips-302878749.html",
+      "date": "2026-09-15"
     },
     {
       "category": "總經",
-      "text": "台股週一（9/14）加權指數收45,862.52點、下跌322.33點（-0.70%），成交值約6,653億元；台股期貨（大台指近月）同步收跌0.88%至45,780點，反映海外AI示警與通膨升息疑慮的資金面risk-off情緒已提前反映於台股。",
-      "source_name": "台灣證券交易所（TWSE）",
-      "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX",
-      "date": "2026-09-14"
+      "text": "中國8月官方數據顯示工業生產年增5.2%優於預期（前值4.5%），但零售銷售僅年增0.4%不及預期的0.8%、且連兩月放緩，固定資產投資年減7.2%，官方示警「外部不利因素」加劇，牽動台灣對中出口供應鏈展望。",
+      "source_name": "CNBC（引述中國國家統計局）",
+      "source_url": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
+      "date": "2026-09-15"
     },
     {
       "category": "企業",
-      "text": "鴻海旗下鴻騰精密（FIT）傳出擴大布局AI伺服器用共同封裝光學（CPO）與1.6T光纖互連技術，隨AI機櫃朝更高頻寬規格演進，供應鏈廠商加碼卡位次世代互連商機。",
-      "source_name": "DIGITIMES",
-      "source_url": "https://www.digitimes.com/news/a20260914PD225/data-design-fit-cpo-cooling.html",
-      "date": "2026-09-14"
+      "text": "台積電美國存託憑證（ADR）今日（9/16）除息，配發每股1.114美元現金股利，換算除息參考價將較前一交易日收盤價出現技術性缺口，台股投資人於解讀期指與ADR連動走勢時應留意此除息效果。",
+      "source_name": "Investing.com／CNBC",
+      "source_url": "https://www.cnbc.com/quotes/TSM",
+      "date": "2026-09-16"
     }
   ]
 }
