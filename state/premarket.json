@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T08:45:00+08:00",
-  "as_of": "2026-09-17 08:45",
-  "headline": "Fed台灣時間今晨2點宣布升息1碼至3.75%–4%、為2023年來首次升息，但鷹派點陣圖暗示年底前恐再升一碼，沃許記者會態度偏鷹致美股由漲轉跌、10年期公債殖利率續站上5%，惟台積電ADR逆勢收紅0.96%顯示AI供應鏈韌性未減，加上原油仍守四個月高檔、新台幣連五貶，台股今日恐開高震盪、須留意升息路徑不明朗與匯率走弱的雙重壓力。",
+  "generated_at": "2026-09-18T08:41:00+08:00",
+  "as_of": "2026-09-18 08:41",
+  "headline": "美股週四（9/17）由英特爾、美光、超微領軍的晶片股絕地反攻，標普500大漲1.17%收7,640.82點、那斯達克漲1.61%，10年期公債殖利率自5%高檔回落、原油同步降至100美元附近，加上台積電ADR勁揚逾2.5%，呼應台股同日收漲439點、站上46,288點與新台幣止貶回升的多頭格局，市場人士看好台股中期多方格局不變，惟中東油源風險未解、中國人行淡化信貸目標的政策訊號，仍是今日盤中觀察重點。",
   "items": [
     {
-      "category": "政策",
-      "text": "Fed聯邦公開市場委員會台灣時間今日（9/17）凌晨2點宣布升息1碼，聯邦資金利率目標區間由3.5%–3.75%調升至3.75%–4%，為2023年7月以來首次升息，決議為12比0無異議通過。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "date": "2026-09-16"
-    },
-    {
-      "category": "政策",
-      "text": "Fed最新點陣圖顯示18位官員中有12位預期年底前還會再升息1碼、來到4.125%，主席沃許（Kevin Warsh）記者會上重申沒有預設政策路徑、拒絕承諾未來升息次數，但強調此次升息證明委員會言出必行、將更迅速地把通膨拉回2%目標。",
-      "source_name": "Yahoo Finance／CryptoTimes",
-      "source_url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
-      "date": "2026-09-16"
+      "category": "總經",
+      "text": "美股週四（9/17）強勁反彈，標普500指數上漲88.57點（1.17%）收7,640.82點，那斯達克綜合指數大漲1.61%，道瓊工業指數上漲316.14點（0.61%）收51,778.04點，市場在消化Fed升息決議後轉向逢低承接。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-oil-fed-081248626.html",
+      "date": "2026-09-17"
     },
     {
       "category": "總經",
-      "text": "美股三大指數在Fed宣布升息後一度走高，但沃許記者會發言偏鷹導致轉黑收盤：道瓊下跌631.21點（1.21%）收51,461.90點、標普500下跌0.45%收7,551.81點、那斯達克下跌0.01%收25,978.42點；10年期公債殖利率續站上5%關卡，大型銀行股創2月以來最差單日表現。",
-      "source_name": "Yahoo Finance／TheStreet",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
-      "date": "2026-09-16"
+      "text": "美國10年期公債殖利率週四自本週稍早觸及的5%附近高檔回落，布蘭特原油同步降至每桶100美元左右，紓緩升息與地緣政治風險交織下的市場緊張情緒。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-eases-oil-falls-to-100-alphacheck-134408021.html",
+      "date": "2026-09-17"
     },
     {
       "category": "企業",
-      "text": "儘管美股當日整體收黑，台積電ADR週二（9/16）逆勢上漲0.96%、收417.72美元，反映市場對AI晶片需求動能的信心並未因Fed升息與利率路徑不確定性而動搖。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/quote/TSM/history/",
-      "date": "2026-09-16"
+      "text": "費城半導體類股週四由英特爾、美光、超微領軍絕地反攻，帶動科技股扭轉前一日跌勢並逼空放空部位，分析師看好半導體股動能可望延續至週五。",
+      "source_name": "Trading Strategy Guides",
+      "source_url": "https://tradingstrategyguides.com/chip-stocks-rally-stock-market-recap-september-17-2026/",
+      "date": "2026-09-17"
+    },
+    {
+      "category": "企業",
+      "text": "台積電ADR（TSM）週四收在428.20美元，較前一交易日417.72美元大漲逾2.5%，同步呼應費半類股反彈走勢，為台股半導體供應鏈今日開盤添增激勵。",
+      "source_name": "Investing.com",
+      "source_url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co",
+      "date": "2026-09-17"
     },
     {
       "category": "總經",
-      "text": "新台幣兌美元週二（9/16）連5個交易日貶值，終場收31.888元、貶值4分，盤中一度貶破31.9元、創近一個月新低，主因市場升息預期升溫與原油帶動的通膨疑慮，亞洲貨幣普遍承壓；惟隨台股午盤翻紅，匯價一度收斂貶幅。",
-      "source_name": "自由財經／Yahoo股市",
-      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5575677",
-      "date": "2026-09-16"
+      "text": "台股加權指數週四（9/17）終場上漲439.10點（0.96%），收46,288點，惟成交量仍偏低，顯示追價力道相對保守。",
+      "source_name": "Taipei Times",
+      "source_url": "https://www.taipeitimes.com/News/biz/archives/2026/09/17/2003864384",
+      "date": "2026-09-17"
+    },
+    {
+      "category": "總經",
+      "text": "新台幣兌美元週四（9/17）以31.881元作收、升值0.7分，終止先前連續貶值走勢，成交金額10.7億美元，盤中最高31.866元、最低31.958元。",
+      "source_name": "Yahoo奇摩股市／MoneyDJ理財網",
+      "source_url": "https://tw.stock.yahoo.com/news/9-17%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%85%8C%E7%BE%8E%E5%85%83%E5%8C%AF%E7%8E%87%E4%BB%A531-881%E5%85%83%E4%BD%9C%E6%94%B6-%E5%8D%87%E5%80%BC0-7%E5%88%86-080200644.html",
+      "date": "2026-09-17"
     },
     {
       "category": "新聞",
-      "text": "布蘭特原油週二維持每桶約108美元、四個月高檔，主因中東供給風險未解（沙烏地阿拉伯東西輸油管仍未修復、荷莫茲海峽油輪攻擊事件持續），能源成本上升續為市場通膨疑慮的背景因子。",
-      "source_name": "Fortune",
-      "source_url": "https://fortune.com/article/price-of-oil-09-16-2026/",
-      "date": "2026-09-16"
+      "text": "9/18盤前分析指出，台積電現貨9/17終場收紅、加權指數中多格局不變，多方持續主控台股中期走勢，盤面關注焦點包括台積電先進製程供應鏈、高速運算伺服器概念股與蘋果供應鏈表現。",
+      "source_name": "蕃新聞",
+      "source_url": "https://n.yam.com/Article/20260917397188",
+      "date": "2026-09-17"
     },
     {
       "category": "政策",
-      "text": "台指期夜盤在Fed於台灣時間清晨2點宣布升息後一度走高，但隨沃許記者會鷹派發言部分回吐漲幅，呈現先衝高、後拉回的多空拉鋸格局，為台股今日開盤走勢增添不確定性。",
-      "source_name": "經濟日報（money.udn.com）",
-      "source_url": "https://money.udn.com/money/story/11112/9759186",
-      "date": "2026-09-17"
+      "text": "中國人民銀行行長潘功勝9/16於《求是》雜誌撰文表示，未來將淡化信貸增長目標、更倚重利率工具引導政策，並稱較慢但更高品質的信貸增長將成為中國總體經濟新常態，牽動市場對中國內需與台灣對中出口供應鏈的資金面解讀。",
+      "source_name": "The Asian Banker",
+      "source_url": "https://www.theasianbanker.com/updates-and-articles/pboc-says-slower-loan-growth-is-china-s-new-normal-as-financing-shifts-beyond-banks",
+      "date": "2026-09-16"
     }
   ]
 }
