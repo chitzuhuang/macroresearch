@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T08:41:00+08:00",
-  "as_of": "2026-09-18 08:41",
-  "headline": "美股週四（9/17）由英特爾、美光、超微領軍的晶片股絕地反攻，標普500大漲1.17%收7,640.82點、那斯達克漲1.61%，10年期公債殖利率自5%高檔回落、原油同步降至100美元附近，加上台積電ADR勁揚逾2.5%，呼應台股同日收漲439點、站上46,288點與新台幣止貶回升的多頭格局，市場人士看好台股中期多方格局不變，惟中東油源風險未解、中國人行淡化信貸目標的政策訊號，仍是今日盤中觀察重點。",
+  "generated_at": "2026-09-21T08:41:00+08:00",
+  "as_of": "2026-09-21 08:41",
+  "headline": "美股週五（9/18）那斯達克、標普500續創收盤新高，加上週一（9/21）盤前美股期指走高、市場靜候本週四（9/24）川習會聚焦AI與晶片出口管制的政策訊號，呼應台股上週五電子權值與記憶體族群齊揚、大盤大漲892點站上47,180點的多方氣勢，惟沙烏地阿拉伯首都利雅德週末罕見發布空襲警報、中東油源風險未解，是今日盤中觀察焦點。",
   "items": [
     {
       "category": "總經",
-      "text": "美股週四（9/17）強勁反彈，標普500指數上漲88.57點（1.17%）收7,640.82點，那斯達克綜合指數大漲1.61%，道瓊工業指數上漲316.14點（0.61%）收51,778.04點，市場在消化Fed升息決議後轉向逢低承接。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-oil-fed-081248626.html",
-      "date": "2026-09-17"
+      "text": "美股週五（9/18）收高，標普500指數上漲0.17%收7,650.50點創收盤新高，那斯達克綜合指數上漲0.39%收26,522.55點，道瓊工業指數則下跌95.40點（0.18%）收51,682.64點，為Fed本輪升息週畫下句點。",
+      "source_name": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026",
+      "date": "2026-09-18"
     },
     {
       "category": "總經",
-      "text": "美國10年期公債殖利率週四自本週稍早觸及的5%附近高檔回落，布蘭特原油同步降至每桶100美元左右，紓緩升息與地緣政治風險交織下的市場緊張情緒。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-eases-oil-falls-to-100-alphacheck-134408021.html",
-      "date": "2026-09-17"
-    },
-    {
-      "category": "企業",
-      "text": "費城半導體類股週四由英特爾、美光、超微領軍絕地反攻，帶動科技股扭轉前一日跌勢並逼空放空部位，分析師看好半導體股動能可望延續至週五。",
-      "source_name": "Trading Strategy Guides",
-      "source_url": "https://tradingstrategyguides.com/chip-stocks-rally-stock-market-recap-september-17-2026/",
-      "date": "2026-09-17"
-    },
-    {
-      "category": "企業",
-      "text": "台積電ADR（TSM）週四收在428.20美元，較前一交易日417.72美元大漲逾2.5%，同步呼應費半類股反彈走勢，為台股半導體供應鏈今日開盤添增激勵。",
-      "source_name": "Investing.com",
-      "source_url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co",
-      "date": "2026-09-17"
-    },
-    {
-      "category": "總經",
-      "text": "台股加權指數週四（9/17）終場上漲439.10點（0.96%），收46,288點，惟成交量仍偏低，顯示追價力道相對保守。",
-      "source_name": "Taipei Times",
-      "source_url": "https://www.taipeitimes.com/News/biz/archives/2026/09/17/2003864384",
-      "date": "2026-09-17"
-    },
-    {
-      "category": "總經",
-      "text": "新台幣兌美元週四（9/17）以31.881元作收、升值0.7分，終止先前連續貶值走勢，成交金額10.7億美元，盤中最高31.866元、最低31.958元。",
-      "source_name": "Yahoo奇摩股市／MoneyDJ理財網",
-      "source_url": "https://tw.stock.yahoo.com/news/9-17%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%85%8C%E7%BE%8E%E5%85%83%E5%8C%AF%E7%8E%87%E4%BB%A531-881%E5%85%83%E4%BD%9C%E6%94%B6-%E5%8D%87%E5%80%BC0-7%E5%88%86-080200644.html",
-      "date": "2026-09-17"
-    },
-    {
-      "category": "新聞",
-      "text": "9/18盤前分析指出，台積電現貨9/17終場收紅、加權指數中多格局不變，多方持續主控台股中期走勢，盤面關注焦點包括台積電先進製程供應鏈、高速運算伺服器概念股與蘋果供應鏈表現。",
-      "source_name": "蕃新聞",
-      "source_url": "https://n.yam.com/Article/20260917397188",
-      "date": "2026-09-17"
+      "text": "週一（9/21）美股期貨盤前走高，標普500期貨上漲0.3%、那斯達克100期貨上漲0.4%，市場靜待美中官員談判細節、為本週稍晚的川習會鋪路，美元指數持穩、原油跌勢暫歇。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
+      "date": "2026-09-20"
     },
     {
       "category": "政策",
-      "text": "中國人民銀行行長潘功勝9/16於《求是》雜誌撰文表示，未來將淡化信貸增長目標、更倚重利率工具引導政策，並稱較慢但更高品質的信貸增長將成為中國總體經濟新常態，牽動市場對中國內需與台灣對中出口供應鏈的資金面解讀。",
-      "source_name": "The Asian Banker",
-      "source_url": "https://www.theasianbanker.com/updates-and-articles/pboc-says-slower-loan-growth-is-china-s-new-normal-as-financing-shifts-beyond-banks",
-      "date": "2026-09-16"
+      "text": "美國總統川普將於本週四（9/24）在華府與中國國家主席習近平會晤，AI前沿模型風險管控與智慧財產權保護預期成為會談焦點，晶片出口管制立場是否鬆動牽動輝達等對中出貨政策，也連帶影響台灣半導體供應鏈解讀。",
+      "source_name": "NPR",
+      "source_url": "https://www.npr.org/2026/09/18/nx-s1-5971481/trump-xi-meeting-ai-track-two-talks",
+      "date": "2026-09-18"
+    },
+    {
+      "category": "總經",
+      "text": "國際油價週末呈現觀望整理，布蘭特原油約守在每桶104美元、West Texas Intermediate跌破100美元；沙烏地阿拉伯週末罕見對首都利雅德發布空襲警報（為3、4月美伊戰事高峰以來首見），紅海延布等港口同步發布警戒，凸顯中東供應風險尚未解除。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-20/latest-oil-market-news-and-analysis-for-sept-21",
+      "date": "2026-09-20"
+    },
+    {
+      "category": "政策",
+      "text": "中國人民銀行9/20公布9月貸款市場報價利率（LPR），1年期維持3.00%、5年期以上維持3.50%，已連續16個月按兵不動，市場解讀後續仍有政策性降息、降準空間，牽動陸股與台灣對中供應鏈資金面氛圍。",
+      "source_name": "新浪財經",
+      "source_url": "https://finance.sina.cn/2026-09-20/detail-inismrfc1753236.d.html",
+      "date": "2026-09-20"
+    },
+    {
+      "category": "總經",
+      "text": "台股加權指數上週五（9/18）終場大漲892.75點（1.93%）收47,180.75點，成交值達1兆1,423億元；櫃買指數同步勁揚14.51點（3.64%）收412.68點，台股期貨（近月）夜盤同步走高。",
+      "source_name": "TWSE 台灣證券交易所",
+      "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX",
+      "date": "2026-09-18"
+    },
+    {
+      "category": "企業",
+      "text": "AI伺服器帶動DRAM／HBM需求吃緊，記憶體概念股上週五全面噴出：南亞科收525元大漲7.58%、群聯收2,140元大漲8.63%、力積電單日獲外資買超逾7.7萬張居台股冠軍，反映市場對記憶體缺貨行情延續的預期。",
+      "source_name": "TWSE 三大法人買賣超（T86）",
+      "source_url": "https://www.twse.com.tw/rwd/zh/fund/T86",
+      "date": "2026-09-18"
+    },
+    {
+      "category": "新聞",
+      "text": "新台幣兌美元上週五（9/18）以31.808元作收、升值7.3分，終場成交金額30.4億美元，本週（至9/18）新台幣累計仍貶值0.54%。",
+      "source_name": "MoneyDJ理財網",
+      "source_url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=8923dcb6-ae01-4da0-8d5a-dd2744db7ee5",
+      "date": "2026-09-18"
     }
   ]
 }
