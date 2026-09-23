@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T08:38:00+08:00",
-  "as_of": "2026-09-22 08:38",
-  "headline": "美股週一（9/21）在AI晶片股全面噴出下強勢收高，那斯達克創6月以來收盤新高、AMD市值一度站上1兆美元，加上財政部長貝森特證實與中國談判「非常成功」為週四川習會晤鋪路、國際油價自沙國空襲驚魂回落，並帶動南韓大盤受惠記憶體出口創高勁揚重返7,000點，為台股電子權值股今日開盤注入強勁多方動能，惟聯準會官員鷹派發言（華勒稱2026年底前不降息）提醒升息路徑尚未完全解除的風險。",
+  "generated_at": "2026-09-23T08:51:00+08:00",
+  "as_of": "2026-09-23 08:51",
+  "headline": "美股週二那斯達克在AI供應鏈續強下創收盤歷史新高，但阿里巴巴同日發表自研AI晶片「震悟V900」劍指輝達，凸顯中國晶片自主競速；川習會倒數至週四並以貿易、科技、台灣為三大焦點，加上台灣8月外銷訂單首度衝破千億美元、年增71.4%驗證AI拉貨動能，台指期夜盤高檔區間整理，為台股開盤注入審慎偏多氣氛，惟金管會同步上線「台股儀表板」強化槓桿與違約監理，提醒融資交易風險。",
   "items": [
     {
       "category": "總經",
-      "text": "美股週一（9/21）全面收高，標普500指數上漲1.49%收7,765點、逼近歷史新高，那斯達克綜合指數大漲約2.3%創6月以來收盤新高，道瓊工業指數上漲366.19點（0.71%）收52,048.83點，AI晶片股全面領漲大盤。",
+      "text": "美股週二（9/22）那斯達克綜合指數上漲0.45%收27,244.28點，創收盤歷史新高，標普500指數持平收7,764.64點，道瓊工業指數下跌0.36%收51,863.69點；AI基礎建設類股續強，川普稱與伊朗代表在紐約會談「非常好」，布蘭特原油續跌至99美元附近。",
       "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
-      "date": "2026-09-21"
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
+      "date": "2026-09-22"
     },
     {
       "category": "企業",
-      "text": "AMD股價週一狂飆逾8%、收盤站上600美元，市值一度突破1兆美元，市場傳出其AI加速器等產品第四季調漲價格約一成的報導帶動，輝達、台積電ADR同步走揚。",
+      "text": "阿里巴巴9/22在雲栖大會發表最新AI晶片「震悟V900」，號稱效能較前代提升約3倍、單一叢集可串聯達50萬顆晶片，並宣布5-10兆參數模型與2032年前擴充20GW資料中心目標，直接對標輝達，惟相關效能數據尚未經第三方獨立驗證。",
       "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
-      "date": "2026-09-21"
-    },
-    {
-      "category": "企業",
-      "text": "Meta股價週一狂飆近12%、創逾一年最大單日漲幅，因其AI代理人應用Muse登上蘋果App Store免費榜冠軍，富國銀行同步將目標價由640美元大幅上調至796美元，也帶動英特爾漲逾12%、Arm漲13-17%等晶片股齊揚。",
-      "source_name": "The Motley Fool",
-      "source_url": "https://www.fool.com/investing/2026/09/21/why-meta-platforms-stock-skyrocketed-today/",
-      "date": "2026-09-21"
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-22/alibaba-unveils-ai-chip-to-drive-20gw-of-data-centers-by-2032",
+      "date": "2026-09-22"
     },
     {
       "category": "政策",
-      "text": "中國外交部週一證實國家主席習近平將於9/23至25日國是訪問美國、為近三年來首次，並將於週四（9/24）與美國總統川普會晤；美國財政部長貝森特稍早表示與中方代表歷經約8小時會談「非常成功」，雙方將互降300億美元商品關稅並就AI風險溝通，消息激勵美股走高。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-21/bessent-hails-very-successful-china-talks-on-ai-threats-trade",
-      "date": "2026-09-21"
-    },
-    {
-      "category": "政策",
-      "text": "聯準會理事華勒（Christopher Waller）週一在紐約經濟俱樂部表示Fed在2026年底前不會降息，芝加哥聯邦準備銀行總裁古斯比也在倫敦警告強勁需求可能持續推升通膨、政策因應「毫無模糊空間」，鷹派發言一度收斂早盤漲幅。",
-      "source_name": "Eastern Herald",
-      "source_url": "https://easternherald.com/2026/09/21/waller-fed-no-rate-cut-2026-sp500-yield/",
-      "date": "2026-09-21"
+      "text": "川普將於週四（9/24）在華府與習近平會晤，貿易、科技（AI）與台灣議題料為三大焦點；財政部長貝森特與中國副總理何立峰會談後表示將建立「美中AI對話」機制，市場期待此次峰會能穩定近期貿易緩和態勢而非帶來重大突破。",
+      "source_name": "World Economic Forum",
+      "source_url": "https://www.weforum.org/stories/geo-economics-and-politics/what-to-expect-from-the-trump-xi-summit-in-washington/",
+      "date": "2026-09-22"
     },
     {
       "category": "總經",
-      "text": "國際油價週一從沙烏地阿拉伯首都利雅德週末罕見發布空襲警報後的高點回落，布蘭特原油約在每桶101.9美元、WTI約97.98美元，市場解讀沙國原油出口經荷莫茲海峽運輸已逐步恢復，油價降溫成為美股上漲的推手之一。",
-      "source_name": "Vantage Markets",
-      "source_url": "https://www.vantagemarkets.com/market-analysis/why-oil-pared-riyadh-gains-brent-wti-cfd-analysis-september-21-2026/",
-      "date": "2026-09-21"
+      "text": "經濟部統計處9/22公布8月外銷訂單1,029.6億美元，創歷年單月新高、年增71.4%、連19個月正成長，其中資訊通信、電子產品訂單分別年增100.5%、83.9%，反映AI相關應用需求持續熱絡。",
+      "source_name": "中央社",
+      "source_url": "https://www.cna.com.tw/news/afe/202609220216.aspx",
+      "date": "2026-09-22"
+    },
+    {
+      "category": "總經",
+      "text": "新台幣週二（9/22）兌美元升值5.0分、收31.708元，成交金額20.1億美元，延續近期資金匯入台股帶動的升值走勢。",
+      "source_name": "Yahoo奇摩股市",
+      "source_url": "https://tw.stock.yahoo.com/news/9-22%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%85%8C%E7%BE%8E%E5%85%83%E5%8C%AF%E7%8E%87%E4%BB%A531-708%E5%85%83%E4%BD%9C%E6%94%B6-%E5%8D%87%E5%80%BC5-0%E5%88%86-080300290.html",
+      "date": "2026-09-22"
+    },
+    {
+      "category": "政策",
+      "text": "金管會與證交所、櫃買中心今日（9/23）起上線「台股儀表板」，揭露全市場融資維持率、追繳與違約戶數金額等槓桿風險資訊，並同步加嚴違約交割收款規定（首次違約收10天、再犯拉長至30天），回應近期融資餘額升溫的風控需求。",
+      "source_name": "公視新聞網",
+      "source_url": "https://news.pts.org.tw/article/828192",
+      "date": "2026-09-22"
+    },
+    {
+      "category": "企業",
+      "text": "台股22日盤中一度大漲近900點衝上48,601點歷史新高後拉回，終場收47,800點（+0.17%）；玻璃基板先進封裝題材帶動友達漲停、群創與彩晶走強，ABF載板三雄欣興、南電、景碩同步走高，供不應求題材延續發酵。",
+      "source_name": "聯合新聞網",
+      "source_url": "https://udn.com/news/story/7251/9769656",
+      "date": "2026-09-22"
     },
     {
       "category": "新聞",
-      "text": "南韓KOSPI指數週一大漲1.65%收7,007.72點、重返7,000點關卡，受惠9月1-20日晶片出口額年增259.4%創新高的激勵，三星電子大漲4.98%、SK海力士上漲0.59%，呼應亞洲記憶體供應鏈熱度延續。",
-      "source_name": "Korea Times",
-      "source_url": "https://www.koreatimes.co.kr/economy/20260921/kospi-regains-7000-as-samsung-electronics-shares-surge-on-record-chip-exports",
-      "date": "2026-09-21"
+      "text": "南韓記憶體雙雄SK海力士、三星電子22日早盤分別大漲3.48%、2.74%，帶動Kospi指數開盤跳漲2.2%至逾7,161點；台指期夜盤在48,400點附近高檔區間整理，為今日台股開盤延續偏多但區間震盪基調。",
+      "source_name": "21財經",
+      "source_url": "https://m.21jingji.com/article/20260922/herald/a74f42d0d3799a496b4d15802c81afe8.html",
+      "date": "2026-09-22"
     }
   ]
 }
