@@ -1,64 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T08:51:00+08:00",
-  "as_of": "2026-09-23 08:51",
-  "headline": "美股週二那斯達克在AI供應鏈續強下創收盤歷史新高，但阿里巴巴同日發表自研AI晶片「震悟V900」劍指輝達，凸顯中國晶片自主競速；川習會倒數至週四並以貿易、科技、台灣為三大焦點，加上台灣8月外銷訂單首度衝破千億美元、年增71.4%驗證AI拉貨動能，台指期夜盤高檔區間整理，為台股開盤注入審慎偏多氣氛，惟金管會同步上線「台股儀表板」強化槓桿與違約監理，提醒融資交易風險。",
+  "generated_at": "2026-09-24T08:50:00+08:00",
+  "as_of": "2026-09-24 08:50",
+  "headline": "美債10年期殖利率9/23飆升至5.135%、創2007年7月以來新高（受服務業PMI意外強勁帶動升息疑慮影響），激化美股三大指數普跌（那指跌1.13%、標普跌0.75%、道瓊跌0.68%）與費半走軟；川普今日將在華府與習近平舉行「川習會」，聚焦貿易、AI與台灣議題，輝達執行長黃仁勳傳將出席晚宴關注對中晶片銷售鬆綁，加上南韓三星、SK海力士宣布5,920億美元記憶體聚落擴產計畫激勵區域晶片股，多空交織為今日台股開盤增添波動，新台幣同步轉貶至31.716元。",
   "items": [
     {
       "category": "總經",
-      "text": "美股週二（9/22）那斯達克綜合指數上漲0.45%收27,244.28點，創收盤歷史新高，標普500指數持平收7,764.64點，道瓊工業指數下跌0.36%收51,863.69點；AI基礎建設類股續強，川普稱與伊朗代表在紐約會談「非常好」，布蘭特原油續跌至99美元附近。",
+      "text": "美股週三（9/23）道瓊、標普500、那斯達克同步收黑，分別下跌0.68%、0.75%、1.13%，收51,511.59點、7,706.03點、26,936.04點，終結那指前一日創下的盤中歷史新高。",
       "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
-      "date": "2026-09-22"
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
+      "date": "2026-09-23"
     },
     {
-      "category": "企業",
-      "text": "阿里巴巴9/22在雲栖大會發表最新AI晶片「震悟V900」，號稱效能較前代提升約3倍、單一叢集可串聯達50萬顆晶片，並宣布5-10兆參數模型與2032年前擴充20GW資料中心目標，直接對標輝達，惟相關效能數據尚未經第三方獨立驗證。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-22/alibaba-unveils-ai-chip-to-drive-20gw-of-data-centers-by-2032",
-      "date": "2026-09-22"
+      "category": "總經",
+      "text": "美國10年期公債殖利率9/23飆升至5.135%，創2007年7月以來新高，主因9月S&P全球服務業PMI優於預期升至58.7（近五年新高），激化市場對聯準會後續再升息之疑慮，並推升科技股評價壓力。",
+      "source_name": "CNN Business",
+      "source_url": "https://www.cnn.com/2026/09/23/investing/us-bond-market-fed",
+      "date": "2026-09-23"
     },
     {
       "category": "政策",
-      "text": "川普將於週四（9/24）在華府與習近平會晤，貿易、科技（AI）與台灣議題料為三大焦點；財政部長貝森特與中國副總理何立峰會談後表示將建立「美中AI對話」機制，市場期待此次峰會能穩定近期貿易緩和態勢而非帶來重大突破。",
+      "text": "川普將於今日（9/24）在華府與習近平舉行元首會談，貿易、AI、稀土與台灣議題料為三大焦點；本次為11月到期的釜山停火協議前的關鍵穩定訪問，市場普遍預期偏向維持現狀而非重大突破。",
       "source_name": "World Economic Forum",
       "source_url": "https://www.weforum.org/stories/geo-economics-and-politics/what-to-expect-from-the-trump-xi-summit-in-washington/",
-      "date": "2026-09-22"
-    },
-    {
-      "category": "總經",
-      "text": "經濟部統計處9/22公布8月外銷訂單1,029.6億美元，創歷年單月新高、年增71.4%、連19個月正成長，其中資訊通信、電子產品訂單分別年增100.5%、83.9%，反映AI相關應用需求持續熱絡。",
-      "source_name": "中央社",
-      "source_url": "https://www.cna.com.tw/news/afe/202609220216.aspx",
-      "date": "2026-09-22"
-    },
-    {
-      "category": "總經",
-      "text": "新台幣週二（9/22）兌美元升值5.0分、收31.708元，成交金額20.1億美元，延續近期資金匯入台股帶動的升值走勢。",
-      "source_name": "Yahoo奇摩股市",
-      "source_url": "https://tw.stock.yahoo.com/news/9-22%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%85%8C%E7%BE%8E%E5%85%83%E5%8C%AF%E7%8E%87%E4%BB%A531-708%E5%85%83%E4%BD%9C%E6%94%B6-%E5%8D%87%E5%80%BC5-0%E5%88%86-080300290.html",
-      "date": "2026-09-22"
-    },
-    {
-      "category": "政策",
-      "text": "金管會與證交所、櫃買中心今日（9/23）起上線「台股儀表板」，揭露全市場融資維持率、追繳與違約戶數金額等槓桿風險資訊，並同步加嚴違約交割收款規定（首次違約收10天、再犯拉長至30天），回應近期融資餘額升溫的風控需求。",
-      "source_name": "公視新聞網",
-      "source_url": "https://news.pts.org.tw/article/828192",
-      "date": "2026-09-22"
+      "date": "2026-09-23"
     },
     {
       "category": "企業",
-      "text": "台股22日盤中一度大漲近900點衝上48,601點歷史新高後拉回，終場收47,800點（+0.17%）；玻璃基板先進封裝題材帶動友達漲停、群創與彩晶走強，ABF載板三雄欣興、南電、景碩同步走高，供不應求題材延續發酵。",
-      "source_name": "聯合新聞網",
-      "source_url": "https://udn.com/news/story/7251/9769656",
-      "date": "2026-09-22"
+      "text": "輝達執行長黃仁勳傳將出席川習會相關國宴，盼藉此了解輝達對中國晶片銷售鬆綁的時程與幅度，AI供應鏈政策動向牽動台股權值股表現。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/technology/article/will-nvidia-be-allowed-to-sell-more-chips-to-china-this-former-trump-economic-adviser-has-a-hot-take-171046753.html",
+      "date": "2026-09-23"
     },
     {
-      "category": "新聞",
-      "text": "南韓記憶體雙雄SK海力士、三星電子22日早盤分別大漲3.48%、2.74%，帶動Kospi指數開盤跳漲2.2%至逾7,161點；台指期夜盤在48,400點附近高檔區間整理，為今日台股開盤延續偏多但區間震盪基調。",
-      "source_name": "21財經",
-      "source_url": "https://m.21jingji.com/article/20260922/herald/a74f42d0d3799a496b4d15802c81afe8.html",
-      "date": "2026-09-22"
+      "category": "企業",
+      "text": "南韓三星電子、SK海力士9/23宣布於光州合建800兆韓元（約5,920億美元）記憶體晶圓聚落，目標2030年量產以因應AI記憶體需求持續攀升，激勵南韓晶片股早盤走揚（三星+2.71%、SK海力士+2.01%）。",
+      "source_name": "Korea JoongAng Daily",
+      "source_url": "https://www.koreajoongangdaily.com/business/samsung-sk-hynixs-800-trillion-won-chip-cluster-targets-mass-production-by-2030/12888893",
+      "date": "2026-09-23"
+    },
+    {
+      "category": "總經",
+      "text": "新台幣9/23兌美元收31.716元、貶值0.8分，成交金額14.79億美元，終結近日升值走勢，反映美元指數在美債殖利率走升下走強。",
+      "source_name": "華視新聞網",
+      "source_url": "https://news.cts.com.tw/cna/money/202609/202609233082137.html",
+      "date": "2026-09-23"
+    },
+    {
+      "category": "企業",
+      "text": "台積電9/23於北美OIP生態系論壇宣布擴大與比利時imec的IC-Link合作，強化ASIC與矽光子先進封裝設計服務，為先進製程客戶生態系再添動能。",
+      "source_name": "TSMC 官方新聞",
+      "source_url": "https://pr.tsmc.com/english/latest-news",
+      "date": "2026-09-23"
     }
   ]
 }
