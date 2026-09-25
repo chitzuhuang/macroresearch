@@ -1,12 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T20:59:22+08:00",
+  "generated_at": "2026-09-25T21:05:37+08:00",
   "input_mode": "official_latest",
   "as_of_date": "2026-09-24",
   "sources": [
     {
-      "name": "TWSE 每日收盤行情（非鏡像，當日即時）",
-      "location": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX"
+      "name": "TWSE daily trading data (openapi mirror)",
+      "location": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TWSE daily indices (openapi mirror)",
+      "location": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX"
     },
     {
       "name": "TPEx closing quotes",
@@ -38,7 +42,9 @@
     "market_dates": [
       "2026-09-24"
     ],
-    "warnings": []
+    "warnings": [
+      "TWSE's same-day site had no data yet for this run, so the openapi mirror was used for breadth/turnover instead; it can lag a full session behind."
+    ]
   },
   "errors": [],
   "indices": [
