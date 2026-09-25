@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T08:50:00+08:00",
-  "as_of": "2026-09-24 08:50",
-  "headline": "美債10年期殖利率9/23飆升至5.135%、創2007年7月以來新高（受服務業PMI意外強勁帶動升息疑慮影響），激化美股三大指數普跌（那指跌1.13%、標普跌0.75%、道瓊跌0.68%）與費半走軟；川普今日將在華府與習近平舉行「川習會」，聚焦貿易、AI與台灣議題，輝達執行長黃仁勳傳將出席晚宴關注對中晶片銷售鬆綁，加上南韓三星、SK海力士宣布5,920億美元記憶體聚落擴產計畫激勵區域晶片股，多空交織為今日台股開盤增添波動，新台幣同步轉貶至31.716元。",
+  "generated_at": "2026-09-25T08:38:21+08:00",
+  "as_of": "2026-09-25 08:38",
+  "headline": "川習會9/24於華府落幕，僅將貿易停火展延至2027年1月10日，未觸及AI晶片出口管制鬆綁或台灣議題實質突破，市場浮現「利多出盡」疑慮；同時美國9月S&P全球服務業PMI意外飆升至58.7（近五年新高）疊加疲弱的5年期公債標售，激化美債殖利率狂飆——10年期衝上5.223%（2007年6月以來新高）、30年期達5.501%（2004年6月以來新高），拖累美股道瓊、標普500、那斯達克同步收黑，日本10年期公債殖利率同步跳升至3.055%（1996年來新高），而台積電美股ADR逆勢收紅、台北掛牌股價卻收黑的價差擴大，將牽動今日台股開盤方向。",
   "items": [
     {
-      "category": "總經",
-      "text": "美股週三（9/23）道瓊、標普500、那斯達克同步收黑，分別下跌0.68%、0.75%、1.13%，收51,511.59點、7,706.03點、26,936.04點，終結那指前一日創下的盤中歷史新高。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
-      "date": "2026-09-23"
-    },
-    {
-      "category": "總經",
-      "text": "美國10年期公債殖利率9/23飆升至5.135%，創2007年7月以來新高，主因9月S&P全球服務業PMI優於預期升至58.7（近五年新高），激化市場對聯準會後續再升息之疑慮，並推升科技股評價壓力。",
-      "source_name": "CNN Business",
-      "source_url": "https://www.cnn.com/2026/09/23/investing/us-bond-market-fed",
-      "date": "2026-09-23"
-    },
-    {
       "category": "政策",
-      "text": "川普將於今日（9/24）在華府與習近平舉行元首會談，貿易、AI、稀土與台灣議題料為三大焦點；本次為11月到期的釜山停火協議前的關鍵穩定訪問，市場普遍預期偏向維持現狀而非重大突破。",
-      "source_name": "World Economic Forum",
-      "source_url": "https://www.weforum.org/stories/geo-economics-and-politics/what-to-expect-from-the-trump-xi-summit-in-washington/",
-      "date": "2026-09-23"
-    },
-    {
-      "category": "企業",
-      "text": "輝達執行長黃仁勳傳將出席川習會相關國宴，盼藉此了解輝達對中國晶片銷售鬆綁的時程與幅度，AI供應鏈政策動向牽動台股權值股表現。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/technology/article/will-nvidia-be-allowed-to-sell-more-chips-to-china-this-former-trump-economic-adviser-has-a-hot-take-171046753.html",
-      "date": "2026-09-23"
-    },
-    {
-      "category": "企業",
-      "text": "南韓三星電子、SK海力士9/23宣布於光州合建800兆韓元（約5,920億美元）記憶體晶圓聚落，目標2030年量產以因應AI記憶體需求持續攀升，激勵南韓晶片股早盤走揚（三星+2.71%、SK海力士+2.01%）。",
-      "source_name": "Korea JoongAng Daily",
-      "source_url": "https://www.koreajoongangdaily.com/business/samsung-sk-hynixs-800-trillion-won-chip-cluster-targets-mass-production-by-2030/12888893",
-      "date": "2026-09-23"
+      "text": "川習會9/24在華府登場，僅同意將貿易停火展延2個月至2027年1月10日，未達成關稅、稀土或AI晶片出口管制的實質協議，習近平重提「以審慎態度處理台灣問題」但未見美方讓步，會後解讀偏向維持現狀。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
+      "date": "2026-09-24"
     },
     {
       "category": "總經",
-      "text": "新台幣9/23兌美元收31.716元、貶值0.8分，成交金額14.79億美元，終結近日升值走勢，反映美元指數在美債殖利率走升下走強。",
-      "source_name": "華視新聞網",
-      "source_url": "https://news.cts.com.tw/cna/money/202609/202609233082137.html",
-      "date": "2026-09-23"
+      "text": "美國9月S&P全球服務業PMI初值意外飆升至58.7（近五年新高，優於市場預期56附近），綜合PMI達58.4，投入物價指數升至66.4創2022年10月以來新高，激化市場對聯準會延續緊縮的疑慮並推升美元。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/24/dollar-perched-at-two-month-high-as-hot-pmi-fuels-inflation-fears-rate-hike-bets.html",
+      "date": "2026-09-24"
+    },
+    {
+      "category": "總經",
+      "text": "受強勁PMI數據與疲弱的5年期公債標售拖累，美國10年期公債殖利率9/24飆升逾10個基點至5.223%、創2007年6月以來新高，30年期殖利率同步衝上5.501%、創2004年6月以來新高。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+      "date": "2026-09-24"
+    },
+    {
+      "category": "總經",
+      "text": "美股9/24三大指數同步收黑：道瓊下跌0.31%收51,350點，那斯達克下跌約0.78%~1.21%，標普500下跌約0.51%，指數自盤中低點回升，部分受荷莫茲海峽重啟談判傳聞激勵。",
+      "source_name": "TheStreet",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026",
+      "date": "2026-09-24"
+    },
+    {
+      "category": "總經",
+      "text": "美國勞工部公布至9/19當週初次申請失業救濟金人數19.7萬人，較前週減少1千人且優於市場預期的20.1萬人，四週移動平均為20.225萬人，顯示就業市場在殖利率飆升下仍具韌性。",
+      "source_name": "U.S. Department of Labor",
+      "source_url": "https://www.dol.gov/ui/data.pdf",
+      "date": "2026-09-24"
     },
     {
       "category": "企業",
-      "text": "台積電9/23於北美OIP生態系論壇宣布擴大與比利時imec的IC-Link合作，強化ASIC與矽光子先進封裝設計服務，為先進製程客戶生態系再添動能。",
-      "source_name": "TSMC 官方新聞",
-      "source_url": "https://pr.tsmc.com/english/latest-news",
-      "date": "2026-09-23"
+      "text": "台積電美股ADR（TSM）9/24逆勢收紅上漲0.66%，同日台北掛牌台積電（2330）股價收黑下跌1.0%，價差擴大反映台股受全球風險偏好下滑拖累程度更甚於美股，值得留意今日開盤是否收斂。",
+      "source_name": "ETtoday新聞雲",
+      "source_url": "https://finance.ettoday.net/news/3243406",
+      "date": "2026-09-24"
+    },
+    {
+      "category": "總經",
+      "text": "日本10年期公債殖利率9/24跳升至3.055%、創1996年來新高，主因油價回升、美國PMI意外強勁與美國5年期公債標售疲弱等因素外溢；日經225指數同日仍受惠晶片股走強收漲0.8%至65,514點。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-24/japan-10-year-bond-yield-jumps-10-basis-points-amid-global-rout",
+      "date": "2026-09-24"
+    },
+    {
+      "category": "總經",
+      "text": "新台幣兌美元9/24收在31.78~31.82區間、波動不大，尚未反映美元指數走強及全球公債殖利率飆升的壓力（第三方數據，央行官方牌告匯率待確認）。",
+      "source_name": "Investing.com",
+      "source_url": "https://www.investing.com/currencies/usd-twd-historical-data",
+      "date": "2026-09-24"
     }
   ]
 }
