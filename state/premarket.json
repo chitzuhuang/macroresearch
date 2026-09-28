@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T08:38:21+08:00",
-  "as_of": "2026-09-25 08:38",
-  "headline": "川習會9/24於華府落幕，僅將貿易停火展延至2027年1月10日，未觸及AI晶片出口管制鬆綁或台灣議題實質突破，市場浮現「利多出盡」疑慮；同時美國9月S&P全球服務業PMI意外飆升至58.7（近五年新高）疊加疲弱的5年期公債標售，激化美債殖利率狂飆——10年期衝上5.223%（2007年6月以來新高）、30年期達5.501%（2004年6月以來新高），拖累美股道瓊、標普500、那斯達克同步收黑，日本10年期公債殖利率同步跳升至3.055%（1996年來新高），而台積電美股ADR逆勢收紅、台北掛牌股價卻收黑的價差擴大，將牽動今日台股開盤方向。",
+  "generated_at": "2026-09-28T08:37:22+08:00",
+  "as_of": "2026-09-28 08:37",
+  "headline": "台股因中秋節、週末與教師節連休四天，將於9/29（週二）復市，但這段空窗期國際情勢劇烈變化：伊朗拒絕川普提出的荷莫茲海峽復航條件、原油價格應聲走揚（布蘭特站上106美元、WTI逼近94美元），美國10年期公債殖利率9/26續飆至5.23%、創2007年來新高，然而美股與日股週五仍逆勢收紅（那斯達克、日經同創波段新高）反映AI類股買氣不墜，加上台積電美國投資核准金額累計達440億美元、DRAM現貨價續創新高，多空交織的環境將是台股復市首日的關鍵觀察點。",
   "items": [
     {
       "category": "政策",
-      "text": "川習會9/24在華府登場，僅同意將貿易停火展延2個月至2027年1月10日，未達成關稅、稀土或AI晶片出口管制的實質協議，習近平重提「以審慎態度處理台灣問題」但未見美方讓步，會後解讀偏向維持現狀。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
-      "date": "2026-09-24"
+      "text": "台灣證券交易所、櫃買中心及期貨市場因中秋節（9/25）銜接週末再加上教師節（9/28）連續休市四天，9/29（週二）才恢復交易，為近三個交易日以來累積的國際變數留下較大的開盤跳空空間。",
+      "source_name": "MarketScreener／台灣證券交易所休市行事曆",
+      "source_url": "https://www.twse.com.tw/zh//trading/holiday.html",
+      "date": "2026-09-28"
+    },
+    {
+      "category": "政策",
+      "text": "美國總統川普9/26公開拒絕伊朗提出「7天內重啟荷莫茲海峽通行並恢復核談判」的方案，稱伊朗條件不可接受並研判對方「打錯算盤」，伊朗外長則稱尚未收到官方回覆，海峽封鎖僵局持續，帶動國際油價走高。",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-26/trump-says-he-rejected-latest-iran-proposal-to-reopen-hormuz",
+      "date": "2026-09-26"
     },
     {
       "category": "總經",
-      "text": "美國9月S&P全球服務業PMI初值意外飆升至58.7（近五年新高，優於市場預期56附近），綜合PMI達58.4，投入物價指數升至66.4創2022年10月以來新高，激化市場對聯準會延續緊縮的疑慮並推升美元。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/09/24/dollar-perched-at-two-month-high-as-hot-pmi-fuels-inflation-fears-rate-hike-bets.html",
-      "date": "2026-09-24"
+      "text": "受荷莫茲海峽復航僵局影響，布蘭特原油9/27一度站上每桶106美元、WTI逼近94美元，能源與航運成本上升的疑慮，可能推升台灣通膨與航空、塑化類股的成本壓力。",
+      "source_name": "Bloomberg（Oil Market News）",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-27/latest-oil-market-news-and-analysis-for-sept-28",
+      "date": "2026-09-27"
     },
     {
       "category": "總經",
-      "text": "受強勁PMI數據與疲弱的5年期公債標售拖累，美國10年期公債殖利率9/24飆升逾10個基點至5.223%、創2007年6月以來新高，30年期殖利率同步衝上5.501%、創2004年6月以來新高。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
-      "date": "2026-09-24"
+      "text": "美國10年期公債殖利率9/26續向上攀升至5.23%，創2007年6月以來新高，反映市場對聯準會維持緊縮立場及財政赤字疑慮升溫，美元指數同步走強，對新興市場資金流向構成壓力。",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/09/26/us-debt-outlook-cbo-10-year-treasury-bond-yields-highest-two-decades/",
+      "date": "2026-09-26"
     },
     {
       "category": "總經",
-      "text": "美股9/24三大指數同步收黑：道瓊下跌0.31%收51,350點，那斯達克下跌約0.78%~1.21%，標普500下跌約0.51%，指數自盤中低點回升，部分受荷莫茲海峽重啟談判傳聞激勵。",
-      "source_name": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026",
-      "date": "2026-09-24"
-    },
-    {
-      "category": "總經",
-      "text": "美國勞工部公布至9/19當週初次申請失業救濟金人數19.7萬人，較前週減少1千人且優於市場預期的20.1萬人，四週移動平均為20.225萬人，顯示就業市場在殖利率飆升下仍具韌性。",
-      "source_name": "U.S. Department of Labor",
-      "source_url": "https://www.dol.gov/ui/data.pdf",
-      "date": "2026-09-24"
+      "text": "美股9/25三大指數同步收紅，道瓊上漲0.93%收51,828.62點、終結三週連跌，標普500上漲0.51%收7,743.41點，那斯達克上漲0.5%收27,068.72點創波段新高，顯示市場在殖利率飆升下仍偏好逢低承接科技股。",
+      "source_name": "TheStreet／Yahoo Finance",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026",
+      "date": "2026-09-25"
     },
     {
       "category": "企業",
-      "text": "台積電美股ADR（TSM）9/24逆勢收紅上漲0.66%，同日台北掛牌台積電（2330）股價收黑下跌1.0%，價差擴大反映台股受全球風險偏好下滑拖累程度更甚於美股，值得留意今日開盤是否收斂。",
-      "source_name": "ETtoday新聞雲",
-      "source_url": "https://finance.ettoday.net/news/3243406",
+      "text": "經濟部投審司9/25公告台積電赴美投資案第7度獲准增資，累計核准股本金額達440億美元，惟距魏哲家法說會宣布的2,650億美元總投資規模仍有落差，預期後續仍將陸續送件審查。",
+      "source_name": "中央社CNA",
+      "source_url": "https://www.cna.com.tw/news/afe/202609250036.aspx",
+      "date": "2026-09-25"
+    },
+    {
+      "category": "企業",
+      "text": "TrendForce DRAMeXchange報價顯示，DDR4 1Gx8 3200現貨均價9/24來到46.107美元，較9/16的45.786美元再創新高，法人並看好DRAM下半年恐再漲40-50%，南亞科、華邦電等台廠DRAM供應鏈可望持續受惠。",
+      "source_name": "鉅亨網／TrendForce",
+      "source_url": "https://news.cnyes.com/news/id/6500944",
       "date": "2026-09-24"
     },
     {
       "category": "總經",
-      "text": "日本10年期公債殖利率9/24跳升至3.055%、創1996年來新高，主因油價回升、美國PMI意外強勁與美國5年期公債標售疲弱等因素外溢；日經225指數同日仍受惠晶片股走強收漲0.8%至65,514點。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-24/japan-10-year-bond-yield-jumps-10-basis-points-amid-global-rout",
-      "date": "2026-09-24"
-    },
-    {
-      "category": "總經",
-      "text": "新台幣兌美元9/24收在31.78~31.82區間、波動不大，尚未反映美元指數走強及全球公債殖利率飆升的壓力（第三方數據，央行官方牌告匯率待確認）。",
-      "source_name": "Investing.com",
-      "source_url": "https://www.investing.com/currencies/usd-twd-historical-data",
-      "date": "2026-09-24"
+      "text": "日經225指數9/25上漲1.3%收66,364.20點，寫下連五個交易日上漲、單週漲約2%的佳績，主要受AI相關類股買盤與除息前買盤支撐，加上台股連假期間半導體供應鏈消息不斷，區域資金氣氛偏多。",
+      "source_name": "CNBC／TradingView",
+      "source_url": "https://www.tradingview.com/news/moodys:1917043145b64:0-stock-market-prediction-for-tomorrow-sensex-nifty-monday-28-sept-triggers-gift-nifty-nikkei-taiwan-kospi-cues/",
+      "date": "2026-09-25"
     }
   ]
 }
