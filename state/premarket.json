@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T08:35:36+08:00",
-  "as_of": "2026-09-29 08:35",
-  "headline": "台股經連假後今（9/29）復市，恰逢美股週一（9/28）由紅翻黑：道瓊、標普、那斯達克三大指數同步收跌，美國10年期公債殖利率續飆至5.21-5.24%、30年期升破5.56%創2004年來新高，加上伊朗持續不軟化荷莫茲海峽復航條件、國際油價再度走揚（WTI站上94美元、布蘭特突破107美元），市場氛圍轉為風險趨避；惟DRAM現貨價續創新高、輝達持續加碼AI基礎建設等半導體供應鏈利多未歇，多空拉鋸下台股開盤動能有待觀察。",
+  "generated_at": "2026-09-30T08:35:54+08:00",
+  "as_of": "2026-09-30 08:35",
+  "headline": "台股9/29假期後首日重挫392點收47,631.96點，外資連2日賣超逾632億元、新台幣一度貼近32元關卡靠央行進場尾盤守住31.8元，反映美債殖利率續處高檔（10年期5.24%）下的資金外流壓力；惟今晨東京股市大漲逾900點、輝達宣布史上最大規模1,500億美元庫藏股、台積電ADR續揚，加上中國9月官方製造業PMI將於今日公布並可望重返擴張，外部風向轉為偏多，今日台股在資金面壓力與AI供應鏈題材、亞股齊揚之間的多空拉鋸值得留意。",
   "items": [
     {
       "category": "總經",
-      "text": "美股9/28三大指數同步收黑：道瓊下跌0.7%（347點）收51,481.51點，標普500下跌約0.8%收7,683.69點，那斯達克下跌逾0.9%收26,820.38點，波音因FAA暫緩737 MAX 10認證重挫近7%拖累道瓊，市場氛圍由上週五的偏多轉為觀望。",
-      "source_name": "Yahoo Finance／TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-28-2026",
-      "date": "2026-09-28"
+      "text": "台股9/29開低走低，終場收47,631.96點、下跌392.64點，成交值7,850.39億元；外資連續第2個交易日賣超，單日調節632.01億元，加計投信買超、自營商賣超，三大法人合計賣超781.86億元，賣超前五名為南茂、國巨、仁寶、聯電、京元電子。",
+      "source_name": "聯合新聞網／華視新聞網",
+      "source_url": "https://udn.com/news/story/123006/9784011",
+      "date": "2026-09-29"
     },
     {
       "category": "總經",
-      "text": "美國10年期公債殖利率9/28續攀升至5.21-5.24%區間，30年期公債殖利率升至5.56%、創2004年以來新高，反映市場對聯準會偏鷹立場與財政赤字疑慮持續升溫，美元指數同步走強、日圓兌美元一度貶向158關卡，對新興市場資金流向構成壓力。",
+      "text": "外資大舉匯出下新台幣同步承壓，盤中一度貼近32元整數關卡，央行尾盤進場調節，貶幅收斂至1角內、勉強守住31.8元價位，反映資金外流與美元走強對台幣匯率構成的壓力。",
+      "source_name": "工商時報",
+      "source_url": "https://www.chinatimes.com/realtimenews/20260929004025-260410",
+      "date": "2026-09-29"
+    },
+    {
+      "category": "總經",
+      "text": "美股9/29三大指數收黑：道瓊下跌131.59點（0.26%）收51,349.92點，標普500下跌0.16%收7,670.84點，那斯達克下跌0.09%收26,797.54點；美國10年期公債殖利率續處5.24%多年高檔，市場對財政赤字與偏鷹立場的疑慮未散。",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/09/28/treasury-yields-bonds-selloff.html",
-      "date": "2026-09-28"
+      "source_url": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html",
+      "date": "2026-09-29"
     },
     {
-      "category": "政策",
-      "text": "伊朗9/27重申「7天內重啟荷莫茲海峽通行」的但書式提案（要求美方先解除海上封鎖與經濟制裁並釋出遭凍結資產），川普已於稍早表態拒絕，海峽封鎖僵局未解，帶動國際油價9/28續走高：WTI原油上漲1.87%至每桶94.14美元，布蘭特原油上漲2.89%至每桶107.34美元，能源與航運成本上升疑慮持續發酵。",
+      "category": "企業",
+      "text": "輝達9/28宣布加碼1,500億美元庫藏股，為史上最大規模單次授權，加計既有額度後總授權上看2,350億美元，執行長黃仁勳表示AI基礎建設建設潮空前，公司現金創造能力可同時支應技術投資與股東回饋；輝達股價9/29仍小跌0.72%，反映市場對次世代AI晶片需求預測下修的疑慮。",
       "source_name": "CNBC／Bloomberg",
-      "source_url": "https://www.cnbc.com/amp/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+      "source_url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmaker-stock-is-too-cheap-for-huang-to-resist.html",
       "date": "2026-09-28"
     },
     {
       "category": "企業",
-      "text": "TrendForce報價顯示DRAM現貨與合約價續創新高，市場預估第3季DRAM合約價季增幅上看13-18%、NAND Flash季增10-15%，AI伺服器與PC端記憶體需求同步搶產能，供應吃緊態勢延續至2027年前恐難緩解，南亞科、華邦電等台廠DRAM供應鏈可望持續受惠。",
-      "source_name": "Tom's Hardware",
-      "source_url": "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
-      "date": "2026-09-28"
+      "text": "台積電ADR 9/29上漲約0.9%至457.175美元，市場對AI相關類股風險偏好回溫，法人並持續看好其2奈米產能擴張、先進製程占晶圓營收比重持續攀升的成長動能。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-moves-higher-ai-184615945.html",
+      "date": "2026-09-29"
     },
     {
-      "category": "企業",
-      "text": "輝達9/28發表「Open Agent Safety Platform」開源安全防護工具，用於防範AI代理人（agent）脫序行為；市場並傳出中國監管機關正考慮放行阿里巴巴、字節跳動等陸企採購輝達新推出的RTX Pro 5500處理器，若成真將牽動輝達對中銷售與台廠代工排單。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry",
-      "date": "2026-09-28"
+      "category": "總經",
+      "text": "日本東京股市9/30盤中大漲，日經225指數9時15分報66,412.45點、較前日上漲931.18點，TOPIX指數同步上漲38.25點至4,079.38點，為今日亞股開盤前釋出偏多訊號。",
+      "source_name": "Oanda Japan／中日新聞",
+      "source_url": "https://www.oanda.jp/lab-education/market_news/kn_2026093002000019/",
+      "date": "2026-09-30"
     },
     {
       "category": "政策",
-      "text": "美國參議院民主黨領袖舒默於中國國家主席習近平預定訪美前一週，再度呼籲收緊對中國的先進晶片出口管制；惟白宮近期實際作法轉向個案審查放寬（如輝達H200、超微MI325X已可依個案申請出口至中國核准客戶），美中晶片政策角力持續為半導體供應鏈增添不確定性。",
-      "source_name": "Congress.gov／CSIS彙整",
-      "source_url": "https://www.csis.org/analysis/limits-chip-export-controls-meeting-china-challenge",
-      "date": "2026-09-28"
+      "text": "中國國家統計局將於9/30公布9月官方製造業PMI，市場預估在出口維持雙位數高速成長、高科技製造業續強支撐下，指數可望重返50榮枯線之上（8月為49.8），為今日台股開盤前的重要觀察指標。",
+      "source_name": "經濟日報",
+      "source_url": "https://money.udn.com/money/story/5603/9779281",
+      "date": "2026-09-30"
     },
     {
       "category": "企業",
-      "text": "台積電轉投資之世界先進與恩智浦（NXP）合資的VisionPower Semiconductor（VSMC）9/28傳出正評估在新加坡增設第二座晶圓廠、擬生產較現有廠更先進製程，以因應AI供應鏈擴產需求，續強化台灣半導體集團的海外布局。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-28/tsmc-affiliate-plans-second-singapore-chip-plant-in-asia-push",
-      "date": "2026-09-28"
+      "text": "TrendForce最新報告顯示，9月下旬DRAM、NAND Flash價格持續墊高，主流DDR4與DDR5合約價續創新高、伺服器RDIMM價格中位數同步走揚，AI伺服器與PC需求同步搶產能的格局未見緩解，南亞科、華邦電等台廠記憶體供應鏈可望持續受惠。",
+      "source_name": "TrendForce",
+      "source_url": "https://www.trendforce.com/research/download/RP260916TA",
+      "date": "2026-09-16"
     }
   ]
 }
