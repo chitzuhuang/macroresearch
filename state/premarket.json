@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T08:42:14+08:00",
-  "as_of": "2026-10-05 08:42",
-  "headline": "美國勞工部10/2（台北時間週五晚間）公布9月非農就業報告，新增就業僅2.9萬人、遠低於市場預估的約8~9萬人，失業率同步由4.1%升至4.2%，勞動市場降溫訊號強化聯準會10/28-29會議降息預期，為台股今日開盤最主要的總經背景；受中國十一長假影響，陸股及港股通持續休市至10/7、10/8起恢復交易，本週陸資連動性仍淡，台股盤面仍將以AI供應鏈與台積電即將公布的9月營收（10/8）、第三季法說會（10/16）為觀察重點。",
+  "generated_at": "2026-10-06T08:41:06+08:00",
+  "as_of": "2026-10-06 08:41",
+  "headline": "美股那斯達克指數10/5（台北時間週二凌晨收盤）在大型科技股與AI概念動能支撐下再創歷史新高，但10年期美債殖利率同步走高、Oracle因AI資料中心交付時程傳言股價重挫後仍待市場消化執行風險，顯示AI資本支出的「速度與雜訊」仍是左右台股今日開盤情緒的主要變數。",
   "items": [
     {
       "category": "總經",
-      "text": "美國勞工部10/2公布9月非農就業報告，非農就業人數僅增加2.9萬人，遠低於市場預估的約8~9萬人，且失業率由8月的4.1%上升至4.2%，顯示美國勞動市場降溫跡象增加。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
-      "date": "2026-10-02"
-    },
-    {
-      "category": "政策",
-      "text": "受9月非農就業疲弱數據激勵，市場對聯準會10/28-29會議降息的預期進一步鞏固，CME FedWatch顯示降息機率維持高檔，較上週五公布前更加確立寬鬆路徑。",
-      "source_name": "CME FedWatch",
-      "source_url": "https://www.financecalendar.com/us-jobs-report/",
-      "date": "2026-10-02"
+      "text": "美股10/5（週一）收盤四大指數齊揚，道瓊工業指數上漲90.94點（+0.18%）收51,267.90點，標普500指數上漲0.66%收7,773.95點，那斯達克綜合指數上漲1.05%收27,477.31點並創歷史收盤新高，主要受大型科技股與AI概念股動能支撐，但美債殖利率同步走高。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-5-135537124.html",
+      "date": "2026-10-05"
     },
     {
       "category": "總經",
-      "text": "中國十一國慶黃金週，上海、深圳證交所與港股通自10/1起休市，至10/7（週三）為止，10/8（週四）起恢復正常交易，本週陸股、陸資與A股連動性持續淡化，為台股近期盤面特徵之一。",
-      "source_name": "深圳證券交易所",
-      "source_url": "https://investor.szse.cn/English/services/trading/calendar/index.html",
+      "text": "美國供應管理協會（ISM）公布9月製造業PMI為54.5%，連續第九個月呈現擴張但較8月略為放緩，其中物價支付指數由71.1大幅躍升至77.9，顯示製造業端的通膨壓力正在加大，為聯準會後續決策增添不確定性。",
+      "source_name": "Industry Week",
+      "source_url": "https://www.industryweek.com/the-economy/news/55409073/september-ism-report-manufacturing-industry-extends-expansion-streak-for-ninth-consecutive-month",
       "date": "2026-10-01"
     },
     {
       "category": "企業",
-      "text": "台積電法人說明會行事曆顯示，9月合併營收報告預定10/8公布，第三季線上法人說明會則訂於10/16召開，將是本月台股在聯準會決策前，市場觀察AI晶片需求與資本支出指引的兩大關鍵數據節點。",
-      "source_name": "Taiwan News",
-      "source_url": "https://www.taiwannews.com.tw/en/news/6216971",
-      "date": "2026-10-16"
+      "text": "Oracle股價上週五（10/2）一度重挫逾4%，因彭博報導其部分為OpenAI興建的AI資料中心交付時程將由2027年延至2028年；Oracle隨即公開否認延遲，強調時程係與OpenAI共同商定、各項合約里程碑均如期進行，事件凸顯市場對AI資本支出執行風險的敏感度升高。",
+      "source_name": "Bloomberg（經Sherwood News報導）",
+      "source_url": "https://sherwood.news/markets/oracle-tumbles-after-bloomberg-report-that-its-delaying-some-data-centers/",
+      "date": "2026-10-02"
+    },
+    {
+      "category": "總經",
+      "text": "台灣期貨交易所公布外幣參考匯率，10/5美元兑新台幣匯價約31.605元，可作為今日新台幣開盤參考。",
+      "source_name": "台灣期貨交易所（TAIFEX）",
+      "source_url": "https://www.taifex.com.tw/cht/5/ccpDailyFXRate",
+      "date": "2026-10-05"
     }
   ]
 }
