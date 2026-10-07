@@ -1,36 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T08:41:06+08:00",
-  "as_of": "2026-10-06 08:41",
-  "headline": "美股那斯達克指數10/5（台北時間週二凌晨收盤）在大型科技股與AI概念動能支撐下再創歷史新高，但10年期美債殖利率同步走高、Oracle因AI資料中心交付時程傳言股價重挫後仍待市場消化執行風險，顯示AI資本支出的「速度與雜訊」仍是左右台股今日開盤情緒的主要變數。",
+  "generated_at": "2026-10-07T08:42:00+08:00",
+  "as_of": "2026-10-07 08:42",
+  "headline": "美股10/6（台北時間週二凌晨收盤）那斯達克與標普500指數同步創收盤新高，輝達、超微等AI晶片股領漲，但同一時間日股受半導體設備與記憶體類股重挫拖累下跌，加上聯發科昨未跟上台股大盤反彈反而重挫逾4%，顯示AI供應鏈內部的地區與個股分化正在加劇，今日台股開盤仍需留意資金是否只集中在特定AI權值股而非全面性上漲。",
   "items": [
     {
       "category": "總經",
-      "text": "美股10/5（週一）收盤四大指數齊揚，道瓊工業指數上漲90.94點（+0.18%）收51,267.90點，標普500指數上漲0.66%收7,773.95點，那斯達克綜合指數上漲1.05%收27,477.31點並創歷史收盤新高，主要受大型科技股與AI概念股動能支撐，但美債殖利率同步走高。",
+      "text": "美股10/6（台北時間週二凌晨）收盤走高，標普500指數上漲0.58%收7,818.93點、創歷史收盤新高，那斯達克綜合指數上漲0.45%收27,599.79點同創收盤新高，道瓊工業指數上漲253.38點（+0.49%）收51,521.28點，主要受輝達、超微等AI晶片股領漲及美債殖利率回落支撐。",
       "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-5-135537124.html",
-      "date": "2026-10-05"
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-6-134418919.html",
+      "date": "2026-10-06"
     },
     {
       "category": "總經",
-      "text": "美國供應管理協會（ISM）公布9月製造業PMI為54.5%，連續第九個月呈現擴張但較8月略為放緩，其中物價支付指數由71.1大幅躍升至77.9，顯示製造業端的通膨壓力正在加大，為聯準會後續決策增添不確定性。",
-      "source_name": "Industry Week",
-      "source_url": "https://www.industryweek.com/the-economy/news/55409073/september-ism-report-manufacturing-industry-extends-expansion-streak-for-ninth-consecutive-month",
+      "text": "日經225指數10/6開低走低，終場下跌617.18點（-0.93%）收65,683.26點，主因費城半導體指數連動下半導體設備與記憶體類股遭重貶，愛德萬測試跌2.34%、東京威力科創跌5.5%、迪思科跌3.4%、鎧俠暴跌逾10%，與同日美股AI晶片股走強形成明顯反差。",
+      "source_name": "鉅亨網",
+      "source_url": "https://news.cnyes.com/news/id/6536905",
+      "date": "2026-10-06"
+    },
+    {
+      "category": "企業",
+      "text": "聯發科（2454）10/6盤中未跟上台股大盤反彈，終場重挫245元（-4.74%）收4,920元，與當日大盤上漲0.22%的走勢明顯分化，市場解讀與近期AI ASIC、邊緣AI等題材急漲後的獲利調節及籌碼鬆動有關，今日能否止穩值得觀察。",
+      "source_name": "經濟日報（udn.com）",
+      "source_url": "https://udn.com/news/story/7251/9589896",
+      "date": "2026-10-06"
+    },
+    {
+      "category": "新聞",
+      "text": "AI資料中心用電需求持續升溫，科技業者與核能電力商簽署長約購電協議的消息成為10/6美股盤中關注焦點之一，市場視為AI資本支出延續性的正面訊號，帶動相關電力與AI硬體股同步走揚，呼應近期「AI電力瓶頸」仍是美股主要敘事之一。",
+      "source_name": "The Motley Fool",
+      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/10/06/stock-market-midday-oct-6-s-and-p-500-sets-new-high-nuclear-stocks-surge",
+      "date": "2026-10-06"
+    },
+    {
+      "category": "政策",
+      "text": "台美對等關稅第五輪實體磋商已於9月底在華府結束，行政院副院長鄭麗君10/1返台後表示，談判團隊從未承諾「晶片五五分」、本輪也未觸及此議題；雙方仍就對等關稅稅率、232條款優惠待遇與供應鏈合作方案持續磋商，台灣現行對等關稅暫行稅率為20%，尚未完全定案。",
+      "source_name": "台灣英文新聞（taiwannews.com.tw）",
+      "source_url": "https://www.taiwannews.com.tw/zh/news/6211233",
       "date": "2026-10-01"
     },
     {
       "category": "企業",
-      "text": "Oracle股價上週五（10/2）一度重挫逾4%，因彭博報導其部分為OpenAI興建的AI資料中心交付時程將由2027年延至2028年；Oracle隨即公開否認延遲，強調時程係與OpenAI共同商定、各項合約里程碑均如期進行，事件凸顯市場對AI資本支出執行風險的敏感度升高。",
-      "source_name": "Bloomberg（經Sherwood News報導）",
-      "source_url": "https://sherwood.news/markets/oracle-tumbles-after-bloomberg-report-that-its-delaying-some-data-centers/",
-      "date": "2026-10-02"
-    },
-    {
-      "category": "總經",
-      "text": "台灣期貨交易所公布外幣參考匯率，10/5美元兑新台幣匯價約31.605元，可作為今日新台幣開盤參考。",
-      "source_name": "台灣期貨交易所（TAIFEX）",
-      "source_url": "https://www.taifex.com.tw/cht/5/ccpDailyFXRate",
-      "date": "2026-10-05"
+      "text": "台積電（2330）2026年第一季每股配發現金股利7元，為歷來單季最高配息，已於9/16完成除息，股息預定10/8（明日）發放，逾255萬名股東受惠，12月起外資股東並可選擇以美元計價領取股息。",
+      "source_name": "經濟日報（udn.com）",
+      "source_url": "https://money.udn.com/money/story/5607/9750869",
+      "date": "2026-09-16"
     }
   ]
 }
