@@ -1,50 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T08:40:00+08:00",
-  "as_of": "2026-10-08 08:40",
-  "headline": "美股10/7（台北時間今晨收盤）在聯準會9月會議紀錄公布前，受10年期美債殖利率彈升逾5.3%、油價重返100美元關口附近影響，道瓊、標普500、那斯達克三大指數同步自前一交易日歷史高點回落，但同一時間鴻海9月營收首度衝破兆元大關、台積電9月營收今日待公布，顯示AI供應鏈基本面仍強勁，今日台股開盤可能呈現「海外殖利率風險」與「個股AI動能」的拉鋸格局。",
+  "generated_at": "2026-10-09T08:40:00+08:00",
+  "as_of": "2026-10-09 08:40",
+  "headline": "美股10/8（台北時間今晨收盤）受《華爾街日報》報導OpenAI未達營收與用戶目標衝擊拖累，那斯達克指數重挫逾1%、台積電ADR同步下跌約3%，加上聯準會9月會議紀錄顯示多數官員仍傾向年底前再升息一次、中東緊張一度推升油價與美債殖利率至高檔，惟台積電9月營收年增54.6%確認AI晶片需求基本面依然強勁，今日台股開盤可能呈現「隔夜AI股風險連動」壓制「台積電基本面韌性」的拉鋸格局。",
   "items": [
     {
       "category": "總經",
-      "text": "美股10/7（台北時間週四凌晨）收盤同步走低，道瓊工業指數下跌341.41點（-0.66%）收51,179.87點、標普500指數下跌17.16點（-0.22%）收7,801.77點、那斯達克綜合指數下跌61.20點（-0.22%）收27,538.69點，三大指數均自前一交易日歷史高點回落，主因10年期美債殖利率彈升至約5.31%、30年期逼近5.68%，加上油價重返100美元關口附近，道瓊單日跌點逾八成來自開拓重工（Caterpillar）重挫5.7%。",
+      "text": "美股10/8（台北時間今晨）收盤漲跌不一，那斯達克綜合指數在AI概念股遭拋售下重挫約1%，標普500指數下跌0.35%收7,775點附近，道瓊工業指數則逆勢小漲0.10%收51,231.64點，費城半導體指數、輝達、超微等AI供應鏈股同步走弱，台積電ADR同步下跌約3%。",
       "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
-      "date": "2026-10-07"
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+      "date": "2026-10-08"
+    },
+    {
+      "category": "新聞",
+      "text": "《華爾街日報》報導指OpenAI未達成2025年底週活躍用戶10億人之內部目標、今年多月營收亦未達標，部分市占遭Anthropic侵蝕，財務長Sarah Friar並向管理層示警若營收成長未加速恐難支應龐大運算合約支出，消息導致輝達、甲骨文、CoreWeave等AI概念股重挫，軟銀東京股價重挫近10%，OpenAI則回應該報導為「過度炒作」。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/tech-stocks-slide-following-report-142230679.html",
+      "date": "2026-10-08"
     },
     {
       "category": "政策",
-      "text": "聯準會9月15-16日FOMC會議紀錄已於台北時間10/8凌晨2點（美東10/7下午2點）公布，該次會議由新任主席沃什（Kevin Warsh）主導，12票全數同意升息1碼至3.75%-4.00%（為2023年來首次升息），市場關注會議紀錄能否確認鷹派升息路徑延續；但9月非農就業僅增2.9萬人遠低於預期、8月核心PCE年增3.0%，已讓市場將10/27-28會議升息機率由約七成下修至約二成。",
-      "source_name": "InvestingLive",
-      "source_url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade/",
+      "text": "聯準會9月15-16日FOMC會議紀錄於台北時間10/8凌晨（美東10/7下午2點）公布，顯示19位與會官員一致支持當次升息1碼至3.75%-4.00%，多數官員認為年底前仍有必要再升息一次以遏止通膨預期鬆動，惟會議紀錄未給出明確升息時點，加上近期非農就業疲弱等數據，市場目前僅price in約20-25%機率於10/28會議升息。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
       "date": "2026-10-07"
     },
     {
-      "category": "企業",
-      "text": "台積電（2330）依慣例將於今日（10/8）公布9月及第三季合併營收，為台股開盤前最重要觀察指標之一；公司第三季財測區間為446億至458億美元，市場將以此檢視AI與先進製程需求是否延續強勁動能，第三方日曆多將第三季法說會排在10/15，但台積電官方尚未正式公告法說日期。",
-      "source_name": "Akrostec（財報行事曆）",
-      "source_url": "https://www.akrostec.com/indices/KGAIS/events/2026-10-08t00-00-00z-taiwan-semiconductor-manufacturing-co-ltd-tsm-financial-results-ad302831",
+      "category": "總經",
+      "text": "受中東地緣政治風險升溫推升布蘭特原油一度彈升近5%、衝破每桶105美元，加上10年期美債殖利率盤中觸及約5.3%高檔（為2002年以來新高），美股早盤承壓；川普隨後表態期中選舉前不會對伊朗動武，加上30年期公債標售需求強勁，油價與長債殖利率午盤後明顯回落，10年期殖利率收斂至約5.2%-5.3%、30年期約5.6%。",
+      "source_name": "The News Tribune",
+      "source_url": "https://www.newstribune.com/news/2026/oct/08/wall-street-ends-lower-as-treasury-yields-climb/",
       "date": "2026-10-08"
     },
     {
       "category": "企業",
-      "text": "鴻海（2317）10/5公布9月合併營收達1.16兆元，月增25.7%、年增38.4%，為台灣企業史上首次單月營收突破兆元大關；第三季營收3.03兆元、季增20.44%、年增47.12%創歷年同期新高，公司表示AI伺服器與雲端網路相關出貨是主要成長動能，看好第四季在傳統旺季加上AI拉貨延續下續揚。",
-      "source_name": "TechNews 科技新報",
-      "source_url": "https://finance.technews.tw/2026/10/05/hon-hai-2317-202609-financial-report/",
-      "date": "2026-10-05"
-    },
-    {
-      "category": "政策",
-      "text": "日本央行9/18貨幣政策會議決議升息至1.25%，為植田和男總裁任內最快升息步調（距6月上次升息僅3個月），為31年來最高水準，會後聲明顯示仍將延續升息路徑，市場預期下一次升息落在12月會議；日銀持續鷹派立場可能牽動日圓走勢及日股半導體設備、記憶體供應鏈股價，與台股設備、材料供應鏈連動需留意。",
-      "source_name": "熊本日日新聞",
-      "source_url": "https://kumanichi.com/articles/2037289",
-      "date": "2026-09-18"
-    },
-    {
-      "category": "總經",
-      "text": "中國海關總署9月進出口數據預計約10/13公布，目前最新資料為前8月以人民幣計價出口年增14.6%、進口年增22%，8月單月貿易總額年增19.8%、連續六個月維持在4兆元人民幣以上規模，顯示外需動能仍強；9月數據公布前，市場將持續觀察中國需求對台灣電子零組件出口的支撐力道。",
-      "source_name": "河南省人民政府（英文網）",
-      "source_url": "https://english.henan.gov.cn/2026/09-08/3412250.html",
-      "date": "2026-09-08"
+      "text": "台積電（2330）10/8依美國SEC Form 6-K申報公布9月合併營收約新台幣511.86億元，較8月歷史新高小幅下滑0.6%，但較去年同期大增54.6%，累計今年前9月營收達新台幣3兆8,987.3億元、年增41.1%，數據顯示AI與先進製程相關晶片需求基本面持續強勁，第三季財報將於法說會正式公布。",
+      "source_name": "U.S. SEC（台積電Form 6-K申報）",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+      "date": "2026-10-08"
     }
   ]
 }
