@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T08:40:00+08:00",
-  "as_of": "2026-10-09 08:40",
-  "headline": "美股10/8（台北時間今晨收盤）受《華爾街日報》報導OpenAI未達營收與用戶目標衝擊拖累，那斯達克指數重挫逾1%、台積電ADR同步下跌約3%，加上聯準會9月會議紀錄顯示多數官員仍傾向年底前再升息一次、中東緊張一度推升油價與美債殖利率至高檔，惟台積電9月營收年增54.6%確認AI晶片需求基本面依然強勁，今日台股開盤可能呈現「隔夜AI股風險連動」壓制「台積電基本面韌性」的拉鋸格局。",
+  "generated_at": "2026-10-12T08:35:00+08:00",
+  "as_of": "2026-10-12 08:35",
+  "headline": "台股今日迎接國慶補假（10/9休市）後首個交易日，美股上週五（10/9）收紅完成亮眼一週、標普與那斯達克逼近歷史高點，為台股開盤注入正向動能；但台積電10/15法說會倒數在即、DRAM/NAND記憶體價格持續飆漲推升AI供應鏈成本，市場情緒可能呈現「美股信心回溫」與「法說會前觀望」的拉鋸格局。",
   "items": [
     {
       "category": "總經",
-      "text": "美股10/8（台北時間今晨）收盤漲跌不一，那斯達克綜合指數在AI概念股遭拋售下重挫約1%，標普500指數下跌0.35%收7,775點附近，道瓊工業指數則逆勢小漲0.10%收51,231.64點，費城半導體指數、輝達、超微等AI供應鏈股同步走弱，台積電ADR同步下跌約3%。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
-      "date": "2026-10-08"
-    },
-    {
-      "category": "新聞",
-      "text": "《華爾街日報》報導指OpenAI未達成2025年底週活躍用戶10億人之內部目標、今年多月營收亦未達標，部分市占遭Anthropic侵蝕，財務長Sarah Friar並向管理層示警若營收成長未加速恐難支應龐大運算合約支出，消息導致輝達、甲骨文、CoreWeave等AI概念股重挫，軟銀東京股價重挫近10%，OpenAI則回應該報導為「過度炒作」。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/tech-stocks-slide-following-report-142230679.html",
-      "date": "2026-10-08"
+      "text": "美股上週五（10/9）收紅，標普500指數上漲0.6%收7,811.54點、逼近10/6創下的歷史高點，道瓊工業指數上漲0.8%收51,654.95點，那斯達克綜合指數上漲0.6%收27,366.17點，完成本週強勢反彈，10年期美債殖利率收在約5.24%高檔。",
+      "source_name": "La Nación（AP市場快報轉載）",
+      "source_url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/",
+      "date": "2026-10-09"
     },
     {
       "category": "政策",
-      "text": "聯準會9月15-16日FOMC會議紀錄於台北時間10/8凌晨（美東10/7下午2點）公布，顯示19位與會官員一致支持當次升息1碼至3.75%-4.00%，多數官員認為年底前仍有必要再升息一次以遏止通膨預期鬆動，惟會議紀錄未給出明確升息時點，加上近期非農就業疲弱等數據，市場目前僅price in約20-25%機率於10/28會議升息。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
-      "date": "2026-10-07"
-    },
-    {
-      "category": "總經",
-      "text": "受中東地緣政治風險升溫推升布蘭特原油一度彈升近5%、衝破每桶105美元，加上10年期美債殖利率盤中觸及約5.3%高檔（為2002年以來新高），美股早盤承壓；川普隨後表態期中選舉前不會對伊朗動武，加上30年期公債標售需求強勁，油價與長債殖利率午盤後明顯回落，10年期殖利率收斂至約5.2%-5.3%、30年期約5.6%。",
-      "source_name": "The News Tribune",
-      "source_url": "https://www.newstribune.com/news/2026/oct/08/wall-street-ends-lower-as-treasury-yields-climb/",
-      "date": "2026-10-08"
+      "text": "台灣證交所公告10月10日國慶日適逢週六，故10月9日（週五）補假一日全台股市休市，今日（10/12）為連假後首個交易日，須一次消化上週四收盤後累積的國際消息面。",
+      "source_name": "Money UDN／Histock台股休市行事曆",
+      "source_url": "https://money.udn.com/money/amp/story/5607/9105340",
+      "date": "2026-10-09"
     },
     {
       "category": "企業",
-      "text": "台積電（2330）10/8依美國SEC Form 6-K申報公布9月合併營收約新台幣511.86億元，較8月歷史新高小幅下滑0.6%，但較去年同期大增54.6%，累計今年前9月營收達新台幣3兆8,987.3億元、年增41.1%，數據顯示AI與先進製程相關晶片需求基本面持續強勁，第三季財報將於法說會正式公布。",
-      "source_name": "U.S. SEC（台積電Form 6-K申報）",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+      "text": "台積電（2330）第三季法人說明會確定於10月15日登場，市場聚焦資本支出上修幅度、1.4奈米（A14）製程量產時程、CoWoS先進封裝產能瓶頸與毛利率展望，馬斯克先前在社群平台透露特斯拉與台積電就「Terafab」晶片代工計畫仍在洽談階段，是否正式回應也成法說會焦點之一。",
+      "source_name": "自由時報",
+      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5601207",
       "date": "2026-10-08"
+    },
+    {
+      "category": "總經",
+      "text": "中國9月進出口貿易數據預計於10月13日（明日）公布，8月數據顯示出口年增18.6%、進口年增21.7%，貨物貿易總額連續6個月站上4兆人民幣，法人認為AI基礎建設相關出口與廠商提前出貨規避關稅效應是主要推力，9月數據能否延續強勢將牽動台股電子出口鏈情緒。",
+      "source_name": "Henan Daily／中國海關總署數據",
+      "source_url": "https://english.henan.gov.cn/2026/09-08/3412250.html",
+      "date": "2026-08-08"
+    },
+    {
+      "category": "新聞",
+      "text": "記憶體大廠TeamGroup（十銓）總經理警示，受AI伺服器與HBM需求排擠一般伺服器及消費型記憶體產能，DRAM、NAND現貨與合約價格今年來已出現倍數式飆漲，市場預期缺貨與漲價行情將延續至2027年甚至更久，對台廠記憶體模組、測試封裝供應鏈為正面但也墊高下游伺服器整機成本。",
+      "source_name": "Tom's Hardware",
+      "source_url": "https://www.tomshardware.com/pc-components/dram/the-ram-pricing-crisis-has-only-just-started-team-group-gm-warns-says-problem-will-get-worse-in-2026-as-dram-and-nand-prices-double-in-one-month",
+      "date": "2026-09-19"
     }
   ]
 }
