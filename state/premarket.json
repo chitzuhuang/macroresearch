@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T08:35:00+08:00",
-  "as_of": "2026-10-12 08:35",
-  "headline": "台股今日迎接國慶補假（10/9休市）後首個交易日，美股上週五（10/9）收紅完成亮眼一週、標普與那斯達克逼近歷史高點，為台股開盤注入正向動能；但台積電10/15法說會倒數在即、DRAM/NAND記憶體價格持續飆漲推升AI供應鏈成本，市場情緒可能呈現「美股信心回溫」與「法說會前觀望」的拉鋸格局。",
+  "generated_at": "2026-10-13T08:35:00+08:00",
+  "as_of": "2026-10-13 08:35",
+  "headline": "美股上週一（10/12，哥倫布日照常交易）道瓊上漲0.38%收51,850.55點，但標普500小跌0.06%收7,807.24點、那斯達克下跌0.44%收27,245.90點，記憶體與半導體股領跌（美光重挫3.9%），市場已將焦點轉向本週啟動的美股Q3財報季（六大銀行今日起陸續公布）；台積電法說會倒數2天（10/15），馬斯克已澄清特斯拉將自行興建並營運Terafab晶圓廠、台積電角色僅限小規模承租，法人轉而聚焦資本支出上修幅度與先進封裝產能，加上HBM/DRAM現貨價格持續飆漲（現貨已達長約價4-5倍），台股今日可能呈現「美股獲利了結觀望」與「法說會前記憶體漲價紅利」的雙重拉鋸格局。",
   "items": [
     {
       "category": "總經",
-      "text": "美股上週五（10/9）收紅，標普500指數上漲0.6%收7,811.54點、逼近10/6創下的歷史高點，道瓊工業指數上漲0.8%收51,654.95點，那斯達克綜合指數上漲0.6%收27,366.17點，完成本週強勢反彈，10年期美債殖利率收在約5.24%高檔。",
-      "source_name": "La Nación（AP市場快報轉載）",
-      "source_url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/",
-      "date": "2026-10-09"
+      "text": "美股上週一（10/12）收盤互有漲跌，道瓊工業指數上漲0.38%收51,850.55點，標普500指數小跌0.06%收7,807.24點，那斯達克綜合指數下跌0.44%收27,245.90點；記憶體與半導體類股領跌大盤，美光（Micron）重挫3.9%，科技與非必需消費類股是標普500表現最差的兩個板塊。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html",
+      "date": "2026-10-12"
     },
     {
-      "category": "政策",
-      "text": "台灣證交所公告10月10日國慶日適逢週六，故10月9日（週五）補假一日全台股市休市，今日（10/12）為連假後首個交易日，須一次消化上週四收盤後累積的國際消息面。",
-      "source_name": "Money UDN／Histock台股休市行事曆",
-      "source_url": "https://money.udn.com/money/amp/story/5607/9105340",
-      "date": "2026-10-09"
+      "category": "總經",
+      "text": "美股本週（10/13起）正式進入第三季財報季，摩根大通、高盛、花旗、美國銀行、富國銀行與摩根士丹利等六大銀行陸續公布財報（摩根大通與高盛率先於週二盤前公布），法人普遍預期多數大行獲利將優於去年同期，財報結果將是本週美股及台股權值股情緒的重要指標。",
+      "source_name": "Benzinga／Webull財報預覽",
+      "source_url": "https://www.webull.com/news/15220772761461760",
+      "date": "2026-10-13"
     },
     {
       "category": "企業",
-      "text": "台積電（2330）第三季法人說明會確定於10月15日登場，市場聚焦資本支出上修幅度、1.4奈米（A14）製程量產時程、CoWoS先進封裝產能瓶頸與毛利率展望，馬斯克先前在社群平台透露特斯拉與台積電就「Terafab」晶片代工計畫仍在洽談階段，是否正式回應也成法說會焦點之一。",
-      "source_name": "自由時報",
+      "text": "馬斯克在社群平台X上澄清，特斯拉與SpaceX將自行興建並營運「Terafab」晶圓廠，台積電若有意願，最多只能承租部分廠區，角色不會超過此範圍；此說法與先前市場傳出台積電評估「參與營運」的報導不同，為台積電法說會前的重要變數。",
+      "source_name": "Statementdog",
+      "source_url": "https://statementdog.com/news/17843",
+      "date": "2026-10-07"
+    },
+    {
+      "category": "企業",
+      "text": "台積電第三季法人說明會倒數2天（10/15登場），市場聚焦今年資本支出是否在7月已上修至600-640億美元（較年初520-560億美元guidance上調約7%-14%）的基礎上再度上修、1.4奈米（A14）製程量產時程、CoWoS先進封裝產能瓶頸，以及對Terafab合作案的正式官方表態。",
+      "source_name": "自由時報／UDN經濟日報",
       "source_url": "https://ec.ltn.com.tw/article/breakingnews/5601207",
       "date": "2026-10-08"
     },
     {
-      "category": "總經",
-      "text": "中國9月進出口貿易數據預計於10月13日（明日）公布，8月數據顯示出口年增18.6%、進口年增21.7%，貨物貿易總額連續6個月站上4兆人民幣，法人認為AI基礎建設相關出口與廠商提前出貨規避關稅效應是主要推力，9月數據能否延續強勢將牽動台股電子出口鏈情緒。",
-      "source_name": "Henan Daily／中國海關總署數據",
-      "source_url": "https://english.henan.gov.cn/2026/09-08/3412250.html",
-      "date": "2026-08-08"
-    },
-    {
       "category": "新聞",
-      "text": "記憶體大廠TeamGroup（十銓）總經理警示，受AI伺服器與HBM需求排擠一般伺服器及消費型記憶體產能，DRAM、NAND現貨與合約價格今年來已出現倍數式飆漲，市場預期缺貨與漲價行情將延續至2027年甚至更久，對台廠記憶體模組、測試封裝供應鏈為正面但也墊高下游伺服器整機成本。",
-      "source_name": "Tom's Hardware",
-      "source_url": "https://www.tomshardware.com/pc-components/dram/the-ram-pricing-crisis-has-only-just-started-team-group-gm-warns-says-problem-will-get-worse-in-2026-as-dram-and-nand-prices-double-in-one-month",
-      "date": "2026-09-19"
+      "text": "記憶體研究機構報告指出，HBM3E模組現貨價格已飆升至約每顆2,100美元，是長約合約價300-400美元的4-5倍，一般DRAM合約價在2026年第一季單季即季增93%-98%；三星、SK海力士與美光2026年全年HBM產能已被AI伺服器需求全數訂滿，缺貨漲價行情預期延續至2027年。",
+      "source_name": "IntuitionLabs產業分析",
+      "source_url": "https://intuitionlabs.ai/articles/hbm-dram-ai-memory-demand",
+      "date": "2026-09-05"
     }
   ]
 }
