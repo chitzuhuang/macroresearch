@@ -1,43 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T08:36:00+08:00",
-  "as_of": "2026-10-14 08:36",
-  "headline": "美股上週二（10/13）記憶體與半導體股續領跌大盤，美光（Micron）連續第4個交易日下挫、股價跌破950美元，AI泡沫疑慮、中國記憶體廠長鑫存儲（CXMT）產能追趕與Netlist專利訴訟多重壓力齊發，美股三大指數同步收低；銀行業財報則喜憂參半（高盛大幅超預期，摩根大通每股獲利不如預期），而台灣美光工會已於上週三合法取得罷工權（99%高票通過）、號召10/19台北集會，為台廠記憶體供應增添變數；在台積電法說會倒數1天（10/15登場）、外資關注資本支出是否再上修之際，台股今日可能延續「記憶體恐慌性賣壓」與「法說會前觀望」的拉鋸格局。",
+  "generated_at": "2026-10-15T08:38:00+08:00",
+  "as_of": "2026-10-15 08:38",
+  "headline": "美國9月CPI意外升溫（年增3.7%、核心2.6%，雙雙高於預期），市場重新計入聯準會可能再升息的風險，拖累那斯達克重挫1.88%、費城半導體指數暴跌4.30%，台積電ADR、美光、輝達、AMD、聯電ADR全面重挫，台指期夜盤同步下殺逾800點；在台積電法說會（今日下午2點登場，市場後收盤後揭曉）倒數之際，台股今日開盤恐承受「通膨驚嚇＋法說前觀望」雙重壓力，须留意早盤殺盤後的止穩訊號。",
   "items": [
     {
       "category": "總經",
-      "text": "美股上週二（10/13）收盤走低，道瓊工業指數下跌180.45點（0.35%）收51,670.10點，標普500指數收7,805.45點、那斯達克同步受壓，晶片股賣壓是主要拖累因素，市場正式進入財報季第二週。",
+      "text": "美國勞工部公布9月CPI年增3.7%（前值3.4%、預期約3.6%），核心CPI年增2.6%（預期2.5%），雙雙高於市場預期，汽油價格單月大漲9.1%是主要推力；數據公布後市場重新評估聯準會10/28利率決策，升息風險升溫而非原先預期的降息。",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html",
-      "date": "2026-10-13"
-    },
-    {
-      "category": "企業",
-      "text": "美國六大銀行財報開跑喜憂參半：高盛(Goldman Sachs)第三季營收與每股獲利大幅超越市場預期，受股票交易業務強勁帶動；摩根大通(JPMorgan)每股獲利5.90美元目標未達標、股價跌0.9%，但上調全年淨利息收入展望；富國銀行(Wells Fargo)因提列更多放款損失準備股價重挫3%，花旗同樣增提壞帳準備。",
-      "source_name": "CNBC／Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-13-dow-sp-500-nasdaq-080236234.html",
-      "date": "2026-10-13"
+      "source_url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+      "date": "2026-10-14"
     },
     {
       "category": "新聞",
-      "text": "美光(Micron)股價連續第4個交易日下跌、一度跌破950美元（遠低於52週高點1,255美元），市場憂慮AI相關資本支出能否轉化為實際回報、記憶體價格是否已近高點，加上中國記憶體廠長鑫存儲(CXMT)DRAM技術進展引發供給追趕疑慮，以及Netlist對美光提出的ITC專利訴訟案，多重利空同步發威，拖累SK海力士、三星電子等亞洲記憶體股同步走弱。",
-      "source_name": "CNBC／GuruFocus",
-      "source_url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
-      "date": "2026-10-13"
+      "text": "通膨數據公布後美股四大指數全面收黑，那斯達克指數重挫1.88%收26,692.87點，費城半導體指數暴跌4.30%；晶片股全面遭殃，台積電ADR跌3.34%、美光跌4.08%、輝達跌3.16%、AMD重挫5.73%、應用材料跌3.79%、聯電ADR跌4.42%。",
+      "source_name": "自由財經／MoneyDJ",
+      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5604207",
+      "date": "2026-10-14"
     },
     {
       "category": "新聞",
-      "text": "台灣美光（桃園廠）工會上週三（10/7）開票公布合法罷工權已取得，實際投票2,012人中1,994票（約99.1%）同意罷工，占全體會員88.3%；工會尚未訂定罷工時間，但號召會員10月19日赴台北集會表態，訴求以營業利益15%為基準的分潤機制；台灣廠區占美光全球DRAM及HBM產能約六成，後續若升級為實際罷工行動，可能成為台廠記憶體供應鏈的潛在干擾因子。",
-      "source_name": "Focus Taiwan／The Star",
-      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/07/micron039s-taoyuan-union-in-taiwan-secures-authorisation-to-strike",
-      "date": "2026-10-07"
+      "text": "受美股晶片股重挫牽動，台指期夜盤在CPI數據公布後迅速下殺，終場收跌逾800點，反映台股今日現貨開盤面臨沉重賣壓。",
+      "source_name": "中時新聞網",
+      "source_url": "https://www.chinatimes.com/realtimenews/20261015000947-260410",
+      "date": "2026-10-15"
     },
     {
       "category": "企業",
-      "text": "台積電第三季法人說明會倒數1天（10/15登場），外資法人持續聚焦今年資本支出是否在7月已上修至600-640億美元guidance基礎上再度調升、1.4奈米(A14)量產時程、CoWoS先進封裝產能瓶頸，以及對Tesla/SpaceX「Terafab」晶圓廠合作案的正式官方表態，法說結果將牽動台股權值股後市情緒。",
-      "source_name": "TrendForce",
-      "source_url": "https://www.trendforce.com/news/2026/07/17/news-tsmc-after-earnings-call-foreign-brokerages-see-euv-driven-capex-surge-and-2027-price-hikes/",
-      "date": "2026-07-17"
+      "text": "台積電第三季營收確定創單季新高，達新台幣1兆4,942.44億元，季增17.62%、年增50.94%，優於原財測高標（446-458億美元）；法說會訂於今日（10/15）下午2時（台北時間、台股收盤後）登場，市場聚焦2027年資本支出展望、CoWoS／HBM先進封裝產能、1.4奈米製程時程，以及是否調升先進製程報價。",
+      "source_name": "經濟日報",
+      "source_url": "https://money.udn.com/money/amp/story/5607/9802747",
+      "date": "2026-10-08"
+    },
+    {
+      "category": "企業",
+      "text": "美國銀行業財報季持續開展，美國銀行(Bank of America)第三季獲利因認列12億美元監管罰款及華爾街業務放緩而衰退17%，股價重挫4.7%；相對地，摩根士丹利財富管理業務創歷史新高、貝萊德獲利同樣優於預期，銀行股表現呈現兩極分化。",
+      "source_name": "CNBC",
+      "source_url": "https://pro.thestreet.com/market-commentary/bank-earnings-get-a-cool-reception-as-chip-jitters-linger",
+      "date": "2026-10-14"
+    },
+    {
+      "category": "新聞",
+      "text": "台灣美光（桃園廠）工會已於上月以99%高票取得合法罷工權，但尚未決定具體罷工時間；工會號召會員10月19日赴凱達格蘭大道集會表態，訴求以營業利益15%為基準的分潤機制，美光則表示將發放歷年最高績效獎金並持續對話，勞動部亦表態將協助勞資協商。",
+      "source_name": "聯合新聞網",
+      "source_url": "https://money.udn.com/money/amp/story/7307/9779727",
+      "date": "2026-10-12"
     }
   ]
 }
