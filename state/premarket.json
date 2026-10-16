@@ -1,50 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T08:38:00+08:00",
-  "as_of": "2026-10-15 08:38",
-  "headline": "美國9月CPI意外升溫（年增3.7%、核心2.6%，雙雙高於預期），市場重新計入聯準會可能再升息的風險，拖累那斯達克重挫1.88%、費城半導體指數暴跌4.30%，台積電ADR、美光、輝達、AMD、聯電ADR全面重挫，台指期夜盤同步下殺逾800點；在台積電法說會（今日下午2點登場，市場後收盤後揭曉）倒數之際，台股今日開盤恐承受「通膨驚嚇＋法說前觀望」雙重壓力，须留意早盤殺盤後的止穩訊號。",
+  "generated_at": "2026-10-16T08:37:15+08:00",
+  "as_of": "2026-10-16 08:37",
+  "headline": "台積電法說會後收盤仍跌1.8%：Q3營收創新高、第四季指引優於預期且重申2026-2028資本支出將「顯著高於過去三年」，看似利多，但66.4%毛利率因2.奈米爬坡與海外廠成本遭疑慮，加上費半連七黑，法說利多未能止住晶片股賣壓；惟美股主力指數靠銀行與防禦股輪動收紅、那斯達克僅微漲0.08%，為週四重挫3.41%的台股提供喘息空間，早盤需觀察晶圓雙雄能否止穩、美光罷工風險是否發酵。",
   "items": [
     {
-      "category": "總經",
-      "text": "美國勞工部公布9月CPI年增3.7%（前值3.4%、預期約3.6%），核心CPI年增2.6%（預期2.5%），雙雙高於市場預期，汽油價格單月大漲9.1%是主要推力；數據公布後市場重新評估聯準會10/28利率決策，升息風險升溫而非原先預期的降息。",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
-      "date": "2026-10-14"
-    },
-    {
-      "category": "新聞",
-      "text": "通膨數據公布後美股四大指數全面收黑，那斯達克指數重挫1.88%收26,692.87點，費城半導體指數暴跌4.30%；晶片股全面遭殃，台積電ADR跌3.34%、美光跌4.08%、輝達跌3.16%、AMD重挫5.73%、應用材料跌3.79%、聯電ADR跌4.42%。",
-      "source_name": "自由財經／MoneyDJ",
-      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5604207",
-      "date": "2026-10-14"
-    },
-    {
-      "category": "新聞",
-      "text": "受美股晶片股重挫牽動，台指期夜盤在CPI數據公布後迅速下殺，終場收跌逾800點，反映台股今日現貨開盤面臨沉重賣壓。",
-      "source_name": "中時新聞網",
-      "source_url": "https://www.chinatimes.com/realtimenews/20261015000947-260410",
+      "category": "企業",
+      "text": "台積電公布第三季財報：營收約446.9億美元（新台幣1兆4,942億元）創單季新高、年增逾50%，毛利率66.4%；第四季展望優於市場預期，營收指引522.5億至543億美元（季增約14%）、毛利率65-67%，並將2026年美元營收成長展望由「逾40%」上修至約44%。",
+      "source_name": "The Motley Fool（法說會逐字稿）",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
       "date": "2026-10-15"
     },
     {
       "category": "企業",
-      "text": "台積電第三季營收確定創單季新高，達新台幣1兆4,942.44億元，季增17.62%、年增50.94%，優於原財測高標（446-458億美元）；法說會訂於今日（10/15）下午2時（台北時間、台股收盤後）登場，市場聚焦2027年資本支出展望、CoWoS／HBM先進封裝產能、1.4奈米製程時程，以及是否調升先進製程報價。",
-      "source_name": "經濟日報",
-      "source_url": "https://money.udn.com/money/amp/story/5607/9802747",
-      "date": "2026-10-08"
-    },
-    {
-      "category": "企業",
-      "text": "美國銀行業財報季持續開展，美國銀行(Bank of America)第三季獲利因認列12億美元監管罰款及華爾街業務放緩而衰退17%，股價重挫4.7%；相對地，摩根士丹利財富管理業務創歷史新高、貝萊德獲利同樣優於預期，銀行股表現呈現兩極分化。",
-      "source_name": "CNBC",
-      "source_url": "https://pro.thestreet.com/market-commentary/bank-earnings-get-a-cool-reception-as-chip-jitters-linger",
-      "date": "2026-10-14"
+      "text": "台積電法說會上維持2026年資本支出600-640億美元不變，管理層並表示2026至2028年整體資本支出將「顯著高於」過去三年水準，但未具體給出2027年數字；儘管財測與展望偏多，台積電ADR當天股價仍下跌約1.8%，市場解讀與毛利率受2奈米製程爬坡及海外晶圓廠成本侵蝕、以及AI資本支出週期見頂疑慮有關。",
+      "source_name": "BigGo Finance／TradingKey",
+      "source_url": "https://finance.biggo.com/quote/TSM/earnings-call/US_TSM_2026-10-15",
+      "date": "2026-10-15"
     },
     {
       "category": "新聞",
-      "text": "台灣美光（桃園廠）工會已於上月以99%高票取得合法罷工權，但尚未決定具體罷工時間；工會號召會員10月19日赴凱達格蘭大道集會表態，訴求以營業利益15%為基準的分潤機制，美光則表示將發放歷年最高績效獎金並持續對話，勞動部亦表態將協助勞資協商。",
+      "text": "美股10/15（週四）收盤分歧：道瓊工業指數受惠資金自AI晶片股轉向銀行、健康醫療與消費類股，大漲1.08%收52,177.69點；標普500上漲0.33%收7,744.06點；那斯達克僅微漲0.08%收26,713.03點。費城半導體指數（SOX）則續跌約0.9%，寫下連續第7個交易日下跌，輝達收跌約1.8%，反映AI晶片供應鏈資金動能持續減弱。",
+      "source_name": "TradingKey／Free Malaysia Today",
+      "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262219455-us-stock-market-today-close-dow-jones-rise-500-ppi-inflation-coreweave-micron-tradingkey",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "總經",
+      "text": "美國勞工部10/15公布9月生產者物價指數（PPI），媒體報導年增幅升溫至約6.3%、較前值（8月5.4%）明顯加速，數據公布後那斯達克期貨一度下殺逾1%，加深市場對通膨黏著、聯準會10/28利率決策可能偏鷹的疑慮；惟美股終場靠類股輪動收復多數跌幅。",
+      "source_name": "Analytics Insight",
+      "source_url": "https://www.analyticsinsight.net/stocks/stock-market-today-sp-500-nasdaq-futures-slide-as-us-wholesale-inflation-jumps-to-63",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "總經",
+      "text": "台股10/15（週四）在美股晶片股重挫與CPI意外升溫的雙重利空夜盤期貨下殺後，加權指數開低走低，終場收46,969.87點，重挫1,655.96點、跌幅達3.41%；櫃買指數跌幅更深達5.53%，台股期貨同步重挫3.73%，為近期單日跌幅最深的一次。",
+      "source_name": "TWSE 官方收盤資訊",
+      "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "企業",
+      "text": "台灣美光（桃園廠）工會先前已取得合法罷工權，尚未宣布具體罷工時間，但工會與多個勞工團體號召10月19日赴凱達格蘭大道集會，訴求以營業利益15%為基準的分潤機制及提高勞退雇主提撥；美光回應將發放歷年最高績效獎金並持續透過既有管道對話，勞動部亦介入協助勞資協商，市場留意若實質罷工恐牽動台積電先進封裝出貨排程。",
       "source_name": "聯合新聞網",
-      "source_url": "https://money.udn.com/money/amp/story/7307/9779727",
+      "source_url": "https://money.udn.com/money/amp/story/5612/9727755",
       "date": "2026-10-12"
+    },
+    {
+      "category": "政策",
+      "text": "白宮官員Kevin Hassett公開批評部分非川普任命的聯準會官員近期主張升息立場，凸顯白宮與Fed在利率決策前的政治角力升溫；市場對10/28 FOMC會議升降息機率看法分歧，不確定性仍高（此消息來源為單一財經網站，細節有待後續主流媒體佐證）。",
+      "source_name": "Crypto Briefing",
+      "source_url": "https://cryptobriefing.com/white-houses-hassett-criticizes-fed-officials-over-rate-hike-calls/",
+      "date": "2026-10-15"
     }
   ]
 }
