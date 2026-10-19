@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T08:37:15+08:00",
-  "as_of": "2026-10-16 08:37",
-  "headline": "台積電法說會後收盤仍跌1.8%：Q3營收創新高、第四季指引優於預期且重申2026-2028資本支出將「顯著高於過去三年」，看似利多，但66.4%毛利率因2.奈米爬坡與海外廠成本遭疑慮，加上費半連七黑，法說利多未能止住晶片股賣壓；惟美股主力指數靠銀行與防禦股輪動收紅、那斯達克僅微漲0.08%，為週四重挫3.41%的台股提供喘息空間，早盤需觀察晶圓雙雄能否止穩、美光罷工風險是否發酵。",
+  "generated_at": "2026-10-19T08:37:57+08:00",
+  "as_of": "2026-10-19 08:37",
+  "headline": "美股上週五(10/16)因AI相關企業債務壓力升溫（CoreWeave公司債殖利率一度飆破15%、波及Oracle、Nebius、Dell等同業）疊加通膀升溫疑慮，那斯達克重挫2.1%、單週跌4.48%創六月以來最差，費半連跌態勢未解；惟道瓊靠資金轉向能源與防禦股逆勢收紅，加上台股週五終場收漲141點（+0.3%）止穩、未繼續重挫，早盤須關注今日上午10時中國公布第三季GDP（預估年增約4.8%）、美光台灣工會訂於今日號召員工赴凱道集會訴求分潤機制，以及10/28 FOMC決策前市場對降息路徑預期分歧等三大變數。",
   "items": [
     {
-      "category": "企業",
-      "text": "台積電公布第三季財報：營收約446.9億美元（新台幣1兆4,942億元）創單季新高、年增逾50%，毛利率66.4%；第四季展望優於市場預期，營收指引522.5億至543億美元（季增約14%）、毛利率65-67%，並將2026年美元營收成長展望由「逾40%」上修至約44%。",
-      "source_name": "The Motley Fool（法說會逐字稿）",
-      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
-      "date": "2026-10-15"
-    },
-    {
-      "category": "企業",
-      "text": "台積電法說會上維持2026年資本支出600-640億美元不變，管理層並表示2026至2028年整體資本支出將「顯著高於」過去三年水準，但未具體給出2027年數字；儘管財測與展望偏多，台積電ADR當天股價仍下跌約1.8%，市場解讀與毛利率受2奈米製程爬坡及海外晶圓廠成本侵蝕、以及AI資本支出週期見頂疑慮有關。",
-      "source_name": "BigGo Finance／TradingKey",
-      "source_url": "https://finance.biggo.com/quote/TSM/earnings-call/US_TSM_2026-10-15",
-      "date": "2026-10-15"
-    },
-    {
       "category": "新聞",
-      "text": "美股10/15（週四）收盤分歧：道瓊工業指數受惠資金自AI晶片股轉向銀行、健康醫療與消費類股，大漲1.08%收52,177.69點；標普500上漲0.33%收7,744.06點；那斯達克僅微漲0.08%收26,713.03點。費城半導體指數（SOX）則續跌約0.9%，寫下連續第7個交易日下跌，輝達收跌約1.8%，反映AI晶片供應鏈資金動能持續減弱。",
-      "source_name": "TradingKey／Free Malaysia Today",
-      "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262219455-us-stock-market-today-close-dow-jones-rise-500-ppi-inflation-coreweave-micron-tradingkey",
-      "date": "2026-10-15"
-    },
-    {
-      "category": "總經",
-      "text": "美國勞工部10/15公布9月生產者物價指數（PPI），媒體報導年增幅升溫至約6.3%、較前值（8月5.4%）明顯加速，數據公布後那斯達克期貨一度下殺逾1%，加深市場對通膨黏著、聯準會10/28利率決策可能偏鷹的疑慮；惟美股終場靠類股輪動收復多數跌幅。",
-      "source_name": "Analytics Insight",
-      "source_url": "https://www.analyticsinsight.net/stocks/stock-market-today-sp-500-nasdaq-futures-slide-as-us-wholesale-inflation-jumps-to-63",
-      "date": "2026-10-15"
-    },
-    {
-      "category": "總經",
-      "text": "台股10/15（週四）在美股晶片股重挫與CPI意外升溫的雙重利空夜盤期貨下殺後，加權指數開低走低，終場收46,969.87點，重挫1,655.96點、跌幅達3.41%；櫃買指數跌幅更深達5.53%，台股期貨同步重挫3.73%，為近期單日跌幅最深的一次。",
-      "source_name": "TWSE 官方收盤資訊",
-      "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX",
-      "date": "2026-10-15"
+      "text": "美股10/16（週五）那斯達克綜合指數重挫2.1%收26,140.03點、標普500指數跌1.1%收7,659.44點，雙雙創六月以來最差單週（那斯達克週跌4.48%、標普500週跌1.95%）；道瓊工業指數受能源股與防禦性輪動支撐，單日僅微跌0.3%收52,002.41點，全週仍上漲0.7%；芝加哥選擇權波動率指數（VIX）收19.99，為7月29日以來最高。",
+      "source_name": "Yahoo Finance／ABC News",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html",
+      "date": "2026-10-16"
     },
     {
       "category": "企業",
-      "text": "台灣美光（桃園廠）工會先前已取得合法罷工權，尚未宣布具體罷工時間，但工會與多個勞工團體號召10月19日赴凱達格蘭大道集會，訴求以營業利益15%為基準的分潤機制及提高勞退雇主提撥；美光回應將發放歷年最高績效獎金並持續透過既有管道對話，勞動部亦介入協助勞資協商，市場留意若實質罷工恐牽動台積電先進封裝出貨排程。",
+      "text": "AI資料中心業者CoreWeave債務危機延燒，其2032年到期公司債殖利率一度飆破15%、債券價格跌破面值80%呈現「問題債」水準，市場憂心其以高收益債大舉融資的資本支出模式能否產生足夠現金流償債，賣壓同步波及Oracle、Nebius、Dell等同業，雖10/15一度出現技術性反彈，但債券價格仍未回到面值之上。",
+      "source_name": "investinglive／TIKR",
+      "source_url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
+      "date": "2026-10-14"
+    },
+    {
+      "category": "企業",
+      "text": "英特爾位於以色列Kiryat Gat的晶圓廠10/14發生氣體洩漏爆炸意外，造成2名員工死亡、1人重傷，消防與警方研判可能為三氟化氮（NF3）鋼瓶故障所致，暫無跡象顯示為人為破壞；英特爾表示將全力配合調查，惟尚未對外公布對晶圓產能的具體影響，該公司原訂10/29公布第三季財報。",
+      "source_name": "Times of Israel／DataCenterDynamics",
+      "source_url": "https://www.timesofisrael.com/second-worker-dies-of-wounds-sustained-in-intel-plant-blast-in-southern-israel/",
+      "date": "2026-10-14"
+    },
+    {
+      "category": "總經",
+      "text": "國際油價受中東荷姆茲海峽地緣風險持續干擾，10/16西德州原油（WTI）期貨收在每桶101.41美元、維持相對高位，帶動美股能源股成為當週表現最強板塊，但同時加劇市場對輸入性通膨升溫、聯準會降息空間受限的擔憂，與9月PPI年增率加速至約6.3%的疑慮互相呼應。",
+      "source_name": "TheStreet／ABC News",
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026",
+      "date": "2026-10-16"
+    },
+    {
+      "category": "總經",
+      "text": "中國國家統計局訂於台灣時間今（10/19）上午10時公布第三季GDP數據，市場機構（MNI調查）預估年增率約4.8%、較第二季略為放緩，若數據不如預期恐牽動今日陸股與台股早盤情緒，為盤中須留意的重要變數。",
+      "source_name": "MNI",
+      "source_url": "https://www.mnimarkets.com/articles/mni-china-advisors-eye-48percent-q3-gdp-amid-slowing-momentum-1760671752243",
+      "date": "2026-10-17"
+    },
+    {
+      "category": "企業",
+      "text": "台灣美光（桃園廠）工會訂於今（10/19）號召會員以休假形式前往凱達格蘭大道集會，訴求以營業利益15%為基準建立分潤機制，工會強調此次集會屬訴求表態、尚非正式罷工行動；美光回應將發放歷年最高績效獎金並持續透過協商對話，市場留意若勞資關係再度升溫，是否牽動記憶體供應及台積電先進封裝排程。",
       "source_name": "聯合新聞網",
       "source_url": "https://money.udn.com/money/amp/story/5612/9727755",
-      "date": "2026-10-12"
+      "date": "2026-10-19"
+    },
+    {
+      "category": "總經",
+      "text": "台股10/16（週五）終場收47,111.26點，上漲141.39點（+0.3%），為前一日重挫3.41%後的止穩反彈；櫃買指數同步上漲0.85%收400.26點，台股期貨近月合約上漲0.66%收47,242點，顯示賣壓已初步緩和，惟上漲力道不如美股同期能源股輪動明確。",
+      "source_name": "TWSE 官方收盤資訊",
+      "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX",
+      "date": "2026-10-16"
     },
     {
       "category": "政策",
-      "text": "白宮官員Kevin Hassett公開批評部分非川普任命的聯準會官員近期主張升息立場，凸顯白宮與Fed在利率決策前的政治角力升溫；市場對10/28 FOMC會議升降息機率看法分歧，不確定性仍高（此消息來源為單一財經網站，細節有待後續主流媒體佐證）。",
-      "source_name": "Crypto Briefing",
-      "source_url": "https://cryptobriefing.com/white-houses-hassett-criticizes-fed-officials-over-rate-hike-calls/",
-      "date": "2026-10-15"
+      "text": "聯準會10/28至29日FOMC會議將公布利率決策，市場對是否再降息看法分歧：CME FedWatch顯示10月降息機率偏低，但9月非農新增就業僅2.9萬人、遠低於預期，加上9月會議紀要顯示官員傾向年底前仍有一次升息可能，使市場對後續利率路徑預期波動加大，為台股外資動向的重要觀察指標。",
+      "source_name": "Admiral Markets／MNI",
+      "source_url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+      "date": "2026-10-17"
     }
   ]
 }
