@@ -1,64 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T08:37:57+08:00",
-  "as_of": "2026-10-19 08:37",
-  "headline": "美股上週五(10/16)因AI相關企業債務壓力升溫（CoreWeave公司債殖利率一度飆破15%、波及Oracle、Nebius、Dell等同業）疊加通膀升溫疑慮，那斯達克重挫2.1%、單週跌4.48%創六月以來最差，費半連跌態勢未解；惟道瓊靠資金轉向能源與防禦股逆勢收紅，加上台股週五終場收漲141點（+0.3%）止穩、未繼續重挫，早盤須關注今日上午10時中國公布第三季GDP（預估年增約4.8%）、美光台灣工會訂於今日號召員工赴凱道集會訴求分潤機制，以及10/28 FOMC決策前市場對降息路徑預期分歧等三大變數。",
+  "generated_at": "2026-10-20T08:35:07+08:00",
+  "as_of": "2026-10-20 08:35",
+  "headline": "美股那斯達克週一(10/19)在半導體與AI股逢低承接下大漲1.11%、費半ETF反彈近3%，加上中國第三季GDP年增4.5%優於市場預期4.4%，為台股今日止跌反彈提供初步支撐；惟CoreWeave等AI資料中心業者債務疑慮未見實質緩解、Oracle信用違約交換利差仍處歷史高點，加上美光台灣工會凱道集會延續勞資緊張、10/28-29 FOMC決策前降息路徑分歧未解，台積電與記憶體供應鏈個股能否順勢回補昨日289點跌幅是今日盤中觀察重點。",
   "items": [
     {
-      "category": "新聞",
-      "text": "美股10/16（週五）那斯達克綜合指數重挫2.1%收26,140.03點、標普500指數跌1.1%收7,659.44點，雙雙創六月以來最差單週（那斯達克週跌4.48%、標普500週跌1.95%）；道瓊工業指數受能源股與防禦性輪動支撐，單日僅微跌0.3%收52,002.41點，全週仍上漲0.7%；芝加哥選擇權波動率指數（VIX）收19.99，為7月29日以來最高。",
-      "source_name": "Yahoo Finance／ABC News",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html",
-      "date": "2026-10-16"
-    },
-    {
-      "category": "企業",
-      "text": "AI資料中心業者CoreWeave債務危機延燒，其2032年到期公司債殖利率一度飆破15%、債券價格跌破面值80%呈現「問題債」水準，市場憂心其以高收益債大舉融資的資本支出模式能否產生足夠現金流償債，賣壓同步波及Oracle、Nebius、Dell等同業，雖10/15一度出現技術性反彈，但債券價格仍未回到面值之上。",
-      "source_name": "investinglive／TIKR",
-      "source_url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
-      "date": "2026-10-14"
-    },
-    {
-      "category": "企業",
-      "text": "英特爾位於以色列Kiryat Gat的晶圓廠10/14發生氣體洩漏爆炸意外，造成2名員工死亡、1人重傷，消防與警方研判可能為三氟化氮（NF3）鋼瓶故障所致，暫無跡象顯示為人為破壞；英特爾表示將全力配合調查，惟尚未對外公布對晶圓產能的具體影響，該公司原訂10/29公布第三季財報。",
-      "source_name": "Times of Israel／DataCenterDynamics",
-      "source_url": "https://www.timesofisrael.com/second-worker-dies-of-wounds-sustained-in-intel-plant-blast-in-southern-israel/",
-      "date": "2026-10-14"
-    },
-    {
       "category": "總經",
-      "text": "國際油價受中東荷姆茲海峽地緣風險持續干擾，10/16西德州原油（WTI）期貨收在每桶101.41美元、維持相對高位，帶動美股能源股成為當週表現最強板塊，但同時加劇市場對輸入性通膨升溫、聯準會降息空間受限的擔憂，與9月PPI年增率加速至約6.3%的疑慮互相呼應。",
-      "source_name": "TheStreet／ABC News",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026",
-      "date": "2026-10-16"
-    },
-    {
-      "category": "總經",
-      "text": "中國國家統計局訂於台灣時間今（10/19）上午10時公布第三季GDP數據，市場機構（MNI調查）預估年增率約4.8%、較第二季略為放緩，若數據不如預期恐牽動今日陸股與台股早盤情緒，為盤中須留意的重要變數。",
-      "source_name": "MNI",
-      "source_url": "https://www.mnimarkets.com/articles/mni-china-advisors-eye-48percent-q3-gdp-amid-slowing-momentum-1760671752243",
-      "date": "2026-10-17"
+      "text": "美股10/19（週一）那斯達克綜合指數大漲1.11%收26,430.89點、標普500指數上漲0.42%收7,691.07點，雙雙止穩上週重挫走勢；道瓊工業指數小跌0.07%收51,966.03點；費城半導體類股指數反彈近3%，英特爾因摩根大通上調評等單日大漲逾5%，顯示上週AI債務恐慌後市場出現逢低承接，但那斯達克上週逾4%的單週跌幅尚未完全收復。",
+      "source_name": "Invezz",
+      "source_url": "https://invezz.com/news/2026/10/19/nasdaq-rises-1-as-ai-stocks-rebound-and-oil-prices-ease-on-wall-street/",
+      "date": "2026-10-19"
     },
     {
       "category": "企業",
-      "text": "台灣美光（桃園廠）工會訂於今（10/19）號召會員以休假形式前往凱達格蘭大道集會，訴求以營業利益15%為基準建立分潤機制，工會強調此次集會屬訴求表態、尚非正式罷工行動；美光回應將發放歷年最高績效獎金並持續透過協商對話，市場留意若勞資關係再度升溫，是否牽動記憶體供應及台積電先進封裝排程。",
-      "source_name": "聯合新聞網",
-      "source_url": "https://money.udn.com/money/amp/story/5612/9727755",
+      "text": "AI資料中心業者CoreWeave股價10/19盤中因高盛調升評等一度彈升近4%，但漲幅尾盤收斂，顯示投資人對其龐大債務負擔疑慮未散；市場持續關注Oracle等同業五年期信用違約交換(CDS)利差處於歷史高點附近，AI資本支出相關信用風險仍是美股最大變數，間接牽動台股AI供應鏈評價。",
+      "source_name": "Coinpaper",
+      "source_url": "https://coinpaper.com/37552/stock-market-today-nasdaq-100-jumps-1-4-as-investors-buy-ai-dip-after-470-b-opening-surge",
       "date": "2026-10-19"
     },
     {
       "category": "總經",
-      "text": "台股10/16（週五）終場收47,111.26點，上漲141.39點（+0.3%），為前一日重挫3.41%後的止穩反彈；櫃買指數同步上漲0.85%收400.26點，台股期貨近月合約上漲0.66%收47,242點，顯示賣壓已初步緩和，惟上漲力道不如美股同期能源股輪動明確。",
+      "text": "中國國家統計局10/19公布第三季GDP年增4.5%，優於市場預期的4.4%、較第二季4.3%回升；惟1-9月固定資產投資年減7.2%、房地產開發投資年減20.6%，9月社會消費品零售總額年增僅1.1%、工業生產年增5.5%，呈現「生產穩、內需與地產仍弱」的分化格局，為陸股及台股早盤情緒提供喜憂參半的參考。",
+      "source_name": "新華社(Xinhua)",
+      "source_url": "https://english.news.cn/20261019/6c02c8b4fcdb48f9b6a043076673c046/c.html",
+      "date": "2026-10-19"
+    },
+    {
+      "category": "總經",
+      "text": "台股10/19（週一）終場下跌289.18點（-0.61%）收46,822.08點，連續第二個交易日收黑；櫃買指數同步下跌1.55%收394.05點，台股期貨近月合約下跌1.07%收46,779點；外資賣超力積電、台玻、鴻海、台積電等，轉買中鋼、友達、統一等，台積電終場平盤收2,420元、仍為成交金額冠軍。",
       "source_name": "TWSE 官方收盤資訊",
       "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX",
-      "date": "2026-10-16"
+      "date": "2026-10-19"
+    },
+    {
+      "category": "企業",
+      "text": "台灣美光（桃園廠）工會今（10/19）號召會員以休假形式前往凱達格蘭大道集會，訴求以營業利益15%為基準建立分潤機制、並要求政府提高勞退新制雇主提撥至15%；美光與工會雙方預定10/22進行第二輪正式調解會議，為觀察記憶體供應鏈勞資關係能否降溫的下一個時間點。",
+      "source_name": "聯合新聞網",
+      "source_url": "https://money.udn.com/money/amp/story/7307/9779727",
+      "date": "2026-10-19"
     },
     {
       "category": "政策",
-      "text": "聯準會10/28至29日FOMC會議將公布利率決策，市場對是否再降息看法分歧：CME FedWatch顯示10月降息機率偏低，但9月非農新增就業僅2.9萬人、遠低於預期，加上9月會議紀要顯示官員傾向年底前仍有一次升息可能，使市場對後續利率路徑預期波動加大，為台股外資動向的重要觀察指標。",
-      "source_name": "Admiral Markets／MNI",
-      "source_url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
-      "date": "2026-10-17"
+      "text": "聯準會將於10/28至29日召開不含經濟預測(SEP)的例會並公布利率決策，現行聯邦基金利率區間為3.50%至3.75%；在9月非農就業疲弱與通膀升溫數據交雜下，市場對會後是否降息看法仍分歧，為後續外資資金流向台股的重要觀察指標。",
+      "source_name": "FinanceCalendar",
+      "source_url": "https://www.financecalendar.com/?p=1228",
+      "date": "2026-10-18"
     }
   ]
 }
