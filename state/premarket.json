@@ -1,50 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T08:35:50+08:00",
-  "as_of": "2026-10-22 08:35",
-  "headline": "台灣美光桃園晶圓廠工會與資方協商破局，今(22)日上午9時起啟動24小時罷工（台中廠已簽署協議、同步撤回調解），為記憶體與AI供應鏈概念股投下變數；惟隔夜美股三大指數同步收漲、台積電ADR同步上漲1.6%，外部氣氛偏多，今日盤中觀察重點將是罷工是否擴大、對DRAM報價與出貨穩定性的實際衝擊，以及記憶體股能否延續美光財報行情。",
+  "generated_at": "2026-10-23T08:35:00+08:00",
+  "as_of": "2026-10-23 08:35",
+  "headline": "美股週四（美東10/22，台股今晨開盤前最新一個交易日）因Meta、Tesla財報揭露AI相關成本急增、獲利展望轉弱，那斯達克重挫2.6%創六月以來最差單日、費半同步走弱；疊加台股本身週四已先重挫846點（-1.81%）跌破季線、外資10月以來累計賣超逾8,200億元，以及美光桃園廠勞資爭議與24小時罷工到期後復工與分潤方案進度尚待確認，今日盤中半導體與記憶體供應鏈權值股的補跌風險為觀察焦點。",
   "items": [
     {
-      "category": "企業",
-      "text": "台灣美光桃園晶圓廠工會與資方10/21協商未獲具體分潤數字回應，工會宣布今(22)日上午9時起發動24小時罷工（預計至23日上午9時結束），美光董事長盧東暉親自出面協商仍未達共識，為美光在台生產活動與記憶體供應鏈增添短期不確定性。",
-      "source_name": "經濟日報／聯合新聞網",
-      "source_url": "https://udn.com/news/story/7241/9829639",
+      "category": "總經",
+      "text": "美股週四（10/22）收盤分歧：道瓊小漲0.02%收52,867.98點，標普500重挫1.21%收7,663.43點（為7月以來最差單日表現），那斯達克大跌2.6%收26,008.86點（創六月以來最差單日），主因Meta、Tesla財報引發市場對AI資本支出報酬率與企業獲利能見度的疑慮重燃，拖累晶片股走弱；油價因地緣政治緊張走升，10年期美債殖利率跌破5%。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
       "date": "2026-10-22"
     },
     {
       "category": "企業",
-      "text": "與桃園廠不同，台灣美光台中封測廠工會已與資方簽署勞資協議，原訂22日進行的第二輪正式調解程序同步撤回，顯示美光在台兩廠區勞資談判進度出現分歧，桃園廠爭議仍未落幕。",
-      "source_name": "民視財經網",
-      "source_url": "https://finance.ftvnews.com.tw/news/detail/2026A22W0008",
+      "text": "Meta第三季財報於10/21美股收盤後公布，因AI基礎設施成本急升壓縮獲利，加上約160億美元稅務提列影響當季利潤，且近期展望不如預期，股價盤後一度重挫達11%，成為隔夜美股科技股領跌、AI支出疑慮重新發酵的主要導火線之一，並與Tesla同日公布、同步走弱的財報共同拖累那斯達克指數。",
+      "source_name": "Stocktwits",
+      "source_url": "https://stocktwits.com/news-articles/default/equity/meta-stock-tumbles-11-after-hours-soaring-ai-costs-squeeze-profits-and-soft-q3-outlook-disappoints/cZNTe7URJT8",
+      "date": "2026-10-21"
+    },
+    {
+      "category": "企業",
+      "text": "台股週四（10/22）終場重挫846.34點（-1.81%），收在46,041.43點，跌破約46,207點之60日季線，全日震盪逾1,290點；櫃買指數同步重挫3.47%收381.69點；外資及陸資單日賣超逾816億元，10月以來累計賣超已超過8,200億元，新台幣同步走弱收32.508元兌1美元，被動元件（國巨、華新科等）領跌。",
+      "source_name": "台灣財經媒體綜合報導",
+      "source_url": "https://vocus.cc/article/6ad9af06fd897800011304aa",
       "date": "2026-10-22"
     },
     {
       "category": "企業",
-      "text": "桃園工會訴求以年度營業利益15%為基準建立常態化分潤機制，並要求達82至83個月薪資水準的一次性獎金；美光則強調今年將發放公司史上最高績效獎金，但未鬆口改採分潤制度，雙方立場仍有明顯落差。",
-      "source_name": "自由財經",
-      "source_url": "https://news.ltn.com.tw/news/Taoyuan/breakingnews/5614317",
-      "date": "2026-10-22"
+      "text": "台灣美光桃園晶圓廠工會10月7日經投票取得合法罷工權（同意率約99.1%），隨後於10/22啟動24小時罷工（原訂至10/23上午9時結束），台中封測廠工會則已與資方簽署協議並撤回調解程序；桃園廠後續復工狀況與美光原訂10月公布之分潤獎酬方案進度，截稿前尚未見最新報導證實結果，為記憶體供應鏈短期待觀察的變數。",
+      "source_name": "中央社",
+      "source_url": "https://cna.com.tw/news/afe/202610070247.aspx",
+      "date": "2026-10-07"
     },
     {
       "category": "總經",
-      "text": "美股10/21（週三）三大指數同步收漲：道瓊工業指數上漲約0.7%收52,856.09點，標普500指數上漲約0.6%收7,757.17點，那斯達克綜合指數上漲約1.1%收26,702.86點，主要受SpaceX、Capital One等企業優於預期財報帶動，AI相關股與特斯拉同步走強。",
-      "source_name": "Associated Press",
-      "source_url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-10212026/616-7b5f5e36-88da-4c68-b7a1-1ed8d1bc2cb5",
-      "date": "2026-10-21"
-    },
-    {
-      "category": "企業",
-      "text": "台積電ADR（TSM）10/21收盤上漲6.81美元（+1.60%）至431.89美元，單日交易區間423.74至435.16美元，延續台積電上週優於財測上緣的第三季財報與上修後全年展望帶來的評價支撐。",
-      "source_name": "Morningstar／Finviz",
-      "source_url": "https://www.morningstar.com/stocks/xnys/tsm/quote",
-      "date": "2026-10-21"
-    },
-    {
-      "category": "企業",
-      "text": "TrendForce分析師指出，若美光桃園廠罷工僅持續一天且晶圓廠關鍵產線維持運作，對DRAM產能與全球記憶體市場供應的衝擊預估相對有限，但若行動延長或擴大，原已緊俏的DRAM現貨報價可能再添上漲動能。",
-      "source_name": "People News",
-      "source_url": "https://www.peoplenews.tw/articles/economic-news/62393",
-      "date": "2026-10-22"
+      "text": "下週為全球央行決策密集週：美國Fed將於10/27-28召開FOMC會議並於台北時間10/29凌晨公布利率決議，歐洲央行(ECB)預定10/28-29開會，日本央行(BOJ)則排定10/29-30議息；市場目前預期Fed傾向暫停升息，但會前波動與殖利率走勢仍將牽動台股資金面與匯率表現。",
+      "source_name": "財經日報預覽綜合",
+      "source_url": "https://raillynews.com/2026/10/announcement-date-for-fed-interest-rate-decision-set-for-october-28/",
+      "date": "2026-10-28"
     }
   ]
 }
