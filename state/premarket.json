@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T08:35:00+08:00",
-  "as_of": "2026-10-23 08:35",
-  "headline": "美股週四（美東10/22，台股今晨開盤前最新一個交易日）因Meta、Tesla財報揭露AI相關成本急增、獲利展望轉弱，那斯達克重挫2.6%創六月以來最差單日、費半同步走弱；疊加台股本身週四已先重挫846點（-1.81%）跌破季線、外資10月以來累計賣超逾8,200億元，以及美光桃園廠勞資爭議與24小時罷工到期後復工與分潤方案進度尚待確認，今日盤中半導體與記憶體供應鏈權值股的補跌風險為觀察焦點。",
+  "generated_at": "2026-10-26T08:36:00+08:00",
+  "as_of": "2026-10-26 08:36",
+  "headline": "美股週五（10/23美東，台北週六凌晨收盤）在動盪一週後翻黑收官，道瓊重挫652.82點、標普500與那斯達克同步走弱，AI資本支出報酬率疑慮延續自週四Meta、Tesla財報引發的賣壓；台灣美光桃園廠工會發動的半導體業史上首次罷工已於同日上午結束但爭議未解，加上本週Fed、ECB、BOJ三大央行密集議息將於10/27起陸續登場，今日台股在連續遭外資賣超、跌破季線後，權值與記憶體供應鏈股的情緒修復仍是觀察焦點。",
   "items": [
     {
       "category": "總經",
-      "text": "美股週四（10/22）收盤分歧：道瓊小漲0.02%收52,867.98點，標普500重挫1.21%收7,663.43點（為7月以來最差單日表現），那斯達克大跌2.6%收26,008.86點（創六月以來最差單日），主因Meta、Tesla財報引發市場對AI資本支出報酬率與企業獲利能見度的疑慮重燃，拖累晶片股走弱；油價因地緣政治緊張走升，10年期美債殖利率跌破5%。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
-      "date": "2026-10-22"
+      "text": "美股週五（10/23美東，台北時間週六凌晨）收盤走低，為動盪一週畫下收官：道瓊下跌652.82點（-1.23%）收52,215.16點，標普500下跌0.52%收7,623.68點，那斯達克下跌0.21%收25,955.34點；科技股盤中一度翻紅但終場未能挽回跌勢，AI資本支出報酬率疑慮延續自週四Meta、Tesla財報引發的賣壓。",
+      "source_name": "CNBC / 美聯社(AP)外電綜合",
+      "source_url": "https://www.hawaiitribune-herald.com/2026/10/23/nation-world-news/standard-and-poors-500-nasdaq-end-sharply-lower-as-revived-ai-doubts-ignite-tech-selloff/",
+      "date": "2026-10-23"
     },
     {
       "category": "企業",
-      "text": "Meta第三季財報於10/21美股收盤後公布，因AI基礎設施成本急升壓縮獲利，加上約160億美元稅務提列影響當季利潤，且近期展望不如預期，股價盤後一度重挫達11%，成為隔夜美股科技股領跌、AI支出疑慮重新發酵的主要導火線之一，並與Tesla同日公布、同步走弱的財報共同拖累那斯達克指數。",
-      "source_name": "Stocktwits",
-      "source_url": "https://stocktwits.com/news-articles/default/equity/meta-stock-tumbles-11-after-hours-soaring-ai-costs-squeeze-profits-and-soft-q3-outlook-disappoints/cZNTe7URJT8",
-      "date": "2026-10-21"
+      "text": "美光（Micron）台灣桃園晶圓廠工會發動的24小時罷工（被Digitimes稱為台灣半導體產業史上首次罷工）於週五（10/23）上午結束，工會指出約七成會員聯署反對資方最新分潤提案，原訂週五的正式協商因颱風延期，雙方下一輪談判將於10/27展開，記憶體供應鏈短期勞資風險尚未解除。",
+      "source_name": "Digitimes",
+      "source_url": "https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html",
+      "date": "2026-10-23"
     },
     {
-      "category": "企業",
-      "text": "台股週四（10/22）終場重挫846.34點（-1.81%），收在46,041.43點，跌破約46,207點之60日季線，全日震盪逾1,290點；櫃買指數同步重挫3.47%收381.69點；外資及陸資單日賣超逾816億元，10月以來累計賣超已超過8,200億元，新台幣同步走弱收32.508元兌1美元，被動元件（國巨、華新科等）領跌。",
-      "source_name": "台灣財經媒體綜合報導",
-      "source_url": "https://vocus.cc/article/6ad9af06fd897800011304aa",
-      "date": "2026-10-22"
-    },
-    {
-      "category": "企業",
-      "text": "台灣美光桃園晶圓廠工會10月7日經投票取得合法罷工權（同意率約99.1%），隨後於10/22啟動24小時罷工（原訂至10/23上午9時結束），台中封測廠工會則已與資方簽署協議並撤回調解程序；桃園廠後續復工狀況與美光原訂10月公布之分潤獎酬方案進度，截稿前尚未見最新報導證實結果，為記憶體供應鏈短期待觀察的變數。",
-      "source_name": "中央社",
-      "source_url": "https://cna.com.tw/news/afe/202610070247.aspx",
-      "date": "2026-10-07"
+      "category": "政策",
+      "text": "本週為全球央行決策密集週：美國Fed將於10/27-28召開FOMC會議並於美東10/28下午公布利率決議（約台北時間10/29凌晨）、歐洲央行(ECB)10/28-29開會、日本央行(BOJ)則排定10/29-30議息，三大央行會後基調將是本週牽動新台幣匯率與外資在台股資金流向的最關鍵變數。",
+      "source_name": "IFC Markets 財經日曆",
+      "source_url": "https://www.ifcmarkets.com/en/next-week-calendar/usdidx-economic-calendar-20-10-2026",
+      "date": "2026-10-20"
     },
     {
       "category": "總經",
-      "text": "下週為全球央行決策密集週：美國Fed將於10/27-28召開FOMC會議並於台北時間10/29凌晨公布利率決議，歐洲央行(ECB)預定10/28-29開會，日本央行(BOJ)則排定10/29-30議息；市場目前預期Fed傾向暫停升息，但會前波動與殖利率走勢仍將牽動台股資金面與匯率表現。",
-      "source_name": "財經日報預覽綜合",
-      "source_url": "https://raillynews.com/2026/10/announcement-date-for-fed-interest-rate-decision-set-for-october-28/",
-      "date": "2026-10-28"
+      "text": "Fed現行利率區間維持9月升息後的3.75%-4.00%，近期市場定價對10月會議看法分歧、不若此前一致押注暫停升息，分析師預期會後新任主席Warsh的用詞與語氣將是觀察焦點，而非利率決議本身的意外性。",
+      "source_name": "財經日曆綜合報導",
+      "source_url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october.md",
+      "date": "2026-10-20"
+    },
+    {
+      "category": "企業",
+      "text": "台股上週四（10/22）重挫846.34點（-1.81%）收46,041.43點、跌破60日季線，櫃買指數同步重挫3.47%，10月以來外資及陸資累計賣超台股已逾新台幣8,200億元；受搜尋資料覆蓋限制，本次未能取得週五（10/23）台股正式收盤數據之官方確認，請以開盤後即時行情為準。",
+      "source_name": "台灣財經媒體綜合報導（接續上一交易日資料）",
+      "source_url": "https://vocus.cc/article/6ad9af06fd897800011304aa",
+      "date": "2026-10-22"
     }
   ]
 }
