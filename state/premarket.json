@@ -1,49 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T08:34:50+08:00",
-  "as_of": "2026-11-10 08:34",
-  "headline": "美股11/9在輝達執行長黃仁勳深陷對中「共諜」情報疑雲、股價重挫逾4%之際，道瓊仍大漲1,104點（+2.15%）、那斯達克勁揚近3%，AMD、博通等其他半導體股同步走高並與輝達個股利空脫鉤，加上國際油價回落帶動逢低買盤進場承接前週重挫賣壓；在台股昨日（11/9）於限空令與國安基金護盤授權生效後強彈4.94%收復41,661點之後，今日開盤觀察重點轉為台積電能否延續跟漲動能，以及11/17輝達Q3財報與11/18國會閉門簡報後續是否牽動外資對AI供應鏈的評價。",
+  "generated_at": "2026-11-11T08:34:45+08:00",
+  "as_of": "2026-11-11 08:34",
+  "headline": "美國10月CPI核心通膨數據偏熱、10年期公債殖利率重返5%，疊加輝達董事會就黃仁勳遭疑似中國情報接觸一事啟動獨立調查、股價11/10再跌逾5%，美股那斯達克與費半同步走弱；在黃仁勳回覆國會閉門簡報邀約的今日期限將屆之際，市場將觀察台積電ADR走勢能否延續台股昨日（11/9至11/10）在限空令與國安基金護盤下強彈逾2.5%的動能，或轉為震盪整理。",
   "items": [
     {
       "category": "企業",
-      "text": "輝達執行長黃仁勳深陷與疑似中國情報人員「密切關係」的疑雲持續擴大，加上美國眾院三位共和黨委員會主席要求其11/18出席閉門簡報，輝達股價11/9重挫4.27%收178.67美元，單日市值蒸發逾1,900億美元。",
-      "source_name": "StockTitan",
-      "source_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026",
-      "date": "2026-11-09"
-    },
-    {
-      "category": "新聞",
-      "text": "美股11/9收盤：道瓊在輝達重挫之際仍大漲1,104點（+2.15%），那斯達克指數勁揚近3%、標普500同步上漲逾2%，為前週AI領軍重挫後的技術性反彈。",
-      "source_name": "Kiplinger",
-      "source_url": "https://www.kiplinger.com/investing/stocks/dow-adds-1-104-points-even-as-nvidia-stock-sinks-stock-market-today",
+      "text": "輝達董事會已成立由獨立董事組成的委員會並聘請外部律師，就黃仁勳遭指與疑似中國情報人員關係密切一事展開獨立調查；董事會表示目前無證據顯示國安或輝達機密遭外洩，黃仁勳將繼續擔任執行長並配合調查。",
+      "source_name": "Anadolu Ajansı (AA)",
+      "source_url": "https://aa.com.tr/en/world/nvidia-board-opens-independent-probe-into-foreign-intelligence-targeting-of-ceo-jensen-huang/4116358",
       "date": "2026-11-09"
     },
     {
       "category": "總經",
-      "text": "國際油價11/9延續回落走勢，為美股降低通膨與成本端疑慮、支撐逢低買盤進場，是當日三大指數在輝達個股利空下仍全面走高的背景因素之一。",
+      "text": "美國10月CPI報告公布核心物價續升，推升10年期公債殖利率重新站上5%整數關卡，為壓抑美股評價、放大輝達賣壓的背景因素之一。",
       "source_name": "TheStreet",
-      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
-      "date": "2026-11-09"
-    },
-    {
-      "category": "企業",
-      "text": "儘管輝達受黃仁勳個人爭議拖累下挫，同屬AI供應鏈的超微（AMD）、博通（Broadcom）等其他半導體股11/9同步走高，顯示市場將此一事件與AI資本支出基本面脫鉤看待，對台廠供應鏈評價衝擊相對有限。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
-      "date": "2026-11-09"
-    },
-    {
-      "category": "政策",
-      "text": "美國眾議院三位共和黨委員會主席11/5發函，要求黃仁勳於11月18日親自出席閉門簡報、說明與疑似中國情報人員的往來關係，時間點恰在輝達原訂11月17日公布第三季財報之後，後續不確定性可能延續牽動美股AI權值股評價。",
-      "source_name": "自由時報",
-      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5631175",
-      "date": "2026-11-05"
+      "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
+      "date": "2026-11-10"
     },
     {
       "category": "新聞",
-      "text": "紐約時報進一步報導指稱，與黃仁勳關係密切的新加坡Megaspeed高階主管黃樂是由中國最高層級情報機構國安部招募並派遣的情報人員，中國外交部與駐美使館此前已駁斥相關報導為「捕風捉影」、對中國的污蔑抹黑，事件真相仍待查證。",
+      "text": "美股11/10收盤：道瓊下跌0.30%收52,231.89點，那斯達克指數下挫0.74%收25,065.88點，輝達股價連續第二個交易日重挫、單日跌幅約5.47%收168.89美元，AI供應鏈股同步承壓。",
+      "source_name": "TheStreet / Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+      "date": "2026-11-10"
+    },
+    {
+      "category": "政策",
+      "text": "美國眾院三位委員會主席要求黃仁勳就11/18閉門簡報邀約於今日（11/11）前回覆是否出席或提出替代時間，回覆結果尚未明朗，後續可能牽動市場對AI供應鏈監管風險的評價。",
+      "source_name": "中央社",
+      "source_url": "https://cna.com.tw/news/aopl/202611060026.aspx",
+      "date": "2026-11-06"
+    },
+    {
+      "category": "政策",
+      "text": "金管會證期局宣布自11/9起調降每日盤中借券賣出委託數量上限、調高融券保證金成數並放寬擔保品範圍，為11/6公布五大穩定措施的一環，持續抑制台股放空力道。",
       "source_name": "自由時報",
-      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5632354",
+      "source_url": "https://ec.ltn.com.tw/article/breakingnews/5632054",
       "date": "2026-11-06"
     }
   ]
