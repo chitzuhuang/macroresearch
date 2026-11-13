@@ -1,16 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T00:25:28+08:00",
+  "generated_at": "2026-11-13T23:46:30+08:00",
   "input_mode": "official_latest",
-  "as_of_date": "2026-11-12",
+  "as_of_date": "2026-11-13",
   "sources": [
     {
-      "name": "TWSE daily trading data (openapi mirror)",
-      "location": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
-    },
-    {
-      "name": "TWSE daily indices (openapi mirror)",
-      "location": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX"
+      "name": "TWSE 每日收盤行情（非鏡像，當日即時）",
+      "location": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX"
     },
     {
       "name": "TPEx closing quotes",
@@ -38,367 +34,363 @@
     }
   ],
   "quality": {
-    "date_consistent": false,
+    "date_consistent": true,
     "market_dates": [
-      "2026-11-11",
-      "2026-11-12"
+      "2026-11-13"
     ],
-    "warnings": [
-      "Market source dates differ; do not aggregate cross-market statistics.",
-      "TWSE's same-day site had no data yet for this run, so the openapi mirror was used for breadth/turnover instead; it can lag a full session behind."
-    ]
+    "warnings": []
   },
   "errors": [],
   "indices": [
     {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "name": "發行量加權股價指數",
-      "close": 43091.87,
-      "change": -1165.28,
-      "change_pct": -2.633,
-      "volume_shares": 13624025071,
-      "value_twd": 1056842457091
+      "close": 43675.12,
+      "change": 583.25,
+      "change_pct": 1.3535,
+      "volume_shares": 12361786586,
+      "value_twd": 951580008082
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "name": "櫃買指數",
-      "close": 335.73,
-      "change": -8.38,
-      "change_pct": -2.4353
+      "close": 342.41,
+      "change": 6.68,
+      "change_pct": 1.9897
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "name": "臺股期貨（大台指期，近月）",
-      "close": 43178.0,
-      "change": -958.0,
-      "change_pct": -2.17,
-      "volume": 87240
+      "close": 43834.0,
+      "change": 706.0,
+      "change_pct": 1.64,
+      "volume": 94919
     }
   ],
   "markets": {
     "TPEX": {
-      "data_date": "2026-11-12",
+      "data_date": "2026-11-13",
       "all_instruments": 1020,
       "common_stocks": 895,
-      "advancers": 241,
-      "decliners": 569,
-      "unchanged": 58,
-      "missing_change": 27,
-      "total_volume_shares": 1323945000,
-      "total_value_twd": 268495652170,
+      "advancers": 584,
+      "decliners": 230,
+      "unchanged": 62,
+      "missing_change": 19,
+      "total_volume_shares": 1014846000,
+      "total_value_twd": 212534883670,
       "top_turnover": [
         {
           "market": "TPEX",
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "code": "1815",
           "name": "富喬",
           "open": 143.0,
-          "high": 150.5,
-          "low": 133.0,
-          "close": 137.0,
-          "change": -3.5,
-          "change_pct": -2.4911,
-          "volume_shares": 247771000,
-          "value_twd": 35198365000,
-          "transactions": 134226
+          "high": 148.0,
+          "low": 140.5,
+          "close": 142.0,
+          "change": 5.0,
+          "change_pct": 3.6496,
+          "volume_shares": 130263000,
+          "value_twd": 18760938500,
+          "transactions": 67820
         },
         {
           "market": "TPEX",
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "code": "3105",
           "name": "穩懋",
-          "open": 522.0,
-          "high": 573.0,
-          "low": 515.0,
-          "close": 517.0,
-          "change": -4.0,
-          "change_pct": -0.7678,
-          "volume_shares": 42510000,
-          "value_twd": 23250541000,
-          "transactions": 30457
+          "open": 568.0,
+          "high": 568.0,
+          "low": 552.0,
+          "close": 568.0,
+          "change": 51.0,
+          "change_pct": 9.8646,
+          "volume_shares": 28239000,
+          "value_twd": 16012352000,
+          "transactions": 10760
         },
         {
           "market": "TPEX",
-          "date": "2026-11-12",
-          "code": "6274",
-          "name": "台燿",
-          "open": 1055.0,
-          "high": 1080.0,
-          "low": 954.0,
-          "close": 956.0,
-          "change": -104.0,
-          "change_pct": -9.8113,
-          "volume_shares": 15018000,
-          "value_twd": 15333298000,
-          "transactions": 11289
-        },
-        {
-          "market": "TPEX",
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "code": "3374",
           "name": "精材",
           "open": 497.0,
-          "high": 513.0,
-          "low": 464.0,
-          "close": 472.0,
-          "change": 5.5,
-          "change_pct": 1.179,
-          "volume_shares": 29742000,
-          "value_twd": 14787661500,
-          "transactions": 13898
+          "high": 519.0,
+          "low": 492.5,
+          "close": 519.0,
+          "change": 47.0,
+          "change_pct": 9.9576,
+          "volume_shares": 26395000,
+          "value_twd": 13599459000,
+          "transactions": 8699
         },
         {
           "market": "TPEX",
-          "date": "2026-11-12",
-          "code": "6223",
-          "name": "旺矽",
-          "open": 4595.0,
-          "high": 4925.0,
-          "low": 4430.0,
-          "close": 4655.0,
-          "change": 175.0,
-          "change_pct": 3.9062,
-          "volume_shares": 2435000,
-          "value_twd": 11535880000,
-          "transactions": 2238
+          "date": "2026-11-13",
+          "code": "6274",
+          "name": "台燿",
+          "open": 998.0,
+          "high": 1030.0,
+          "low": 960.0,
+          "close": 974.0,
+          "change": 18.0,
+          "change_pct": 1.8828,
+          "volume_shares": 10762000,
+          "value_twd": 10695665000,
+          "transactions": 8476
         },
         {
           "market": "TPEX",
-          "date": "2026-11-12",
-          "code": "8358",
-          "name": "金居",
-          "open": 388.5,
-          "high": 413.0,
-          "low": 368.5,
-          "close": 368.5,
-          "change": -20.0,
-          "change_pct": -5.148,
-          "volume_shares": 28299000,
-          "value_twd": 11092063500,
-          "transactions": 21859
-        },
-        {
-          "market": "TPEX",
-          "date": "2026-11-12",
-          "code": "6488",
-          "name": "環球晶",
-          "open": 637.0,
-          "high": 663.0,
-          "low": 613.0,
-          "close": 622.0,
-          "change": -13.0,
-          "change_pct": -2.0472,
-          "volume_shares": 15036000,
-          "value_twd": 9662000000,
-          "transactions": 11350
-        },
-        {
-          "market": "TPEX",
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "code": "3081",
           "name": "聯亞",
-          "open": 2255.0,
-          "high": 2320.0,
-          "low": 2075.0,
-          "close": 2100.0,
-          "change": -115.0,
-          "change_pct": -5.1919,
-          "volume_shares": 3580000,
-          "value_twd": 7945810000,
-          "transactions": 3146
+          "open": 2125.0,
+          "high": 2220.0,
+          "low": 2065.0,
+          "close": 2110.0,
+          "change": 10.0,
+          "change_pct": 0.4762,
+          "volume_shares": 4820000,
+          "value_twd": 10295820000,
+          "transactions": 4421
         },
         {
           "market": "TPEX",
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "code": "3324",
           "name": "雙鴻",
-          "open": 1270.0,
-          "high": 1270.0,
-          "low": 1170.0,
-          "close": 1170.0,
-          "change": -130.0,
-          "change_pct": -10.0,
-          "volume_shares": 5382000,
-          "value_twd": 6511265000,
-          "transactions": 4583
+          "open": 1190.0,
+          "high": 1235.0,
+          "low": 1135.0,
+          "close": 1140.0,
+          "change": -30.0,
+          "change_pct": -2.5641,
+          "volume_shares": 7602000,
+          "value_twd": 9011940000,
+          "transactions": 6108
         },
         {
           "market": "TPEX",
-          "date": "2026-11-12",
-          "code": "8299",
-          "name": "群聯",
-          "open": 1725.0,
-          "high": 1765.0,
-          "low": 1635.0,
-          "close": 1635.0,
-          "change": -95.0,
-          "change_pct": -5.4913,
-          "volume_shares": 3599000,
-          "value_twd": 6154215000,
-          "transactions": 3021
+          "date": "2026-11-13",
+          "code": "6223",
+          "name": "旺矽",
+          "open": 4910.0,
+          "high": 5100.0,
+          "low": 4630.0,
+          "close": 4670.0,
+          "change": 15.0,
+          "change_pct": 0.3222,
+          "volume_shares": 1606000,
+          "value_twd": 7842200000,
+          "transactions": 1537
+        },
+        {
+          "market": "TPEX",
+          "date": "2026-11-13",
+          "code": "8358",
+          "name": "金居",
+          "open": 385.5,
+          "high": 396.5,
+          "low": 374.0,
+          "close": 376.5,
+          "change": 8.0,
+          "change_pct": 2.171,
+          "volume_shares": 18697000,
+          "value_twd": 7188249500,
+          "transactions": 14728
+        },
+        {
+          "market": "TPEX",
+          "date": "2026-11-13",
+          "code": "3441",
+          "name": "聯一光",
+          "open": 197.5,
+          "high": 209.5,
+          "low": 182.5,
+          "close": 198.0,
+          "change": 1.5,
+          "change_pct": 0.7634,
+          "volume_shares": 32096000,
+          "value_twd": 6376290500,
+          "transactions": 22938
+        },
+        {
+          "market": "TPEX",
+          "date": "2026-11-13",
+          "code": "6538",
+          "name": "倉和",
+          "open": 337.0,
+          "high": 338.0,
+          "low": 293.5,
+          "close": 293.5,
+          "change": -32.5,
+          "change_pct": -9.9693,
+          "volume_shares": 18386000,
+          "value_twd": 5786911000,
+          "transactions": 14273
         }
       ]
     },
     "TWSE": {
-      "data_date": "2026-11-11",
-      "all_instruments": 1390,
-      "common_stocks": 1091,
-      "advancers": 638,
-      "decliners": 368,
-      "unchanged": 85,
+      "data_date": "2026-11-13",
+      "all_instruments": 1389,
+      "common_stocks": 1090,
+      "advancers": 812,
+      "decliners": 200,
+      "unchanged": 78,
       "missing_change": 0,
-      "total_volume_shares": 4075648182,
-      "total_value_twd": 792867693753,
+      "total_volume_shares": 4672938502,
+      "total_value_twd": 858265969651,
       "top_turnover": [
         {
           "market": "TWSE",
-          "date": "2026-11-11",
+          "date": "2026-11-13",
           "code": "2330",
           "name": "台積電",
-          "open": 2330.0,
-          "high": 2395.0,
-          "low": 2305.0,
-          "close": 2395.0,
-          "change": 110.0,
-          "change_pct": 4.814,
-          "volume_shares": 33056476,
-          "value_twd": 77900786705,
-          "transactions": 119978
+          "open": 2375.0,
+          "high": 2390.0,
+          "low": 2340.0,
+          "close": 2350.0,
+          "change": 10.0,
+          "change_pct": 0.4274,
+          "volume_shares": 30973127,
+          "value_twd": 73326711390,
+          "transactions": 76864
         },
         {
           "market": "TWSE",
-          "date": "2026-11-11",
-          "code": "1303",
-          "name": "南亞",
-          "open": 296.0,
-          "high": 314.5,
-          "low": 289.5,
-          "close": 313.0,
-          "change": 24.0,
-          "change_pct": 8.3045,
-          "volume_shares": 174257551,
-          "value_twd": 53005622423,
-          "transactions": 134570
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-11-11",
+          "date": "2026-11-13",
           "code": "2454",
           "name": "聯發科",
-          "open": 3840.0,
-          "high": 3990.0,
-          "low": 3780.0,
-          "close": 3990.0,
-          "change": 160.0,
-          "change_pct": 4.1775,
-          "volume_shares": 10733606,
-          "value_twd": 41817911522,
-          "transactions": 51723
+          "open": 4235.0,
+          "high": 4235.0,
+          "low": 4060.0,
+          "close": 4120.0,
+          "change": 270.0,
+          "change_pct": 7.013,
+          "volume_shares": 15475403,
+          "value_twd": 64880567010,
+          "transactions": 84874
         },
         {
           "market": "TWSE",
-          "date": "2026-11-11",
-          "code": "2308",
-          "name": "台達電",
-          "open": 1295.0,
-          "high": 1295.0,
-          "low": 1230.0,
-          "close": 1295.0,
-          "change": 20.0,
-          "change_pct": 1.5686,
-          "volume_shares": 20680668,
-          "value_twd": 26119682575,
-          "transactions": 50179
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-11-11",
-          "code": "3037",
-          "name": "欣興",
-          "open": 830.0,
-          "high": 867.0,
-          "low": 817.0,
-          "close": 864.0,
-          "change": 36.0,
-          "change_pct": 4.3478,
-          "volume_shares": 30080572,
-          "value_twd": 25311818545,
-          "transactions": 43068
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-11-11",
-          "code": "3653",
-          "name": "健策",
-          "open": 6120.0,
-          "high": 6360.0,
-          "low": 5825.0,
-          "close": 6225.0,
-          "change": 435.0,
-          "change_pct": 7.513,
-          "volume_shares": 3793940,
-          "value_twd": 23168032205,
-          "transactions": 8190
-        },
-        {
-          "market": "TWSE",
-          "date": "2026-11-11",
+          "date": "2026-11-13",
           "code": "1802",
           "name": "台玻",
-          "open": 70.9,
-          "high": 76.7,
-          "low": 70.2,
-          "close": 76.7,
-          "change": 6.9,
-          "change_pct": 9.8854,
-          "volume_shares": 266744266,
-          "value_twd": 19821086242,
-          "transactions": 120632
+          "open": 85.1,
+          "high": 89.5,
+          "low": 81.7,
+          "close": 85.1,
+          "change": 3.4,
+          "change_pct": 4.1616,
+          "volume_shares": 443099867,
+          "value_twd": 37417669604,
+          "transactions": 243552
         },
         {
           "market": "TWSE",
-          "date": "2026-11-11",
+          "date": "2026-11-13",
+          "code": "1303",
+          "name": "南亞",
+          "open": 309.5,
+          "high": 316.5,
+          "low": 301.0,
+          "close": 304.0,
+          "change": 11.0,
+          "change_pct": 3.7543,
+          "volume_shares": 103774616,
+          "value_twd": 32137215125,
+          "transactions": 115513
+        },
+        {
+          "market": "TWSE",
+          "date": "2026-11-13",
+          "code": "3037",
+          "name": "欣興",
+          "open": 820.0,
+          "high": 859.0,
+          "low": 784.0,
+          "close": 785.0,
+          "change": -7.0,
+          "change_pct": -0.8838,
+          "volume_shares": 29258700,
+          "value_twd": 23828262602,
+          "transactions": 53263
+        },
+        {
+          "market": "TWSE",
+          "date": "2026-11-13",
+          "code": "3443",
+          "name": "創意",
+          "open": 8645.0,
+          "high": 8645.0,
+          "low": 8350.0,
+          "close": 8610.0,
+          "change": 750.0,
+          "change_pct": 9.542,
+          "volume_shares": 2699251,
+          "value_twd": 23276887395,
+          "transactions": 16151
+        },
+        {
+          "market": "TWSE",
+          "date": "2026-11-13",
           "code": "2408",
           "name": "南亞科",
-          "open": 392.5,
-          "high": 395.0,
-          "low": 373.5,
-          "close": 394.0,
-          "change": 11.0,
-          "change_pct": 2.8721,
-          "volume_shares": 49645364,
-          "value_twd": 19097654341,
-          "transactions": 42839
+          "open": 399.5,
+          "high": 404.5,
+          "low": 371.5,
+          "close": 377.0,
+          "change": -2.5,
+          "change_pct": -0.6588,
+          "volume_shares": 50143425,
+          "value_twd": 19367526932,
+          "transactions": 48275
         },
         {
           "market": "TWSE",
-          "date": "2026-11-11",
-          "code": "2327",
-          "name": "國巨*",
-          "open": 428.0,
-          "high": 435.5,
-          "low": 411.5,
-          "close": 424.5,
-          "change": 8.0,
-          "change_pct": 1.9208,
-          "volume_shares": 44804634,
-          "value_twd": 18889916491,
-          "transactions": 50094
+          "date": "2026-11-13",
+          "code": "2308",
+          "name": "台達電",
+          "open": 1280.0,
+          "high": 1315.0,
+          "low": 1225.0,
+          "close": 1240.0,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "volume_shares": 14362066,
+          "value_twd": 18173934843,
+          "transactions": 45759
         },
         {
           "market": "TWSE",
-          "date": "2026-11-11",
-          "code": "2383",
-          "name": "台光電",
-          "open": 4470.0,
-          "high": 4565.0,
-          "low": 4310.0,
-          "close": 4500.0,
-          "change": 135.0,
-          "change_pct": 3.0928,
-          "volume_shares": 3933439,
-          "value_twd": 17555631705,
-          "transactions": 13866
+          "date": "2026-11-13",
+          "code": "3653",
+          "name": "健策",
+          "open": 5860.0,
+          "high": 5980.0,
+          "low": 5290.0,
+          "close": 5345.0,
+          "change": -260.0,
+          "change_pct": -4.6387,
+          "volume_shares": 3081691,
+          "value_twd": 17410973525,
+          "transactions": 12376
+        },
+        {
+          "market": "TWSE",
+          "date": "2026-11-13",
+          "code": "3661",
+          "name": "世芯-KY",
+          "open": 4040.0,
+          "high": 4040.0,
+          "low": 3900.0,
+          "close": 4020.0,
+          "change": 345.0,
+          "change_pct": 9.3878,
+          "volume_shares": 4208801,
+          "value_twd": 16942837175,
+          "transactions": 21443
         }
       ]
     }
@@ -407,145 +399,145 @@
     "top_buy": [
       {
         "market": "TWSE",
-        "code": "1802",
-        "name": "台玻",
-        "foreign_net_shares": 140326307,
-        "foreign_net_lots": 140326.3
+        "code": "2303",
+        "name": "聯電",
+        "foreign_net_shares": 42065919,
+        "foreign_net_lots": 42065.9
       },
       {
         "market": "TWSE",
-        "code": "6456",
-        "name": "GIS-KY",
-        "foreign_net_shares": 18690484,
-        "foreign_net_lots": 18690.5
-      },
-      {
-        "market": "TWSE",
-        "code": "2885",
-        "name": "元大金",
-        "foreign_net_shares": 18428965,
-        "foreign_net_lots": 18429.0
-      },
-      {
-        "market": "TWSE",
-        "code": "2610",
-        "name": "華航",
-        "foreign_net_shares": 18308072,
-        "foreign_net_lots": 18308.1
-      },
-      {
-        "market": "TWSE",
-        "code": "4927",
-        "name": "泰鼎-KY",
-        "foreign_net_shares": 16356759,
-        "foreign_net_lots": 16356.8
-      },
-      {
-        "market": "TWSE",
-        "code": "2409",
-        "name": "友達",
-        "foreign_net_shares": 10343043,
-        "foreign_net_lots": 10343.0
-      },
-      {
-        "market": "TWSE",
-        "code": "2884",
-        "name": "玉山金",
-        "foreign_net_shares": 10315474,
-        "foreign_net_lots": 10315.5
-      },
-      {
-        "market": "TWSE",
-        "code": "2886",
-        "name": "兆豐金",
-        "foreign_net_shares": 9590514,
-        "foreign_net_lots": 9590.5
-      },
-      {
-        "market": "TWSE",
-        "code": "2883",
-        "name": "凱基金",
-        "foreign_net_shares": 8687154,
-        "foreign_net_lots": 8687.2
+        "code": "2355",
+        "name": "敬鵬",
+        "foreign_net_shares": 34739104,
+        "foreign_net_lots": 34739.1
       },
       {
         "market": "TWSE",
         "code": "2887",
         "name": "台新新光金",
-        "foreign_net_shares": 8679389,
-        "foreign_net_lots": 8679.4
+        "foreign_net_shares": 28427418,
+        "foreign_net_lots": 28427.4
+      },
+      {
+        "market": "TWSE",
+        "code": "2885",
+        "name": "元大金",
+        "foreign_net_shares": 18006881,
+        "foreign_net_lots": 18006.9
+      },
+      {
+        "market": "TWSE",
+        "code": "2883",
+        "name": "凱基金",
+        "foreign_net_shares": 17356550,
+        "foreign_net_lots": 17356.5
+      },
+      {
+        "market": "TWSE",
+        "code": "2884",
+        "name": "玉山金",
+        "foreign_net_shares": 16416238,
+        "foreign_net_lots": 16416.2
+      },
+      {
+        "market": "TWSE",
+        "code": "2618",
+        "name": "長榮航",
+        "foreign_net_shares": 12724008,
+        "foreign_net_lots": 12724.0
+      },
+      {
+        "market": "TWSE",
+        "code": "2610",
+        "name": "華航",
+        "foreign_net_shares": 11579096,
+        "foreign_net_lots": 11579.1
+      },
+      {
+        "market": "TWSE",
+        "code": "1326",
+        "name": "台化",
+        "foreign_net_shares": 10755523,
+        "foreign_net_lots": 10755.5
+      },
+      {
+        "market": "TWSE",
+        "code": "3481",
+        "name": "群創",
+        "foreign_net_shares": 10018341,
+        "foreign_net_lots": 10018.3
       }
     ],
     "top_sell": [
       {
         "market": "TWSE",
-        "code": "3481",
-        "name": "群創",
-        "foreign_net_shares": -34542136,
-        "foreign_net_lots": -34542.1
+        "code": "2027",
+        "name": "大成鋼",
+        "foreign_net_shares": -45183304,
+        "foreign_net_lots": -45183.3
+      },
+      {
+        "market": "TWSE",
+        "code": "2002",
+        "name": "中鋼",
+        "foreign_net_shares": -35356663,
+        "foreign_net_lots": -35356.7
+      },
+      {
+        "market": "TWSE",
+        "code": "2409",
+        "name": "友達",
+        "foreign_net_shares": -14666086,
+        "foreign_net_lots": -14666.1
+      },
+      {
+        "market": "TWSE",
+        "code": "1802",
+        "name": "台玻",
+        "foreign_net_shares": -11316768,
+        "foreign_net_lots": -11316.8
       },
       {
         "market": "TWSE",
         "code": "2324",
         "name": "仁寶",
-        "foreign_net_shares": -17363014,
-        "foreign_net_lots": -17363.0
-      },
-      {
-        "market": "TWSE",
-        "code": "2382",
-        "name": "廣達",
-        "foreign_net_shares": -13462969,
-        "foreign_net_lots": -13463.0
-      },
-      {
-        "market": "TWSE",
-        "code": "2356",
-        "name": "英業達",
-        "foreign_net_shares": -12654406,
-        "foreign_net_lots": -12654.4
-      },
-      {
-        "market": "TWSE",
-        "code": "6770",
-        "name": "力積電",
-        "foreign_net_shares": -7729693,
-        "foreign_net_lots": -7729.7
-      },
-      {
-        "market": "TWSE",
-        "code": "6213",
-        "name": "聯茂",
-        "foreign_net_shares": -6729841,
-        "foreign_net_lots": -6729.8
-      },
-      {
-        "market": "TWSE",
-        "code": "3702",
-        "name": "大聯大",
-        "foreign_net_shares": -5699388,
-        "foreign_net_lots": -5699.4
-      },
-      {
-        "market": "TWSE",
-        "code": "1714",
-        "name": "和桐",
-        "foreign_net_shares": -5265458,
-        "foreign_net_lots": -5265.5
-      },
-      {
-        "market": "TWSE",
-        "code": "8150",
-        "name": "南茂",
-        "foreign_net_shares": -5170898,
-        "foreign_net_lots": -5170.9
+        "foreign_net_shares": -10552226,
+        "foreign_net_lots": -10552.2
       },
       {
         "market": "TWSE",
         "code": "1303",
         "name": "南亞",
-        "foreign_net_shares": -5163263,
-        "foreign_net_lots": -5163.3
+        "foreign_net_shares": -7711438,
+        "foreign_net_lots": -7711.4
+      },
+      {
+        "market": "TWSE",
+        "code": "2356",
+        "name": "英業達",
+        "foreign_net_shares": -7398854,
+        "foreign_net_lots": -7398.9
+      },
+      {
+        "market": "TWSE",
+        "code": "6443",
+        "name": "元晶",
+        "foreign_net_shares": -6689038,
+        "foreign_net_lots": -6689.0
+      },
+      {
+        "market": "TWSE",
+        "code": "1605",
+        "name": "華新",
+        "foreign_net_shares": -6565486,
+        "foreign_net_lots": -6565.5
+      },
+      {
+        "market": "TWSE",
+        "code": "1904",
+        "name": "正隆",
+        "foreign_net_shares": -5551049,
+        "foreign_net_lots": -5551.0
       }
     ]
   },
