@@ -1,57 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T08:35:00+08:00",
-  "as_of": "2026-11-12 08:35",
-  "headline": "輝達董事會傳正準備以黃仁勳爆出「第二段婚外情」(其中一名對象遭美方認定涉嫌中國情報關係)為由撤換執行長，消息於台北時間11/11美股收盤後曝光，NVDA股價盤後重挫逾7%，扭轉當日因CoreWeave亮眼財報點燃AI交易熱潮、晶片股普漲、NVDA正式交易時段收漲2.87%的多頭氣勢；在台股昨日(11/11)已於國安基金護盤、限空令加持下大漲3.62%收44,257點之後，輝達治理風險驟升將是左右台積電為首半導體供應鏈今日開盤情緒的最大變數。",
+  "generated_at": "2026-11-13T08:30:00+08:00",
+  "as_of": "2026-11-13 08:30",
+  "headline": "輝達董事會已正式確認執行長黃仁勳辭去總裁、執行長及董事職務即刻生效，財務長柯蕾斯(Colette Kress)接任臨時執行長、前Synopsys執行長Harvey Jones出任輝達史上首位獨立董事長；消息衝擊NVDA美股11/12正式交易時段一度重挫逾13%、終場收跌約4.3%，台灣法人普遍認為此次領導層更迭對台積電CoWoS與先進製程訂單的基本面影響中性，但短期市場情緒性震盪恐仍是今日台股半導體供應鏈開盤最大變數。",
   "items": [
     {
       "category": "企業",
-      "text": "彭博、華爾街日報11/11report指出，輝達董事會正準備撤換執行長黃仁勳，起因是其被爆出與第二名女性有婚外情，其中一人遭美方官員認定疑似涉及中國情報活動；董事會最快11日即開會討論黃仁勳去留，消息曝光後NVDA盤後股價重挫逾7%。",
-      "source_name": "Bloomberg",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-board-meets-on-huang-s-fate-after-affair-with-alleged-spy",
+      "text": "輝達董事會證實已接受執行長黃仁勳辭去總裁、執行長及董事職務，即刻生效；財務長柯蕾斯(Colette Kress)兼任臨時執行長，前Synopsys執行長Harvey Jones出任輝達史上首位獨立董事長，公司重申目前無證據顯示國安機密或商業機密外洩。",
+      "source_name": "SEC EDGAR (NVIDIA 8-K)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
       "date": "2026-11-11"
     },
     {
       "category": "新聞",
-      "text": "美股11/11正式交易時段因雲端服務商CoreWeave亮眼財報點燃AI交易熱潮，晶片股普漲，NVDA收漲2.87%至173.73美元，但收盤後隨黃仁勳可能遭撤換的消息曝光而大幅回落，漲勢一夕反轉。",
-      "source_name": "The Motley Fool",
-      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-nvidia-rebounds-as-coreweave-earnings-reignite-the-ai-trade/",
-      "date": "2026-11-11"
+      "text": "消息曝光後NVDA股價11/12(週四)正式交易時段一度重挫逾13%，終場收跌約4.3%，道瓊、S&P 500、那斯達克三大指數同步小跌約0.3%。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "date": "2026-11-12"
     },
     {
       "category": "企業",
-      "text": "彭博另報導，輝達董事會已委託外部顧問公司物色接班人選，不排除先任命臨時執行長；部分分析師猜測財務長Colette Kress可能是過渡人選，但輝達尚未對接班安排做出正式公告。",
-      "source_name": "Bloomberg (via officechai)",
-      "source_url": "https://officechai.com/ai/nvidias-board-working-with-outside-firm-to-replace-jensen-huang-could-name-temporary-chief-bloomberg/",
-      "date": "2026-11-11"
+      "text": "此次辭職與黃仁勳被曝出和新加坡雲端業者Megaspeed高層Alice Huang的婚外情有關，美方官員懷疑其涉及中國情報活動，北京否認有相關間諜滲透意圖；輝達目前未發現任何商業機密外洩證據。",
+      "source_name": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+      "date": "2026-11-12"
     },
     {
-      "category": "政策",
-      "text": "輝達董事會已聘請Wachtell, Lipton法律事務所及一名前任代理聯邦檢察官，就黃仁勳遭疑似中國情報人員接觸一事展開獨立調查；截至目前調查未發現有國安機密或輝達商業機密外洩的證據。",
-      "source_name": "NBC News",
-      "source_url": "https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628",
-      "date": "2026-11-09"
+      "category": "新聞",
+      "text": "台灣財經媒體綜合法人看法指出，輝達執行長更迭對台積電CoWoS先進封裝與先進製程訂單之基本面影響偏中性，短期衝擊主要反映在市場情緒，但不排除後續決策節奏放緩、AI供應鏈資金出現族群輪動分化。",
+      "source_name": "TVBS新聞網",
+      "source_url": "https://news.tvbs.com.tw/money/4049833",
+      "date": "2026-11-13"
     },
     {
-      "category": "政策",
-      "text": "美國眾院三委員會主席要求黃仁勳就其與中國情報關係爭議於11/18出席閉門簡報，並須於11/11前回覆是否出席或另提時間；截至目前尚無輝達正式回覆出席與否的公開報導，時程恰與其11/17第三季財報及董事會人事決定相互交錯。",
-      "source_name": "PeopleNews",
-      "source_url": "https://www.peoplenews.tw/?p=66276",
-      "date": "2026-11-11"
+      "category": "新聞",
+      "text": "CNBC報導指出，亞太股市週五(11/13)開盤氣氛分歧，日經225期貨逆勢走高，顯示亞洲投資人尚未對輝達領導層震撼消息做出一致反應。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+      "date": "2026-11-12"
     },
     {
-      "category": "總經",
-      "text": "財政部11/9公布10月出口967.6億美元，年增58.9%，創歷年單月新高並連續36個月正成長，資通訊與電子零組件合計占比達83%，顯示半導體與AI伺服器供應鏈出貨動能延續強勁，為對沖輝達治理風險的正面基本面因素。",
-      "source_name": "Focus Taiwan",
-      "source_url": "https://focustaiwan.tw/business/202611090020",
-      "date": "2026-11-09"
-    },
-    {
-      "category": "政策",
-      "text": "國安基金11/6拍板第10輪護盤授權(上限5千億元)，金管會同日公布五項穩定市場措施，其中調降盤中借券賣出上限、提高融券保證金成數等「限空令」已自11/9上路並持續生效，目前尚無公告退場時間表。",
-      "source_name": "經理人 (Manager Today)",
-      "source_url": "https://www.managertoday.com.tw/articles/view/73282",
-      "date": "2026-11-06"
+      "category": "新聞",
+      "text": "美股分析師看法分歧：部分視黃仁勳辭職為「一次性出清事件」，另有分析師警告若繼任布局不順，NVDA股價不排除出現最深達20%的修正風險；輝達第三季財報仍按原訂時程於11/17公布。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/analyst-sees-huangs-resignation-nvidia-204845141.html",
+      "date": "2026-11-12"
     }
   ]
 }
