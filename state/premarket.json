@@ -1,57 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T08:36:00+08:00",
-  "as_of": "2026-11-16 08:36",
-  "headline": "輝達黃仁勳醜聞持續擴大(傳出第三段婚外情、遭股東提集體訴訟)，但Counterpoint、Gartner等分析師均表示對台積電基本面衝擊有限，真正變數在於美國出口管制政策走向；市場目光現轉向輝達11/17(台灣時間約11/18凌晨)公布的Q3財報，將是檢驗近期晶片股反彈能否延續的關鍵，同時日本第三季GDP速報值今日公布、機構預測分歧，為亞股增添波動因子。",
+  "generated_at": "2026-11-17T08:35:00+08:00",
+  "as_of": "2026-11-17 08:35",
+  "headline": "台股11/16爆跌2635點(-6.03%)、收41040點，創史上第二大收盤跌點，主因輝達11/12正式公告黃仁勳辭任執行長(由財務長柯蕾特．克瑞斯暫代)後市場對台灣AI供應鏈前景與美中晶片出口管制的疑慮延燒，加上美股費半指數上週五重挫3.43%、外資台指期淨空單創史上新高(逾10萬口)，國安基金11/6已決議啟動第10次護盤；今日盤前市場目光全部集中在輝達台灣時間明晨將公布的Q3財報，將是檢驗這波AI股賣壓能否止穩的關鍵。",
   "items": [
     {
       "category": "企業",
-      "text": "輝達正式公告將於11/17(週二)美東下午5時召開法說會，公布截至10/25的2027財年第三季財報，確認財報時程未因執行長交接風波而延宕，為本週AI供應鏈股價走向的最大變數。",
-      "source_name": "NVIDIA Investor Relations",
-      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
-      "date": "2026-10-28"
-    },
-    {
-      "category": "企業",
-      "text": "Counterpoint Research分析師威廉．李與Gartner副總裁古普塔均表示，先進製程晶圓需求遠大於單一高階主管影響，目前沒有輝達砍單或放緩台積電產能的跡象，黃仁勳醜聞對台積電基本面衝擊有限，較大風險來自美國可能升級的出口管制與對中國出貨審查政策。",
-      "source_name": "NOWnews今日新聞",
-      "source_url": "https://www.nownews.com/news/6891542",
-      "date": "2026-11-11"
-    },
-    {
-      "category": "企業",
-      "text": "路透報導黃仁勳被曝出第三段婚外情(對象為輝達內部另一名不具名員工)，使醜聞持續擴大；輝達股東已於11/9在加州聖荷西聯邦法院對公司與黃仁勳提起集體訴訟，指控未充分揭露相關國安風險對公司聲譽與業務的潛在衝擊。",
-      "source_name": "TechCrunch",
-      "source_url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "date": "2026-11-13"
-    },
-    {
-      "category": "企業",
-      "text": "輝達領導層動盪期間，市場資金明顯轉向AMD等替代AI晶片供應商，AMD股價自消息曝光的週一以來一度大漲近17%，但部分分析師提醒漲幅已偏熱，仍需財報驗證基本面是否跟上股價。",
-      "source_name": "TechCrunch",
-      "source_url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "text": "輝達董事會於11/12正式宣布執行長黃仁勳辭去總裁、執行長與董事職務即刻生效，財務長柯蕾特．克瑞斯(Colette Kress)暫代執行長，哈維．瓊斯(Harvey C. Jones)成為公司史上首任董事會主席，為黃仁勳婚外情與間諜疑雲風波後的重大人事定案。",
+      "source_name": "NVIDIA官方新聞室",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
       "date": "2026-11-12"
     },
     {
       "category": "總經",
-      "text": "日本內閣府今日(11/16)公布第三季GDP速報值，但機構預測分歧：大和總研估年化成長率+1.0%(連續四季正成長)，第一生命經濟研究所則估為-0.4%，分歧來自民間消費與出口力道的判斷差異，實際數據公布後可能牽動今日亞股走勢。",
-      "source_name": "大和總研 (Daiwa Institute of Research)",
-      "source_url": "https://www.dir.co.jp/report/research/economics/japan/20261110_026184.pdf",
-      "date": "2026-11-10"
+      "text": "台股加權指數11/16單日暴跌2635.04點(跌幅6.03%)，收在41040.08點，為台股史上第二大收盤跌點(僅次於今年7/17的2953.71點)，成交金額達9031億元，上市櫃近170家個股跌停。",
+      "source_name": "台灣證券交易所(TWSE)盤後資料",
+      "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
+      "date": "2026-11-16"
     },
     {
       "category": "總經",
-      "text": "經濟部預估台灣11月外銷訂單受AI基礎建設需求與旺季效應帶動，金額將達1,125億至1,159億美元，年增62%至67%，財政部同步估11月出口年增47%至51%，顯示AI供應鏈訂單動能延續至年底，惟正式數據要等12月中下旬公布。",
-      "source_name": "Focus Taiwan",
-      "source_url": "https://focustaiwan.tw/business/202611090020",
-      "date": "2026-11-09"
+      "text": "外資台指期淨空單在11月持續攀升，11/10來到103,473口，創近兩年新高，11/9單日淨空單101,771口亦同步創歷史新高，顯示外資對台股後市偏向防禦，現貨同步賣超、期貨呈逆價差。",
+      "source_name": "經濟日報／玩股網",
+      "source_url": "https://money.udn.com/money/story/5607/9867829",
+      "date": "2026-11-10"
     },
     {
-      "category": "新聞",
-      "text": "美股上週三(11/11)在CoreWeave財報帶動下出現晶片股主導的强勁反彈，費城半導體指數單日大漲約7-8%，那斯達克指數並一舉抹平美國期中選舉後的跌幅，顯示市場情緒已逐步修復，但輝達財報公布前預期仍將維持高波動。",
-      "source_name": "CryptoBriefing",
-      "source_url": "https://cryptobriefing.com/nasdaq-erases-post-election-losses-ai-rally/",
-      "date": "2026-11-11"
+      "category": "政策",
+      "text": "國安基金11/6召開第131次臨時委員會議，因台股11/2至11/6累計下跌5510點、外資同期大幅賣超，決議授權執行秘書視市況動用資金執行第10次護盤任務，金管會同日起另公布五項含「限空令」的穩定市場措施，自11/9生效。",
+      "source_name": "財政部／經理人雜誌",
+      "source_url": "https://www.managertoday.com.tw/articles/view/73282",
+      "date": "2026-11-06"
+    },
+    {
+      "category": "總經",
+      "text": "日本內閣府11/16公布今年7-9月GDP第一次速報，實質GDP季增率0.0%、年化季增率-0.1%，近四季首度轉為負成長，遠遜市場預期的年增0.2%，主因個人消費連續第二季下滑及進口增加壓低外需貢獻，日經指數應聲一度重挫逾千點。",
+      "source_name": "大和総研",
+      "source_url": "https://www.dir.co.jp/report/research/economics/japan/20261116_026192.html",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "企業",
+      "text": "美股費城半導體指數上週五(11/13)重挫3.43%，加上輝達人事風波延燒與市場傳言輝達下一代Vera Rubin Ultra所需的Kyber機架量產時程可能遞延，拖累台股AI供應鏈相關個股11/16全面重挫。",
+      "source_name": "世界日報",
+      "source_url": "https://www.worldjournal.com/wj/story/121347/9881723",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "企業",
+      "text": "輝達將於美東時間11/17下午5時(台灣時間11/18清晨)召開法說會、公布2027財年第三季財報，這是黃仁勳辭任後首份財報，將由暫代執行長克瑞斯主持說明，市場視為檢驗近期AI晶片股賣壓能否止穩的最重要變數。",
+      "source_name": "NVIDIA Investor Relations",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+      "date": "2026-10-28"
     }
   ]
 }
