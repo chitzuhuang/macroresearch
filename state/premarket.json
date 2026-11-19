@@ -1,50 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T08:35:00+08:00",
-  "as_of": "2026-11-18 08:35",
-  "headline": "輝達(NVIDIA)台灣時間今晨公布2027財年Q3財報優於預期(營收1158億美元、Q4展望上修至1300億美元)，公布後股價一度彈升逾4%，為台股連兩日重挫(11/16暴跌2635點、11/17再跌948點)後最關鍵的止穩訊號，但財報前美股四大指數已普遍重挫、費半同步走弱，顯示市場對AI股評價疑慮未解，加上輝達Q4展望仍假設中國資料中心營收歸零，今日開盤能否延續財報後的樂觀情緒，是觀察台股AI供應鏈能否止穩反彈的關鍵。",
+  "generated_at": "2026-11-19T08:34:35+08:00",
+  "as_of": "2026-11-19 08:34",
+  "headline": "聯準會11/18公布的10月FOMC會議紀要顯示幾乎所有官員都認為後續仍需升息、且有人提出12月可能升逾1碼，加上會後公布的10月CPI數據高於預期，市場已完全反映12月升息1碼的預期，一舉扭轉先前的降息預期；同日輝達財報優於預期(營收創新高)卻因執行長交接風波與AI融資疑慮股價反而收跌2.89%，美股標普連五黑創6月來最長連跌、道瓊重挫561點，但費半持平、台積電ADR小漲、台指期夜盤同步回升，台股今日能否延續止穩格局，須同時觀察升息預期升溫對評價的壓力與AI供應鏈基本面的支撐力道。",
   "items": [
     {
-      "category": "企業",
-      "text": "輝達公布2027財年第三季(截至10/25)財報，營收達1158億美元(季增20%、年增103%)創新高，資料中心營收1076億美元，GAAP每股盈餘2.70美元，優於自身財測區間上緣(1080億美元)，由暫代執行長柯蕾特．克瑞斯主持法說後，股價盤後一度上漲逾4%。",
-      "source_name": "NVIDIA / SEC 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
-      "date": "2026-11-17"
-    },
-    {
-      "category": "企業",
-      "text": "輝達將2027財年第四季營收展望大幅上修至1300億美元(正負3%)，年增率拉高至約75%，但財測仍假設來自中國的資料中心運算營收為零，顯示美中晶片出口管制的衝擊尚未解除；董事會另核准追加1500億美元股票回購額度。",
-      "source_name": "StockTitan / NVIDIA財報",
-      "source_url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html",
-      "date": "2026-11-17"
-    },
-    {
-      "category": "總經",
-      "text": "台股加權指數11/17收在40,092.11點，再跌947.97點(-2.31%)，勉強守住4萬點關卡，盤中一度跌破4萬點後翻紅又遭尾盤賣壓打回；台積電收跌45元至2,170元(-2.03%)，櫃買指數跌幅(-3.92%)更深於大盤，顯示中小型股賣壓仍重。",
-      "source_name": "中央社／台灣證券交易所盤後資料",
-      "source_url": "https://www.nownews.com/news/6893055",
-      "date": "2026-11-17"
-    },
-    {
-      "category": "總經",
-      "text": "美股11/17(台灣時間輝達法說前)四大指數普遍重挫，道瓊一度重挫近850點，標普500與那斯達克同步走低，市場聚焦當日稍晚公布的美國10月零售銷售數據與輝達財報，反映投資人在財報公布前風險偏好明顯降溫。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
-      "date": "2026-11-17"
-    },
-    {
       "category": "政策",
-      "text": "國安基金11/6授權啟動第10次護盤任務、金管會同步公布的五項穩定市場措施(含「限空令」、融券保證金成數上調至130%)自11/9生效至今仍持續適用，金管會目前未提出退場時間表，為近期台股劇烈波動期間的主要護盤後盾。",
-      "source_name": "經理人雜誌／金管會",
-      "source_url": "https://www.managertoday.com.tw/articles/view/73282",
-      "date": "2026-11-06"
+      "text": "美國聯準會公布10月27-28日FOMC會議紀要，顯示幾乎所有與會官員認為後續仍需升息，且有官員提出若通膨數據不利，12月可考慮升幅超過1碼(25個基點)；會後公布的10月CPI(總體+0.4%、核心+0.3%)均高於預期，市場目前已完全反映12月8-9日會議升息1碼的機率，一舉逆轉先前市場對降息的預期。",
+      "source_name": "Federal Reserve Board",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "date": "2026-11-18"
     },
     {
       "category": "企業",
-      "text": "輝達財報公布前，股價已自10/6高點重挫逾3成、11/13收在162.85美元，反映黃仁勳11/12辭任執行長後市場對AI供應鏈前景與治理不確定性的疑慮；本次財報為克瑞斯接任暫代執行長後首份成績單，市場解讀為檢驗賣壓是否過度的重要指標。",
-      "source_name": "FourWeekMBA",
-      "source_url": "https://fourweekmba.com/ai-nvidia-earnings-nov-17-108b-guide-89-above-a-year-ago/",
+      "text": "輝達11/18美股交易日股價收跌2.89%至150.96美元，儘管財報營收與財測均優於預期，但市場聚焦執行長交接的不確定性，以及對「新雲端」算力供應商未來融資能力與AI資本支出可持續性的疑慮，使財報利多未能支撐股價。",
+      "source_name": "The Motley Fool / Yahoo Finance",
+      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/",
+      "date": "2026-11-18"
+    },
+    {
+      "category": "企業",
+      "text": "輝達法說會上，董事會主席Harvey Jones表示董事會已一致接受黃仁勳(11/12辭任)的辭呈、不考慮讓其回任執行長；此前黃仁勳表示若董事會同意他「願意」回任，川普也公開表態支持黃仁勳回任或提及庫克(Tim Cook)可為候選人，永久執行長人選(傳聞包括Arm執行長Rene Haas、Marvell執行長Matt Murphy)仍在遴選中，為輝達治理增添不確定性。",
+      "source_name": "CNBC / Axios",
+      "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
       "date": "2026-11-17"
+    },
+    {
+      "category": "總經",
+      "text": "美股11/18收盤漲跌互見：道瓊工業指數重挫561.25點(-1.11%)收50,198.17點，標普500指數下跌0.23%，連續第5個交易日收黑、創6月以來最長連跌紀錄；那斯達克指數逆勢上漲0.42%收24,429.88點，費城半導體指數小漲0.10%，顯示資金在AI股與傳產之間輪動分歧。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+      "date": "2026-11-18"
+    },
+    {
+      "category": "企業",
+      "text": "台積電ADR 11/18收漲約0.4%~0.8%(各報導數字略有差異，約362美元)，脫離近四個交易日的連續下跌，為台股今日開盤的重要觀察指標之一。",
+      "source_name": "經濟日報",
+      "source_url": "https://udn.com/news/story/6811/9887928",
+      "date": "2026-11-18"
+    },
+    {
+      "category": "新聞",
+      "text": "AI新創公司Anthropic的IPO於11/18定價83美元(高於原訂70-78美元發行區間)，11/19起以代號「ANT」在那斯達克掛牌交易，反映市場對AI產業股權融資需求依然強勁，但也可能強化投資人對AI相關估值過熱的關注。",
+      "source_name": "udn 經濟日報",
+      "source_url": "https://udn.com/news/story/6811/9887913",
+      "date": "2026-11-18"
+    },
+    {
+      "category": "總經",
+      "text": "台指期夜盤同步反映美股輝達財報與Fed紀要後的多空交雜情緒，夜盤收盤上漲約154點至40,935點，在台股連兩個交易日重挫(11/16、11/17合計重挫逾3500點)後呈現續穩訊號，但漲幅有限，顯示市場對後續走勢仍保持觀望。",
+      "source_name": "Newtalk新聞",
+      "source_url": "https://newtalk.tw/news/view/2026-11-19/1071936",
+      "date": "2026-11-19"
     }
   ]
 }
