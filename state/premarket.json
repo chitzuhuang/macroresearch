@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T08:39:01+08:00",
-  "as_of": "2026-11-20 08:39",
-  "headline": "台股11/19重挫4.4%收38,426.89點(櫃買指數更重挫7.22%)、為史上第七大單日跌點，逾300家個股跌停，背景是美國商務部11月中旬再收緊對中國關聯資料中心的AI晶片出口管制，疊加Fed官員持續鷹派發言(Waller稱12月不排除升2碼)及台股連月遭外資史上最大規模淨賣超；而台股休市後，美股同日(11/19)再度重挫(道瓊-2.19%、標普-2.01%、那指-2.2%)，導火線是Anthropic掛牌首日爆量震盪再度引發AI估值疑慮，顯示這波賣壓是全球AI重新評價的延續而非台股孤立事件；惟亞股反應分歧(港股跌、日股逆勢漲)，且SK海力士透露2026年HBM/DRAM產能「幾乎全部售罄」，顯示AI晶片基本面需求尚未出現裂縫，今日開盤須同時觀察官方護盤措施(國安基金、限縮融券)的效果與美股AI估值修正是否持續擴大。",
+  "generated_at": "2026-11-23T08:35:48+08:00",
+  "as_of": "2026-11-23 08:35",
+  "headline": "全球AI重新評價賣壓在上週五(11/20)進一步惡化：美股標普500與道瓊同步跌入回檔(correction)、那斯達克綜合指數大跌5.28%收22,617.73點、該指數2026年以來漲幅全數蒸發，單週重挫8.6%為2020年3月疫情恐慌以來最差一週；台股同步同週重挫逾一成七，據報為1990年以來最慘單週表現，南韓官方並罕見放話將視市況隨時啟動股市安定基金護盤；惟週一(11/23)美股期貨已明顯反彈(那指期貨早盤一度彈升約2%、標普期貨漲約1%)，顯示市場嘗試在上週超跌後尋求技術性反彈，但日股因勞動感謝日休市、恒指期貨仍偏弱，加上輝達執行長黃仁勳本月中無預警辭職留下的人事不確定性尚未完全消化，今日台股開盤須觀察能否跟上美股期貨反彈力道，或持續遭外資提款壓抑。",
   "items": [
     {
       "category": "總經",
-      "text": "台股加權指數11/19重挫1,768.02點(-4.40%)收38,426.89點，為史上第七大單日跌點，逾300家上市櫃股票跌停；櫃買指數跌幅更深達7.22%，顯示中小型與題材股的賣壓較大型權值股更為劇烈。",
-      "source_name": "Investing.com",
-      "source_url": "https://uk.investing.com/news/stock-market-news/why-is-taiwan-weighted-stockn-index-plunging-today-93CH-4992495",
-      "date": "2026-11-19"
-    },
-    {
-      "category": "政策",
-      "text": "美國商務部工業安全局(BIS)11月中旬再收緊AI晶片出口管制，要求新加坡、泰國、馬來西亞、印尼與巴西等地企業採購最先進晶片須申請出口許可(防堵轉運)，為中國總部企業提供大量運算力的海外資料中心須於90天內取得許可，否則面臨限制；中國外交部稱此為「經濟脅迫」並揚言採取「必要反制措施」。",
-      "source_name": "Al Jazeera",
-      "source_url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal",
-      "date": "2026-11-17"
-    },
-    {
-      "category": "企業",
-      "text": "美股11/19(台股休市後)再度重挫，道瓊工業指數下跌約1,100點(-2.19%)收49,097.06點，標普500下跌2.01%收7,175.89點，那斯達克綜合指數下跌約2.2%收近23,880點；導火線是AI新創Anthropic掛牌首日股價一度暴衝逾34%(較83美元發行價)後收斂至約+17%收盤，再度引發市場對AI估值過熱的疑慮，並牽動Alphabet股價(因其持有Anthropic股權需重新評價)。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
-      "date": "2026-11-19"
-    },
-    {
-      "category": "政策",
-      "text": "聯準會理事Christopher Waller在倫敦表示，12月會議升息2碼(50個基點)「應被納入考慮」以維護Fed信譽，但若10月通膨數據轉佳則傾向僅升1碼；目前市場已完全反映12月升息1碼，且升2碼的機率正逐步上升(仍非主流預期)。",
-      "source_name": "Kitco",
-      "source_url": "https://www.kitco.com/news/article/2026-11-10/feds-waller-and-logan-signal-readiness-hike-higher-and-faster-50-bps-table",
-      "date": "2026-11-10"
-    },
-    {
-      "category": "新聞",
-      "text": "台股近期重挫的結構性背景：外資10月單月netto賣超台股達NT$994.32bn，創歷史單月最大賣超紀錄，11月上旬再加碼賣超NT$524.4bn；台積電截至11/6已連續21個交易日遭外資net賣超，顯示這波資金外流並非11/19單日事件，而是延續逾一個月的趨勢。",
-      "source_name": "FourWeekMBA (引用台灣穩定基金委員會數據)",
-      "source_url": "https://fourweekmba.com/ai-after-tsmc-rout-taiwan-cuts-short-sales-90-taps-15b-fund/",
-      "date": "2026-11-06"
-    },
-    {
-      "category": "政策",
-      "text": "台灣金管會自11/9起已實施護盤措施：借券賣出單日限額自成交量30%降至3%、融券保證金成數自90%提高至130%；財政部國家金融安定基金(規模NT$500bn，約US$15bn)已啟動並據報於11/17再度進場護盤，惟截至本次彙整尚未查得金管會或央行針對11/19當日重挫的最新回應。",
-      "source_name": "Morningstar / Dow Jones Newswires",
-      "source_url": "https://www.morningstar.com/news/dow-jones/202611081423/taiex-jumps-after-taiwan-activates-market-stabilization-fund",
-      "date": "2026-11-09"
+      "text": "美股上週五(11/20)收盤進一步重挫：標普500指數跌3.70%收6,910.39點，連續第七個交易日收跌並正式跌入回檔區，單週重挫8.6%；那斯達克綜合指數大跌5.28%收22,617.73點，已抹去2026年以來全部漲幅；道瓊工業指數跌1.93%收48,147.33點，為三大指數中跌幅最小者；標普500成分股中下跌家數以376比123遠多於上漲家數。",
+      "source_name": "AP (via Yakima Herald-Republic)",
+      "source_url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html",
+      "date": "2026-11-20"
     },
     {
       "category": "總經",
-      "text": "台股重挫當日亞股反應分歧而非全面恐慌：香港恆生指數11/19盤中一度跌破23,000點(跌約1.95%)，但日股逆勢上漲約0.7%，顯示這波賣壓較偏向台股／港股科技股與Fed升息預期驅動，尚未演變為區域性全面性恐慌賣壓。",
-      "source_name": "The Standard (HK) / Finimize",
-      "source_url": "https://www.thestandard.com.hk/finance/article/348950/Hang-Seng-slumps-to-below-23000-points-in-early-trade-on-Thursday",
-      "date": "2026-11-19"
+      "text": "路透報導，台股上週(截至11/20)重挫逾一成七，為1990年以來最慘單週跌幅；那斯達克指數上週亦重挫約一成，為2020年3月疫情恐慌崩盤以來最差單週表現，顯示全球AI供應鏈股票評價修正已從美股擴散至台股並持續惡化。",
+      "source_name": "Reuters (via Investing.com)",
+      "source_url": "https://www.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-5044181",
+      "date": "2026-11-23"
+    },
+    {
+      "category": "新聞",
+      "text": "週一(11/23)美股期貨早盤明顯反彈：那斯達克100期貨一度上漲約2%、標普500期貨上漲約1%，顯示市場嘗試在上週重挫後進行技術性反彈；但同日日本股市因「勞動感謝日」休市，香港恒生指數期貨仍指向下跌，顯示亞股對美股期貨反彈的跟隨程度分歧，台股今日開盤走勢是觀察重點。",
+      "source_name": "Reuters (via Investing.com)",
+      "source_url": "https://www.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-5044181",
+      "date": "2026-11-23"
+    },
+    {
+      "category": "政策",
+      "text": "路透報導，南韓官方表示若股市持續重挫，將隨時準備啟動股市安定基金進行護盤，顯示亞洲主要市場監理機關正密切因應這波AI重新評價賣壓對新興市場科技股的衝擊，與台灣財政部國安基金自11月9日啟動護盤的做法呼應。",
+      "source_name": "Reuters (via Investing.com)",
+      "source_url": "https://www.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-5044181",
+      "date": "2026-11-23"
+    },
+    {
+      "category": "政策",
+      "text": "央行總裁楊金龍於立法院財政委員會證實，過去一個月外資淨匯出約100億美元的說法「沒有錯」，但強調這是外資將先前在台獲利匯出再配置、屬正常現象而非「養套殺」，並透露11月13日(週五)外資匯出已轉為匯入，顯示資金外流壓力近期有緩解跡象。",
+      "source_name": "三立新聞網 (SETN)",
+      "source_url": "https://www.mirrormedia.mg/external/amp/setn_1939682",
+      "date": "2026-11-16"
     },
     {
       "category": "企業",
-      "text": "SK海力士於法說會表示2026年HBM／DRAM／NAND產能「幾乎全數售罄」，已與14家主要客戶簽訂長期供貨協議；三星HBM報價(約每顆4.50美元)亦高於美光(約4.00美元)與SK海力士(約3.60–3.80美元)，顯示儘管AI相關股價劇烈修正，記憶體供應鏈的實際訂單與訂價動能尚未出現轉弱訊號，為股價與基本面出現分歧的重要觀察指標。",
-      "source_name": "TechNews 科技新報",
-      "source_url": "https://finance.technews.tw/2026/10/28/supply-capacity-allows-samsung-hbm-to-command-higher-prices-than-sk-hynix-and-micron/",
-      "date": "2026-10-28"
+      "text": "輝達(Nvidia)於11月11日向美國證管會申報董事會已接受執行長黃仁勳辭職、立即生效，由財務長Colette Kress暫代執行長一職並持續尋找正式接任人選；公司聲明強調此人事變動不影響既有產品規劃與對客戶的供貨承諾，但市場人事不確定性仍是近期全球AI股評價修正的背景因素之一。",
+      "source_name": "Nvidia 8-K (SEC) / SF Standard",
+      "source_url": "https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/",
+      "date": "2026-11-12"
+    },
+    {
+      "category": "企業",
+      "text": "SK海力士與三星電子近期法說會及產業報導均顯示，2026年HBM／DRAM產能已幾乎售罄並延伸至2029年合約，SK海力士HBM4良率更已超越原訂目標並上修產能規劃，顯示儘管近期AI相關股價劇烈修正，記憶體供應鏈實際訂單與產能利用率尚未出現轉弱訊號，為股價與基本面出現分歧的重要觀察指標。",
+      "source_name": "TrendForce",
+      "source_url": "https://www.trendforce.com/news/?p=66658",
+      "date": "2026-11-15"
+    },
+    {
+      "category": "政策",
+      "text": "中國大陸宣布將對美國商品加徵24%額外關稅的暫停措施再延長兩個月、同時維持10%關稅稅率，延續9月以來的中美關稅休兵協議，為這波以AI估值修正為主軸的全球股市賣壓，暫時排除中美貿易戰重燃的疊加風險。",
+      "source_name": "Asia News Network",
+      "source_url": "https://asianews.network/?p=313586",
+      "date": "2026-11-10"
     }
   ]
 }
