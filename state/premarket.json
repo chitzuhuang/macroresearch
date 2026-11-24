@@ -1,64 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T08:35:48+08:00",
-  "as_of": "2026-11-23 08:35",
-  "headline": "全球AI重新評價賣壓在上週五(11/20)進一步惡化：美股標普500與道瓊同步跌入回檔(correction)、那斯達克綜合指數大跌5.28%收22,617.73點、該指數2026年以來漲幅全數蒸發，單週重挫8.6%為2020年3月疫情恐慌以來最差一週；台股同步同週重挫逾一成七，據報為1990年以來最慘單週表現，南韓官方並罕見放話將視市況隨時啟動股市安定基金護盤；惟週一(11/23)美股期貨已明顯反彈(那指期貨早盤一度彈升約2%、標普期貨漲約1%)，顯示市場嘗試在上週超跌後尋求技術性反彈，但日股因勞動感謝日休市、恒指期貨仍偏弱，加上輝達執行長黃仁勳本月中無預警辭職留下的人事不確定性尚未完全消化，今日台股開盤須觀察能否跟上美股期貨反彈力道，或持續遭外資提款壓抑。",
+  "generated_at": "2026-11-24T08:38:24+08:00",
+  "as_of": "2026-11-24 08:38",
+  "headline": "輝達董事會週一(11/23)美股盤中無預警宣布恢復黃仁勳總裁、執行長及董事職務,股價收漲31.48%、單日增添近1兆美元市值,為公司2003年來最大單日漲幅,一舉扭轉上週以來籠罩全球AI股的「執行長真空」疑慮;消息帶動那斯達克大漲6.51%(創2025年4月以來最佳單日表現),台積電ADR同步收漲14.08%;台指期夜盤跟進噴出,一度觸及漲停40,324點,終場收39,829點、大漲3,170點(漲幅8.65%,為夜盤交易開辦以來最大單日漲點),今日台股現貨開盤將直接面對這一跳空大漲的期貨行情,留意追高意願與獲利了結賣壓的拉鋸。",
   "items": [
     {
-      "category": "總經",
-      "text": "美股上週五(11/20)收盤進一步重挫：標普500指數跌3.70%收6,910.39點，連續第七個交易日收跌並正式跌入回檔區，單週重挫8.6%；那斯達克綜合指數大跌5.28%收22,617.73點，已抹去2026年以來全部漲幅；道瓊工業指數跌1.93%收48,147.33點，為三大指數中跌幅最小者；標普500成分股中下跌家數以376比123遠多於上漲家數。",
-      "source_name": "AP (via Yakima Herald-Republic)",
-      "source_url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html",
-      "date": "2026-11-20"
+      "category": "企業",
+      "text": "輝達官方公告董事會一致通過恢復黃仁勳(Jensen Huang)總裁、執行長及董事職務,立即生效;公司表示董事會已諮詢美國政府高層意見,原財務長Colette Kress卸任代理執行長、回任原職,但輝達內部獨立調查及SEC、司法部對黃仁勳相關事項的調查仍持續進行,人事風險並未完全解除。",
+      "source_name": "Nvidia官方新聞稿 / CNBC / Axios",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "date": "2026-11-23"
     },
     {
-      "category": "總經",
-      "text": "路透報導，台股上週(截至11/20)重挫逾一成七，為1990年以來最慘單週跌幅；那斯達克指數上週亦重挫約一成，為2020年3月疫情恐慌崩盤以來最差單週表現，顯示全球AI供應鏈股票評價修正已從美股擴散至台股並持續惡化。",
-      "source_name": "Reuters (via Investing.com)",
-      "source_url": "https://www.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-5044181",
+      "category": "企業",
+      "text": "黃仁勳復職消息激勵輝達股價11/23當日收漲31.48%至165.05美元,單日市值增加近1兆美元,為該股自2003年以來最大單日漲幅;那斯達克綜合指數同步大漲6.51%,創2025年4月9日以來最佳單日表現,帶動台積電ADR收漲14.08%。",
+      "source_name": "The Motley Fool / CNBC",
+      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/",
       "date": "2026-11-23"
     },
     {
       "category": "新聞",
-      "text": "週一(11/23)美股期貨早盤明顯反彈：那斯達克100期貨一度上漲約2%、標普500期貨上漲約1%，顯示市場嘗試在上週重挫後進行技術性反彈；但同日日本股市因「勞動感謝日」休市，香港恒生指數期貨仍指向下跌，顯示亞股對美股期貨反彈的跟隨程度分歧，台股今日開盤走勢是觀察重點。",
-      "source_name": "Reuters (via Investing.com)",
-      "source_url": "https://www.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-5044181",
+      "text": "台指期夜盤11/23晚間因黃仁勳回任消息急拉,盤中一度漲停觸及40,324點(大漲3,665點),終場收39,829點、上漲3,170點(漲幅8.65%),為夜盤交易開辦以來近月契約最大單日漲點;台積電期貨夜盤同步最高觸及2,238元、亦一度漲停,顯示台股現貨今日開盤將直接面對大幅跳空高開的期貨行情。",
+      "source_name": "經濟日報/UDN、ETtoday、Yahoo奇摩股市",
+      "source_url": "https://udn.com/news/story/7251/9897397",
+      "date": "2026-11-23"
+    },
+    {
+      "category": "總經",
+      "text": "台股11/23(週一)現貨收盤上漲778.6點(漲幅2.16%)至36,811.89點,櫃買指數上漲2.88%至270.9點,為上週重挫逾一成七後首度出現明顯反彈,成交量能同步放大至約1.11兆元。",
+      "source_name": "TWSE 盤後資料(openapi鏡像)",
+      "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
       "date": "2026-11-23"
     },
     {
       "category": "政策",
-      "text": "路透報導，南韓官方表示若股市持續重挫，將隨時準備啟動股市安定基金進行護盤，顯示亞洲主要市場監理機關正密切因應這波AI重新評價賣壓對新興市場科技股的衝擊，與台灣財政部國安基金自11月9日啟動護盤的做法呼應。",
-      "source_name": "Reuters (via Investing.com)",
-      "source_url": "https://www.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-5044181",
+      "text": "美國總統川普此前多次公開呼籲輝達董事會讓黃仁勳回任,董事會在重新評估後表示經徵詢美國政府高層意見、未發現涉及國家安全風險,才決定一致通過恢復其職務;黃仁勳本人則於聲明中對先前個人生活疏失致歉並承諾配合董事會獨立調查。",
+      "source_name": "CBS News / 公視新聞 / 工商時報",
+      "source_url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/",
       "date": "2026-11-23"
     },
     {
-      "category": "政策",
-      "text": "央行總裁楊金龍於立法院財政委員會證實，過去一個月外資淨匯出約100億美元的說法「沒有錯」，但強調這是外資將先前在台獲利匯出再配置、屬正常現象而非「養套殺」，並透露11月13日(週五)外資匯出已轉為匯入，顯示資金外流壓力近期有緩解跡象。",
-      "source_name": "三立新聞網 (SETN)",
-      "source_url": "https://www.mirrormedia.mg/external/amp/setn_1939682",
-      "date": "2026-11-16"
-    },
-    {
-      "category": "企業",
-      "text": "輝達(Nvidia)於11月11日向美國證管會申報董事會已接受執行長黃仁勳辭職、立即生效，由財務長Colette Kress暫代執行長一職並持續尋找正式接任人選；公司聲明強調此人事變動不影響既有產品規劃與對客戶的供貨承諾，但市場人事不確定性仍是近期全球AI股評價修正的背景因素之一。",
-      "source_name": "Nvidia 8-K (SEC) / SF Standard",
-      "source_url": "https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/",
-      "date": "2026-11-12"
-    },
-    {
-      "category": "企業",
-      "text": "SK海力士與三星電子近期法說會及產業報導均顯示，2026年HBM／DRAM產能已幾乎售罄並延伸至2029年合約，SK海力士HBM4良率更已超越原訂目標並上修產能規劃，顯示儘管近期AI相關股價劇烈修正，記憶體供應鏈實際訂單與產能利用率尚未出現轉弱訊號，為股價與基本面出現分歧的重要觀察指標。",
-      "source_name": "TrendForce",
-      "source_url": "https://www.trendforce.com/news/?p=66658",
-      "date": "2026-11-15"
-    },
-    {
-      "category": "政策",
-      "text": "中國大陸宣布將對美國商品加徵24%額外關稅的暫停措施再延長兩個月、同時維持10%關稅稅率，延續9月以來的中美關稅休兵協議，為這波以AI估值修正為主軸的全球股市賣壓，暫時排除中美貿易戰重燃的疊加風險。",
-      "source_name": "Asia News Network",
-      "source_url": "https://asianews.network/?p=313586",
-      "date": "2026-11-10"
+      "category": "新聞",
+      "text": "分析指出,儘管黃仁勳回任大幅緩解近期AI股「人事真空」疑慮並帶動一夜強彈,但輝達同時面臨SEC、司法部調查未解除、AI資本支出永續性疑慮及美股上週才剛結束史上最慘單週之一的技術性反彈性質,今日台股開盤雖可望受惠跳空大漲的台指期夜盤,仍須觀察是否出現獲利了結賣壓與追高意願能否延續。",
+      "source_name": "風傳媒 Storm Media",
+      "source_url": "https://storm.mg/lifestyle/11184444",
+      "date": "2026-11-23"
     }
   ]
 }
