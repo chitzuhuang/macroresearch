@@ -1,50 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T08:38:24+08:00",
-  "as_of": "2026-11-24 08:38",
-  "headline": "輝達董事會週一(11/23)美股盤中無預警宣布恢復黃仁勳總裁、執行長及董事職務,股價收漲31.48%、單日增添近1兆美元市值,為公司2003年來最大單日漲幅,一舉扭轉上週以來籠罩全球AI股的「執行長真空」疑慮;消息帶動那斯達克大漲6.51%(創2025年4月以來最佳單日表現),台積電ADR同步收漲14.08%;台指期夜盤跟進噴出,一度觸及漲停40,324點,終場收39,829點、大漲3,170點(漲幅8.65%,為夜盤交易開辦以來最大單日漲點),今日台股現貨開盤將直接面對這一跳空大漲的期貨行情,留意追高意願與獲利了結賣壓的拉鋸。",
+  "generated_at": "2026-11-25T08:35:09+08:00",
+  "as_of": "2026-11-25 08:35",
+  "headline": "台股11/24現貨收盤延續黃仁勳回任行情、單日大漲8.99%至40,122.35點,但隔夜美股輝達(NVDA)回吐部分漲幅收跌5.86%、費城半導體指數重挫7.9%,道瓊雖同步突破5萬點創高、標普500卻為9個交易日來第8度下跌,台指期夜盤也急轉直下重摔1,842點收38,482點,顯示今日台股現貨開盤恐面臨跳空走低與獲利了結賣壓的考驗,留意是否在月線附近獲得支撐。",
   "items": [
     {
       "category": "企業",
-      "text": "輝達官方公告董事會一致通過恢復黃仁勳(Jensen Huang)總裁、執行長及董事職務,立即生效;公司表示董事會已諮詢美國政府高層意見,原財務長Colette Kress卸任代理執行長、回任原職,但輝達內部獨立調查及SEC、司法部對黃仁勳相關事項的調查仍持續進行,人事風險並未完全解除。",
-      "source_name": "Nvidia官方新聞稿 / CNBC / Axios",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "date": "2026-11-23"
-    },
-    {
-      "category": "企業",
-      "text": "黃仁勳復職消息激勵輝達股價11/23當日收漲31.48%至165.05美元,單日市值增加近1兆美元,為該股自2003年以來最大單日漲幅;那斯達克綜合指數同步大漲6.51%,創2025年4月9日以來最佳單日表現,帶動台積電ADR收漲14.08%。",
-      "source_name": "The Motley Fool / CNBC",
-      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/",
-      "date": "2026-11-23"
-    },
-    {
-      "category": "新聞",
-      "text": "台指期夜盤11/23晚間因黃仁勳回任消息急拉,盤中一度漲停觸及40,324點(大漲3,665點),終場收39,829點、上漲3,170點(漲幅8.65%),為夜盤交易開辦以來近月契約最大單日漲點;台積電期貨夜盤同步最高觸及2,238元、亦一度漲停,顯示台股現貨今日開盤將直接面對大幅跳空高開的期貨行情。",
-      "source_name": "經濟日報/UDN、ETtoday、Yahoo奇摩股市",
-      "source_url": "https://udn.com/news/story/7251/9897397",
-      "date": "2026-11-23"
+      "text": "輝達(Nvidia)股價11/24(週二)美股盤中收跌5.86%至155.38美元,較週一黃仁勳復職激勵的31%暴漲回吐一部分漲幅,費城半導體指數當日重挫7.9%,為AI晶片股「黃仁勳溢價」降溫的跡象。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+      "date": "2026-11-24"
     },
     {
       "category": "總經",
-      "text": "台股11/23(週一)現貨收盤上漲778.6點(漲幅2.16%)至36,811.89點,櫃買指數上漲2.88%至270.9點,為上週重挫逾一成七後首度出現明顯反彈,成交量能同步放大至約1.11兆元。",
-      "source_name": "TWSE 盤後資料(openapi鏡像)",
-      "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
-      "date": "2026-11-23"
+      "text": "美股11/24表現分歧:道瓊工業指數上漲0.85%至50,018.70點,史上首度收在5萬點之上;但標普500指數下跌0.50%至7,201.09點,為近9個交易日來第8次收跌,那斯達克綜合指數下跌1.48%至23,733.54點,市場除消化輝達回吐漲幅外,亦對新一輪關稅政策風險保持警戒。",
+      "source_name": "NBC News",
+      "source_url": "https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211",
+      "date": "2026-11-24"
     },
     {
-      "category": "政策",
-      "text": "美國總統川普此前多次公開呼籲輝達董事會讓黃仁勳回任,董事會在重新評估後表示經徵詢美國政府高層意見、未發現涉及國家安全風險,才決定一致通過恢復其職務;黃仁勳本人則於聲明中對先前個人生活疏失致歉並承諾配合董事會獨立調查。",
-      "source_name": "CBS News / 公視新聞 / 工商時報",
-      "source_url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/",
-      "date": "2026-11-23"
+      "category": "企業",
+      "text": "儘管輝達股價11/24下跌,華爾街券商Bernstein仍維持「優於大盤」評等及200美元目標價,隱含較當日收盤價仍有近29%上漲空間,顯示部分分析師對AI晶片長線需求故事並未改觀。",
+      "source_name": "The Motley Fool",
+      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/",
+      "date": "2026-11-24"
+    },
+    {
+      "category": "企業",
+      "text": "台積電ADR 11/24於美股收跌14.40美元、跌幅3.96%至349.20美元(約折合台股2,300.46元),台指期貨夜盤同步走弱,台積電期貨收在2,149點,較開盤參考價下跌89點。",
+      "source_name": "Yahoo奇摩股市",
+      "source_url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr24%E6%97%A5%E4%B8%8B%E8%B7%8C14-40%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%853-96-%E6%8A%98%E5%8F%B0%E8%82%A12300-46%E5%85%83-233631245.html",
+      "date": "2026-11-24"
     },
     {
       "category": "新聞",
-      "text": "分析指出,儘管黃仁勳回任大幅緩解近期AI股「人事真空」疑慮並帶動一夜強彈,但輝達同時面臨SEC、司法部調查未解除、AI資本支出永續性疑慮及美股上週才剛結束史上最慘單週之一的技術性反彈性質,今日台股開盤雖可望受惠跳空大漲的台指期夜盤,仍須觀察是否出現獲利了結賣壓與追高意願能否延續。",
-      "source_name": "風傳媒 Storm Media",
-      "source_url": "https://storm.mg/lifestyle/11184444",
-      "date": "2026-11-23"
+      "text": "台指期夜盤11/24晚間(涵蓋至11/25台北時間清晨)在輝達回任行情退燒下急轉走弱,盤中震盪逾1,500點,終場收在38,482點、較開盤參考價重摔1,842點,吃掉本週以來反彈的部分漲幅,為今日台股現貨開盤帶來跳空走低風險。",
+      "source_name": "經濟日報/UDN money",
+      "source_url": "https://money.udn.com/money/story/123398/9900102",
+      "date": "2026-11-24"
+    },
+    {
+      "category": "總經",
+      "text": "台股加權指數11/24(週二)現貨收盤大漲3,310.46點(漲幅8.99%)至40,122.35點,延續週一黃仁勳回任消息帶動的反彈行情,成交量能同步放大,但隨後夜盤美股及台指期轉弱,今日開盤能否延續漲勢仍待觀察。",
+      "source_name": "TWSE 盤後資料(openapi鏡像)",
+      "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
+      "date": "2026-11-24"
     }
   ]
 }
