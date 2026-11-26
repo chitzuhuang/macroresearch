@@ -1,50 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T08:35:09+08:00",
-  "as_of": "2026-11-25 08:35",
-  "headline": "台股11/24現貨收盤延續黃仁勳回任行情、單日大漲8.99%至40,122.35點,但隔夜美股輝達(NVDA)回吐部分漲幅收跌5.86%、費城半導體指數重挫7.9%,道瓊雖同步突破5萬點創高、標普500卻為9個交易日來第8度下跌,台指期夜盤也急轉直下重摔1,842點收38,482點,顯示今日台股現貨開盤恐面臨跳空走低與獲利了結賣壓的考驗,留意是否在月線附近獲得支撐。",
+  "generated_at": "2026-11-26T08:36:56+08:00",
+  "as_of": "2026-11-26 08:36",
+  "headline": "台股11/25現貨重挫4.80%收38,195.43點、台指期夜盤同步收跌5.61%至38,062點,昨夜美股也在PCE通膨數據偏熱、新一輪關稅方案及Fed 12月升息機率攀升下劇烈震盪,道瓊一度重摔逾1,100點、那指盤中跌幅達4.6%,終場雖收斂跌幅但輝達仍收跌3.91%、超微重挫逾9%,AI晶片股賣壓未歇;加上美股今晚因感恩節休市一日、夜盤恐缺美股即時指標,今日台股開盤續面臨量縮震盪與月線保衛戰的雙重考驗。",
   "items": [
     {
+      "category": "政策",
+      "text": "美國聯準會10/28(週三)決議維持利率在3.75%至4.00%不變,但以10比2投票通過,理事庫克與克里夫蘭聯邦準備銀行總裁哈瑪克兩人主張應升息一碼,顯示內部對通膨升溫已出現鷹派分歧;市場目前透過CME FedWatch觀察到12月會議升息至4.00%至4.25%的機率已明顯攀升,為近期美股及全球風險資產評價承壓的重要因素。",
+      "source_name": "Benzinga",
+      "source_url": "https://www.benzinga.com/node/62728825",
+      "date": "2026-10-28"
+    },
+    {
       "category": "企業",
-      "text": "輝達(Nvidia)股價11/24(週二)美股盤中收跌5.86%至155.38美元,較週一黃仁勳復職激勵的31%暴漲回吐一部分漲幅,費城半導體指數當日重挫7.9%,為AI晶片股「黃仁勳溢價」降溫的跡象。",
+      "text": "輝達(Nvidia)股價11/25(週三)美股收跌3.91%至149.30美元,為本週AI晶片股賣壓延續的代表,市場除反映美國10月PCE通膨數據偏熱、新一輪關稅方案的風險外,亦持續消化黃仁勳回任執行長後、公司治理與出口管制調查仍未完全落幕的不確定性。",
       "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
-      "date": "2026-11-24"
-    },
-    {
-      "category": "總經",
-      "text": "美股11/24表現分歧:道瓊工業指數上漲0.85%至50,018.70點,史上首度收在5萬點之上;但標普500指數下跌0.50%至7,201.09點,為近9個交易日來第8次收跌,那斯達克綜合指數下跌1.48%至23,733.54點,市場除消化輝達回吐漲幅外,亦對新一輪關稅政策風險保持警戒。",
-      "source_name": "NBC News",
-      "source_url": "https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211",
-      "date": "2026-11-24"
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+      "date": "2026-11-25"
     },
     {
       "category": "企業",
-      "text": "儘管輝達股價11/24下跌,華爾街券商Bernstein仍維持「優於大盤」評等及200美元目標價,隱含較當日收盤價仍有近29%上漲空間,顯示部分分析師對AI晶片長線需求故事並未改觀。",
+      "text": "半導體股11/25遭全面拋售,超微(AMD)盤中重挫達9.56%,美光(Micron)下跌約4%,那斯達克指數盤中一度重挫達4.6%,顯示AI資本支出前景與升息風險交織下,晶片股評價重新評估的賣壓並未僅限於輝達單一個股。",
       "source_name": "The Motley Fool",
-      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/",
-      "date": "2026-11-24"
-    },
-    {
-      "category": "企業",
-      "text": "台積電ADR 11/24於美股收跌14.40美元、跌幅3.96%至349.20美元(約折合台股2,300.46元),台指期貨夜盤同步走弱,台積電期貨收在2,149點,較開盤參考價下跌89點。",
-      "source_name": "Yahoo奇摩股市",
-      "source_url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr24%E6%97%A5%E4%B8%8B%E8%B7%8C14-40%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%853-96-%E6%8A%98%E5%8F%B0%E8%82%A12300-46%E5%85%83-233631245.html",
-      "date": "2026-11-24"
+      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-midday-nov-25-nasdaq-plunges-4-as-ai-sell-off-deepens-and-inflation-remains-stubborn/",
+      "date": "2026-11-25"
     },
     {
       "category": "新聞",
-      "text": "台指期夜盤11/24晚間(涵蓋至11/25台北時間清晨)在輝達回任行情退燒下急轉走弱,盤中震盪逾1,500點,終場收在38,482點、較開盤參考價重摔1,842點,吃掉本週以來反彈的部分漲幅,為今日台股現貨開盤帶來跳空走低風險。",
-      "source_name": "經濟日報/UDN money",
-      "source_url": "https://money.udn.com/money/story/123398/9900102",
-      "date": "2026-11-24"
+      "text": "美股11/25全天劇烈震盪,道瓊工業指數盤中一度重挫逾1,100點,尾盤強勢反彈收斂跌幅、終場上漲約0.33%收在50,183點附近;但標普500指數仍下跌0.25%收7,183.09點,那斯達克綜合指數下跌0.62%收23,586點,顯示市場對熱絡的PCE通膨數據與新關稅方案仍相當敏感,多空拉鋸激烈。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-25-221745503.html",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "新聞",
+      "text": "美股將於11/26(台北時間11/27凌晨起)因感恩節休市一日,隨後11/27(黑色星期五)多為提前收盤的半日交易;今晚台指期夜盤時段恐缺乏美股即時指標可供參考,交易人應留意夜盤及隔日開盤可能出現的量縮或異常波動。",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+      "date": "2026-11-25"
     },
     {
       "category": "總經",
-      "text": "台股加權指數11/24(週二)現貨收盤大漲3,310.46點(漲幅8.99%)至40,122.35點,延續週一黃仁勳回任消息帶動的反彈行情,成交量能同步放大,但隨後夜盤美股及台指期轉弱,今日開盤能否延續漲勢仍待觀察。",
+      "text": "台股加權指數11/25(週三)現貨收盤重挫1,926.92點、跌幅4.80%,收在38,195.43點,延續前一交易日黃仁勳回任激勵的8.99%大漲後的獲利了結賣壓,成交值約1兆2,298億元,櫃買指數同步重挫5.89%。",
       "source_name": "TWSE 盤後資料(openapi鏡像)",
       "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
+    },
+    {
+      "category": "總經",
+      "text": "臺股期貨近月合約11/25盤後(含夜盤)收在38,062點,較前一交易日下跌2,262點、跌幅5.61%,成交量12.5萬口,為今日台股現貨開盤前最新的官方期貨參考價,顯示夜盤同步追隨現貨重挫走勢,開盤仍有補跌或跳空風險。",
+      "source_name": "TAIFEX 臺股期貨每日行情",
+      "source_url": "https://www.taifex.com.tw/cht/3/futDataDown",
+      "date": "2026-11-25"
     }
   ]
 }
