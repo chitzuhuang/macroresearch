@@ -1,57 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T08:36:56+08:00",
-  "as_of": "2026-11-26 08:36",
-  "headline": "台股11/25現貨重挫4.80%收38,195.43點、台指期夜盤同步收跌5.61%至38,062點,昨夜美股也在PCE通膨數據偏熱、新一輪關稅方案及Fed 12月升息機率攀升下劇烈震盪,道瓊一度重摔逾1,100點、那指盤中跌幅達4.6%,終場雖收斂跌幅但輝達仍收跌3.91%、超微重挫逾9%,AI晶片股賣壓未歇;加上美股今晚因感恩節休市一日、夜盤恐缺美股即時指標,今日台股開盤續面臨量縮震盪與月線保衛戰的雙重考驗。",
+  "generated_at": "2026-11-27T08:25:00+08:00",
+  "as_of": "2026-11-27 08:25",
+  "headline": "台股11/26強勁反彈,加權指數收漲956.38點(2.50%)至39,151.81點、櫃買指數更大漲5.03%,台股期貨同步收漲3.49%至39,455點,一舉收復月線並扭轉前一交易日4.80%重挫的賣壓;但受感恩節休市美股缺乏即時指標、12月FOMC鷹派升息預期仍居高(市場押注近84%機率升息至4.00%至4.25%)及外資對台積電、聯電仍小幅減碼等因素交織,今日開盤恐呈現量縮震盪、權值股與資金輪動股表現分化的格局。",
   "items": [
     {
-      "category": "政策",
-      "text": "美國聯準會10/28(週三)決議維持利率在3.75%至4.00%不變,但以10比2投票通過,理事庫克與克里夫蘭聯邦準備銀行總裁哈瑪克兩人主張應升息一碼,顯示內部對通膨升溫已出現鷹派分歧;市場目前透過CME FedWatch觀察到12月會議升息至4.00%至4.25%的機率已明顯攀升,為近期美股及全球風險資產評價承壓的重要因素。",
-      "source_name": "Benzinga",
-      "source_url": "https://www.benzinga.com/node/62728825",
-      "date": "2026-10-28"
+      "category": "總經",
+      "text": "台股加權指數11/26(週四)收漲956.38點、漲幅2.50%,報39,151.81點,成交值約8,453億元,一舉扭轉前一交易日重挫4.80%的賣壓並重返月線之上;櫃買指數同步大漲13.87點、漲幅5.03%,收在289.84點,中小型股反彈力道更勝大盤。",
+      "source_name": "TWSE 盤後資料(openapi鏡像)",
+      "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
+      "date": "2026-11-26"
+    },
+    {
+      "category": "總經",
+      "text": "臺股期貨近月合約11/26(日盤)收在39,455點,較前一交易日上漲1,332點、漲幅3.49%,成交量7.94萬口,追隨現貨同步反彈,但成交量仍較前日大跌時縮減,顯示追價力道尚待夜盤及今日開盤進一步驗證。",
+      "source_name": "TAIFEX 臺股期貨每日行情",
+      "source_url": "https://www.taifex.com.tw/cht/3/futDataDown",
+      "date": "2026-11-26"
     },
     {
       "category": "企業",
-      "text": "輝達(Nvidia)股價11/25(週三)美股收跌3.91%至149.30美元,為本週AI晶片股賣壓延續的代表,市場除反映美國10月PCE通膨數據偏熱、新一輪關稅方案的風險外,亦持續消化黃仁勳回任執行長後、公司治理與出口管制調查仍未完全落幕的不確定性。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
-      "date": "2026-11-25"
+      "text": "三大法人買賣超個股統計顯示,外資11/26轉向加碼面板與金融股,買超前五名依序為群創(2.44萬張)、台新新光金(2.06萬張)、國泰金(2.02萬張)、力積電(1.64萬張)、友達(1.50萬張);但對權值半導體股仍偏保留,台積電遭小幅賣超1.81萬張、聯電賣超2.19萬張,顯示資金輪動至金融、面板族群,權值科技股信心尚待修復。",
+      "source_name": "TWSE 三大法人買賣超(T86,openapi鏡像)",
+      "source_url": "https://www.twse.com.tw/rwd/zh/fund/T86",
+      "date": "2026-11-26"
+    },
+    {
+      "category": "新聞",
+      "text": "美股11/26因感恩節休市一日,11/27(黑色星期五)僅交易至美東時間下午1時即提前收盤,市場參與度與成交量通常明顯清淡;受休市影響,今日台股夜盤及開盤前將缺乏最新美股收盤指標可供參考,交易人須留意消息面真空下的波動風險。",
+      "source_name": "Fidelity Learning Center",
+      "source_url": "https://www.fidelity.com/learning-center/smart-money/stock-market-holidays",
+      "date": "2026-11-26"
     },
     {
       "category": "企業",
-      "text": "半導體股11/25遭全面拋售,超微(AMD)盤中重挫達9.56%,美光(Micron)下跌約4%,那斯達克指數盤中一度重挫達4.6%,顯示AI資本支出前景與升息風險交織下,晶片股評價重新評估的賣壓並未僅限於輝達單一個股。",
+      "text": "美股11/25(週三)AI晶片股賣壓延續,輝達收跌3.91%、超微(AMD)盤中重挫逾9%、美光下跌約4%,那斯達克指數盤中一度重挫達4.6%,主因市場消化偏熱的10月PCE通膨數據、新一輪關稅風險及12月FOMC升息機率攀升;輝達、超微等AI供應鏈股評價重新評估的賣壓是否延續至感恩節假期後,將是觀察台股半導體權值股今日表現的重要指標。",
       "source_name": "The Motley Fool",
       "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-midday-nov-25-nasdaq-plunges-4-as-ai-sell-off-deepens-and-inflation-remains-stubborn/",
       "date": "2026-11-25"
     },
     {
-      "category": "新聞",
-      "text": "美股11/25全天劇烈震盪,道瓊工業指數盤中一度重挫逾1,100點,尾盤強勢反彈收斂跌幅、終場上漲約0.33%收在50,183點附近;但標普500指數仍下跌0.25%收7,183.09點,那斯達克綜合指數下跌0.62%收23,586點,顯示市場對熱絡的PCE通膨數據與新關稅方案仍相當敏感,多空拉鋸激烈。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-25-221745503.html",
-      "date": "2026-11-25"
+      "category": "政策",
+      "text": "美國聯準會10/28決議維持利率在3.75%至4.00%不變,但以10比2投票通過,理事庫克與克里夫蘭聯邦準備銀行總裁哈瑪克主張應立即升息一碼,顯示內部鷹派分歧浮現;市場透過CME FedWatch觀察到12月會議升息一碼至4.00%至4.25%的機率已攀升至約84%,為近期全球風險資產評價承壓、美股及台股波動加劇的核心背景因素。",
+      "source_name": "Stocktwits / CME FedWatch",
+      "source_url": "https://stocktwits.com/news-articles/markets/equity/pce-data-fed-preferred-inflation-gauge-december-fed-rate-cut-chances/cLIS2suREkG",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "政策",
+      "text": "美國財政部長貝森特9月下旬於Xi恩州訪問期間表示,美中貿易休戰條件已延長兩個月、延至2027年1月10日到期,原訂11月10日的關稅懸崖風險暫時解除,但雙方能否在期限前完成更全面的貿易協議仍不明朗;此消息降低近期美中貿易關係驟然惡化、衝擊台廠供應鏈的尾部風險,但政策不確定性並未完全消除。",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+      "date": "2026-09-24"
     },
     {
       "category": "新聞",
-      "text": "美股將於11/26(台北時間11/27凌晨起)因感恩節休市一日,隨後11/27(黑色星期五)多為提前收盤的半日交易;今晚台指期夜盤時段恐缺乏美股即時指標可供參考,交易人應留意夜盤及隔日開盤可能出現的量縮或異常波動。",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
-      "date": "2026-11-25"
-    },
-    {
-      "category": "總經",
-      "text": "台股加權指數11/25(週三)現貨收盤重挫1,926.92點、跌幅4.80%,收在38,195.43點,延續前一交易日黃仁勳回任激勵的8.99%大漲後的獲利了結賣壓,成交值約1兆2,298億元,櫃買指數同步重挫5.89%。",
-      "source_name": "TWSE 盤後資料(openapi鏡像)",
-      "source_url": "https://openapi.twse.com.tw/v1/exchangeReport/MI_INDEX",
-      "date": "2026-11-25"
-    },
-    {
-      "category": "總經",
-      "text": "臺股期貨近月合約11/25盤後(含夜盤)收在38,062點,較前一交易日下跌2,262點、跌幅5.61%,成交量12.5萬口,為今日台股現貨開盤前最新的官方期貨參考價,顯示夜盤同步追隨現貨重挫走勢,開盤仍有補跌或跳空風險。",
-      "source_name": "TAIFEX 臺股期貨每日行情",
-      "source_url": "https://www.taifex.com.tw/cht/3/futDataDown",
-      "date": "2026-11-25"
+      "text": "彭博報導指出,全球股市11/26(美股休市日)多呈上漲格局,反映投資人在美股缺席下仍偏向逢低承接風險資產;惟後續仍須觀察美股11/27黑色星期五半日盤、下週美股完整交易日恢復後,市場對12月FOMC升息路徑與AI晶片股評價的真實反應,台股今日開盤恐隨之出現補漲或補跌的雙向波動。",
+      "source_name": "BNN Bloomberg",
+      "source_url": "https://www.bnnbloomberg.ca/markets/2026/11/26/world-shares-push-higher-while-markets-in-u-s-will-be-closed-for-thanksgiving/",
+      "date": "2026-11-26"
     }
   ]
 }
